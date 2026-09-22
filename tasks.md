@@ -55,10 +55,10 @@ Live checklist. Update in the same change as the work it tracks.
 
 ### Part 4 — Global and Societal Issues
 
-- [ ] 4.1 Behavioural Public Policy
-- [ ] 4.2 Trust in Government and Civic Engagement
-- [ ] 4.3 Climate, Sustainability, and Environmental Public Value
-- [ ] 4.4 Social Media, Misinformation, and Public Communication
+- [x] 4.1 Behavioural Public Policy
+- [x] 4.2 Trust in Government and Civic Engagement
+- [x] 4.3 Climate, Sustainability, and Environmental Public Value
+- [x] 4.4 Social Media, Misinformation, and Public Communication
 
 ### Part 5 — Digital, Software, and Technology
 
