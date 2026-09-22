@@ -40,12 +40,12 @@ Live checklist. Update in the same change as the work it tracks.
 
 ### Part 3 — Systems, Governance and Priorities
 
-- [ ] 3.1 Public Administration Systems and Models
-- [ ] 3.2 Public Policy and the Policy Cycle
-- [ ] 3.3 Public Finance and Budgeting
-- [ ] 3.4 Accountability, Transparency, and Legitimacy
-- [ ] 3.5 Equity, Fairness, and Distributive Justice
-- [ ] 3.6 Public Sector Workforce and Labour Markets
+- [x] 3.1 Public Administration Systems and Models
+- [x] 3.2 Public Policy and the Policy Cycle
+- [x] 3.3 Public Finance and Budgeting
+- [x] 3.4 Accountability, Transparency, and Legitimacy
+- [x] 3.5 Equity, Fairness, and Distributive Justice
+- [x] 3.6 Public Sector Workforce and Labour Markets
 - [ ] 3.7 Public Procurement and Commissioning
 - [ ] 3.8 Social Sector and Nonprofit Management
 - [ ] 3.9 Intergovernmental Relations and Federalism
