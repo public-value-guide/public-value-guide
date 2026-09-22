@@ -46,12 +46,12 @@ Live checklist. Update in the same change as the work it tracks.
 - [x] 3.4 Accountability, Transparency, and Legitimacy
 - [x] 3.5 Equity, Fairness, and Distributive Justice
 - [x] 3.6 Public Sector Workforce and Labour Markets
-- [ ] 3.7 Public Procurement and Commissioning
-- [ ] 3.8 Social Sector and Nonprofit Management
-- [ ] 3.9 Intergovernmental Relations and Federalism
-- [ ] 3.10 Regulation and Public Risk Management
-- [ ] 3.11 Quality, Safety, and Performance Management
-- [ ] 3.12 Crisis, Emergency, and Resilience Management
+- [x] 3.7 Public Procurement and Commissioning
+- [x] 3.8 Social Sector and Nonprofit Management
+- [x] 3.9 Intergovernmental Relations and Federalism
+- [x] 3.10 Regulation and Public Risk Management
+- [x] 3.11 Quality, Safety, and Performance Management
+- [x] 3.12 Crisis, Emergency, and Resilience Management
 
 ### Part 4 — Global and Societal Issues
 

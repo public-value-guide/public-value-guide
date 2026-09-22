@@ -1,0 +1,156 @@
+# Chapter 3.7 — Public Procurement and Commissioning
+
+**Public procurement and commissioning are the instruments through which public value written into a strategy becomes a legal obligation on a named supplier or a grant to a named organization, and every design choice in that instrument — how open the competition is, what gets paid for, and whether the vehicle is a contract or a grant — trades one form of public value against another.**
+
+## Why this matters in public value
+
+Almost nothing a government or a funder decides to do gets delivered without buying something or giving something away: a construction firm to build a clinic, a technology supplier to run a benefits system, a charity to run a mentoring programme, a network of small providers to deliver home care. The moment a public body signs that instrument, it has converted a policy intention into a set of enforceable terms, a price, and a relationship that will run for months or years. Get the instrument wrong and the policy fails quietly, long after the strategy document was praised and filed.
+
+The tension is structural, not accidental. Competitive tendering exists to protect fairness, guard against favouritism, and use competitive pressure to secure value for money, but a fully open, from-scratch competition takes months, discourages an incumbent from investing in a relationship it might lose, and can force a public body to specify a service years before it starts, freezing in assumptions that go stale. Outcomes-based commissioning promises to pay only for what actually changes in people's lives, but figuring out what to measure, how to attribute it, and how to pay for it fairly turns out to be one of the hardest design problems in public management. Grant-making looks like the simple option — support an organization whose mission you trust — until a grant is asked to do a contract's job, and neither the funder nor the recipient can say clearly what was promised.
+
+None of this is a back-office concern. A hospital's future rests on how its imaging contract was tendered; a housing programme's success rests on whether the outcome the commissioner paid for was the one that mattered to residents; a domestic-violence charity's survival rests on whether it received a grant that trusted its judgement or a contract that priced its mission out of existence. Chapter 2.5 — Business Cases and Value for Money is where the decision to spend is tested before the money moves (see Chapter 2.5 — Business Cases and Value for Money); this chapter is about the instrument used once that decision has been made — how it is competed for, what it pays for, and who is left holding the risk when it goes wrong.
+
+## Core concepts
+
+**Public procurement** is the process by which a public body acquires goods, works, or services using public money, under rules designed to secure competition, non-discrimination, transparency, and value for money rather than simply the lowest price. [Government procurement](https://en.wikipedia.org/wiki/Government_procurement) commonly accounts for a substantial share of gross domestic product, which is why it is regulated more tightly than private purchasing: the buyer is spending money that was never earned in the market transaction being funded. Competitive tendering for services once delivered directly expanded markedly under [New Public Management](https://en.wikipedia.org/wiki/New_Public_Management) reforms from the 1980s onward, a paradigm shift Chapter 3.1 treats in full (see Chapter 3.1 — Public Administration Systems and Models); this chapter takes up the instrument that reform left behind.
+
+**The open procedure** invites any qualified supplier to bid in a single stage, usually through a published [invitation to tender](https://en.wikipedia.org/wiki/Request_for_tender), and is the default position in most procurement law precisely because it maximizes competition and is hardest to manipulate in favour of a preferred bidder. Its cost is time and burden: every bidder, qualified or not, prepares a full response, and a public body cannot shape the field before advertising.
+
+**The restricted procedure** splits the process into two stages — pre-qualification against minimum standards, then a full tender invited only from the shortlist. It reduces the burden on both sides for complex or high-value work, but it hands the buyer real discretion at shortlisting, exactly the point at which favouritism is hardest for an unsuccessful bidder to detect.
+
+**Negotiated procedures and competitive dialogue** let the buyer discuss and refine the solution with bidders before a final tender, used where the need is too complex or innovative to specify in advance — a shared digital platform, a novel service model, an infrastructure scheme with several viable technical solutions. They buy flexibility at the cost of the audit trail an open procedure leaves behind, so procurement law typically restricts them to defined circumstances and requires the buyer to document why a less transparent route was justified.
+
+**The competition-versus-continuity trade-off** runs underneath all three procedures. Re-tendering from scratch disciplines price and quality through competitive pressure and stops an incumbent taking a relationship for granted, but it also destroys accumulated local knowledge, unsettles staff and service users mid-programme, and discourages a supplier from investing in anything that will not survive a change of contractor. Framework agreements and longer terms with built-in break points are common compromises, preserving some continuity while keeping a credible competitive threat in reserve rather than pretending the trade-off can be eliminated.
+
+**Outcomes-based commissioning** is a strategic approach to deciding what to buy and how to pay for it, built around the outcome a service is meant to achieve — a person finding sustained work, a family avoiding eviction, a patient staying out of hospital — rather than the activities that are assumed to produce it. Commissioning is broader than procurement: it includes needs analysis, market shaping, and provider relationship management, of which running a competitive tender is only one possible step, and a grant can be as much a commissioning decision as a contract award.
+
+**Payment by results**, sometimes called performance-based contracting, ties some or all of a provider's payment to verified outcomes rather than activity delivered or hours worked. [Performance-based contracting](https://en.wikipedia.org/wiki/Performance-based_contracting) shifts financial risk onto the provider — its appeal to a commissioner, and its danger to a cash-poor provider that must fund delivery before any outcome payment arrives, a working-capital problem the sector lenses below return to. Every such metric is also exposed to [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law): once a measure becomes what a provider is paid on, it stops reliably measuring the outcome it was chosen to represent (see Chapter 3.11 — Quality, Safety, and Performance Management).
+
+**A social impact bond** is one instantiation of outcomes-based payment, in which private or philanthropic investors fund a provider's delivery, and a government or other outcome payer repays those investors, with a return, only if independently verified outcomes are achieved. The [social impact bond](https://en.wikipedia.org/wiki/Social_impact_bond) model transfers upfront funding risk and some outcome risk away from the public body and the delivery organization onto investors, at the cost of a transaction complexity that has kept its use mostly to well-resourced pilots rather than routine commissioning.
+
+**Grant-making** is a distinct instrument from a commercial contract: a public body or funder gives money to an organization, typically for a purpose aligned with that organization's own mission, without the reciprocal exchange of a specified deliverable at an agreed price that defines a contract. A [grant](https://en.wikipedia.org/wiki/Grant_(money)) is usually governed by conditions of use and reporting requirements rather than a detailed service specification and remedies for breach, which is what allows it to fund mission-led, exploratory, or advocacy work a contract specification would struggle to describe in advance.
+
+**The grant/contract distinction matters practically** because the two instruments carry different legal, tax, and accountability consequences almost everywhere, and blurring them harms both directions: a grant loaded with contract-style key performance indicators crowds out the flexibility that justified using a grant, while a contract disguised as a grant to dodge competitive tendering rules can deprive other qualified providers of a fair chance to compete.
+
+**Procurement integrity** covers the safeguards — separation of duties, conflict-of-interest declarations, published award criteria, audit trails — that keep a competition honest. [Bid rigging](https://en.wikipedia.org/wiki/Bid_rigging), in which bidders collude or a buyer favours a chosen supplier, is the recurring failure these safeguards exist to prevent; detecting it depends less on any single control than on a commissioning team that understands what a healthy, competitive market in that sector looks like.
+
+## Best practices
+
+1. **Match the procedure to the genuine complexity of the need, not to habit, and engage the market first.** Use the open procedure as the default, reserve the restricted procedure for high-value or specialist work, and use negotiated procedures or competitive dialogue only where the solution genuinely cannot be specified in advance — after early supplier engagement has tested what is actually deliverable and affordable.
+2. **Specify the outcome, not the method, wherever the market is capable of innovating.** A specification that prescribes exactly how a service must be delivered forecloses better solutions a competitive process exists to surface in the first place.
+3. **Build break points and review clauses into long contracts instead of assuming a single unbroken term.** A contract that can be reviewed, adjusted, or exited at defined points preserves some relationship continuity while keeping genuine performance accountability, rather than locking in years of assumptions made at signature.
+4. **Size the outcome-payment share to what the provider can actually influence and finance.** A provider paid entirely on results it cannot fully control, or that lacks the working capital to deliver before payment arrives, will either avoid the hardest cases or fail financially — neither of which serves the outcome.
+5. **Choose a grant when the purpose is the organization's mission, and a contract when the purpose is a specified deliverable.** Do not use a grant's flexibility to avoid competitive tendering rules that should apply, and do not force a contract's specification onto work that only succeeds because the funded organization retains genuine discretion.
+6. **Design outcome metrics to resist gaming before they resist measurement difficulty.** Test every proposed metric against how a rational provider under financial pressure would respond to it, since a metric that can be satisfied without producing the underlying outcome will be, eventually (see Chapter 3.11 — Quality, Safety, and Performance Management).
+7. **Watch for cream-skimming and parking under any payment-by-results model.** Monitor referral and caseload data by claimant characteristics, not only aggregate outcome rates, so a provider selecting easier cases and setting aside harder ones is visible before it becomes the pattern of delivery.
+8. **Keep evaluation panels separate from budget holders, and document scoring against published criteria.** A visible, defensible audit trail from criteria to score to award is the single most effective everyday defence against both bid rigging and the appearance of it.
+9. **Structure lots and contract size so more than the largest incumbents can realistically bid, and write the exit plan in at signature.** A single contract sized for a national provider excludes smaller and social-sector organizations from competing, and continuity arrangements agreed calmly at the start serve service users far better than terms negotiated under pressure at a re-tender.
+10. **Publish award notices, and where public money reaches the social sector as a grant, publish the grant register.** Transparency of who received what, and why, is what lets an outside challenge test a decision honestly (see Chapter 3.4 — Accountability, Transparency, and Legitimacy).
+
+## Questions to discuss with your team
+
+**Are we choosing our procurement procedure for the right reasons, or out of habit and risk aversion?** Many organizations default to the most familiar procedure regardless of what the specific purchase needs, running a full restricted competition for something simple or an open procedure for something too complex to specify without dialogue. Use this question to pull the last three procurements above a significant threshold and ask, honestly, whether the procedure chosen matched the complexity the need actually required. Discuss whether time pressure or fear of challenge, rather than genuine judgement, drove the choice, and whether a negotiated procedure's justification on file would survive outside scrutiny.
+
+**Do our outcome metrics measure what we actually want, or what happens to be easy to count?** Outcomes-based commissioning lives or dies on the quality of its metrics, and a metric chosen for ease of measurement rather than fidelity to the real outcome will eventually be gamed by a rational provider under financial pressure (see Chapter 3.11 — Quality, Safety, and Performance Management). Use this question to take one live payment-by-results contract and ask what a provider would do if it optimized purely for the payment metric rather than the underlying goal. Discuss whether the two would actually diverge and, if so, what a better metric or basket of metrics would look like. Removing every incentive to game a metric is rarely possible — focus the discussion on how the gap is monitored, not on eliminating it.
+
+**Do we know, instrument by instrument, which of our arrangements are genuinely grants and which are contracts in disguise?** The distinction determines legal obligations, tax treatment, and whether competitive tendering law applies, and organizations often drift into calling something a grant to avoid a formal procurement process even when its terms function like a contract. Use this question to review five funding relationships with social-sector organizations and classify each honestly against this chapter's grant/contract distinction, not against what the paperwork calls it. Discuss any relationship where label and substance disagree, and what risk that mismatch creates for both sides (see Chapter 3.8 — Social Sector and Nonprofit Management).
+
+**How dependent are we on a small number of large suppliers, and did our own contract design create that dependency?** A market with only two or three credible bidders left is often the product of years of contracts sized for the largest incumbents, not an unavoidable feature of the sector. Use this question to map, for your most important category of spend, how many organizations could realistically bid for the next contract, and how that number has changed over the last two competitions. Discuss what would happen to service continuity if your largest supplier failed tomorrow, and whether your lot structure makes that scenario more or less likely over time.
+
+**What happens to service users and staff in the months around a change of provider, and have we actually planned for it?** A competitive re-tender protects value for money in principle, but the transition is where continuity of care, institutional knowledge, and staff morale are most at risk, and it is frequently the least planned part of the whole procurement cycle. Use this question to examine transition arrangements in your current major contracts and ask whether they were negotiated calmly at the start or under pressure near the end. Discuss whether the organization has ever measured the real cost, in service disruption, of a change of provider, rather than assuming the competitive process absorbed that cost.
+
+**Who would catch bid rigging or favouritism in our procurement process, and would they actually be able to prove it?** Most organizations have formal conflict-of-interest and scoring-documentation policies, but far fewer have tested whether those policies would produce evidence an outside investigator could actually use. Use this question to pick a recent significant award and trace the audit trail from published criteria through to final scoring, checking whether an outsider could follow the reasoning without relying on anyone's memory. Discuss what a determined group of colluding bidders would need to get past your current safeguards, and whether anyone here has genuinely thought about the market from that angle.
+
+## In practice: a public value example
+
+A fictional mid-sized municipal government — illustrative only, not a description of any real city — needed to expand support for young people leaving state care who were at high risk of unemployment and homelessness. Two options reached serious consideration: awarding a competitively tendered, outcomes-based contract to a single large provider, paid mainly on verified sustained-employment outcomes at eighteen months; or making grants directly to the four established local charities already working with this group, based on their track record and their own theories of change.
+
+The competitively tendered option looked attractive on paper: a single accountable contract, one set of outcome metrics, and a payment structure transferring financial risk to the winning provider. But the procurement team's market engagement turned up an uncomfortable fact: none of the four local charities had the working capital to bid for a contract paid predominantly on eighteen-month outcomes, and the credible bidders that did were large national providers with no existing relationships with this specific group of young people. Awarding the contract nationally risked achieving the payment metric — sustained employment, verified — while discarding the trusted relationships the young people actually depended on to stay engaged at all.
+
+The municipal government chose a hybrid instrument instead. It issued multi-year grants to the four local charities, sized to cover their core delivery costs regardless of outcome, and layered a modest outcomes-based top-up payment on top, funded jointly with a regional foundation, tied to a basket of metrics that included engagement and stability measures alongside employment, not employment alone. The grant terms were kept genuinely different from a contract specification: the charities retained discretion over method, while the outcomes top-up gave the funders a stake in results without transferring all delivery risk onto organizations that could not have financed it.
+
+Two years in, an independent review found that sustained-employment rates were similar to what the single-contract model had achieved in a comparable neighbouring authority, but retention of young people in the programme past the first three months — the point at which most previous interventions had lost contact — was substantially higher. The review's central finding was not that grants are inherently superior to outcomes-based contracts, but that the instrument chosen had been shaped around what the actual provider market could deliver, rather than around the administrative convenience of a single accountable contract.
+
+## Four sector lenses
+
+### Local government
+
+Local authorities typically run an enormous volume of lower-value procurement and grant-making alongside a small number of large contracts, often with a procurement function too thin to give every award the scrutiny this chapter describes. Local commissioning is also where health, social care, and community-sector funding most often intersect, making the grant-versus-contract choice a live, recurring decision rather than a one-off design question. Community pressure and direct challenge at open council meetings give local procurement a real-time accountability the other three lenses rarely face.
+
+### National government
+
+National government typically has the most developed procurement law, specialist commercial capability, and the scale to run genuinely competitive negotiated procedures and competitive dialogue for complex programmes. Its risk runs the other way from local government's: procurements large enough to attract only a handful of global suppliers, and outcomes-based programmes ambitious enough that verifying outcomes becomes a substantial undertaking in its own right. National government is also usually the primary author of the procurement law — the procedures and thresholds — that every other tier of government operates within.
+
+### Social sector and nonprofit
+
+Nonprofits and charities sit on the receiving end of both grants and outcomes-based contracts, and the working-capital problem in payment by results lands hardest here: an organization without reserves or credit cannot fund delivery for months while waiting for a verified outcome payment, however sound its programme (see Chapter 3.8 — Social Sector and Nonprofit Management). Competitive tendering can also push social-sector organizations toward the generic, easily specified services a tender rewards, away from the harder-to-specify, relationship-based work where they often add the most distinctive value. Grants remain best suited to mission-led and exploratory work, but only when funders resist attaching contract-style reporting burdens that erode the flexibility a grant is meant to preserve.
+
+### Multilateral and international
+
+Multilateral development banks and United Nations agencies run their own procurement rules for the projects they finance, generally requiring international or national competitive bidding to guard against corruption and secure value for money across borrowing countries of very different market capacity. The tension here has a distinctive shape: rules protecting competition and integrity across many jurisdictions can also crowd out local suppliers unable to meet international bidding requirements, working against the local capacity-building such projects often also intend to support. Outcomes-based instruments are used more cautiously here, since verifying outcomes reliably across weaker data systems is harder, and the World Trade Organization's plurilateral [Agreement on Government Procurement](https://en.wikipedia.org/wiki/Agreement_on_Government_Procurement) sets non-discrimination norms shaping how signatory countries open their procurement markets to each other.
+
+## Common failure modes
+
+**Procedure mismatch.** A negotiated procedure is used to shortcut competition for convenience rather than genuine complexity, or an open procedure is forced onto a need too complex to specify without dialogue, producing either a weak audit trail vulnerable to challenge or a specification nobody can actually deliver against. The cost is a contract that starts in dispute or under legal challenge before delivery has even begun.
+
+**Metric gaming and cream-skimming under payment by results.** A provider under financial pressure optimizes for the metric that triggers payment rather than the outcome it was meant to represent, and quietly selects easier cases while setting aside harder ones, since the payment model rewards the metric regardless of who was actually helped. The cost falls hardest on the people the programme was meant to serve, least visible in aggregate outcome statistics.
+
+**Grant/contract conflation.** A grant is loaded with contract-style key performance indicators that erode the flexibility that justified using a grant in the first place, or a contract is dressed up as a grant specifically to avoid a competitive tendering obligation that should have applied. Either version costs the funder legitimacy once the mismatch becomes visible, and can expose it to legal challenge from a provider who was denied a fair chance to compete.
+
+**Market consolidation from oversized contracts.** Contracts are bundled into a single large lot for administrative convenience, which only the largest incumbents can credibly bid for, and the supply market narrows with each re-tender until the buyer becomes dependent on a shrinking number of large suppliers. The cost surfaces years later, when one of those suppliers fails financially or stops bidding, and no credible alternative exists.
+
+**Undetected bid rigging.** Bidders collude, or a buyer's evaluation quietly favours a preferred supplier, and because the paperwork looks correct, the manipulation is caught only by chance, an external audit, or a whistleblower years after the contract was awarded. The cost is not only the inflated price paid on that one contract, but the erosion of trust in every competition the same buyer runs afterwards.
+
+## Maturity model
+
+| Sub-dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+|---|---|---|---|---|---|
+| Procedure choice matches the need | Default procedure used regardless of complexity | Procedure chosen case by case, informally | A documented decision rule matches procedure to complexity and value | Procedure choices reviewed and challenged before publication | Procedure design shared and benchmarked with peer buyers |
+| Outcome metrics resist gaming | Metrics chosen for ease of measurement only | Metrics reviewed occasionally for obvious gaming risk | Metrics formally stress-tested against provider incentives before use | Referral and caseload data monitored for cream-skimming in real time | Metric design shared across commissioners and updated as gaming patterns emerge |
+| Grant and contract instruments are chosen deliberately | Label follows habit or convenience, not substance | Some awareness of the distinction, inconsistently applied | A documented test distinguishes grants from contracts before an award | Grant and contract portfolios reviewed for mismatched instruments | Instrument choice co-designed with the provider market, not imposed on it |
+| Supplier market health is monitored | No visibility of market concentration | Market awareness limited to the current tender | Lot sizing and market impact assessed before every major procurement | Market diversity tracked over time and factored into commercial strategy | Market shaped proactively, including support for smaller or social-sector entrants |
+| Procurement integrity is safeguarded | Conflicts of interest managed informally, if at all | Standard declarations exist but are inconsistently enforced | Evaluation independence and audit trails mandatory for all significant awards | Award decisions and challenges tracked and reported to governance | Integrity data shared across public bodies to spot cross-market bid rigging |
+
+## Checklist
+
+- [ ] Confirm the procurement procedure matches the genuine complexity of the need, and document the reasoning.
+- [ ] Run structured market engagement before finalizing the specification.
+- [ ] Write the specification around the outcome wanted, not a prescribed method, wherever the market can innovate.
+- [ ] Classify each funding relationship honestly as a grant or a contract, and align its terms with that classification.
+- [ ] Stress-test every proposed outcome metric against how a financially pressured provider would respond to it.
+- [ ] Size the outcome-payment share to what the provider can realistically influence and finance.
+- [ ] Set lot sizes that allow more than the largest incumbents to bid.
+- [ ] Agree transition and exit arrangements in the contract at signature, not at re-tender.
+- [ ] Separate evaluation panels from budget holders and document scoring against published criteria.
+- [ ] Monitor referral and caseload data for cream-skimming under any payment-by-results arrangement.
+- [ ] Publish award notices and, where relevant, the grant register.
+- [ ] Track supplier market concentration over successive procurement cycles.
+
+## Key sources
+
+- OECD, *Recommendation of the Council on Public Procurement* (OECD-LEGAL-0411) — the international reference framework of principles for integrity, efficiency, and good governance in public procurement.
+- World Bank, procurement policy for Bank-financed operations — the multilateral development-finance approach to competitive bidding and value for money across borrowing countries.
+- World Trade Organization, Agreement on Government Procurement — the plurilateral trade agreement setting non-discrimination and transparency norms for signatory countries' procurement markets.
+- UK Government, *Procurement Act 2023* guidance documents — a recent, comprehensive national procurement-law reform illustrating open, restricted, and negotiated-style procedures in a single regime.
+- European Commission, public procurement policy pages — the European Union's approach to procurement rules across member states.
+- Government Outcomes Lab, Blavatnik School of Government, University of Oxford — a research centre specializing in outcomes-based contracting and social impact bonds.
+- UK Public Services (Social Value) Act 2012 — legislation requiring public authorities to consider wider social value, not price alone, when procuring services.
+
+## References
+
+1. Government procurement — Wikipedia — https://en.wikipedia.org/wiki/Government_procurement
+2. Request for tender — Wikipedia — https://en.wikipedia.org/wiki/Request_for_tender
+3. Social impact bond — Wikipedia — https://en.wikipedia.org/wiki/Social_impact_bond
+4. Grant (money) — Wikipedia — https://en.wikipedia.org/wiki/Grant_(money)
+5. Goodhart's law — Wikipedia — https://en.wikipedia.org/wiki/Goodhart%27s_law
+6. Agreement on Government Procurement — Wikipedia — https://en.wikipedia.org/wiki/Agreement_on_Government_Procurement
+7. Bid rigging — Wikipedia — https://en.wikipedia.org/wiki/Bid_rigging
+8. Performance-based contracting — Wikipedia — https://en.wikipedia.org/wiki/Performance-based_contracting
+9. New Public Management — Wikipedia — https://en.wikipedia.org/wiki/New_Public_Management
+10. Recommendation of the Council on Public Procurement (OECD-LEGAL-0411) — OECD — https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0411
+11. Procurement — World Bank — https://www.worldbank.org/en/projects-operations/procurement
+12. Agreement on Government Procurement — World Trade Organization — https://www.wto.org/english/tratop_e/gproc_e/gp_gpa_e.htm
+13. Procurement Act 2023 — Guidance documents — GOV.UK — https://www.gov.uk/government/collections/procurement-act-2023-guidance-documents
+14. Public procurement — European Commission — https://single-market-economy.ec.europa.eu/single-market/public-procurement_en
+15. Government Outcomes Lab — Blavatnik School of Government, University of Oxford — https://golab.bsg.ox.ac.uk/
+16. Public Services (Social Value) Act 2012 — UK legislation.gov.uk — https://www.legislation.gov.uk/ukpga/2012/3/contents
