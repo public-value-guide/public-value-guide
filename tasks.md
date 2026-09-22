@@ -19,15 +19,15 @@ Live checklist. Update in the same change as the work it tracks.
 
 ### Front matter
 
-- [ ] Preface — `00-01-preface`
+- [x] Preface — `00-01-preface`
 
 ### Part 1 — Foundations
 
-- [ ] 1.1 Introduction to Public Value
-- [ ] 1.2 The Strategic Triangle: Legitimacy, Value, and Capacity
-- [ ] 1.3 Market Failure and Government Failure
-- [ ] 1.4 Public Goods, Merit Goods, and Value Pluralism
-- [ ] 1.5 Stakeholders, Citizens, and Co-Production
+- [x] 1.1 Introduction to Public Value
+- [x] 1.2 The Strategic Triangle: Legitimacy, Value, and Capacity
+- [x] 1.3 Market Failure and Government Failure
+- [x] 1.4 Public Goods, Merit Goods, and Value Pluralism
+- [x] 1.5 Stakeholders, Citizens, and Co-Production
 
 ### Part 2 — Evaluation and Evidence
 
