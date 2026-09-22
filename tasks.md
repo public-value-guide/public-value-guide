@@ -62,12 +62,12 @@ Live checklist. Update in the same change as the work it tracks.
 
 ### Part 5 — Digital, Software, and Technology
 
-- [ ] 5.1 Digital Government and Digital Transformation
-- [ ] 5.2 AI and Algorithmic Decision-Making in Government
-- [ ] 5.3 Public Sector Software Engineering and Platforms
-- [ ] 5.4 Public Sector Data, Interoperability, and Open Data
-- [ ] 5.5 Cybersecurity and Public Sector Technology Risk
-- [ ] 5.6 Innovation and Public Entrepreneurship
+- [x] 5.1 Digital Government and Digital Transformation
+- [x] 5.2 AI and Algorithmic Decision-Making in Government
+- [x] 5.3 Public Sector Software Engineering and Platforms
+- [x] 5.4 Public Sector Data, Interoperability, and Open Data
+- [x] 5.5 Cybersecurity and Public Sector Technology Risk
+- [x] 5.6 Innovation and Public Entrepreneurship
 
 ## Phase 2 — Reference matter
 
