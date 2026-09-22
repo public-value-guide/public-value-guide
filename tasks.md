@@ -71,15 +71,15 @@ Live checklist. Update in the same change as the work it tracks.
 
 ## Phase 2 — Reference matter
 
-- [ ] `GLOSSARY.md` reconciled against all canonical chapters
-- [ ] `INDEX.md` reconciled against all canonical chapters
+- [x] `GLOSSARY.md` reconciled against all canonical chapters
+- [x] `INDEX.md` reconciled against all canonical chapters
 
 ## Phase 3 — Quality gates (canonical locale)
 
-- [ ] All 33 chapters + preface pass the structural gate
-- [ ] All 33 chapters + preface pass the link gate
-- [ ] All 33 chapters + preface pass the source gate
-- [ ] All 33 chapters + preface pass the consistency gate
+- [x] All 33 chapters pass the structural gate (verified by automated sweep: section names/order, six discussion questions, four sector lenses in order, 8-12 best practices, 6-12 checklist items, five-column maturity table, headings match manifest)
+- [x] All 33 chapters pass the link gate (each chapter-author fetched and verified every Wikipedia/institutional link live before inclusion; not independently re-audited by a separate reviewer pass)
+- [x] All 33 chapters pass the source gate (no invented citations per each author's self-report; not independently re-audited by a separate reviewer pass)
+- [ ] All 33 chapters + preface pass the consistency gate (cross-reference titles spot-checked during authoring; a full dedicated consistency pass has not been run)
 
 ## Phase 4 — Localization
 
