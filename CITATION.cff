@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Public Value Guide"
+message: "If you use this guide, please cite it using the metadata below."
+type: dataset
+authors:
+  - given-names: "Joel Parker"
+    family-names: "Henderson"
+    email: "joel@joelparkerhenderson.com"
+abstract: >-
+  A practical handbook of best practices for creating public value in
+  government and the social sector, grounded in Mark Moore's public value
+  framework, covering foundations, evaluation and evidence, governance and
+  systems, global and societal issues, and digital government and
+  technology, in six locales.
+keywords:
+  - public value
+  - public administration
+  - public policy
+  - social sector
+  - nonprofit management
+  - government
+license: CC-BY-4.0
