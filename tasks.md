@@ -31,12 +31,12 @@ Live checklist. Update in the same change as the work it tracks.
 
 ### Part 2 — Evaluation and Evidence
 
-- [ ] 2.1 The Public Value Scorecard and Outcomes Frameworks
-- [ ] 2.2 Social Cost-Benefit and Cost-Effectiveness Analysis
-- [ ] 2.3 Social Return on Investment and Impact Measurement
-- [ ] 2.4 Public Sector Econometrics and Programme Evaluation
-- [ ] 2.5 Business Cases and Value for Money
-- [ ] 2.6 Evidence Synthesis and What Works
+- [x] 2.1 The Public Value Scorecard and Outcomes Frameworks
+- [x] 2.2 Social Cost-Benefit and Cost-Effectiveness Analysis
+- [x] 2.3 Social Return on Investment and Impact Measurement
+- [x] 2.4 Public Sector Econometrics and Programme Evaluation
+- [x] 2.5 Business Cases and Value for Money
+- [x] 2.6 Evidence Synthesis and What Works
 
 ### Part 3 — Systems, Governance and Priorities
 
