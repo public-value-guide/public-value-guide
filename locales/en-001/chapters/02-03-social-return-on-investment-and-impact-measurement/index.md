@@ -102,7 +102,7 @@ International development and impact investing bodies have converged on shared i
 
 **One-off measurement, never repeated.** An SROI exercise commissioned once, to win a specific bid, and never updated, functions as marketing rather than management. The cost is that the organization learns nothing from it internally, and the figure calcifies into a claim repeated for years after the underlying program has changed.
 
-**False precision.** A ratio reported to two decimal places — "$4.32 of social value for every dollar invested" — implies a level of arithmetic confidence that the underlying proxies, deductions and evidence rarely support. The cost is reputational: a sophisticated reader who probes one input and finds it soft will discount the whole exercise, not just the input.
+**False precision.** A ratio reported to two decimal places — "US$4.32 of social value for every dollar invested" — implies a level of arithmetic confidence that the underlying proxies, deductions and evidence rarely support. The cost is reputational: a sophisticated reader who probes one input and finds it soft will discount the whole exercise, not just the input.
 
 **Comparing incomparable ratios.** Funders and boards sometimes rank programs or grantees by SROI ratio alone, as though the figure were as standardized as a financial return. Because scope, proxies, time horizon and rigor vary enormously between exercises, this practice systematically rewards optimistic modeling over real impact, and it is one of the most-cited critiques of the method in the academic literature on SROI's use in practice.
 
