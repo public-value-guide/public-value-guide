@@ -83,8 +83,8 @@ Live checklist. Update in the same change as the work it tracks.
 
 ## Phase 4 — Localization
 
-- [ ] `en-gb` — all chapters
-- [ ] `en-us` — all chapters
+- [x] `en-gb` — all chapters
+- [x] `en-us` — all chapters
 - [ ] `en-001` — all chapters
 - [ ] `cy-gb` — all chapters (flagged for professional review, spec §4a)
 - [ ] `cy-001` — all chapters (flagged for professional review, spec §4a)
