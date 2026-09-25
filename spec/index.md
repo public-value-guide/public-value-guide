@@ -138,12 +138,15 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `en-001` | English (World) — the CLDR "English (World)" variant: DD/MM/YYYY dates, Monday-first week, metric units, US$ instead of bare `$`. Used as the default fallback rather than `en-us`. |
 | `cy-gb` | Cymraeg (Wales, United Kingdom). |
 | `cy-001` | Cymraeg (World) — standard/international Welsh, used where no UK-specific reference is intended. |
+| `es-001` | Español (World) — international/neutral Spanish, avoiding country-specific vocabulary or forms of address, for a readership spanning Spain and Latin America. |
 
-Every chapter directory, in every locale, contains a file named `.locale-peer-id` holding a 32-character lowercase hexadecimal string followed by a newline. The same string appears in every locale's translation of the same logical chapter, generated once with `bin/locale-peer-id` and never regenerated. `locales/<locale>/chapters/.locale-peer-id` similarly carries one shared id for the "chapters" collection itself, identical across all six locales. Use `bin/grep-locale-peer-id <id>` to find every locale's copy of a given chapter.
+Every chapter directory, in every locale, contains a file named `.locale-peer-id` holding a 32-character lowercase hexadecimal string followed by a newline. The same string appears in every locale's translation of the same logical chapter, generated once with `bin/locale-peer-id` and never regenerated. `locales/<locale>/chapters/.locale-peer-id` similarly carries one shared id for the "chapters" collection itself, identical across all seven locales. Use `bin/grep-locale-peer-id <id>` to find every locale's copy of a given chapter.
 
-Content directory names are translated per locale in slug form (lowercase, hyphen-separated, translated title) — see `bin/slug-case`. English locales share one slug (English does not change enough across these four variants to need separate slugs); the two Welsh locales use a Welsh slug.
+Content directory names are translated per locale in slug form (lowercase, hyphen-separated, translated title) — see `bin/slug-case`. English locales share one slug (English does not change enough across these four variants to need separate slugs); the two Welsh locales use a Welsh slug; `es-001` uses a Spanish slug.
 
 Welsh translation caveat: chapter content and directory slugs in `cy-001` and `cy-gb` are AI-drafted. Public-facing or funded use should have them reviewed by a professional Welsh-language editor, particularly for the technical public-administration vocabulary (Welsh Government's own terminology resources are the first port of call for house-style terms).
+
+Spanish translation caveat: chapter content and directory slugs in `es-001` are AI-drafted, using neutral/international Spanish vocabulary and grammar (e.g. "ustedes" rather than "vosotros", avoiding Spain- or Latin-America-specific idiom) rather than any single national variant. Public-facing or funded use should have them reviewed by a professional Spanish-language editor familiar with public-administration terminology across the Spanish-speaking world.
 
 ## 5. Voice, style and formatting
 
@@ -192,7 +195,7 @@ A change that adds, renames, renumbers, or removes a chapter or a defined term u
 3. Draft to the template in the canonical locale (`en-gb-oxendict`) first.
 4. Reach the target length by depth (more concepts, sharper examples), never by padding.
 5. Self-check against §8, then register new terms in `GLOSSARY.md` and `INDEX.md` and tick the item in `tasks.md`.
-6. Only after the canonical chapter is done, localize into the other five locales (adapt for `en-gb`, `en-us`, `en-001`; translate for `cy-gb`, `cy-001`), preserving the `.locale-peer-id`.
+6. Only after the canonical chapter is done, localize into the other six locales (adapt for `en-gb`, `en-us`, `en-001`; translate for `cy-gb`, `cy-001`, `es-001`), preserving the `.locale-peer-id`.
 
 One writer per file. Fan agents out across distinct chapters only; never let two agents edit the same file concurrently. Before writing a new chapter, confirm you have the final manifest — renumbering mid-flight is expensive (§11).
 
