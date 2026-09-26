@@ -141,10 +141,11 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `es-001` | Español (World) — international/neutral Spanish, avoiding country-specific vocabulary or forms of address, for a readership spanning Spain and Latin America. |
 | `zh-cn` | 中文（中国大陆，简体）— Chinese (Mainland China), Simplified script, using Mainland public-administration terminology conventions. |
 | `ar-001` | العربية (العالم) — Arabic (World), Modern Standard Arabic, avoiding country-specific vocabulary or forms of address, for a readership spanning the Arabic-speaking world. Right-to-left script. |
+| `hi-in` | हिन्दी (भारत) — Hindi (India), using Indian public-administration terminology conventions and Devanagari script. |
 
-Every chapter directory, in every locale, contains a file named `.locale-peer-id` holding a 32-character lowercase hexadecimal string followed by a newline. The same string appears in every locale's translation of the same logical chapter, generated once with `bin/locale-peer-id` and never regenerated. `locales/<locale>/chapters/.locale-peer-id` similarly carries one shared id for the "chapters" collection itself, identical across all nine locales. Use `bin/grep-locale-peer-id <id>` to find every locale's copy of a given chapter.
+Every chapter directory, in every locale, contains a file named `.locale-peer-id` holding a 32-character lowercase hexadecimal string followed by a newline. The same string appears in every locale's translation of the same logical chapter, generated once with `bin/locale-peer-id` and never regenerated. `locales/<locale>/chapters/.locale-peer-id` similarly carries one shared id for the "chapters" collection itself, identical across all ten locales. Use `bin/grep-locale-peer-id <id>` to find every locale's copy of a given chapter.
 
-Content directory names are translated per locale in slug form (lowercase, hyphen-separated, translated title) — see `bin/slug-case`. English locales share one slug (English does not change enough across these four variants to need separate slugs); the two Welsh locales use a Welsh slug; `es-001` uses a Spanish slug; `ar-001` uses a romanized (transliterated) slug, matching the ASCII-safe convention already used for `zh-cn`'s pinyin slugs, since Arabic script is not Latin-based and the site/tooling expects ASCII-safe directory names.
+Content directory names are translated per locale in slug form (lowercase, hyphen-separated, translated title) — see `bin/slug-case`. English locales share one slug (English does not change enough across these four variants to need separate slugs); the two Welsh locales use a Welsh slug; `es-001` uses a Spanish slug; `ar-001` and `hi-in` use romanized (transliterated) slugs, matching the ASCII-safe convention already used for `zh-cn`'s pinyin slugs, since Arabic and Devanagari script are not Latin-based and the site/tooling expects ASCII-safe directory names.
 
 Welsh translation caveat: chapter content and directory slugs in `cy-001` and `cy-gb` are AI-drafted. Public-facing or funded use should have them reviewed by a professional Welsh-language editor, particularly for the technical public-administration vocabulary (Welsh Government's own terminology resources are the first port of call for house-style terms).
 
@@ -153,6 +154,8 @@ Spanish translation caveat: chapter content and directory slugs in `es-001` are 
 Chinese translation caveat: chapter content and directory slugs in `zh-cn` are AI-drafted, in Simplified Chinese using Mainland public-administration terminology conventions. Public-facing or funded use should have them reviewed by a professional Chinese-language editor familiar with public-administration terminology in the relevant jurisdiction, particularly for terms with no single settled Mainland rendering.
 
 Arabic translation caveat: chapter content and directory slugs in `ar-001` are AI-drafted, in Modern Standard Arabic using neutral, pan-regional vocabulary rather than any single national dialect or administrative tradition. Public-facing or funded use should have them reviewed by a professional Arabic-language editor familiar with public-administration terminology across the Arabic-speaking world, particularly for terms that carry different connotations between the Gulf, the Levant, Egypt, and the Maghreb.
+
+Hindi translation caveat: chapter content and directory slugs in `hi-in` are AI-drafted, in Hindi using Indian public-administration terminology conventions. Public-facing or funded use should have them reviewed by a professional Hindi-language editor familiar with public-administration terminology in India, particularly for technical terms that are more commonly left in English or rendered with a Sanskritized coinage in official Indian usage.
 
 ## 5. Voice, style and formatting
 
@@ -201,7 +204,7 @@ A change that adds, renames, renumbers, or removes a chapter or a defined term u
 3. Draft to the template in the canonical locale (`en-gb-oxendict`) first.
 4. Reach the target length by depth (more concepts, sharper examples), never by padding.
 5. Self-check against §8, then register new terms in `GLOSSARY.md` and `INDEX.md` and tick the item in `tasks.md`.
-6. Only after the canonical chapter is done, localize into the other eight locales (adapt for `en-gb`, `en-us`, `en-001`; translate for `cy-gb`, `cy-001`, `es-001`, `zh-cn`, `ar-001`), preserving the `.locale-peer-id`.
+6. Only after the canonical chapter is done, localize into the other nine locales (adapt for `en-gb`, `en-us`, `en-001`; translate for `cy-gb`, `cy-001`, `es-001`, `zh-cn`, `ar-001`, `hi-in`), preserving the `.locale-peer-id`.
 
 One writer per file. Fan agents out across distinct chapters only; never let two agents edit the same file concurrently. Before writing a new chapter, confirm you have the final manifest — renumbering mid-flight is expensive (§11).
 
