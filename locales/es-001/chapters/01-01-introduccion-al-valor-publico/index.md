@@ -82,7 +82,7 @@ Los gobiernos nacionales suelen tener el mandato formal más profundo y la base 
 
 ### Sector social y sin ánimo de lucro
 
-Los líderes de organizaciones sin ánimo de lucro y ONG a menudo tienen la propuesta de valor más explícita de las cuatro lentes, expresada en una declaración de misión, pero con frecuencia el entorno autorizador menos estable, ya que financiadores, juntas directivas, y comunidades beneficiarias pueden cada uno retirar el apoyo independientemente y en calendarios diferentes (véase el Capítulo 3.8 — Gestión del Sector Social y Organizaciones sin Ánimo de Lucro). La ausencia tanto de un precio de mercado como de un mandato electoral hace que el triángulo estratégico sea especialmente útil aquí: da a una junta directiva sin ánimo de lucro un lenguaje de supervisión que no se toma prestado incómodamente de la práctica corporativa o gubernamental.
+Los líderes de organizaciones sin ánimo de lucro y ONG a menudo tienen la propuesta de valor más explícita de las cuatro lentes, expresada en una declaración de misión, pero con frecuencia el entorno autorizador menos estable, ya que financiadores, juntas directivas, y comunidades beneficiarias pueden cada uno retirar el apoyo independientemente y en calendarios diferentes (véase el Capítulo 3.8 — Gestión del Sector Social y Organizaciones Sin Ánimo de Lucro). La ausencia tanto de un precio de mercado como de un mandato electoral hace que el triángulo estratégico sea especialmente útil aquí: da a una junta directiva sin ánimo de lucro un lenguaje de supervisión que no se toma prestado incómodamente de la práctica corporativa o gubernamental.
 
 ### Multilateral e internacional
 

@@ -69,7 +69,7 @@ Gemeinnützige Organisationen und Nichtregierungsorganisationen sind häufig der
 
 ### Multilaterale und internationale Organisationen
 
-International sind viele der größten öffentlichen Güter authentisch global – Klimastabilität, Pandemievorsorge, ein stabiles internationales Finanzsystem, ein offenes und funktionierendes Internet –, und kein einzelner Staat kann vom Nutzen ausgeschlossen oder gezwungen werden, seinen Anteil zu zahlen, was Trittbrettfahren unter Nationen statt Individuen erzeugt. Multilaterale Organisationen existieren wesentlich, um dieses Koordinationsproblem zu lösen, und verhandeln Lastenteilungsvereinbarungen, wo Markt- und nationale Anreize allein das Gut unterversorgen würden; der Klimafall wird spezifisch in Kapitel 4.3 — Klima, Nachhaltigkeit und ökologischer öffentlicher Wert weiterentwickelt.
+International sind viele der größten öffentlichen Güter authentisch global – Klimastabilität, Pandemievorsorge, ein stabiles internationales Finanzsystem, ein offenes und funktionierendes Internet –, und kein einzelner Staat kann vom Nutzen ausgeschlossen oder gezwungen werden, seinen Anteil zu zahlen, was Trittbrettfahren unter Nationen statt Individuen erzeugt. Multilaterale Organisationen existieren wesentlich, um dieses Koordinationsproblem zu lösen, und verhandeln Lastenteilungsvereinbarungen, wo Markt- und nationale Anreize allein das Gut unterversorgen würden; der Klimafall wird spezifisch in Kapitel 4.3 — Klima, Nachhaltigkeit, und ökologischer öffentlicher Wert weiterentwickelt.
 
 ## Häufige Fehlermuster
 

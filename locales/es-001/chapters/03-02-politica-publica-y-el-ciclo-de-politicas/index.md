@@ -81,7 +81,7 @@ El gobierno nacional típicamente sostiene el conjunto de instrumentos más ampl
 
 ### Sector social y sin ánimo de lucro
 
-Las organizaciones sin ánimo de lucro y las organizaciones no gubernamentales rara vez tienen autoridad formal de instrumento de política ellas mismas, pero son frecuentemente los emprendedores de política que acoplan una solución lista a una ventana política que se abre, y a menudo son las organizaciones más cercanas a cómo una política realmente aterriza sobre las personas que pretende ayudar. Su contribución distintiva al ciclo es la fijación de agenda y la retroalimentación de implementación: elevar la visibilidad de un problema mucho antes de que llegue la atención del gobierno, e informar, creíble y rápidamente, cuando el efecto de nivel de calle de una política diverge de su diseño pretendido (véase el Capítulo 3.8 — Gestión del Sector Social y Sin Ánimo de Lucro).
+Las organizaciones sin ánimo de lucro y las organizaciones no gubernamentales rara vez tienen autoridad formal de instrumento de política ellas mismas, pero son frecuentemente los emprendedores de política que acoplan una solución lista a una ventana política que se abre, y a menudo son las organizaciones más cercanas a cómo una política realmente aterriza sobre las personas que pretende ayudar. Su contribución distintiva al ciclo es la fijación de agenda y la retroalimentación de implementación: elevar la visibilidad de un problema mucho antes de que llegue la atención del gobierno, e informar, creíble y rápidamente, cuando el efecto de nivel de calle de una política diverge de su diseño pretendido (véase el Capítulo 3.8 — Gestión del Sector Social y Organizaciones Sin Ánimo de Lucro).
 
 ### Multilateral e internacional
 
