@@ -85,9 +85,10 @@ Live checklist. Update in the same change as the work it tracks.
 
 - [x] `en-gb` — all chapters
 - [x] `en-us` — all chapters
-- [ ] `en-001` — all chapters
-- [ ] `cy-gb` — all chapters (flagged for professional review, spec §4a)
-- [ ] `cy-001` — all chapters (flagged for professional review, spec §4a)
+- [x] `en-001` — all chapters
+- [x] `cy-gb` — all chapters (flagged for professional review, spec §4a)
+- [x] `cy-001` — all chapters (flagged for professional review, spec §4a)
+- [x] `ar-001`, `de-de`, `es-001`, `fr-001`, `hi-in`, `ja-jp`, `ru-ru`, `zh-cn` — all chapters (34/34 files each; not yet independently reviewed)
 
 ## Phase 5 — Release checks
 
