@@ -11,7 +11,7 @@ Applies to the canonical locale, `en-gb-oxendict`. The other English locales ada
 - **programme** for a plan of action or policy initiative; **program** only for software.
 - **judgement** with the middle *e*, except **judgment** in a strict legal-ruling sense if quoting a court.
 - Dates as **day month year** (22 September 2026), never month/day/year.
-- Currency: symbol before the amount, ISO code or country named on first use in a chapter if ambiguous (£45,000; US$45,000).
+- Currency: symbol before the amount, ISO code or country named on first use in a topic if ambiguous (£45,000; US$45,000).
 - Quotation marks: single quotes primary, double quotes for a quotation within a quotation.
 - Oxford (serial) comma used throughout.
 

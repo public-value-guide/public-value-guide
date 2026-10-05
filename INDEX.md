@@ -1,8 +1,8 @@
 # Index
 
-Concepts and frameworks by chapter number, not page. Format: `**Concept** — N.N, N.N, …` — chapter numbers ascending, de-duplicated, home chapter first among equals conceptually (order is numeric, not by importance).
+Concepts and frameworks by topic number, not page. Format: `**Concept** — N.N, N.N, …` — topic numbers ascending, de-duplicated, home topic first among equals conceptually (order is numeric, not by importance).
 
-Populated as chapters are written (see `tasks.md`). Sections are kept even when empty.
+Populated as topics are written (see `tasks.md`). Sections are kept even when empty.
 
 ## A
 

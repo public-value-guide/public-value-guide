@@ -11,7 +11,7 @@ Subordinate to `spec/index.md`. Where the two disagree, the spec wins.
 ## Worldwide framing
 
 - Name the specific jurisdiction or institution when a claim is jurisdiction-specific ("in the UK, the National Audit Office..." not "the government audits..."). Do not imply a claim is universal when it is one country's arrangement.
-- Vary the exemplar jurisdictions and organization types used across chapters — do not let one country or one income level dominate every example.
+- Vary the exemplar jurisdictions and organization types used across topics — do not let one country or one income level dominate every example.
 - Quote currency in its original currency and year, never silently converted; if converting for comparison, show both figures and the conversion date.
 
 ## Spelling
@@ -24,7 +24,7 @@ Subordinate to `spec/index.md`. Where the two disagree, the spec wins.
 
 ## Acronyms
 
-Expand every acronym on first use *within each chapter* — chapters are read standalone, so re-expand even if a previous chapter already used it.
+Expand every acronym on first use *within each topic* — topics are read standalone, so re-expand even if a previous topic already used it.
 
 ## Numbers
 
@@ -36,30 +36,30 @@ Expand every acronym on first use *within each chapter* — chapters are read st
 - Markdown only. One `#` (H1) per file. Blank line between blocks. No trailing whitespace, no hard-wrapped lines.
 - 2–4 sentence paragraphs.
 - Tables for comparisons, typologies, and the maturity model.
-- Cross-references always carry chapter number and title: "(see Chapter 3.4 — Accountability, Transparency, and Legitimacy)."
+- Cross-references always carry topic number and title: "(see Topic 3.4 — Accountability, Transparency, and Legitimacy)."
 
 ## Length
 
-~3,000–3,500 words of substantive prose per chapter (all sections combined), reached by going deeper on the chapter's own scope, never by padding or restating another chapter's material.
+~3,000–3,500 words of substantive prose per topic (all sections combined), reached by going deeper on the topic's own scope, never by padding or restating another topic's material.
 
 ## Section-by-section notes
 
-- **Thesis sentence** — one sentence, bold, states the chapter's central claim, not its topic ("Public value is created in the gap between what citizens would authorize and what an organization is capable of delivering" — not "This chapter covers public value").
-- **Why this matters** — grounds the chapter in a real tension a reader faces this year, not a textbook justification.
-- **Core concepts** — the vocabulary a reader needs before the rest of the chapter makes sense; define, do not just name.
+- **Thesis sentence** — one sentence, bold, states the topic's central claim, not its topic ("Public value is created in the gap between what citizens would authorize and what an organization is capable of delivering" — not "This topic covers public value").
+- **Why this matters** — grounds the topic in a real tension a reader faces this year, not a textbook justification.
+- **Core concepts** — the vocabulary a reader needs before the rest of the topic makes sense; define, do not just name.
 - **Best practices** — each item actionable, not descriptive: "Publish the outcomes framework before the budget round, not after" rather than "outcomes frameworks are important."
-- **Discussion questions** — written for a team to actually use in a room; the briefing gives enough context that the question doesn't need the chapter open to discuss.
+- **Discussion questions** — written for a team to actually use in a room; the briefing gives enough context that the question doesn't need the topic open to discuss.
 - **Worked example** — fictional, one scenario, followed through from problem to decision; label it clearly as illustrative.
-- **Sector lenses** — each lens states what's genuinely different about applying this chapter's concepts in that context, not a repeat of the chapter with the sector's name swapped in.
+- **Sector lenses** — each lens states what's genuinely different about applying this topic's concepts in that context, not a repeat of the topic with the sector's name swapped in.
 - **Failure modes** — named patterns, each with what causes it and what it costs, not a generic list of risks.
-- **Maturity model** — see `spec/maturity-model.md`; rows are sub-dimensions of this chapter's topic specifically.
+- **Maturity model** — see `spec/maturity-model.md`; rows are sub-dimensions of this topic's topic specifically.
 - **Checklist** — action items a reader could literally tick off, ordered roughly by sequence of use.
 - **Key sources / References** — see `spec/index.md` §6.
 
-## Self-check before calling a chapter done
+## Self-check before calling a topic done
 
-- [ ] Reads standalone — a reader who has not read any other chapter can follow it.
+- [ ] Reads standalone — a reader who has not read any other topic can follow it.
 - [ ] Every claim is either general knowledge, attributed to a named source, or explicitly framed as the author's synthesis.
 - [ ] No named real institution appears in the worked example.
-- [ ] Every cross-reference resolves to a real chapter with the right title.
+- [ ] Every cross-reference resolves to a real topic with the right title.
 - [ ] Matches `spec/index.md` §8 definition of done in full.

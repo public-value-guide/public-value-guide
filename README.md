@@ -10,60 +10,60 @@ The scope is worldwide. National governments, regional and local government, soc
 
 **Front matter**
 
-- [Preface](locales/en-gb-oxendict/chapters/00-01-preface/index.md)
+- [Preface](locales/en-gb-oxendict/topics/00-01-preface/index.md)
 
 **Part 1 — Foundations** — _why public value is different from market value or democratic mandate alone, and the models that explain it_
 
-- Chapter 1.1 — [Introduction to Public Value](locales/en-gb-oxendict/chapters/01-01-introduction-to-public-value/index.md)
-- Chapter 1.2 — [The Strategic Triangle: Legitimacy, Value, and Capacity](locales/en-gb-oxendict/chapters/01-02-the-strategic-triangle/index.md)
-- Chapter 1.3 — [Market Failure and Government Failure](locales/en-gb-oxendict/chapters/01-03-market-failure-and-government-failure/index.md)
-- Chapter 1.4 — [Public Goods, Merit Goods, and Value Pluralism](locales/en-gb-oxendict/chapters/01-04-public-goods-merit-goods-and-value-pluralism/index.md)
-- Chapter 1.5 — [Stakeholders, Citizens, and Co-Production](locales/en-gb-oxendict/chapters/01-05-stakeholders-citizens-and-co-production/index.md)
+- Topic 1.1 — [Introduction to Public Value](locales/en-gb-oxendict/topics/01-01-introduction-to-public-value/index.md)
+- Topic 1.2 — [The Strategic Triangle: Legitimacy, Value, and Capacity](locales/en-gb-oxendict/topics/01-02-the-strategic-triangle/index.md)
+- Topic 1.3 — [Market Failure and Government Failure](locales/en-gb-oxendict/topics/01-03-market-failure-and-government-failure/index.md)
+- Topic 1.4 — [Public Goods, Merit Goods, and Value Pluralism](locales/en-gb-oxendict/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md)
+- Topic 1.5 — [Stakeholders, Citizens, and Co-Production](locales/en-gb-oxendict/topics/01-05-stakeholders-citizens-and-co-production/index.md)
 
 **Part 2 — Evaluation and Evidence** — _the analyst's toolkit: valuing outcomes, building the case, testing claims_
 
-- Chapter 2.1 — [The Public Value Scorecard and Outcomes Frameworks](locales/en-gb-oxendict/chapters/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md)
-- Chapter 2.2 — [Social Cost-Benefit and Cost-Effectiveness Analysis](locales/en-gb-oxendict/chapters/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md)
-- Chapter 2.3 — [Social Return on Investment and Impact Measurement](locales/en-gb-oxendict/chapters/02-03-social-return-on-investment-and-impact-measurement/index.md)
-- Chapter 2.4 — [Public Sector Econometrics and Programme Evaluation](locales/en-gb-oxendict/chapters/02-04-public-sector-econometrics-and-programme-evaluation/index.md)
-- Chapter 2.5 — [Business Cases and Value for Money](locales/en-gb-oxendict/chapters/02-05-business-cases-and-value-for-money/index.md)
-- Chapter 2.6 — [Evidence Synthesis and What Works](locales/en-gb-oxendict/chapters/02-06-evidence-synthesis-and-what-works/index.md)
+- Topic 2.1 — [The Public Value Scorecard and Outcomes Frameworks](locales/en-gb-oxendict/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md)
+- Topic 2.2 — [Social Cost-Benefit and Cost-Effectiveness Analysis](locales/en-gb-oxendict/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md)
+- Topic 2.3 — [Social Return on Investment and Impact Measurement](locales/en-gb-oxendict/topics/02-03-social-return-on-investment-and-impact-measurement/index.md)
+- Topic 2.4 — [Public Sector Econometrics and Programme Evaluation](locales/en-gb-oxendict/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md)
+- Topic 2.5 — [Business Cases and Value for Money](locales/en-gb-oxendict/topics/02-05-business-cases-and-value-for-money/index.md)
+- Topic 2.6 — [Evidence Synthesis and What Works](locales/en-gb-oxendict/topics/02-06-evidence-synthesis-and-what-works/index.md)
 
 **Part 3 — Systems, Governance and Priorities** — _how public and social-sector organizations are structured, funded, and held accountable_
 
-- Chapter 3.1 — [Public Administration Systems and Models](locales/en-gb-oxendict/chapters/03-01-public-administration-systems-and-models/index.md)
-- Chapter 3.2 — [Public Policy and the Policy Cycle](locales/en-gb-oxendict/chapters/03-02-public-policy-and-the-policy-cycle/index.md)
-- Chapter 3.3 — [Public Finance and Budgeting](locales/en-gb-oxendict/chapters/03-03-public-finance-and-budgeting/index.md)
-- Chapter 3.4 — [Accountability, Transparency, and Legitimacy](locales/en-gb-oxendict/chapters/03-04-accountability-transparency-and-legitimacy/index.md)
-- Chapter 3.5 — [Equity, Fairness, and Distributive Justice](locales/en-gb-oxendict/chapters/03-05-equity-fairness-and-distributive-justice/index.md)
-- Chapter 3.6 — [Public Sector Workforce and Labour Markets](locales/en-gb-oxendict/chapters/03-06-public-sector-workforce-and-labour-markets/index.md)
-- Chapter 3.7 — [Public Procurement and Commissioning](locales/en-gb-oxendict/chapters/03-07-public-procurement-and-commissioning/index.md)
-- Chapter 3.8 — [Social Sector and Nonprofit Management](locales/en-gb-oxendict/chapters/03-08-social-sector-and-nonprofit-management/index.md)
-- Chapter 3.9 — [Intergovernmental Relations and Federalism](locales/en-gb-oxendict/chapters/03-09-intergovernmental-relations-and-federalism/index.md)
-- Chapter 3.10 — [Regulation and Public Risk Management](locales/en-gb-oxendict/chapters/03-10-regulation-and-public-risk-management/index.md)
-- Chapter 3.11 — [Quality, Safety, and Performance Management](locales/en-gb-oxendict/chapters/03-11-quality-safety-and-performance-management/index.md)
-- Chapter 3.12 — [Crisis, Emergency, and Resilience Management](locales/en-gb-oxendict/chapters/03-12-crisis-emergency-and-resilience-management/index.md)
+- Topic 3.1 — [Public Administration Systems and Models](locales/en-gb-oxendict/topics/03-01-public-administration-systems-and-models/index.md)
+- Topic 3.2 — [Public Policy and the Policy Cycle](locales/en-gb-oxendict/topics/03-02-public-policy-and-the-policy-cycle/index.md)
+- Topic 3.3 — [Public Finance and Budgeting](locales/en-gb-oxendict/topics/03-03-public-finance-and-budgeting/index.md)
+- Topic 3.4 — [Accountability, Transparency, and Legitimacy](locales/en-gb-oxendict/topics/03-04-accountability-transparency-and-legitimacy/index.md)
+- Topic 3.5 — [Equity, Fairness, and Distributive Justice](locales/en-gb-oxendict/topics/03-05-equity-fairness-and-distributive-justice/index.md)
+- Topic 3.6 — [Public Sector Workforce and Labour Markets](locales/en-gb-oxendict/topics/03-06-public-sector-workforce-and-labour-markets/index.md)
+- Topic 3.7 — [Public Procurement and Commissioning](locales/en-gb-oxendict/topics/03-07-public-procurement-and-commissioning/index.md)
+- Topic 3.8 — [Social Sector and Nonprofit Management](locales/en-gb-oxendict/topics/03-08-social-sector-and-nonprofit-management/index.md)
+- Topic 3.9 — [Intergovernmental Relations and Federalism](locales/en-gb-oxendict/topics/03-09-intergovernmental-relations-and-federalism/index.md)
+- Topic 3.10 — [Regulation and Public Risk Management](locales/en-gb-oxendict/topics/03-10-regulation-and-public-risk-management/index.md)
+- Topic 3.11 — [Quality, Safety, and Performance Management](locales/en-gb-oxendict/topics/03-11-quality-safety-and-performance-management/index.md)
+- Topic 3.12 — [Crisis, Emergency, and Resilience Management](locales/en-gb-oxendict/topics/03-12-crisis-emergency-and-resilience-management/index.md)
 
 **Part 4 — Global and Societal Issues** — _public value beyond one institution: behaviour, trust, the planet, and the public conversation_
 
-- Chapter 4.1 — [Behavioural Public Policy](locales/en-gb-oxendict/chapters/04-01-behavioural-public-policy/index.md)
-- Chapter 4.2 — [Trust in Government and Civic Engagement](locales/en-gb-oxendict/chapters/04-02-trust-in-government-and-civic-engagement/index.md)
-- Chapter 4.3 — [Climate, Sustainability, and Environmental Public Value](locales/en-gb-oxendict/chapters/04-03-climate-sustainability-and-environmental-public-value/index.md)
-- Chapter 4.4 — [Social Media, Misinformation, and Public Communication](locales/en-gb-oxendict/chapters/04-04-social-media-misinformation-and-public-communication/index.md)
+- Topic 4.1 — [Behavioural Public Policy](locales/en-gb-oxendict/topics/04-01-behavioural-public-policy/index.md)
+- Topic 4.2 — [Trust in Government and Civic Engagement](locales/en-gb-oxendict/topics/04-02-trust-in-government-and-civic-engagement/index.md)
+- Topic 4.3 — [Climate, Sustainability, and Environmental Public Value](locales/en-gb-oxendict/topics/04-03-climate-sustainability-and-environmental-public-value/index.md)
+- Topic 4.4 — [Social Media, Misinformation, and Public Communication](locales/en-gb-oxendict/topics/04-04-social-media-misinformation-and-public-communication/index.md)
 
 **Part 5 — Digital, Software, and Technology** — _the public value of technology: digital government, artificial intelligence, software, data, and cybersecurity_
 
-- Chapter 5.1 — [Digital Government and Digital Transformation](locales/en-gb-oxendict/chapters/05-01-digital-government-and-digital-transformation/index.md)
-- Chapter 5.2 — [AI and Algorithmic Decision-Making in Government](locales/en-gb-oxendict/chapters/05-02-ai-and-algorithmic-decision-making-in-government/index.md)
-- Chapter 5.3 — [Public Sector Software Engineering and Platforms](locales/en-gb-oxendict/chapters/05-03-public-sector-software-engineering-and-platforms/index.md)
-- Chapter 5.4 — [Public Sector Data, Interoperability, and Open Data](locales/en-gb-oxendict/chapters/05-04-public-sector-data-interoperability-and-open-data/index.md)
-- Chapter 5.5 — [Cybersecurity and Public Sector Technology Risk](locales/en-gb-oxendict/chapters/05-05-cybersecurity-and-public-sector-technology-risk/index.md)
-- Chapter 5.6 — [Innovation and Public Entrepreneurship](locales/en-gb-oxendict/chapters/05-06-innovation-and-public-entrepreneurship/index.md)
+- Topic 5.1 — [Digital Government and Digital Transformation](locales/en-gb-oxendict/topics/05-01-digital-government-and-digital-transformation/index.md)
+- Topic 5.2 — [AI and Algorithmic Decision-Making in Government](locales/en-gb-oxendict/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md)
+- Topic 5.3 — [Public Sector Software Engineering and Platforms](locales/en-gb-oxendict/topics/05-03-public-sector-software-engineering-and-platforms/index.md)
+- Topic 5.4 — [Public Sector Data, Interoperability, and Open Data](locales/en-gb-oxendict/topics/05-04-public-sector-data-interoperability-and-open-data/index.md)
+- Topic 5.5 — [Cybersecurity and Public Sector Technology Risk](locales/en-gb-oxendict/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md)
+- Topic 5.6 — [Innovation and Public Entrepreneurship](locales/en-gb-oxendict/topics/05-06-innovation-and-public-entrepreneurship/index.md)
 
 **Reference**
 
 - [Glossary](GLOSSARY.md) — A–Z definitions of key terms
-- [Index](INDEX.md) — concepts and frameworks by chapter number
+- [Index](INDEX.md) — concepts and frameworks by topic number
 - [Style Guide](STYLE_GUIDE.md) — the prose and formatting contract
 
 ## Locales
@@ -74,8 +74,8 @@ The canonical text is authored in `en-gb-oxendict` (English, Great Britain, Oxfo
 
 Two [Claude Code](https://claude.com/claude-code) skills teach an AI assistant to work with this guide:
 
-- [`skills/public-value-guide-skill`](skills/public-value-guide-skill/SKILL.md) — for readers. Routes a question to the right chapter, answers grounded in the book's own text, runs team workshops from a chapter's discussion questions, and applies the maturity model and checklists to a reader's own organization.
-- [`skills/public-value-guide-maintainer-skill`](skills/public-value-guide-maintainer-skill/SKILL.md) — for maintainers. Encodes the authoring, review, and cross-file consistency rules from `AGENTS.md` and `spec/index.md` for anyone writing, reviewing, or reorganizing chapters.
+- [`skills/public-value-guide-skill`](skills/public-value-guide-skill/SKILL.md) — for readers. Routes a question to the right topic, answers grounded in the book's own text, runs team workshops from a topic's discussion questions, and applies the maturity model and checklists to a reader's own organization.
+- [`skills/public-value-guide-maintainer-skill`](skills/public-value-guide-maintainer-skill/SKILL.md) — for maintainers. Encodes the authoring, review, and cross-file consistency rules from `AGENTS.md` and `spec/index.md` for anyone writing, reviewing, or reorganizing topics.
 
 ## For contributors
 

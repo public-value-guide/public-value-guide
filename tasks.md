@@ -7,7 +7,7 @@ Live checklist. Update in the same change as the work it tracks.
 - [x] Repository layout, `spec/index.md`, `spec/maturity-model.md`, `spec/oxford-spelling.md`
 - [x] `AGENTS.md` and `AGENTS/` role cards
 - [x] `STYLE_GUIDE.md`
-- [x] Locale directories + `.locale-peer-id` for all 34 chapter units × 6 locales
+- [x] Locale directories + `.locale-peer-id` for all 34 topic units × 6 locales
 - [x] `bin/` tooling vendored from `sixarm/locale-help`
 - [x] `GLOSSARY.md` / `INDEX.md` skeletons
 - [x] `README.md`
@@ -15,7 +15,7 @@ Live checklist. Update in the same change as the work it tracks.
 - [x] `_sources/research-notes.md` skeleton
 - [x] `skills/` (reader-facing + maintainer-facing)
 
-## Phase 1 — Canonical chapters (`en-gb-oxendict`)
+## Phase 1 — Canonical topics (`en-gb-oxendict`)
 
 ### Front matter
 
@@ -71,24 +71,24 @@ Live checklist. Update in the same change as the work it tracks.
 
 ## Phase 2 — Reference matter
 
-- [x] `GLOSSARY.md` reconciled against all canonical chapters
-- [x] `INDEX.md` reconciled against all canonical chapters
+- [x] `GLOSSARY.md` reconciled against all canonical topics
+- [x] `INDEX.md` reconciled against all canonical topics
 
 ## Phase 3 — Quality gates (canonical locale)
 
-- [x] All 33 chapters pass the structural gate (verified by automated sweep: section names/order, six discussion questions, four sector lenses in order, 8-12 best practices, 6-12 checklist items, five-column maturity table, headings match manifest)
-- [x] All 33 chapters pass the link gate (each chapter-author fetched and verified every Wikipedia/institutional link live before inclusion; not independently re-audited by a separate reviewer pass)
-- [x] All 33 chapters pass the source gate (no invented citations per each author's self-report; not independently re-audited by a separate reviewer pass)
-- [ ] All 33 chapters + preface pass the consistency gate (cross-reference titles spot-checked during authoring; a full dedicated consistency pass has not been run)
+- [x] All 33 topics pass the structural gate (verified by automated sweep: section names/order, six discussion questions, four sector lenses in order, 8-12 best practices, 6-12 checklist items, five-column maturity table, headings match manifest)
+- [x] All 33 topics pass the link gate (each topic-author fetched and verified every Wikipedia/institutional link live before inclusion; not independently re-audited by a separate reviewer pass)
+- [x] All 33 topics pass the source gate (no invented citations per each author's self-report; not independently re-audited by a separate reviewer pass)
+- [ ] All 33 topics + preface pass the consistency gate (cross-reference titles spot-checked during authoring; a full dedicated consistency pass has not been run)
 
 ## Phase 4 — Localization
 
-- [x] `en-gb` — all chapters
-- [x] `en-us` — all chapters
-- [x] `en-001` — all chapters
-- [x] `cy-gb` — all chapters (flagged for professional review, spec §4a)
-- [x] `cy-001` — all chapters (flagged for professional review, spec §4a)
-- [x] `ar-001`, `de-de`, `es-001`, `fr-001`, `hi-in`, `ja-jp`, `ru-ru`, `zh-cn` — all chapters (34/34 files each; not yet independently reviewed)
+- [x] `en-gb` — all topics
+- [x] `en-us` — all topics
+- [x] `en-001` — all topics
+- [x] `cy-gb` — all topics (flagged for professional review, spec §4a)
+- [x] `cy-001` — all topics (flagged for professional review, spec §4a)
+- [x] `ar-001`, `de-de`, `es-001`, `fr-001`, `hi-in`, `ja-jp`, `ru-ru`, `zh-cn` — all topics (34/34 files each; not yet independently reviewed)
 
 ## Phase 5 — Release checks
 
