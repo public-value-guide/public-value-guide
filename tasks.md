@@ -96,7 +96,7 @@ Live checklist. Update in the same change as the work it tracks.
   - [x] Structural gate scripted across all 14 locales (headings, item counts, Wikipedia link counts): 0 failures
   - [x] Link gate: all 318 distinct Wikipedia slugs resolve (one non-existent slug removed from Topic 1.5)
   - [x] Cross-reference titles match target headings in every locale
-  - [ ] Bare topic numbers (mention without title) remain in the 10 translated locales (~26–30 each); fixed in the four English locales
+  - [x] Bare topic numbers fixed in all 14 locales (mentions already followed by a titled citation in the same sentence are left as is)
   - [ ] Welsh (`cy-gb`, `cy-001`) professional review, including *pwnc* agreement after the chapter→topic rewording
 - [x] `README.md`, `GLOSSARY.md`, `INDEX.md` agree with `spec/index.md` §4 (verified by script)
 - [ ] This file fully checked off
