@@ -121,7 +121,7 @@ Les organismes multilatéraux et internationaux commandent rarement une autorit�
 - [ ] Voie par laquelle les constats d'évaluation et le retour de mise en œuvre atteignent le prochain cycle de mise à l'agenda confirmée comme existante.
 - [ ] Fenêtre politique ou circonstancielle ayant permis une adoption récente documentée pendant qu'elle est encore claire.
 - [ ] Domaines d'ajustement incrémental de longue date réexaminés périodiquement pour savoir si une refonte exhaustive est maintenant justifiée.
-- [ ] Instruments comportementaux ou fondés sur l'information vérifiés par rapport au thème 4.1 pour les limites éthiques avant déploiement.
+- [ ] Instruments comportementaux ou fondés sur l'information vérifiés par rapport au thème 4.1 — Politique publique comportementale — pour les limites éthiques avant déploiement.
 - [ ] Ensemble d'instruments combinés présenté et évalué comme une politique coordonnée, non comme des initiatives sans lien.
 
 ## Sources principales

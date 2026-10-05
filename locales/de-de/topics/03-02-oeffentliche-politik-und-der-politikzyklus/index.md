@@ -121,7 +121,7 @@ Multilaterale und internationale Stellen verfügen selten über bindende innerst
 - [ ] Bestätigt, dass ein Weg existiert, auf dem Evaluationsbefunde und Umsetzungsfeedback die nächste Agenda-Setting-Runde erreichen.
 - [ ] Politisches oder umständebedingtes Fenster, das eine kürzliche Verabschiedung ermöglichte, dokumentiert, während es noch klar ist.
 - [ ] Bereiche langlaufender inkrementeller Anpassung periodisch darauf überprüft, ob eine umfassende Neugestaltung nun gerechtfertigt ist.
-- [ ] Verhaltensbasierte oder informationsbasierte Instrumente vor dem Einsatz gegen Thema 4.1 auf ethische Grenzen geprüft.
+- [ ] Verhaltensbasierte oder informationsbasierte Instrumente vor dem Einsatz gegen Thema 4.1 — Verhaltensbasierte öffentliche Politik — auf ethische Grenzen geprüft.
 - [ ] Kombiniertes Instrumentenpaket als eine koordinierte Politik präsentiert und evaluiert, nicht als unverbundene Initiativen.
 
 ## Hauptquellen

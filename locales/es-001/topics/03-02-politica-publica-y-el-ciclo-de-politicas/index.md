@@ -121,7 +121,7 @@ Los organismos multilaterales e internacionales rara vez ostentan autoridad dom�
 - [ ] Ruta mediante la cual los hallazgos de evaluación y la retroalimentación de implementación llegan a la próxima ronda de fijación de agenda confirmada que existe.
 - [ ] Ventana política o circunstancial que permitió una adopción reciente documentada mientras aún está clara.
 - [ ] Áreas de ajuste incremental de larga duración revisadas periódicamente para ver si ahora se justifica un rediseño integral.
-- [ ] Instrumentos conductuales o basados en información comprobados frente al Tema 4.1 en busca de límites éticos antes del despliegue.
+- [ ] Instrumentos conductuales o basados en información comprobados frente al Tema 4.1 — Política Pública Conductual — en busca de límites éticos antes del despliegue.
 - [ ] Paquete de instrumentos combinado presentado y evaluado como una política coordinada, no como iniciativas no relacionadas.
 
 ## Fuentes clave

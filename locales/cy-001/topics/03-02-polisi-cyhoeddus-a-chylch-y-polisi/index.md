@@ -121,7 +121,7 @@ Anaml y mae gan gyrff amlochrog a rhyngwladol awdurdod domestig rhwymol, trethia
 - [ ] Wedi'i gadarnhau bod llwybr yn bodoli y mae canfyddiadau gwerthuso ac adborth gweithredu'n cyrraedd y rownd gosod-agenda nesaf drwyddo.
 - [ ] Y ffenestr wleidyddol neu amgylchiadol a alluogodd fabwysiadu diweddar wedi'i dogfennu tra ei bod yn dal yn glir.
 - [ ] Meysydd addasiad cynyddol hirdymor wedi'u hadolygu'n gyfnodol am a yw ailddyluniad cynhwysfawr yn awr yn gyfiawnhaol.
-- [ ] Offerynnau ymddygiadol neu wybodaeth-seiliedig wedi'u gwirio yn erbyn Pwnc 4.1 am gyfyngiadau moesegol cyn eu defnyddio.
+- [ ] Offerynnau ymddygiadol neu wybodaeth-seiliedig wedi'u gwirio yn erbyn Pwnc 4.1 — Polisi Cyhoeddus Ymddygiadol — am gyfyngiadau moesegol cyn eu defnyddio.
 - [ ] Pecyn offeryn cyfun wedi'i gyflwyno a'i werthuso fel un polisi wedi'i gydgysylltu, nid fel mentrau heb gysylltiad.
 
 ## Ffynonellau allweddol
