@@ -16,7 +16,7 @@
 
 市民はこのマップの中で少なくとも三つの異なる役割を占めており、それらを混同することが繰り返し政策の失敗の原因となっている。**消費者**としての市民は、サービスを受け取り、民間セクターの取引を判断するのとほぼ同じように、利便性、応答性、品質でそれを判断する。**投票者**としての市民は、定期的かつ大きく集約された同意の行為を通じて、政策を定める制度と公職者に正当性を与える。**共同生産者**としての市民は、成果そのものへの直接的な入力となる努力、情報、遵守、あるいは行動変容を提供する――健康診断を受けること、資源ごみを分別すること、道路の陥没を通報すること、子どもの学業を見守ること、あるいは単に、それが正当であると理解しているがゆえに規則に従うことである。一人の市民は通常、同一の組織に対してこの三つの役割を同時に担っており、最初の二つだけを念頭に設計する公共マネージャーは、三つ目に依存する成果において期待を下回ることになる。
 
-本章の主題である**共同生産**とは、専門職によって完全に設計・提供されるサービスの受動的な受け手としてではなく、市民やサービス利用者が公共サービスの設計と提供に直接関与することを指す([共同生産(公共サービス)](https://en.wikipedia.org/wiki/Co-production_(public_services))を参照)。この用語は、アメリカの政治経済学者エリノア・オストロム([エリノア・オストロム](https://en.wikipedia.org/wiki/Elinor_Ostrom)を参照)の研究に由来する。彼女は1970年代に、シカゴの警察の実効性が、警察活動そのものと同じくらい、市民が犯罪を通報し捜査に協力することに依存していることを観察し、後にこの発見を一般化した。すなわち、多くの公共の成果は、「通常の生産者」(公共組織)と「消費者生産者」(市民または地域社会)によって共同で生み出されており、いずれか一方の貢献を設計から排除すれば成果は損なわれる。共有資源のガバナンスに関する著書(『[Governing the Commons](https://en.wikipedia.org/wiki/Governing_the_Commons)』を参照)で展開された、オストロムのより広い遺産は、この洞察をコモンズのガバナンスへと拡張した。灌漑システム、漁場、森林のような資源――誰かを排除するのに費用がかかるが消費において競合的であるために、経済学者が共有資源(コモンプール資源)に分類する財([共有資源](https://en.wikipedia.org/wiki/Common-pool_resource)を参照)――は、しばしば、国家統制や民営化によってではなく、利用者自身が、自らも策定に関与した規則のもとで組織化されることによって、最もよく維持される。コモンズのガバナンスから公共サービスの共同生産への道筋は直接的である。どちらも、ある資源やサービスを利用する人々は、それをうまく生み出すための資源でもあるという洞察に基づいている。
+本章の主題である**共同生産**とは、専門職によって完全に設計・提供されるサービスの受動的な受け手としてではなく、市民やサービス利用者が公共サービスの設計と提供に直接関与することを指す([共同生産(公共サービス)](https://en.wikipedia.org/wiki/Co-production_(public_services))を参照)。この用語は、アメリカの政治経済学者エリノア・オストロム([エリノア・オストロム](https://en.wikipedia.org/wiki/Elinor_Ostrom)を参照)の研究に由来する。彼女は1970年代に、シカゴの警察の実効性が、警察活動そのものと同じくらい、市民が犯罪を通報し捜査に協力することに依存していることを観察し、後にこの発見を一般化した。すなわち、多くの公共の成果は、「通常の生産者」(公共組織)と「消費者生産者」(市民または地域社会)によって共同で生み出されており、いずれか一方の貢献を設計から排除すれば成果は損なわれる。共有資源のガバナンスに関する著書(『*Governing the Commons*』を参照)で展開された、オストロムのより広い遺産は、この洞察をコモンズのガバナンスへと拡張した。灌漑システム、漁場、森林のような資源――誰かを排除するのに費用がかかるが消費において競合的であるために、経済学者が共有資源(コモンプール資源)に分類する財([共有資源](https://en.wikipedia.org/wiki/Common-pool_resource)を参照)――は、しばしば、国家統制や民営化によってではなく、利用者自身が、自らも策定に関与した規則のもとで組織化されることによって、最もよく維持される。コモンズのガバナンスから公共サービスの共同生産への道筋は直接的である。どちらも、ある資源やサービスを利用する人々は、それをうまく生み出すための資源でもあるという洞察に基づいている。
 
 共同生産は、誰が関与するかによって異なる形態をとる。**個人的共同生産**は、一人の市民が自分自身の成果に貢献することである(慢性疾患を管理すること、正確な納税申告を行うこと)。**集団的共同生産**は、一群の市民が、共有された地域の成果について組織と協働することである(自警団、PTA)。**総体的共同生産**は、これをサービス・システム全体を形づくるコミュニティ全体にまで拡張したものであり、通常は非公式な努力ではなく構造化された参加を通じて行われる。
 
@@ -128,16 +128,15 @@
 1. Stakeholder (corporate) — Wikipedia — https://en.wikipedia.org/wiki/Stakeholder_(corporate)
 2. Co-production (public services) — Wikipedia — https://en.wikipedia.org/wiki/Co-production_(public_services)
 3. Elinor Ostrom — Wikipedia — https://en.wikipedia.org/wiki/Elinor_Ostrom
-4. Governing the Commons — Wikipedia — https://en.wikipedia.org/wiki/Governing_the_Commons
-5. Common-pool resource — Wikipedia — https://en.wikipedia.org/wiki/Common-pool_resource
-6. Sherry Arnstein — Wikipedia — https://en.wikipedia.org/wiki/Sherry_Arnstein
-7. Deliberative democracy — Wikipedia — https://en.wikipedia.org/wiki/Deliberative_democracy
-8. Citizens' assembly — Wikipedia — https://en.wikipedia.org/wiki/Citizens%27_assembly
-9. Participatory budgeting — Wikipedia — https://en.wikipedia.org/wiki/Participatory_budgeting
-10. Participatory design — Wikipedia — https://en.wikipedia.org/wiki/Participatory_design
-11. Ostrom, E. (1996). 'Crossing the Great Divide: Coproduction, Synergy, and Development' — *World Development*, 24(6), 1073–1087 — https://www.sciencedirect.com/science/article/abs/pii/0305750X9600023X
-12. Bovaird, T. (2007). 'Beyond Engagement and Participation: User and Community Coproduction of Public Services' — *Public Administration Review*, 67(5), 846–860 — https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6210.2007.00773.x
-13. Innovative Citizen Participation and New Democratic Institutions: Catching the Deliberative Wave — OECD — https://www.oecd.org/en/publications/innovative-citizen-participation-and-new-democratic-institutions_339306da-en.html
-14. Participatory Budgeting (Public Sector Governance and Accountability Series), edited by Anwar Shah — World Bank — https://openknowledge.worldbank.org/handle/10986/6640
-15. Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions for Collective Action* — Cambridge University Press.
-16. Arnstein, S. R. (1969). 'A Ladder of Citizen Participation' — *Journal of the American Institute of Planners*, 35(4), 216–224.
+4. Common-pool resource — Wikipedia — https://en.wikipedia.org/wiki/Common-pool_resource
+5. Sherry Arnstein — Wikipedia — https://en.wikipedia.org/wiki/Sherry_Arnstein
+6. Deliberative democracy — Wikipedia — https://en.wikipedia.org/wiki/Deliberative_democracy
+7. Citizens' assembly — Wikipedia — https://en.wikipedia.org/wiki/Citizens%27_assembly
+8. Participatory budgeting — Wikipedia — https://en.wikipedia.org/wiki/Participatory_budgeting
+9. Participatory design — Wikipedia — https://en.wikipedia.org/wiki/Participatory_design
+10. Ostrom, E. (1996). 'Crossing the Great Divide: Coproduction, Synergy, and Development' — *World Development*, 24(6), 1073–1087 — https://www.sciencedirect.com/science/article/abs/pii/0305750X9600023X
+11. Bovaird, T. (2007). 'Beyond Engagement and Participation: User and Community Coproduction of Public Services' — *Public Administration Review*, 67(5), 846–860 — https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6210.2007.00773.x
+12. Innovative Citizen Participation and New Democratic Institutions: Catching the Deliberative Wave — OECD — https://www.oecd.org/en/publications/innovative-citizen-participation-and-new-democratic-institutions_339306da-en.html
+13. Participatory Budgeting (Public Sector Governance and Accountability Series), edited by Anwar Shah — World Bank — https://openknowledge.worldbank.org/handle/10986/6640
+14. Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions for Collective Action* — Cambridge University Press.
+15. Arnstein, S. R. (1969). 'A Ladder of Citizen Participation' — *Journal of the American Institute of Planners*, 35(4), 216–224.

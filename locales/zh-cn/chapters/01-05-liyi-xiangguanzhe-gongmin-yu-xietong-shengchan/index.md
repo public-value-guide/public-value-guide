@@ -16,7 +16,7 @@
 
 在这幅版图中,公民至少扮演着三种不同的角色,而混淆它们是政策失败反复出现的一个根源。作为**消费者**,公民接受一项服务,并像评判一次私营部门交易那样,以便利性、响应速度与质量来评判它。作为**选民**,公民以一种周期性、高度聚合的同意行为,把合法性赋予制定政策的机构与在任者。作为**协同生产者**,公民贡献努力、信息、遵从或行为改变,而这些本身就是成果的直接投入——接受一次健康检查、正确分类可回收物、报告一处坑洼,监督孩子的学业,或仅仅因为理解到一项法规是合法的而遵守它。同一位公民对同一个组织而言,通常同时扮演着这三种角色,而只为前两种角色进行设计的公共管理者,在依赖第三种角色的成果上会表现不佳。
 
-**协同生产**——本章正是它的归宿——指的是让公民与服务使用者直接参与公共服务的设计与交付,而不是让他们成为完全由专业人士设计与交付的服务的被动接受者(见[协同生产(公共服务)](https://en.wikipedia.org/wiki/Co-production_(public_services)))。这一术语源自美国政治经济学家埃莉诺·奥斯特罗姆(见[埃莉诺·奥斯特罗姆](https://en.wikipedia.org/wiki/Elinor_Ostrom))的研究,她在1970年代观察到,芝加哥警务的有效性,在同等程度上既依赖于公民报案与配合调查,也依赖于警务活动本身,并在此后将这一发现加以推广:许多公共成果是由一个"常规生产者"(公共组织)和一个"消费者生产者"(公民或社群)共同生产的,而一旦设计时抹去了任何一方的贡献,成果便会受损。奥斯特罗姆更广泛的遗产,发展于她关于共享资源治理的著作之中(见[《治理公地》](https://en.wikipedia.org/wiki/Governing_the_Commons)),把这一洞见延伸到了公地治理:诸如灌溉系统、渔场与森林这样的资源——经济学家将其归类为公共池塘资源,因为将人们排除在外的成本高昂,但在消费上却是竞用的(见[公共池塘资源](https://en.wikipedia.org/wiki/Common-pool_resource))——往往不是靠国家控制或私有化,而是靠用户自身在他们参与制定的规则下加以组织,才能得到最好的维系。从公地治理到公共服务协同生产的这条线索是直接的:两者都建立在这样一个洞见之上——使用一种资源或一项服务的人,同时也是把它生产好的一种资源。
+**协同生产**——本章正是它的归宿——指的是让公民与服务使用者直接参与公共服务的设计与交付,而不是让他们成为完全由专业人士设计与交付的服务的被动接受者(见[协同生产(公共服务)](https://en.wikipedia.org/wiki/Co-production_(public_services)))。这一术语源自美国政治经济学家埃莉诺·奥斯特罗姆(见[埃莉诺·奥斯特罗姆](https://en.wikipedia.org/wiki/Elinor_Ostrom))的研究,她在1970年代观察到,芝加哥警务的有效性,在同等程度上既依赖于公民报案与配合调查,也依赖于警务活动本身,并在此后将这一发现加以推广:许多公共成果是由一个"常规生产者"(公共组织)和一个"消费者生产者"(公民或社群)共同生产的,而一旦设计时抹去了任何一方的贡献,成果便会受损。奥斯特罗姆更广泛的遗产,发展于她关于共享资源治理的著作之中(见*《治理公地》*),把这一洞见延伸到了公地治理:诸如灌溉系统、渔场与森林这样的资源——经济学家将其归类为公共池塘资源,因为将人们排除在外的成本高昂,但在消费上却是竞用的(见[公共池塘资源](https://en.wikipedia.org/wiki/Common-pool_resource))——往往不是靠国家控制或私有化,而是靠用户自身在他们参与制定的规则下加以组织,才能得到最好的维系。从公地治理到公共服务协同生产的这条线索是直接的:两者都建立在这样一个洞见之上——使用一种资源或一项服务的人,同时也是把它生产好的一种资源。
 
 协同生产会随参与者不同而呈现不同形式。**个体协同生产**是一位公民为自己的成果作出贡献(管理一种慢性病、准确填报纳税申报表)。**群体协同生产**是一组公民与一个组织就一项共享的地方成果展开合作(邻里守望、家长教师协会)。**集体协同生产**将这一点提升到整个社群共同塑造一套服务体系的规模,通常是通过结构化的参与、而非非正式的努力来实现。
 
@@ -132,16 +132,15 @@
 1. Stakeholder (corporate) — Wikipedia — https://en.wikipedia.org/wiki/Stakeholder_(corporate)
 2. Co-production (public services) — Wikipedia — https://en.wikipedia.org/wiki/Co-production_(public_services)
 3. Elinor Ostrom — Wikipedia — https://en.wikipedia.org/wiki/Elinor_Ostrom
-4. Governing the Commons — Wikipedia — https://en.wikipedia.org/wiki/Governing_the_Commons
-5. Common-pool resource — Wikipedia — https://en.wikipedia.org/wiki/Common-pool_resource
-6. Sherry Arnstein — Wikipedia — https://en.wikipedia.org/wiki/Sherry_Arnstein
-7. Deliberative democracy — Wikipedia — https://en.wikipedia.org/wiki/Deliberative_democracy
-8. Citizens' assembly — Wikipedia — https://en.wikipedia.org/wiki/Citizens%27_assembly
-9. Participatory budgeting — Wikipedia — https://en.wikipedia.org/wiki/Participatory_budgeting
-10. Participatory design — Wikipedia — https://en.wikipedia.org/wiki/Participatory_design
-11. Ostrom, E. (1996). 'Crossing the Great Divide: Coproduction, Synergy, and Development' — *World Development*, 24(6), 1073–1087 — https://www.sciencedirect.com/science/article/abs/pii/0305750X9600023X
-12. Bovaird, T. (2007). 'Beyond Engagement and Participation: User and Community Coproduction of Public Services' — *Public Administration Review*, 67(5), 846–860 — https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6210.2007.00773.x
-13. Innovative Citizen Participation and New Democratic Institutions: Catching the Deliberative Wave — OECD — https://www.oecd.org/en/publications/innovative-citizen-participation-and-new-democratic-institutions_339306da-en.html
-14. Participatory Budgeting (Public Sector Governance and Accountability Series), edited by Anwar Shah — World Bank — https://openknowledge.worldbank.org/handle/10986/6640
-15. Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions for Collective Action* — Cambridge University Press.
-16. Arnstein, S. R. (1969). 'A Ladder of Citizen Participation' — *Journal of the American Institute of Planners*, 35(4), 216–224.
+4. Common-pool resource — Wikipedia — https://en.wikipedia.org/wiki/Common-pool_resource
+5. Sherry Arnstein — Wikipedia — https://en.wikipedia.org/wiki/Sherry_Arnstein
+6. Deliberative democracy — Wikipedia — https://en.wikipedia.org/wiki/Deliberative_democracy
+7. Citizens' assembly — Wikipedia — https://en.wikipedia.org/wiki/Citizens%27_assembly
+8. Participatory budgeting — Wikipedia — https://en.wikipedia.org/wiki/Participatory_budgeting
+9. Participatory design — Wikipedia — https://en.wikipedia.org/wiki/Participatory_design
+10. Ostrom, E. (1996). 'Crossing the Great Divide: Coproduction, Synergy, and Development' — *World Development*, 24(6), 1073–1087 — https://www.sciencedirect.com/science/article/abs/pii/0305750X9600023X
+11. Bovaird, T. (2007). 'Beyond Engagement and Participation: User and Community Coproduction of Public Services' — *Public Administration Review*, 67(5), 846–860 — https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6210.2007.00773.x
+12. Innovative Citizen Participation and New Democratic Institutions: Catching the Deliberative Wave — OECD — https://www.oecd.org/en/publications/innovative-citizen-participation-and-new-democratic-institutions_339306da-en.html
+13. Participatory Budgeting (Public Sector Governance and Accountability Series), edited by Anwar Shah — World Bank — https://openknowledge.worldbank.org/handle/10986/6640
+14. Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions for Collective Action* — Cambridge University Press.
+15. Arnstein, S. R. (1969). 'A Ladder of Citizen Participation' — *Journal of the American Institute of Planners*, 35(4), 216–224.
