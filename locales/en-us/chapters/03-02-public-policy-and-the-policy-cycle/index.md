@@ -121,7 +121,7 @@ Multilateral and international bodies rarely command binding domestic authority,
 - [ ] Route by which evaluation findings and implementation feedback reach the next agenda-setting round confirmed to exist.
 - [ ] Political or circumstantial window that enabled a recent adoption documented while it is still clear.
 - [ ] Areas of long-running incremental adjustment reviewed periodically for whether a comprehensive redesign is now justified.
-- [ ] Behavioral or information-based instruments checked against Chapter 4.1 for ethical limits before deployment.
+- [ ] Behavioral or information-based instruments checked against Chapter 4.1 — Behavioral Public Policy — for ethical limits before deployment.
 - [ ] Combined instrument package presented and evaluated as one coordinated policy, not as unrelated initiatives.
 
 ## Key sources
