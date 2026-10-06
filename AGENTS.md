@@ -62,6 +62,7 @@ An orchestrating agent assigns roles; a single agent may wear several hats for a
 
 ## Cautions
 
+- Before committing any topic or locale change, run `bin/check` (completeness, structure, peer ids, cross-reference titles; `bin/check --links` adds the Wikipedia link gate). CI runs it on every push.
 - After any topic, title, or locale change, run `bin/build-llms` and commit the regenerated `llms.txt` / `llms.json`.
 - Work serially; do not use subagents or fan-outs here.
 - This repository **is** git-tracked from the start — commit your work; do not treat it as unprotected.

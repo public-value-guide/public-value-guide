@@ -1,0 +1,35 @@
+# Quality gates (spec §10). The offline gates run on every push and pull request;
+# the link gate hits Wikipedia, so it runs weekly and on demand.
+
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Offline gates (completeness, structure, peer ids, cross-reference titles)
+        run: bin/check
+      - name: llms.txt and llms.json are current
+        run: |
+          bin/build-llms
+          git diff --exit-code llms.txt llms.json
+
+  links:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Wikipedia link gate
+        run: bin/check --links

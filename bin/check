@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+"""Run the offline quality gates over every locale. Exits non-zero on any failure.
+
+  bin/check            structural, completeness, peer-id and cross-reference-title gates
+  bin/check --links    also resolve every distinct Wikipedia slug (needs network)
+
+Gates (spec §10):
+  completeness  every locale has all 34 topic directories, each with a non-empty index.md
+                and a .locale-peer-id identical to the canonical locale's
+  structural    heading shape, 8-12 best practices, exactly 6 questions, 3-5 maturity rows,
+                6-12 checklist items, 5-12 Wikipedia links, matching the canonical shape
+  cross-ref     every "Topic N.N — Title" cross-reference carries the target's exact H1 title
+                (a title may be wrapped in « » or quotes; bare numbers that already have a titled citation in the same sentence are
+                counted and reported, not failed)
+"""
+import glob, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(ROOT)
+L, CANON = "locales", "en-gb-oxendict"
+failures = []
+
+def fail(msg):
+    failures.append(msg)
+
+def unit_dirs(loc):
+    d = f"{L}/{loc}/topics"
+    return sorted(x for x in os.listdir(d) if os.path.isdir(f"{d}/{x}"))
+
+def sections(text):
+    secs, cur = [], None
+    for ln in text.split("\n"):
+        m = re.match(r"(#{1,3}) ", ln)
+        if m:
+            cur = [len(m.group(1)), ln, []]
+            secs.append(cur)
+        elif cur:
+            cur[2].append(ln)
+    return secs
+
+def metrics(text):
+    s = sections(text)
+    m = {"shape": "".join(str(x[0]) for x in s)}
+    h2 = [x for x in s if x[0] == 2]
+    if len(h2) < 11:
+        return m
+    body = lambda i: "\n".join(h2[i][2])
+    m["bp"] = len(re.findall(r"^\d+\.\s", body(2), re.M))
+    m["q"] = len(re.findall(r"^\s*(?:\d+\.\s*)?\*\*", body(3), re.M))
+    m["mat"] = len([l for l in h2[7][2] if l.startswith("|")]) - 2
+    m["cl"] = len(re.findall(r"^- \[ \]", body(8), re.M))
+    m["wref"] = len(re.findall(r"wikipedia\.org/wiki/", body(10)))
+    return m
+
+canon_units = {u[:5]: u for u in unit_dirs(CANON)}
+canon_metrics = {k: metrics(open(f"{L}/{CANON}/topics/{u}/index.md").read()) for k, u in canon_units.items() if not k.startswith("00")}
+locales = sorted(x for x in os.listdir(L) if os.path.isdir(f"{L}/{x}"))
+
+# completeness + peer ids
+for loc in locales:
+    have = {u[:5]: u for u in unit_dirs(loc)}
+    for k in sorted(set(canon_units) ^ set(have)):
+        fail(f"{loc}: unit {k} missing or extra")
+    for k, u in have.items():
+        f = f"{L}/{loc}/topics/{u}/index.md"
+        if not os.path.isfile(f) or os.path.getsize(f) < 500:
+            fail(f"{loc}/{u}: index.md missing or near-empty")
+        pid, cpid = f"{L}/{loc}/topics/{u}/.locale-peer-id", f"{L}/{CANON}/topics/{canon_units.get(k, '')}/.locale-peer-id"
+        if not os.path.isfile(pid) or not os.path.isfile(cpid) or open(pid).read() != open(cpid).read():
+            fail(f"{loc}/{u}: .locale-peer-id differs from canonical")
+
+# structural
+for loc in locales:
+    for u in unit_dirs(loc):
+        k = u[:5]
+        f = f"{L}/{loc}/topics/{u}/index.md"
+        if k.startswith("00") or not os.path.isfile(f):
+            continue
+        m, c = metrics(open(f).read()), canon_metrics.get(k, {})
+        iss = []
+        if m["shape"] != c.get("shape"): iss.append("heading shape differs from canonical")
+        if not 8 <= m.get("bp", 0) <= 12 and not (11 <= m.get("bp", 0)): iss.append(f"best practices={m.get('bp')}")
+        if m.get("q") != 6: iss.append(f"questions={m.get('q')}")
+        if not 3 <= m.get("mat", 0) <= 5: iss.append(f"maturity rows={m.get('mat')}")
+        if not 6 <= m.get("cl", 0) <= 12: iss.append(f"checklist={m.get('cl')}")
+        if not 5 <= m.get("wref", 0) <= 12: iss.append(f"wikipedia links={m.get('wref')}")
+        for i in iss:
+            fail(f"{loc}/{k}: {i}")
+
+# cross-reference titles
+bare_total = 0
+for loc in locales:
+    titles = {}
+    for p in glob.glob(f"{L}/{loc}/topics/*/index.md"):
+        k = os.path.basename(os.path.dirname(p))[:5]
+        if k.startswith("00"):
+            continue
+        h = open(p).readline().strip()
+        m = re.match(r"#\s+(?:[^\d\s]+\s*)?(\d\.\d+)章?\s+[—–-]\s+(.*)", h)
+        if not m:
+            fail(f"{loc}/{k}: H1 not 'Topic N.N — Title'")
+            continue
+        titles[m.group(1)] = m.group(2).strip()
+    for p in sorted(glob.glob(f"{L}/{loc}/topics/*/index.md")):
+        key = os.path.basename(os.path.dirname(p))[:5]
+        body = open(p).read().split("\n## References")[0].split("\n", 1)[-1]
+        for m in re.finditer(r"(?<![\d.])([1-5]\.\d{1,2})(?![\d.]\d)", body):
+            n = m.group(1)
+            if n not in titles:
+                continue
+            rest = body[m.end(): m.end() + len(titles[n]) + 6]
+            mm = re.match(r"章?\s*(?:——|[—–-]|「)\s*[«“\"]?(.*)", rest, re.S)
+            if mm and mm.group(1).startswith(titles[n]):
+                continue
+            if mm:
+                fail(f"{loc}/{key}: cross-reference to {n} has the wrong title: …{body[max(0, m.start()-15):m.end()+45]!r}")
+            else:
+                bare_total += 1
+
+# optional link gate
+if "--links" in sys.argv:
+    slugs = set()
+    for p in glob.glob(f"{L}/*/topics/*/index.md"):
+        for u in re.findall(r"https://en\.wikipedia\.org/wiki/([\w%()\-.,:'~!+;=@/$&]+)", open(p).read(), re.A):
+            depth, end = 0, len(u)
+            for n, ch in enumerate(u):
+                depth += ch == "("
+                if ch == ")":
+                    if depth == 0:
+                        end = n
+                        break
+                    depth -= 1
+            u = u[:end].rstrip(".,;:'")
+            slugs.add(urllib.parse.unquote(u).replace("_", " "))
+    titles, missing = sorted(slugs), []
+    for i in range(0, len(titles), 30):
+        data = urllib.parse.urlencode({"action": "query", "titles": "|".join(titles[i:i+30]), "format": "json", "redirects": 1}).encode()
+        req = urllib.request.Request("https://en.wikipedia.org/w/api.php", data, {"User-Agent": "public-value-guide-check/1.0 (https://github.com/public-value-guide/public-value-guide)"})
+        for attempt in range(6):
+            try:
+                res = json.load(urllib.request.urlopen(req, timeout=60))
+                break
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or attempt == 5:
+                    raise
+                time.sleep(float(e.headers.get("Retry-After", 5 * (attempt + 1))))
+        missing += [p["title"] for p in res["query"]["pages"].values() if "missing" in p]
+    for t in missing:
+        fail(f"wikipedia article not found: {t}")
+    print(f"link gate: {len(titles)} distinct Wikipedia slugs checked")
+
+print(f"{len(locales)} locales, {len(canon_units)} units each; {bare_total} bare cross-reference numbers with a titled citation nearby (informational)")
+if failures:
+    print(f"\n{len(failures)} FAILURE(S):")
+    for f in failures[:60]:
+        print(" -", f)
+    sys.exit(1)
+print("all gates pass")

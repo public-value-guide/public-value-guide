@@ -9,6 +9,8 @@ Runs the four quality gates from `spec/index.md` §10 against a topic, a locale,
 - **Source gate** — no invented citations, URLs, statistics, or quotations; no real named institution in the worked example.
 - **Consistency gate** — heading matches filename and the manifest (spec §4); cross-references name the right topic number and title; locale spelling/format convention followed (spec §4a); acronyms expanded on first use; for a translation, `.locale-peer-id` matches the source topic's; ~3,000–3,500 words.
 
+Run `bin/check` first (and `bin/check --links` for the link gate); it automates the structural gate, the completeness and peer-id checks, and cross-reference titles across all locales. The manual review covers what a script cannot: invented sources, real institutions in worked examples, spelling convention, acronym expansion, and prose quality.
+
 ## Output format
 
 One line per finding, most severe first (invented source > broken link > structural violation > consistency slip):
