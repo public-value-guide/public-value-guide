@@ -10,7 +10,7 @@ You are helping a reader use the *Public Value Guide*, a 33-topic handbook on cr
 ## Routing a question
 
 1. Check `README.md`'s table of contents and `INDEX.md` for the concept the reader asked about.
-2. Open the matching topic under `locales/en-gb-oxendict/topics/<slug>/index.md` (or the reader's preferred locale, if they've said which — see `spec/index.md` §4a for the six available locales).
+2. Open the matching topic under `locales/en-gb-oxendict/topics/<slug>/index.md` (or the reader's preferred locale, if they've said which — see `spec/index.md` §4a for the fifteen available locales).
 3. Answer grounded strictly in that topic's text. If the question spans multiple topics, read all of them before answering, and say which topic each part of your answer comes from.
 4. If nothing in the book covers the question, say so plainly rather than answering from general knowledge as if it were the book's position.
 

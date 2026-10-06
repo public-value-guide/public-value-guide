@@ -2,7 +2,7 @@
 
 ## What we are building
 
-The *Public Value Guide*: 5 parts, 33 topics, plus a preface, authored once in the canonical locale (`en-gb-oxendict`) and localized into five further locales (`en-gb`, `en-us`, `en-001`, `cy-gb`, `cy-001`). Governed by `spec/index.md`.
+The *Public Value Guide*: 5 parts, 33 topics, plus a preface, authored once in the canonical locale (`en-gb-oxendict`) and localized into fourteen further locales (`en-gb`, `en-us`, `en-001`, `cy-gb`, `cy-001`, `es-001`, `zh-cn`, `ar-001`, `hi-in`, `fr-001`, `de-de`, `ja-jp`, `ru-ru`, `ko-kr`). Governed by `spec/index.md`.
 
 ## Grounding sources
 
@@ -10,7 +10,7 @@ Public value theory itself (Mark Moore's *Creating Public Value* and *Recognizin
 
 ## Phases
 
-**Phase 0 — Scaffolding** — repository layout, `spec/`, `AGENTS.md` and role cards, `STYLE_GUIDE.md`, locale directories with `.locale-peer-id` files for all 34 topic units across all 6 locales, `bin/` tooling vendored, `GLOSSARY.md`/`INDEX.md` skeletons, `README.md`, `CITATION.cff`. *(Done first, before any topic prose.)*
+**Phase 0 — Scaffolding** — repository layout, `spec/`, `AGENTS.md` and role cards, `STYLE_GUIDE.md`, locale directories with `.locale-peer-id` files for all 34 topic units across the original 6 locales (9 more added in Phase 4), `bin/` tooling vendored, `GLOSSARY.md`/`INDEX.md` skeletons, `README.md`, `CITATION.cff`. *(Done first, before any topic prose.)*
 
 **Phase 1 — Canonical topics, part by part** — write all 33 topics plus the preface in `en-gb-oxendict`, one topic-author per topic, fanned out across distinct files, part by part (Part 1 before Part 2, etc., since later parts' scope notes assume earlier concepts like the strategic triangle and the public value scorecard).
 
@@ -18,7 +18,7 @@ Public value theory itself (Mark Moore's *Creating Public Value* and *Recognizin
 
 **Phase 3 — Quality gates on the canonical locale** — a reviewer runs the four gates (spec §10) against every canonical topic before localization begins on it.
 
-**Phase 4 — Localization** — `en-gb`, `en-us`, `en-001` (adaptation: spelling, date/currency format, jurisdiction-neutral phrasing checks) then `cy-gb`, `cy-001` (full translation, flagged for professional Welsh-language review per spec §4a).
+**Phase 4 — Localization** — `en-gb`, `en-us`, `en-001` (adaptation: spelling, date/currency format, jurisdiction-neutral phrasing checks) then `cy-gb`, `cy-001`, `es-001`, `zh-cn`, `ar-001`, `hi-in`, `fr-001`, `de-de`, `ja-jp`, `ru-ru`, `ko-kr` (full translation, flagged for professional review per spec §4a).
 
 **Phase 5 — Release checks** — every locale passes all four gates; `README.md`, `GLOSSARY.md`, `INDEX.md` agree with `spec/index.md` §4; `tasks.md` fully checked off.
 

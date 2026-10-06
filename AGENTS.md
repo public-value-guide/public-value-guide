@@ -1,6 +1,6 @@
 # AGENTS.md — Operating instructions for AI agents
 
-This repository is a book: the *Public Value Guide*, 33 Markdown topics in 5 parts plus a preface, published in 6 locales. Agents do most of the authoring and checking. This file tells any agent how to work here safely.
+This repository is a book: the *Public Value Guide*, 33 Markdown topics in 5 parts plus a preface, published in 15 locales (one canonical, 14 localized). Agents do most of the authoring and checking. This file tells any agent how to work here safely.
 
 ## The one rule that governs everything
 
@@ -51,7 +51,7 @@ An orchestrating agent assigns roles; a single agent may wear several hats for a
 3. Draft to the template in the canonical locale, `en-gb-oxendict`. Self-check against the definition of done (spec §8).
 4. Register new terms in `GLOSSARY.md` and `INDEX.md`; tick your item in `tasks.md`.
 5. Hand off to a reviewer running the spec §10 gates.
-6. Only after the canonical topic passes review, localize into the other five locales — the directory and `.locale-peer-id` already exist; write `index.md` in each.
+6. Only after the canonical topic passes review, localize into the other fourteen locales (list in `spec/index.md` §4a) — the directory and `.locale-peer-id` already exist; write `index.md` in each.
 
 ## Workflow for localizing a topic
 
@@ -62,6 +62,8 @@ An orchestrating agent assigns roles; a single agent may wear several hats for a
 
 ## Cautions
 
+- After any topic, title, or locale change, run `bin/build-llms` and commit the regenerated `llms.txt` / `llms.json`.
+- Work serially; do not use subagents or fan-outs here.
 - This repository **is** git-tracked from the start — commit your work; do not treat it as unprotected.
 - Renumbering topics is the highest-risk operation in the repo. Follow spec §11 to the letter, and finish any renumber before writing new prose.
 - After parallel fan-outs, verify what actually reached disk before re-running; re-run only what is genuinely missing.

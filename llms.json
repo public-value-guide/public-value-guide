@@ -1,0 +1,807 @@
+{
+  "name": "Public Value Guide",
+  "description": "A practical handbook of best practices for creating public value in government and the social sector, grounded in Mark Moore's public value framework.",
+  "canonical_locale": "en-gb-oxendict",
+  "locales": [
+    "ar-001",
+    "cy-001",
+    "cy-gb",
+    "de-de",
+    "en-001",
+    "en-gb",
+    "en-gb-oxendict",
+    "en-us",
+    "es-001",
+    "fr-001",
+    "hi-in",
+    "ja-jp",
+    "ko-kr",
+    "ru-ru",
+    "zh-cn"
+  ],
+  "site": "https://public-value-guide.github.io",
+  "raw_base": "https://raw.githubusercontent.com/public-value-guide/public-value-guide/main/",
+  "preface": {
+    "path": "locales/en-gb-oxendict/topics/00-01-preface/index.md"
+  },
+  "parts": [
+    {
+      "part": "Part 1 — Foundations",
+      "summary": "why public value is different from market value or democratic mandate alone, and the models that explain it",
+      "topics": [
+        {
+          "number": "1.1",
+          "title": "Introduction to Public Value",
+          "path": "locales/en-gb-oxendict/topics/01-01-introduction-to-public-value/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/01-01-muqaddima-fi-al-qima-al-amma/index.md",
+            "cy-001": "locales/cy-001/topics/01-01-cyflwyniad-i-werth-cyhoeddus/index.md",
+            "cy-gb": "locales/cy-gb/topics/01-01-cyflwyniad-i-werth-cyhoeddus/index.md",
+            "de-de": "locales/de-de/topics/01-01-einfuehrung-in-den-oeffentlichen-wert/index.md",
+            "en-001": "locales/en-001/topics/01-01-introduction-to-public-value/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-01-introduction-to-public-value/index.md",
+            "en-gb": "locales/en-gb/topics/01-01-introduction-to-public-value/index.md",
+            "en-us": "locales/en-us/topics/01-01-introduction-to-public-value/index.md",
+            "es-001": "locales/es-001/topics/01-01-introduccion-al-valor-publico/index.md",
+            "fr-001": "locales/fr-001/topics/01-01-introduction-a-la-valeur-publique/index.md",
+            "hi-in": "locales/hi-in/topics/01-01-lok-mulya-ka-parichay/index.md",
+            "ja-jp": "locales/ja-jp/topics/01-01-kokyo-kachi-nyumon/index.md",
+            "ko-kr": "locales/ko-kr/topics/01-01-gonggong-gachi-ipmun/index.md",
+            "ru-ru": "locales/ru-ru/topics/01-01-vvedenie-v-obshchestvennuyu-tsennost/index.md",
+            "zh-cn": "locales/zh-cn/topics/01-01-gonggong-jiazhi-daolun/index.md"
+          }
+        },
+        {
+          "number": "1.2",
+          "title": "The Strategic Triangle: Legitimacy, Value, and Capacity",
+          "path": "locales/en-gb-oxendict/topics/01-02-the-strategic-triangle/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/01-02-al-muthallath-al-istratiji/index.md",
+            "cy-001": "locales/cy-001/topics/01-02-y-triongl-strategol/index.md",
+            "cy-gb": "locales/cy-gb/topics/01-02-y-triongl-strategol/index.md",
+            "de-de": "locales/de-de/topics/01-02-das-strategische-dreieck/index.md",
+            "en-001": "locales/en-001/topics/01-02-the-strategic-triangle/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-02-the-strategic-triangle/index.md",
+            "en-gb": "locales/en-gb/topics/01-02-the-strategic-triangle/index.md",
+            "en-us": "locales/en-us/topics/01-02-the-strategic-triangle/index.md",
+            "es-001": "locales/es-001/topics/01-02-el-triangulo-estrategico/index.md",
+            "fr-001": "locales/fr-001/topics/01-02-le-triangle-strategique-legitimite-valeur-et-capacite/index.md",
+            "hi-in": "locales/hi-in/topics/01-02-rananitik-tribhuj/index.md",
+            "ja-jp": "locales/ja-jp/topics/01-02-senryakuteki-sankakkei/index.md",
+            "ko-kr": "locales/ko-kr/topics/01-02-jeollyakjeok-samgakhyeong-jeongdangseong-gachi-yeongnyang/index.md",
+            "ru-ru": "locales/ru-ru/topics/01-02-strategicheskiy-treugolnik-legitimnost-tsennost-i-potentsial/index.md",
+            "zh-cn": "locales/zh-cn/topics/01-02-zhanlue-sanjiao/index.md"
+          }
+        },
+        {
+          "number": "1.3",
+          "title": "Market Failure and Government Failure",
+          "path": "locales/en-gb-oxendict/topics/01-03-market-failure-and-government-failure/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/01-03-fashal-al-suq-wa-fashal-al-hukuma/index.md",
+            "cy-001": "locales/cy-001/topics/01-03-methiant-y-farchnad-a-methiant-y-llywodraeth/index.md",
+            "cy-gb": "locales/cy-gb/topics/01-03-methiant-y-farchnad-a-methiant-y-llywodraeth/index.md",
+            "de-de": "locales/de-de/topics/01-03-marktversagen-und-staatsversagen/index.md",
+            "en-001": "locales/en-001/topics/01-03-market-failure-and-government-failure/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-03-market-failure-and-government-failure/index.md",
+            "en-gb": "locales/en-gb/topics/01-03-market-failure-and-government-failure/index.md",
+            "en-us": "locales/en-us/topics/01-03-market-failure-and-government-failure/index.md",
+            "es-001": "locales/es-001/topics/01-03-fallo-del-mercado-y-fallo-del-gobierno/index.md",
+            "fr-001": "locales/fr-001/topics/01-03-defaillance-du-marche-et-defaillance-de-letat/index.md",
+            "hi-in": "locales/hi-in/topics/01-03-bazar-viphalta-aur-sarkari-viphalta/index.md",
+            "ja-jp": "locales/ja-jp/topics/01-03-shijo-no-shippai-to-seifu-no-shippai/index.md",
+            "ko-kr": "locales/ko-kr/topics/01-03-sijang-silpae-wa-jeongbu-silpae/index.md",
+            "ru-ru": "locales/ru-ru/topics/01-03-provaly-rynka-i-provaly-gosudarstva/index.md",
+            "zh-cn": "locales/zh-cn/topics/01-03-shichang-shiling-yu-zhengfu-shiling/index.md"
+          }
+        },
+        {
+          "number": "1.4",
+          "title": "Public Goods, Merit Goods, and Value Pluralism",
+          "path": "locales/en-gb-oxendict/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/01-04-al-sila-al-amma-wa-sila-al-jadara-wa-taaddudiyyat-al-qima/index.md",
+            "cy-001": "locales/cy-001/topics/01-04-nwyddau-cyhoeddus-nwyddau-teilyngdod-a-lluosogaeth-gwerth/index.md",
+            "cy-gb": "locales/cy-gb/topics/01-04-nwyddau-cyhoeddus-nwyddau-teilyngdod-a-lluosogaeth-gwerth/index.md",
+            "de-de": "locales/de-de/topics/01-04-oeffentliche-gueter-meritorische-gueter-und-wertepluralismus/index.md",
+            "en-001": "locales/en-001/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md",
+            "en-gb": "locales/en-gb/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md",
+            "en-us": "locales/en-us/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md",
+            "es-001": "locales/es-001/topics/01-04-bienes-publicos-bienes-preferentes-y-pluralismo-de-valor/index.md",
+            "fr-001": "locales/fr-001/topics/01-04-biens-publics-biens-de-merite-et-pluralisme-des-valeurs/index.md",
+            "hi-in": "locales/hi-in/topics/01-04-sarvajanik-vastuen-gunakari-vastuen-aur-mulya-bahulvad/index.md",
+            "ja-jp": "locales/ja-jp/topics/01-04-kokyozai-meritto-zai-kachi-tagenshugi/index.md",
+            "ko-kr": "locales/ko-kr/topics/01-04-gonggongjae-gachijae-gachi-daweonjuui/index.md",
+            "ru-ru": "locales/ru-ru/topics/01-04-obshchestvennye-blaga-meritarnye-blaga-i-plyuralizm-tsennostey/index.md",
+            "zh-cn": "locales/zh-cn/topics/01-04-gonggong-wupin-youzhipin-yu-jiazhi-duoyuanlun/index.md"
+          }
+        },
+        {
+          "number": "1.5",
+          "title": "Stakeholders, Citizens, and Co-Production",
+          "path": "locales/en-gb-oxendict/topics/01-05-stakeholders-citizens-and-co-production/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/01-05-ashab-al-maslaha-wa-al-muwatinun-wa-al-intaj-al-mushtarak/index.md",
+            "cy-001": "locales/cy-001/topics/01-05-rhanddeiliaid-dinasyddion-a-chyd-gynhyrchu/index.md",
+            "cy-gb": "locales/cy-gb/topics/01-05-rhanddeiliaid-dinasyddion-a-chyd-gynhyrchu/index.md",
+            "de-de": "locales/de-de/topics/01-05-interessengruppen-buergerinnen-und-buerger-und-koproduktion/index.md",
+            "en-001": "locales/en-001/topics/01-05-stakeholders-citizens-and-co-production/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-05-stakeholders-citizens-and-co-production/index.md",
+            "en-gb": "locales/en-gb/topics/01-05-stakeholders-citizens-and-co-production/index.md",
+            "en-us": "locales/en-us/topics/01-05-stakeholders-citizens-and-co-production/index.md",
+            "es-001": "locales/es-001/topics/01-05-partes-interesadas-ciudadanos-y-coproduccion/index.md",
+            "fr-001": "locales/fr-001/topics/01-05-parties-prenantes-citoyens-et-coproduction/index.md",
+            "hi-in": "locales/hi-in/topics/01-05-hitdharak-nagarik-aur-sah-utpadan/index.md",
+            "ja-jp": "locales/ja-jp/topics/01-05-suteikuhoruda-shimin-kyodo-seisan/index.md",
+            "ko-kr": "locales/ko-kr/topics/01-05-ihaegwangyeja-simin-gongdongsaengsan/index.md",
+            "ru-ru": "locales/ru-ru/topics/01-05-zainteresovannye-storony-grazhdane-i-soproizvodstvo/index.md",
+            "zh-cn": "locales/zh-cn/topics/01-05-liyi-xiangguanzhe-gongmin-yu-xietong-shengchan/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 2 — Evaluation and Evidence",
+      "summary": "the analyst's toolkit: valuing outcomes, building the case, testing claims",
+      "topics": [
+        {
+          "number": "2.1",
+          "title": "The Public Value Scorecard and Outcomes Frameworks",
+          "path": "locales/en-gb-oxendict/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/02-01-bitaqat-adaa-al-qima-al-amma-wa-utur-al-nataij/index.md",
+            "cy-001": "locales/cy-001/topics/02-01-y-sgorfwrdd-gwerth-cyhoeddus-a-fframweithiau-canlyniadau/index.md",
+            "cy-gb": "locales/cy-gb/topics/02-01-y-sgorfwrdd-gwerth-cyhoeddus-a-fframweithiau-canlyniadau/index.md",
+            "de-de": "locales/de-de/topics/02-01-die-scorecard-fuer-oeffentlichen-wert-und-wirkungsrahmen/index.md",
+            "en-001": "locales/en-001/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md",
+            "en-gb": "locales/en-gb/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md",
+            "en-us": "locales/en-us/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md",
+            "es-001": "locales/es-001/topics/02-01-el-cuadro-de-mando-de-valor-publico-y-marcos-de-resultados/index.md",
+            "fr-001": "locales/fr-001/topics/02-01-le-tableau-de-bord-de-la-valeur-publique-et-les-cadres-de-resultats/index.md",
+            "hi-in": "locales/hi-in/topics/02-01-lok-mulya-scorecard-aur-parinam-dhanche/index.md",
+            "ja-jp": "locales/ja-jp/topics/02-01-kokyo-kachi-sukoakado-to-seika-fureimuwaku/index.md",
+            "ko-kr": "locales/ko-kr/topics/02-01-gonggong-gachi-seukoeokadeu-wa-seonggwa-peureimwokeu/index.md",
+            "ru-ru": "locales/ru-ru/topics/02-01-sbalansirovannaya-sistema-pokazateley-obshchestvennoy-tsennosti-i-ramki-rezultatov/index.md",
+            "zh-cn": "locales/zh-cn/topics/02-01-gonggong-jiazhi-jifenka-yu-chengguo-kuangjia/index.md"
+          }
+        },
+        {
+          "number": "2.2",
+          "title": "Social Cost-Benefit and Cost-Effectiveness Analysis",
+          "path": "locales/en-gb-oxendict/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/02-02-tahlil-al-taklifa-wa-al-aid-al-ijtimai-wa-faaliyyat-al-taklifa/index.md",
+            "cy-001": "locales/cy-001/topics/02-02-dadansoddiad-cost-budd-cymdeithasol-ac-effeithiolrwydd-cost/index.md",
+            "cy-gb": "locales/cy-gb/topics/02-02-dadansoddiad-cost-budd-cymdeithasol-ac-effeithiolrwydd-cost/index.md",
+            "de-de": "locales/de-de/topics/02-02-soziale-kosten-nutzen-analyse-und-kosteneffektivitaetsanalyse/index.md",
+            "en-001": "locales/en-001/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md",
+            "en-gb": "locales/en-gb/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md",
+            "en-us": "locales/en-us/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md",
+            "es-001": "locales/es-001/topics/02-02-analisis-coste-beneficio-social-y-rentabilidad/index.md",
+            "fr-001": "locales/fr-001/topics/02-02-analyse-couts-avantages-sociale-et-analyse-cout-efficacite/index.md",
+            "hi-in": "locales/hi-in/topics/02-02-samajik-lagat-labh-aur-lagat-prabhavshilata-vishleshan/index.md",
+            "ja-jp": "locales/ja-jp/topics/02-02-shakaiteki-hiyo-benieki-bunseki-to-hiyo-taikoka-bunseki/index.md",
+            "ko-kr": "locales/ko-kr/topics/02-02-sahoejeok-biyong-pyeonik-mit-biyong-hyogwa-bunseok/index.md",
+            "ru-ru": "locales/ru-ru/topics/02-02-sotsialnyy-analiz-zatraty-vygody-i-analiz-zatratnoy-effektivnosti/index.md",
+            "zh-cn": "locales/zh-cn/topics/02-02-shehui-chengben-xiaoyi-yu-chengben-xiaoguo-fenxi/index.md"
+          }
+        },
+        {
+          "number": "2.3",
+          "title": "Social Return on Investment and Impact Measurement",
+          "path": "locales/en-gb-oxendict/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/02-03-al-aid-al-ijtimai-ala-al-istithmar-wa-qiyas-al-athar/index.md",
+            "cy-001": "locales/cy-001/topics/02-03-adenillion-cymdeithasol-ar-fuddsoddiad-a-mesur-effaith/index.md",
+            "cy-gb": "locales/cy-gb/topics/02-03-adenillion-cymdeithasol-ar-fuddsoddiad-a-mesur-effaith/index.md",
+            "de-de": "locales/de-de/topics/02-03-sozialer-return-on-investment-und-wirkungsmessung/index.md",
+            "en-001": "locales/en-001/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
+            "en-gb": "locales/en-gb/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
+            "en-us": "locales/en-us/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
+            "es-001": "locales/es-001/topics/02-03-retorno-social-de-la-inversion-y-medicion-de-impacto/index.md",
+            "fr-001": "locales/fr-001/topics/02-03-retour-social-sur-investissement-et-mesure-de-limpact/index.md",
+            "hi-in": "locales/hi-in/topics/02-03-samajik-nivesh-pratiphal-aur-prabhav-mapan/index.md",
+            "ja-jp": "locales/ja-jp/topics/02-03-shakaiteki-toshi-shuekiritsu-to-inpakuto-sokutei/index.md",
+            "ko-kr": "locales/ko-kr/topics/02-03-sahoejeok-tuja-suikryul-wa-yeonghyang-cheukjeong/index.md",
+            "ru-ru": "locales/ru-ru/topics/02-03-sotsialnaya-otdacha-ot-investitsiy-i-izmerenie-vozdeystviya/index.md",
+            "zh-cn": "locales/zh-cn/topics/02-03-shehui-touzi-huibao-yu-yingxiangli-celiang/index.md"
+          }
+        },
+        {
+          "number": "2.4",
+          "title": "Public Sector Econometrics and Programme Evaluation",
+          "path": "locales/en-gb-oxendict/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/02-04-al-iqtisad-al-qiyasi-lil-qita-al-amm-wa-taqyim-al-baramij/index.md",
+            "cy-001": "locales/cy-001/topics/02-04-econometreg-y-sector-cyhoeddus-a-gwerthuso-rhaglenni/index.md",
+            "cy-gb": "locales/cy-gb/topics/02-04-econometreg-y-sector-cyhoeddus-a-gwerthuso-rhaglenni/index.md",
+            "de-de": "locales/de-de/topics/02-04-oekonometrie-im-oeffentlichen-sektor-und-programmevaluation/index.md",
+            "en-001": "locales/en-001/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md",
+            "en-gb": "locales/en-gb/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md",
+            "en-us": "locales/en-us/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md",
+            "es-001": "locales/es-001/topics/02-04-econometria-del-sector-publico-y-evaluacion-de-programas/index.md",
+            "fr-001": "locales/fr-001/topics/02-04-econometrie-du-secteur-public-et-evaluation-des-programmes/index.md",
+            "hi-in": "locales/hi-in/topics/02-04-lok-kshetra-arthmiti-aur-karyakram-mulyankan/index.md",
+            "ja-jp": "locales/ja-jp/topics/02-04-kokyo-bumon-no-keiryo-keizaigaku-to-puroguramu-hyoka/index.md",
+            "ko-kr": "locales/ko-kr/topics/02-04-gonggongbumun-gyeryang-gyeongjehak-gwa-peurogeuraem-pyeongga/index.md",
+            "ru-ru": "locales/ru-ru/topics/02-04-ekonometrika-gosudarstvennogo-sektora-i-otsenka-programm/index.md",
+            "zh-cn": "locales/zh-cn/topics/02-04-gonggong-bumen-jiliang-jingjixue-yu-xiangmu-pinggu/index.md"
+          }
+        },
+        {
+          "number": "2.5",
+          "title": "Business Cases and Value for Money",
+          "path": "locales/en-gb-oxendict/topics/02-05-business-cases-and-value-for-money/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/02-05-dirasat-al-jadwa-wa-al-qima-muqabil-al-mal/index.md",
+            "cy-001": "locales/cy-001/topics/02-05-achosion-busnes-a-gwerth-am-arian/index.md",
+            "cy-gb": "locales/cy-gb/topics/02-05-achosion-busnes-a-gwerth-am-arian/index.md",
+            "de-de": "locales/de-de/topics/02-05-wirtschaftlichkeitsuntersuchungen-und-value-for-money/index.md",
+            "en-001": "locales/en-001/topics/02-05-business-cases-and-value-for-money/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-05-business-cases-and-value-for-money/index.md",
+            "en-gb": "locales/en-gb/topics/02-05-business-cases-and-value-for-money/index.md",
+            "en-us": "locales/en-us/topics/02-05-business-cases-and-value-for-money/index.md",
+            "es-001": "locales/es-001/topics/02-05-analisis-de-viabilidad-y-relacion-calidad-precio/index.md",
+            "fr-001": "locales/fr-001/topics/02-05-analyses-de-rentabilite-et-rapport-qualite-prix/index.md",
+            "hi-in": "locales/hi-in/topics/02-05-vyavasay-mamle-aur-dhan-ke-badle-mulya/index.md",
+            "ja-jp": "locales/ja-jp/topics/02-05-bijinesu-kesu-to-baryu-fo-mane/index.md",
+            "ko-kr": "locales/ko-kr/topics/02-05-bijeuniseu-keiseu-wa-biyong-daebi-gachi/index.md",
+            "ru-ru": "locales/ru-ru/topics/02-05-biznes-keysy-i-effektivnost-ispolzovaniya-sredstv/index.md",
+            "zh-cn": "locales/zh-cn/topics/02-05-shangye-lunzheng-yu-wuyousuozhi/index.md"
+          }
+        },
+        {
+          "number": "2.6",
+          "title": "Evidence Synthesis and What Works",
+          "path": "locales/en-gb-oxendict/topics/02-06-evidence-synthesis-and-what-works/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/02-06-tawlif-al-adilla-wa-ma-yanjah-filan/index.md",
+            "cy-001": "locales/cy-001/topics/02-06-cyfuno-tystiolaeth-ar-hyn-syn-gweithio/index.md",
+            "cy-gb": "locales/cy-gb/topics/02-06-cyfuno-tystiolaeth-ar-hyn-syn-gweithio/index.md",
+            "de-de": "locales/de-de/topics/02-06-synthese-der-evidenz-und-was-funktioniert/index.md",
+            "en-001": "locales/en-001/topics/02-06-evidence-synthesis-and-what-works/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-06-evidence-synthesis-and-what-works/index.md",
+            "en-gb": "locales/en-gb/topics/02-06-evidence-synthesis-and-what-works/index.md",
+            "en-us": "locales/en-us/topics/02-06-evidence-synthesis-and-what-works/index.md",
+            "es-001": "locales/es-001/topics/02-06-sintesis-de-la-evidencia-y-lo-que-funciona/index.md",
+            "fr-001": "locales/fr-001/topics/02-06-synthese-des-donnees-probantes-et-ce-qui-fonctionne/index.md",
+            "hi-in": "locales/hi-in/topics/02-06-sakshya-sanshleshan-aur-kya-kargar-hai/index.md",
+            "ja-jp": "locales/ja-jp/topics/02-06-ebidensu-togo-to-koka-jissho/index.md",
+            "ko-kr": "locales/ko-kr/topics/02-06-geungeo-jonghap-gwa-mueosi-hyogwajeogin-ga/index.md",
+            "ru-ru": "locales/ru-ru/topics/02-06-sintez-dokazatelstv-i-to-chto-rabotaet/index.md",
+            "zh-cn": "locales/zh-cn/topics/02-06-zhengju-zonghe-yu-youxiao-shijian/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 3 — Systems, Governance and Priorities",
+      "summary": "how public and social-sector organizations are structured, funded, and held accountable",
+      "topics": [
+        {
+          "number": "3.1",
+          "title": "Public Administration Systems and Models",
+          "path": "locales/en-gb-oxendict/topics/03-01-public-administration-systems-and-models/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-01-anzimat-al-idara-al-amma-wa-namadhijuha/index.md",
+            "cy-001": "locales/cy-001/topics/03-01-systemau-a-modelau-gweinyddiaeth-gyhoeddus/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-01-systemau-a-modelau-gweinyddiaeth-gyhoeddus/index.md",
+            "de-de": "locales/de-de/topics/03-01-systeme-und-modelle-der-oeffentlichen-verwaltung/index.md",
+            "en-001": "locales/en-001/topics/03-01-public-administration-systems-and-models/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-01-public-administration-systems-and-models/index.md",
+            "en-gb": "locales/en-gb/topics/03-01-public-administration-systems-and-models/index.md",
+            "en-us": "locales/en-us/topics/03-01-public-administration-systems-and-models/index.md",
+            "es-001": "locales/es-001/topics/03-01-sistemas-y-modelos-de-administracion-publica/index.md",
+            "fr-001": "locales/fr-001/topics/03-01-systemes-et-modeles-dadministration-publique/index.md",
+            "hi-in": "locales/hi-in/topics/03-01-lok-prashasan-pranaliyan-aur-model/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-01-gyosei-shisutemu-to-moderu/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-01-haengjeong-cheje-wa-model/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-01-sistemy-i-modeli-gosudarstvennogo-upravleniya/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-01-gonggong-xingzheng-tixi-yu-moshi/index.md"
+          }
+        },
+        {
+          "number": "3.2",
+          "title": "Public Policy and the Policy Cycle",
+          "path": "locales/en-gb-oxendict/topics/03-02-public-policy-and-the-policy-cycle/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-02-al-siyasa-al-amma-wa-dawrat-al-siyasat/index.md",
+            "cy-001": "locales/cy-001/topics/03-02-polisi-cyhoeddus-a-chylch-y-polisi/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-02-polisi-cyhoeddus-a-chylch-y-polisi/index.md",
+            "de-de": "locales/de-de/topics/03-02-oeffentliche-politik-und-der-politikzyklus/index.md",
+            "en-001": "locales/en-001/topics/03-02-public-policy-and-the-policy-cycle/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-02-public-policy-and-the-policy-cycle/index.md",
+            "en-gb": "locales/en-gb/topics/03-02-public-policy-and-the-policy-cycle/index.md",
+            "en-us": "locales/en-us/topics/03-02-public-policy-and-the-policy-cycle/index.md",
+            "es-001": "locales/es-001/topics/03-02-politica-publica-y-el-ciclo-de-politicas/index.md",
+            "fr-001": "locales/fr-001/topics/03-02-politique-publique-et-cycle-des-politiques/index.md",
+            "hi-in": "locales/hi-in/topics/03-02-lok-niti-aur-niti-chakra/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-02-kokyo-seisaku-to-seisaku-saikuru/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-02-gonggong-jeongchaek-gwa-jeongchaek-jugi/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-02-gosudarstvennaya-politika-i-tsikl-politiki/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-02-gonggong-zhengce-yu-zhengce-zhouqi/index.md"
+          }
+        },
+        {
+          "number": "3.3",
+          "title": "Public Finance and Budgeting",
+          "path": "locales/en-gb-oxendict/topics/03-03-public-finance-and-budgeting/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-03-al-maliyya-al-amma-wa-al-mizaniyya/index.md",
+            "cy-001": "locales/cy-001/topics/03-03-cyllid-cyhoeddus-a-chyllidebu/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-03-cyllid-cyhoeddus-a-chyllidebu/index.md",
+            "de-de": "locales/de-de/topics/03-03-oeffentliche-finanzen-und-haushaltsplanung/index.md",
+            "en-001": "locales/en-001/topics/03-03-public-finance-and-budgeting/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-03-public-finance-and-budgeting/index.md",
+            "en-gb": "locales/en-gb/topics/03-03-public-finance-and-budgeting/index.md",
+            "en-us": "locales/en-us/topics/03-03-public-finance-and-budgeting/index.md",
+            "es-001": "locales/es-001/topics/03-03-finanzas-publicas-y-presupuestacion/index.md",
+            "fr-001": "locales/fr-001/topics/03-03-finances-publiques-et-budgetisation/index.md",
+            "hi-in": "locales/hi-in/topics/03-03-lok-vitt-aur-bajat-nirman/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-03-zaisei-to-yosan-hensei/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-03-jaejeong-gwa-yesan-pyeonseong/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-03-gosudarstvennye-finansy-i-byudzhetirovanie/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-03-gonggong-caizheng-yu-yusuan/index.md"
+          }
+        },
+        {
+          "number": "3.4",
+          "title": "Accountability, Transparency, and Legitimacy",
+          "path": "locales/en-gb-oxendict/topics/03-04-accountability-transparency-and-legitimacy/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-04-al-musaala-wa-al-shafafiyya-wa-al-shariyya/index.md",
+            "cy-001": "locales/cy-001/topics/03-04-atebolrwydd-tryloywder-a-dilysrwydd/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-04-atebolrwydd-tryloywder-a-dilysrwydd/index.md",
+            "de-de": "locales/de-de/topics/03-04-rechenschaftspflicht-transparenz-und-legitimitaet/index.md",
+            "en-001": "locales/en-001/topics/03-04-accountability-transparency-and-legitimacy/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-04-accountability-transparency-and-legitimacy/index.md",
+            "en-gb": "locales/en-gb/topics/03-04-accountability-transparency-and-legitimacy/index.md",
+            "en-us": "locales/en-us/topics/03-04-accountability-transparency-and-legitimacy/index.md",
+            "es-001": "locales/es-001/topics/03-04-rendicion-de-cuentas-transparencia-y-legitimidad/index.md",
+            "fr-001": "locales/fr-001/topics/03-04-redevabilite-transparence-et-legitimite/index.md",
+            "hi-in": "locales/hi-in/topics/03-04-javabdehi-pardarshita-aur-vaidhata/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-04-setsumei-sekinin-tomeisei-seitosei/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-04-chaegimseong-tumyeongseong-jeongdangseong/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-04-podotchetnost-prozrachnost-i-legitimnost/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-04-wenzezhi-toumingdu-yu-hefaxing/index.md"
+          }
+        },
+        {
+          "number": "3.5",
+          "title": "Equity, Fairness, and Distributive Justice",
+          "path": "locales/en-gb-oxendict/topics/03-05-equity-fairness-and-distributive-justice/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-05-al-insaf-wa-al-adala-wa-al-adala-al-tawziiyya/index.md",
+            "cy-001": "locales/cy-001/topics/03-05-tegwch-chwarae-teg-a-chyfiawnder-dosrannol/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-05-tegwch-chwarae-teg-a-chyfiawnder-dosrannol/index.md",
+            "de-de": "locales/de-de/topics/03-05-gleichheit-fairness-und-verteilungsgerechtigkeit/index.md",
+            "en-001": "locales/en-001/topics/03-05-equity-fairness-and-distributive-justice/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-05-equity-fairness-and-distributive-justice/index.md",
+            "en-gb": "locales/en-gb/topics/03-05-equity-fairness-and-distributive-justice/index.md",
+            "en-us": "locales/en-us/topics/03-05-equity-fairness-and-distributive-justice/index.md",
+            "es-001": "locales/es-001/topics/03-05-equidad-justicia-y-justicia-distributiva/index.md",
+            "fr-001": "locales/fr-001/topics/03-05-equite-impartialite-et-justice-distributive/index.md",
+            "hi-in": "locales/hi-in/topics/03-05-samata-nishpakshata-aur-vitaranatmak-nyay/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-05-koheisei-koseisei-bunpaiteki-seigi/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-05-hyeongpyeongseong-gongjeongseong-bunbae-jeongui/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-05-ravenstvo-spravedlivost-i-raspredelitelnaya-spravedlivost/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-05-gongping-gongzheng-yu-fenpei-zhengyi/index.md"
+          }
+        },
+        {
+          "number": "3.6",
+          "title": "Public Sector Workforce and Labour Markets",
+          "path": "locales/en-gb-oxendict/topics/03-06-public-sector-workforce-and-labour-markets/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-06-al-quwa-al-amila-fi-al-qita-al-amm-wa-aswaq-al-amal/index.md",
+            "cy-001": "locales/cy-001/topics/03-06-gweithlur-sector-cyhoeddus-a-marchnadoedd-llafur/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-06-gweithlur-sector-cyhoeddus-a-marchnadoedd-llafur/index.md",
+            "de-de": "locales/de-de/topics/03-06-personal-des-oeffentlichen-sektors-und-arbeitsmaerkte/index.md",
+            "en-001": "locales/en-001/topics/03-06-public-sector-workforce-and-labour-markets/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-06-public-sector-workforce-and-labour-markets/index.md",
+            "en-gb": "locales/en-gb/topics/03-06-public-sector-workforce-and-labour-markets/index.md",
+            "en-us": "locales/en-us/topics/03-06-public-sector-workforce-and-labour-markets/index.md",
+            "es-001": "locales/es-001/topics/03-06-fuerza-laboral-del-sector-publico-y-mercados-de-trabajo/index.md",
+            "fr-001": "locales/fr-001/topics/03-06-effectifs-du-secteur-public-et-marches-du-travail/index.md",
+            "hi-in": "locales/hi-in/topics/03-06-lok-kshetra-karyabal-aur-shram-bazar/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-06-kokyo-bumon-no-jinzai-to-rodo-shijo/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-06-gonggongbumun-illyeok-gwa-nodong-sijang/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-06-kadry-gosudarstvennogo-sektora-i-rynki-truda/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-06-gonggong-bumen-laodongli-yu-laodongli-shichang/index.md"
+          }
+        },
+        {
+          "number": "3.7",
+          "title": "Public Procurement and Commissioning",
+          "path": "locales/en-gb-oxendict/topics/03-07-public-procurement-and-commissioning/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-07-al-mushtarayat-al-amma-wa-al-taklif/index.md",
+            "cy-001": "locales/cy-001/topics/03-07-caffael-cyhoeddus-a-chomisiynu/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-07-caffael-cyhoeddus-a-chomisiynu/index.md",
+            "de-de": "locales/de-de/topics/03-07-oeffentliche-beschaffung-und-leistungsvergabe/index.md",
+            "en-001": "locales/en-001/topics/03-07-public-procurement-and-commissioning/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-07-public-procurement-and-commissioning/index.md",
+            "en-gb": "locales/en-gb/topics/03-07-public-procurement-and-commissioning/index.md",
+            "en-us": "locales/en-us/topics/03-07-public-procurement-and-commissioning/index.md",
+            "es-001": "locales/es-001/topics/03-07-contratacion-publica-y-encargo-de-servicios/index.md",
+            "fr-001": "locales/fr-001/topics/03-07-achats-publics-et-commande-de-services/index.md",
+            "hi-in": "locales/hi-in/topics/03-07-lok-kharid-aur-adhideshan/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-07-kokyo-chotatsu-to-itaku/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-07-gonggong-jodal-gwa-witak/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-07-gosudarstvennye-zakupki-i-zakaz-uslug/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-07-gonggong-caigou-yu-weituo/index.md"
+          }
+        },
+        {
+          "number": "3.8",
+          "title": "Social Sector and Nonprofit Management",
+          "path": "locales/en-gb-oxendict/topics/03-08-social-sector-and-nonprofit-management/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-08-idarat-al-qita-al-ijtimai-wa-al-munazzamat-ghayr-al-ribhiyya/index.md",
+            "cy-001": "locales/cy-001/topics/03-08-rheoli-r-sector-cymdeithasol-a-sefydliadau-dielw/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-08-rheoli-r-sector-cymdeithasol-a-sefydliadau-dielw/index.md",
+            "de-de": "locales/de-de/topics/03-08-sozialer-sektor-und-management-gemeinnuetziger-organisationen/index.md",
+            "en-001": "locales/en-001/topics/03-08-social-sector-and-nonprofit-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-08-social-sector-and-nonprofit-management/index.md",
+            "en-gb": "locales/en-gb/topics/03-08-social-sector-and-nonprofit-management/index.md",
+            "en-us": "locales/en-us/topics/03-08-social-sector-and-nonprofit-management/index.md",
+            "es-001": "locales/es-001/topics/03-08-gestion-del-sector-social-y-organizaciones-sin-animo-de-lucro/index.md",
+            "fr-001": "locales/fr-001/topics/03-08-secteur-social-et-gestion-des-organismes-a-but-non-lucratif/index.md",
+            "hi-in": "locales/hi-in/topics/03-08-samajik-kshetra-aur-gair-labhkari-prabandhan/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-08-shakai-sekuta-to-hieiri-soshiki-manejimento/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-08-sahoe-bumun-gwa-biyeongni-jojik-gwanri/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-08-upravlenie-v-sotsialnom-sektore-i-nekommercheskikh-organizatsiyakh/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-08-shehui-bumen-yu-feiyingli-zuzhi-guanli/index.md"
+          }
+        },
+        {
+          "number": "3.9",
+          "title": "Intergovernmental Relations and Federalism",
+          "path": "locales/en-gb-oxendict/topics/03-09-intergovernmental-relations-and-federalism/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-09-al-alaqat-bayn-al-hukumat-wa-al-fidraliyya/index.md",
+            "cy-001": "locales/cy-001/topics/03-09-cysylltiadau-rhynglywodraethol-a-ffederaliaeth/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-09-cysylltiadau-rhynglywodraethol-a-ffederaliaeth/index.md",
+            "de-de": "locales/de-de/topics/03-09-zwischenstaatliche-beziehungen-und-foederalismus/index.md",
+            "en-001": "locales/en-001/topics/03-09-intergovernmental-relations-and-federalism/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-09-intergovernmental-relations-and-federalism/index.md",
+            "en-gb": "locales/en-gb/topics/03-09-intergovernmental-relations-and-federalism/index.md",
+            "en-us": "locales/en-us/topics/03-09-intergovernmental-relations-and-federalism/index.md",
+            "es-001": "locales/es-001/topics/03-09-relaciones-intergubernamentales-y-federalismo/index.md",
+            "fr-001": "locales/fr-001/topics/03-09-relations-intergouvernementales-et-federalisme/index.md",
+            "hi-in": "locales/hi-in/topics/03-09-antar-sarkari-sambandh-aur-sanghvad/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-09-seifukan-kankei-to-renposei/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-09-jeongbu-gan-gwangye-wa-yeonbangje/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-09-mezhpravitelstvennye-otnosheniya-i-federalizm/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-09-zhengfujian-guanxi-yu-lianbangzhi/index.md"
+          }
+        },
+        {
+          "number": "3.10",
+          "title": "Regulation and Public Risk Management",
+          "path": "locales/en-gb-oxendict/topics/03-10-regulation-and-public-risk-management/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-10-al-tanzim-wa-idarat-al-makhatir-al-amma/index.md",
+            "cy-001": "locales/cy-001/topics/03-10-rheoleiddio-a-rheoli-risg-cyhoeddus/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-10-rheoleiddio-a-rheoli-risg-cyhoeddus/index.md",
+            "de-de": "locales/de-de/topics/03-10-regulierung-und-oeffentliches-risikomanagement/index.md",
+            "en-001": "locales/en-001/topics/03-10-regulation-and-public-risk-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-10-regulation-and-public-risk-management/index.md",
+            "en-gb": "locales/en-gb/topics/03-10-regulation-and-public-risk-management/index.md",
+            "en-us": "locales/en-us/topics/03-10-regulation-and-public-risk-management/index.md",
+            "es-001": "locales/es-001/topics/03-10-regulacion-y-gestion-del-riesgo-publico/index.md",
+            "fr-001": "locales/fr-001/topics/03-10-reglementation-et-gestion-des-risques-publics/index.md",
+            "hi-in": "locales/hi-in/topics/03-10-viniyaman-aur-lok-jokhim-prabandhan/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-10-kisei-to-kokyo-risuku-manejimento/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-10-gyuje-wa-gonggong-wiheom-gwanri/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-10-regulirovanie-i-upravlenie-publichnymi-riskami/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-10-jianguan-yu-gonggong-fengxian-guanli/index.md"
+          }
+        },
+        {
+          "number": "3.11",
+          "title": "Quality, Safety, and Performance Management",
+          "path": "locales/en-gb-oxendict/topics/03-11-quality-safety-and-performance-management/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-11-al-jawda-wa-al-salama-wa-idarat-al-ada/index.md",
+            "cy-001": "locales/cy-001/topics/03-11-ansawdd-diogelwch-a-rheoli-perfformiad/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-11-ansawdd-diogelwch-a-rheoli-perfformiad/index.md",
+            "de-de": "locales/de-de/topics/03-11-qualitaet-sicherheit-und-leistungsmanagement/index.md",
+            "en-001": "locales/en-001/topics/03-11-quality-safety-and-performance-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-11-quality-safety-and-performance-management/index.md",
+            "en-gb": "locales/en-gb/topics/03-11-quality-safety-and-performance-management/index.md",
+            "en-us": "locales/en-us/topics/03-11-quality-safety-and-performance-management/index.md",
+            "es-001": "locales/es-001/topics/03-11-calidad-seguridad-y-gestion-del-rendimiento/index.md",
+            "fr-001": "locales/fr-001/topics/03-11-qualite-securite-et-gestion-de-la-performance/index.md",
+            "hi-in": "locales/hi-in/topics/03-11-gunvatta-suraksha-aur-nishpadan-prabandhan/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-11-hinshitsu-anzensei-pafomansu-manejimento/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-11-pumjil-anjeon-seonggwa-gwanri/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-11-kachestvo-bezopasnost-i-upravlenie-rezultativnostyu/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-11-zhiliang-anquan-yu-jixiao-guanli/index.md"
+          }
+        },
+        {
+          "number": "3.12",
+          "title": "Crisis, Emergency, and Resilience Management",
+          "path": "locales/en-gb-oxendict/topics/03-12-crisis-emergency-and-resilience-management/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/03-12-idarat-al-azmat-wa-al-tawari-wa-al-qudra-ala-al-sumud/index.md",
+            "cy-001": "locales/cy-001/topics/03-12-rheoli-argyfwng-brys-a-gwytnwch/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-12-rheoli-argyfwng-brys-a-gwytnwch/index.md",
+            "de-de": "locales/de-de/topics/03-12-krisen-notfall-und-resilienzmanagement/index.md",
+            "en-001": "locales/en-001/topics/03-12-crisis-emergency-and-resilience-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-12-crisis-emergency-and-resilience-management/index.md",
+            "en-gb": "locales/en-gb/topics/03-12-crisis-emergency-and-resilience-management/index.md",
+            "en-us": "locales/en-us/topics/03-12-crisis-emergency-and-resilience-management/index.md",
+            "es-001": "locales/es-001/topics/03-12-gestion-de-crisis-emergencias-y-resiliencia/index.md",
+            "fr-001": "locales/fr-001/topics/03-12-crise-urgence-et-gestion-de-la-resilience/index.md",
+            "hi-in": "locales/hi-in/topics/03-12-sankat-aapatkal-aur-lachilapan-prabandhan/index.md",
+            "ja-jp": "locales/ja-jp/topics/03-12-kiki-kinkyu-jitai-rejiriensu-manejimento/index.md",
+            "ko-kr": "locales/ko-kr/topics/03-12-wigi-bisangsatae-hoebok-tallyeokseong-gwanri/index.md",
+            "ru-ru": "locales/ru-ru/topics/03-12-upravlenie-krizisami-chrezvychaynymi-situatsiyami-i-ustoychivostyu/index.md",
+            "zh-cn": "locales/zh-cn/topics/03-12-weiji-yingji-yu-renxing-guanli/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 4 — Global and Societal Issues",
+      "summary": "public value beyond one institution: behaviour, trust, the planet, and the public conversation",
+      "topics": [
+        {
+          "number": "4.1",
+          "title": "Behavioural Public Policy",
+          "path": "locales/en-gb-oxendict/topics/04-01-behavioural-public-policy/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/04-01-al-siyasa-al-amma-al-sulukiyya/index.md",
+            "cy-001": "locales/cy-001/topics/04-01-polisi-cyhoeddus-ymddygiadol/index.md",
+            "cy-gb": "locales/cy-gb/topics/04-01-polisi-cyhoeddus-ymddygiadol/index.md",
+            "de-de": "locales/de-de/topics/04-01-verhaltensbasierte-oeffentliche-politik/index.md",
+            "en-001": "locales/en-001/topics/04-01-behavioural-public-policy/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-01-behavioural-public-policy/index.md",
+            "en-gb": "locales/en-gb/topics/04-01-behavioural-public-policy/index.md",
+            "en-us": "locales/en-us/topics/04-01-behavioural-public-policy/index.md",
+            "es-001": "locales/es-001/topics/04-01-politica-publica-conductual/index.md",
+            "fr-001": "locales/fr-001/topics/04-01-politique-publique-comportementale/index.md",
+            "hi-in": "locales/hi-in/topics/04-01-vyavahargat-lok-niti/index.md",
+            "ja-jp": "locales/ja-jp/topics/04-01-kodo-kokyo-seisaku/index.md",
+            "ko-kr": "locales/ko-kr/topics/04-01-haengdong-gonggong-jeongchaek/index.md",
+            "ru-ru": "locales/ru-ru/topics/04-01-povedencheskaya-gosudarstvennaya-politika/index.md",
+            "zh-cn": "locales/zh-cn/topics/04-01-xingwei-gonggong-zhengce/index.md"
+          }
+        },
+        {
+          "number": "4.2",
+          "title": "Trust in Government and Civic Engagement",
+          "path": "locales/en-gb-oxendict/topics/04-02-trust-in-government-and-civic-engagement/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/04-02-al-thiqa-fi-al-hukuma-wa-al-musharaka-al-madaniyya/index.md",
+            "cy-001": "locales/cy-001/topics/04-02-ymddiriedaeth-mewn-llywodraeth-a-chyfranogiad-dinesig/index.md",
+            "cy-gb": "locales/cy-gb/topics/04-02-ymddiriedaeth-mewn-llywodraeth-a-chyfranogiad-dinesig/index.md",
+            "de-de": "locales/de-de/topics/04-02-vertrauen-in-den-staat-und-buergerschaftliches-engagement/index.md",
+            "en-001": "locales/en-001/topics/04-02-trust-in-government-and-civic-engagement/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-02-trust-in-government-and-civic-engagement/index.md",
+            "en-gb": "locales/en-gb/topics/04-02-trust-in-government-and-civic-engagement/index.md",
+            "en-us": "locales/en-us/topics/04-02-trust-in-government-and-civic-engagement/index.md",
+            "es-001": "locales/es-001/topics/04-02-confianza-en-el-gobierno-y-participacion-civica/index.md",
+            "fr-001": "locales/fr-001/topics/04-02-confiance-envers-le-gouvernement-et-engagement-civique/index.md",
+            "hi-in": "locales/hi-in/topics/04-02-sarkar-mein-vishvas-aur-nagarik-sahbhagita/index.md",
+            "ja-jp": "locales/ja-jp/topics/04-02-seifu-eno-shinrai-to-shimin-sanka/index.md",
+            "ko-kr": "locales/ko-kr/topics/04-02-jeongbu-sinroe-wa-simin-chamyeo/index.md",
+            "ru-ru": "locales/ru-ru/topics/04-02-doverie-k-vlasti-i-grazhdanskoe-uchastie/index.md",
+            "zh-cn": "locales/zh-cn/topics/04-02-zhengfu-xinren-yu-gongmin-canyu/index.md"
+          }
+        },
+        {
+          "number": "4.3",
+          "title": "Climate, Sustainability, and Environmental Public Value",
+          "path": "locales/en-gb-oxendict/topics/04-03-climate-sustainability-and-environmental-public-value/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/04-03-al-manakh-wa-al-istidama-wa-al-qima-al-amma-al-biiyya/index.md",
+            "cy-001": "locales/cy-001/topics/04-03-hinsawdd-cynaliadwyedd-a-gwerth-cyhoeddus-amgylcheddol/index.md",
+            "cy-gb": "locales/cy-gb/topics/04-03-hinsawdd-cynaliadwyedd-a-gwerth-cyhoeddus-amgylcheddol/index.md",
+            "de-de": "locales/de-de/topics/04-03-klima-nachhaltigkeit-und-oekologischer-oeffentlicher-wert/index.md",
+            "en-001": "locales/en-001/topics/04-03-climate-sustainability-and-environmental-public-value/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-03-climate-sustainability-and-environmental-public-value/index.md",
+            "en-gb": "locales/en-gb/topics/04-03-climate-sustainability-and-environmental-public-value/index.md",
+            "en-us": "locales/en-us/topics/04-03-climate-sustainability-and-environmental-public-value/index.md",
+            "es-001": "locales/es-001/topics/04-03-clima-sostenibilidad-y-valor-publico-ambiental/index.md",
+            "fr-001": "locales/fr-001/topics/04-03-climat-durabilite-et-valeur-publique-environnementale/index.md",
+            "hi-in": "locales/hi-in/topics/04-03-jalvayu-sthirata-aur-paryavaraniya-lok-mulya/index.md",
+            "ja-jp": "locales/ja-jp/topics/04-03-kiko-jizoku-kanosei-kankyo-kokyo-kachi/index.md",
+            "ko-kr": "locales/ko-kr/topics/04-03-gihu-jisok-ganeungseong-hwangyeongjeok-gonggong-gachi/index.md",
+            "ru-ru": "locales/ru-ru/topics/04-03-klimat-ustoychivoe-razvitie-i-ekologicheskaya-obshchestvennaya-tsennost/index.md",
+            "zh-cn": "locales/zh-cn/topics/04-03-qihou-kechixuxing-yu-huanjing-gonggong-jiazhi/index.md"
+          }
+        },
+        {
+          "number": "4.4",
+          "title": "Social Media, Misinformation, and Public Communication",
+          "path": "locales/en-gb-oxendict/topics/04-04-social-media-misinformation-and-public-communication/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/04-04-wasail-al-tawasul-al-ijtimai-wa-al-maalumat-al-mudallala-wa-al-ittisal-al-amm/index.md",
+            "cy-001": "locales/cy-001/topics/04-04-cyfryngau-cymdeithasol-camwybodaeth-a-chyfathrebu-cyhoeddus/index.md",
+            "cy-gb": "locales/cy-gb/topics/04-04-cyfryngau-cymdeithasol-camwybodaeth-a-chyfathrebu-cyhoeddus/index.md",
+            "de-de": "locales/de-de/topics/04-04-soziale-medien-desinformation-und-oeffentliche-kommunikation/index.md",
+            "en-001": "locales/en-001/topics/04-04-social-media-misinformation-and-public-communication/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-04-social-media-misinformation-and-public-communication/index.md",
+            "en-gb": "locales/en-gb/topics/04-04-social-media-misinformation-and-public-communication/index.md",
+            "en-us": "locales/en-us/topics/04-04-social-media-misinformation-and-public-communication/index.md",
+            "es-001": "locales/es-001/topics/04-04-redes-sociales-desinformacion-y-comunicacion-publica/index.md",
+            "fr-001": "locales/fr-001/topics/04-04-reseaux-sociaux-desinformation-et-communication-publique/index.md",
+            "hi-in": "locales/hi-in/topics/04-04-social-media-galat-suchana-aur-lok-sanchar/index.md",
+            "ja-jp": "locales/ja-jp/topics/04-04-sosharu-media-gojoho-kokyo-komyunikeshon/index.md",
+            "ko-kr": "locales/ko-kr/topics/04-04-soshyeol-midieo-heowijeongbo-gonggong-keomyunikeisyeon/index.md",
+            "ru-ru": "locales/ru-ru/topics/04-04-sotsialnye-seti-dezinformatsiya-i-publichnye-kommunikatsii/index.md",
+            "zh-cn": "locales/zh-cn/topics/04-04-shejiao-meiti-cuowu-xinxi-yu-gonggong-chuanbo/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 5 — Digital, Software, and Technology",
+      "summary": "the public value of technology: digital government, artificial intelligence, software, data, and cybersecurity",
+      "topics": [
+        {
+          "number": "5.1",
+          "title": "Digital Government and Digital Transformation",
+          "path": "locales/en-gb-oxendict/topics/05-01-digital-government-and-digital-transformation/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/05-01-al-hukuma-al-raqamiyya-wa-al-tahawwul-al-raqami/index.md",
+            "cy-001": "locales/cy-001/topics/05-01-llywodraeth-ddigidol-a-thrawsnewid-digidol/index.md",
+            "cy-gb": "locales/cy-gb/topics/05-01-llywodraeth-ddigidol-a-thrawsnewid-digidol/index.md",
+            "de-de": "locales/de-de/topics/05-01-digitale-verwaltung-und-digitale-transformation/index.md",
+            "en-001": "locales/en-001/topics/05-01-digital-government-and-digital-transformation/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-01-digital-government-and-digital-transformation/index.md",
+            "en-gb": "locales/en-gb/topics/05-01-digital-government-and-digital-transformation/index.md",
+            "en-us": "locales/en-us/topics/05-01-digital-government-and-digital-transformation/index.md",
+            "es-001": "locales/es-001/topics/05-01-gobierno-digital-y-transformacion-digital/index.md",
+            "fr-001": "locales/fr-001/topics/05-01-gouvernement-numerique-et-transformation-numerique/index.md",
+            "hi-in": "locales/hi-in/topics/05-01-digital-sarkar-aur-digital-parivartan/index.md",
+            "ja-jp": "locales/ja-jp/topics/05-01-dejitaru-seifu-to-dejitaru-toransufomeshon/index.md",
+            "ko-kr": "locales/ko-kr/topics/05-01-dijiteol-jeongbu-wa-dijiteol-jeonhwan/index.md",
+            "ru-ru": "locales/ru-ru/topics/05-01-tsifrovoe-gosudarstvo-i-tsifrovaya-transformatsiya/index.md",
+            "zh-cn": "locales/zh-cn/topics/05-01-shuzi-zhengfu-yu-shuzihua-zhuanxing/index.md"
+          }
+        },
+        {
+          "number": "5.2",
+          "title": "AI and Algorithmic Decision-Making in Government",
+          "path": "locales/en-gb-oxendict/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/05-02-al-dhaka-al-istinai-wa-ittikhadh-al-qarar-al-khawarizmi-fi-al-hukuma/index.md",
+            "cy-001": "locales/cy-001/topics/05-02-deallusrwydd-artiffisial-a-gwneud-penderfyniadau-algorithmig/index.md",
+            "cy-gb": "locales/cy-gb/topics/05-02-deallusrwydd-artiffisial-a-gwneud-penderfyniadau-algorithmig/index.md",
+            "de-de": "locales/de-de/topics/05-02-ki-und-algorithmische-entscheidungsfindung-in-der-verwaltung/index.md",
+            "en-001": "locales/en-001/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md",
+            "en-gb": "locales/en-gb/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md",
+            "en-us": "locales/en-us/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md",
+            "es-001": "locales/es-001/topics/05-02-ia-y-toma-de-decisiones-algoritmica-en-el-gobierno/index.md",
+            "fr-001": "locales/fr-001/topics/05-02-ia-et-prise-de-decision-algorithmique-dans-ladministration-publique/index.md",
+            "hi-in": "locales/hi-in/topics/05-02-sarkar-mein-ai-aur-kalanvidhi-aadharit-nirnay/index.md",
+            "ja-jp": "locales/ja-jp/topics/05-02-gyosei-niokeru-ai-to-arugorizumu-teki-ishikettei/index.md",
+            "ko-kr": "locales/ko-kr/topics/05-02-jeongbu-ui-ingongjineung-gwa-algorijeum-uisagyeoljeong/index.md",
+            "ru-ru": "locales/ru-ru/topics/05-02-iskusstvennyy-intellekt-i-algoritmicheskoe-prinyatie-resheniy-v-gosudarstvennom-upravlenii/index.md",
+            "zh-cn": "locales/zh-cn/topics/05-02-zhengfu-zhong-de-rengong-zhineng-yu-suanfa-juece/index.md"
+          }
+        },
+        {
+          "number": "5.3",
+          "title": "Public Sector Software Engineering and Platforms",
+          "path": "locales/en-gb-oxendict/topics/05-03-public-sector-software-engineering-and-platforms/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/05-03-handasat-al-barmajiyat-wa-al-minassat-fi-al-qita-al-amm/index.md",
+            "cy-001": "locales/cy-001/topics/05-03-peirianneg-meddalwedd-a-llwyfannau-r-sector-cyhoeddus/index.md",
+            "cy-gb": "locales/cy-gb/topics/05-03-peirianneg-meddalwedd-a-llwyfannau-r-sector-cyhoeddus/index.md",
+            "de-de": "locales/de-de/topics/05-03-softwareentwicklung-und-plattformen-im-oeffentlichen-sektor/index.md",
+            "en-001": "locales/en-001/topics/05-03-public-sector-software-engineering-and-platforms/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-03-public-sector-software-engineering-and-platforms/index.md",
+            "en-gb": "locales/en-gb/topics/05-03-public-sector-software-engineering-and-platforms/index.md",
+            "en-us": "locales/en-us/topics/05-03-public-sector-software-engineering-and-platforms/index.md",
+            "es-001": "locales/es-001/topics/05-03-ingenieria-de-software-y-plataformas-del-sector-publico/index.md",
+            "fr-001": "locales/fr-001/topics/05-03-ingenierie-logicielle-et-plateformes-du-secteur-public/index.md",
+            "hi-in": "locales/hi-in/topics/05-03-lok-kshetra-software-abhiyantriki-aur-platform/index.md",
+            "ja-jp": "locales/ja-jp/topics/05-03-kokyo-bumon-no-sofutowea-kogaku-to-purattofomu/index.md",
+            "ko-kr": "locales/ko-kr/topics/05-03-gonggongbumun-sopeuteuweeo-gonghak-gwa-peullaetpom/index.md",
+            "ru-ru": "locales/ru-ru/topics/05-03-programmnaya-inzheneriya-i-platformy-v-gosudarstvennom-sektore/index.md",
+            "zh-cn": "locales/zh-cn/topics/05-03-gonggong-bumen-ruanjian-gongcheng-yu-pingtai/index.md"
+          }
+        },
+        {
+          "number": "5.4",
+          "title": "Public Sector Data, Interoperability, and Open Data",
+          "path": "locales/en-gb-oxendict/topics/05-04-public-sector-data-interoperability-and-open-data/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/05-04-bayanat-al-qita-al-amm-wa-qabiliyyat-al-tashghil-al-bayni-wa-al-bayanat-al-maftuha/index.md",
+            "cy-001": "locales/cy-001/topics/05-04-data-r-sector-cyhoeddus-rhyngweithredu-a-data-agored/index.md",
+            "cy-gb": "locales/cy-gb/topics/05-04-data-r-sector-cyhoeddus-rhyngweithredu-a-data-agored/index.md",
+            "de-de": "locales/de-de/topics/05-04-daten-interoperabilitaet-und-offene-daten-im-oeffentlichen-sektor/index.md",
+            "en-001": "locales/en-001/topics/05-04-public-sector-data-interoperability-and-open-data/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-04-public-sector-data-interoperability-and-open-data/index.md",
+            "en-gb": "locales/en-gb/topics/05-04-public-sector-data-interoperability-and-open-data/index.md",
+            "en-us": "locales/en-us/topics/05-04-public-sector-data-interoperability-and-open-data/index.md",
+            "es-001": "locales/es-001/topics/05-04-datos-del-sector-publico-interoperabilidad-y-datos-abiertos/index.md",
+            "fr-001": "locales/fr-001/topics/05-04-donnees-interoperabilite-et-donnees-ouvertes-du-secteur-public/index.md",
+            "hi-in": "locales/hi-in/topics/05-04-lok-kshetra-data-antarsanchalniyata-aur-khula-data/index.md",
+            "ja-jp": "locales/ja-jp/topics/05-04-kokyo-bumon-no-deta-sogo-unyosei-opun-deta/index.md",
+            "ko-kr": "locales/ko-kr/topics/05-04-gonggongbumun-deiteo-sangho-unyongseong-gaebang-deiteo/index.md",
+            "ru-ru": "locales/ru-ru/topics/05-04-dannye-gosudarstvennogo-sektora-interoperabelnost-i-otkrytye-dannye/index.md",
+            "zh-cn": "locales/zh-cn/topics/05-04-gonggong-bumen-shuju-huchaozuoxing-yu-kaifang-shuju/index.md"
+          }
+        },
+        {
+          "number": "5.5",
+          "title": "Cybersecurity and Public Sector Technology Risk",
+          "path": "locales/en-gb-oxendict/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/05-05-al-amn-al-sibrani-wa-makhatir-al-tiknulujya-fi-al-qita-al-amm/index.md",
+            "cy-001": "locales/cy-001/topics/05-05-seiberddiogelwch-a-risg-technoleg-y-sector-cyhoeddus/index.md",
+            "cy-gb": "locales/cy-gb/topics/05-05-seiberddiogelwch-a-risg-technoleg-y-sector-cyhoeddus/index.md",
+            "de-de": "locales/de-de/topics/05-05-cybersicherheit-und-technologierisiken-im-oeffentlichen-sektor/index.md",
+            "en-001": "locales/en-001/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md",
+            "en-gb": "locales/en-gb/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md",
+            "en-us": "locales/en-us/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md",
+            "es-001": "locales/es-001/topics/05-05-ciberseguridad-y-riesgo-tecnologico-del-sector-publico/index.md",
+            "fr-001": "locales/fr-001/topics/05-05-cybersecurite-et-risque-technologique-du-secteur-public/index.md",
+            "hi-in": "locales/hi-in/topics/05-05-cyber-suraksha-aur-lok-kshetra-praudyogiki-jokhim/index.md",
+            "ja-jp": "locales/ja-jp/topics/05-05-saiba-sekyuriti-to-kokyo-bumon-no-gijutsu-risuku/index.md",
+            "ko-kr": "locales/ko-kr/topics/05-05-saibeo-boan-gwa-gonggongbumun-gisul-wiheom/index.md",
+            "ru-ru": "locales/ru-ru/topics/05-05-kiberbezopasnost-i-tekhnologicheskie-riski-gosudarstvennogo-sektora/index.md",
+            "zh-cn": "locales/zh-cn/topics/05-05-wangluo-anquan-yu-gonggong-bumen-jishu-fengxian/index.md"
+          }
+        },
+        {
+          "number": "5.6",
+          "title": "Innovation and Public Entrepreneurship",
+          "path": "locales/en-gb-oxendict/topics/05-06-innovation-and-public-entrepreneurship/index.md",
+          "locales": {
+            "ar-001": "locales/ar-001/topics/05-06-al-ibtikar-wa-riyadat-al-amal-al-amma/index.md",
+            "cy-001": "locales/cy-001/topics/05-06-arloesedd-ac-entrepreneuriaeth-gyhoeddus/index.md",
+            "cy-gb": "locales/cy-gb/topics/05-06-arloesedd-ac-entrepreneuriaeth-gyhoeddus/index.md",
+            "de-de": "locales/de-de/topics/05-06-innovation-und-oeffentliches-unternehmertum/index.md",
+            "en-001": "locales/en-001/topics/05-06-innovation-and-public-entrepreneurship/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-06-innovation-and-public-entrepreneurship/index.md",
+            "en-gb": "locales/en-gb/topics/05-06-innovation-and-public-entrepreneurship/index.md",
+            "en-us": "locales/en-us/topics/05-06-innovation-and-public-entrepreneurship/index.md",
+            "es-001": "locales/es-001/topics/05-06-innovacion-y-emprendimiento-publico/index.md",
+            "fr-001": "locales/fr-001/topics/05-06-innovation-et-entrepreneuriat-public/index.md",
+            "hi-in": "locales/hi-in/topics/05-06-navachar-aur-lok-udyamita/index.md",
+            "ja-jp": "locales/ja-jp/topics/05-06-inobeshon-to-kokyo-kigyoka-seishin/index.md",
+            "ko-kr": "locales/ko-kr/topics/05-06-hyeoksin-gwa-gonggong-gieopgajeongsin/index.md",
+            "ru-ru": "locales/ru-ru/topics/05-06-innovatsii-i-gosudarstvennoe-predprinimatelstvo/index.md",
+            "zh-cn": "locales/zh-cn/topics/05-06-chuangxin-yu-gonggong-chuangye/index.md"
+          }
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "title": "Glossary",
+      "path": "GLOSSARY.md",
+      "note": "A–Z definitions of key terms, each pointing to its home topic"
+    },
+    {
+      "title": "Index",
+      "path": "INDEX.md",
+      "note": "Concepts and frameworks by topic number"
+    },
+    {
+      "title": "Style guide",
+      "path": "STYLE_GUIDE.md",
+      "note": "The prose and formatting contract"
+    },
+    {
+      "title": "Specification",
+      "path": "spec/index.md",
+      "note": "Governing specification: topic template, manifest, quality gates"
+    }
+  ]
+}

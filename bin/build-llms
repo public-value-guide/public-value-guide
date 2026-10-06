@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""Generate llms.txt and llms.json from the README table of contents and the locales/ tree.
+
+Run from anywhere:  bin/build-llms
+Output is deterministic; commit the result. Never hand-edit llms.txt or llms.json.
+"""
+import json, os, re, glob
+
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RAW = "https://raw.githubusercontent.com/public-value-guide/public-value-guide/main/"
+SITE = "https://public-value-guide.github.io"
+CANON = "en-gb-oxendict"
+
+readme = open(os.path.join(root, "README.md"), encoding="utf-8").read()
+parts, cur = [], None
+for line in readme.splitlines():
+    m = re.match(r"\*\*(Part \d+ — [^*]+)\*\* — _(.+)_", line)
+    if m:
+        cur = {"part": m.group(1), "summary": m.group(2), "topics": []}
+        parts.append(cur)
+        continue
+    m = re.match(r"- Topic (\d+\.\d+) — \[(.+)\]\((locales/[^)]+)\)", line)
+    if m and cur is not None:
+        cur["topics"].append({"number": m.group(1), "title": m.group(2), "path": m.group(3)})
+
+def locale_paths(topic_path):
+    unit = topic_path.split("/")[-2]
+    key = unit[:5]
+    out = {}
+    for d in sorted(glob.glob(os.path.join(root, "locales", "*", "topics", key + "-*"))):
+        f = os.path.join(d, "index.md")
+        if os.path.getsize(f) > 0:
+            out[d.split(os.sep)[-3]] = os.path.relpath(f, root)
+    return out
+
+locales = sorted(os.path.basename(p) for p in glob.glob(os.path.join(root, "locales", "*")))
+preface = glob.glob(os.path.join(root, "locales", CANON, "topics", "00-01-*", "index.md"))[0]
+preface = os.path.relpath(preface, root)
+reference = [
+    {"title": "Glossary", "path": "GLOSSARY.md", "note": "A–Z definitions of key terms, each pointing to its home topic"},
+    {"title": "Index", "path": "INDEX.md", "note": "Concepts and frameworks by topic number"},
+    {"title": "Style guide", "path": "STYLE_GUIDE.md", "note": "The prose and formatting contract"},
+    {"title": "Specification", "path": "spec/index.md", "note": "Governing specification: topic template, manifest, quality gates"},
+]
+
+doc = {
+    "name": "Public Value Guide",
+    "description": "A practical handbook of best practices for creating public value in government and the social sector, grounded in Mark Moore's public value framework.",
+    "canonical_locale": CANON,
+    "locales": locales,
+    "site": SITE,
+    "raw_base": RAW,
+    "preface": {"path": preface},
+    "parts": [],
+    "reference": reference,
+}
+for p in parts:
+    doc["parts"].append({
+        "part": p["part"], "summary": p["summary"],
+        "topics": [dict(t, locales=locale_paths(t["path"])) for t in p["topics"]],
+    })
+with open(os.path.join(root, "llms.json"), "w", encoding="utf-8") as f:
+    json.dump(doc, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+
+L = ["# Public Value Guide", "",
+     f"> {doc['description']} 33 topics in 5 parts plus a preface, canonical text in `{CANON}`, localized into {len(locales)-1} further locales. Links below are to the canonical locale; every topic exists at the same path with its locale's slug under `locales/<locale>/topics/` (see llms.json for each locale's path).", "",
+     "Each topic follows one 13-section template: thesis, why it matters, core concepts, best practices, six discussion questions, a fictional worked example, four sector lenses (local government, national government, social sector and nonprofit, multilateral and international), failure modes, a five-level maturity model, a checklist, key sources, and references. Answer from the topic text; do not present general knowledge as the book's position.", "",
+     "## Front matter", "", f"- [Preface]({RAW}{preface}): how the book was made and its AI-translation caveat", ""]
+for p in parts:
+    L += [f"## {p['part']}", "", p["summary"], ""]
+    for t in p["topics"]:
+        L.append(f"- [Topic {t['number']} — {t['title']}]({RAW}{t['path']})")
+    L.append("")
+L += ["## Reference", ""] + [f"- [{r['title']}]({RAW}{r['path']}): {r['note']}" for r in reference] + [""]
+L += ["## Optional", "", f"- [Reading site]({SITE}): the rendered book in every locale",
+      "- [Reader skill](" + RAW + "skills/public-value-guide-skill/SKILL.md): routes questions to topics, runs team workshops",
+      "- [Maintainer skill](" + RAW + "skills/public-value-guide-maintainer-skill/SKILL.md): authoring, review, localization rules",
+      f"- [Machine-readable inventory]({RAW}llms.json): topics, parts, and per-locale paths as JSON", ""]
+with open(os.path.join(root, "llms.txt"), "w", encoding="utf-8") as f:
+    f.write("\n".join(L))
+print("wrote llms.txt and llms.json:", sum(len(p['topics']) for p in parts), "topics,", len(locales), "locales")

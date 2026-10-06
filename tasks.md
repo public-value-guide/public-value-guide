@@ -7,7 +7,7 @@ Live checklist. Update in the same change as the work it tracks.
 - [x] Repository layout, `spec/index.md`, `spec/maturity-model.md`, `spec/oxford-spelling.md`
 - [x] `AGENTS.md` and `AGENTS/` role cards
 - [x] `STYLE_GUIDE.md`
-- [x] Locale directories + `.locale-peer-id` for all 34 topic units × 6 locales
+- [x] Locale directories + `.locale-peer-id` for all 34 topic units × 6 locales (scaffolded; nine more locales added later — see Phase 4)
 - [x] `bin/` tooling vendored from `sixarm/locale-help`
 - [x] `GLOSSARY.md` / `INDEX.md` skeletons
 - [x] `README.md`
