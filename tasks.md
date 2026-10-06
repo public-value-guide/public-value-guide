@@ -93,10 +93,11 @@ Live checklist. Update in the same change as the work it tracks.
 ## Phase 5 — Release checks
 
 - [ ] Every locale passes all four gates
-  - [x] Structural gate scripted across all 14 locales (headings, item counts, Wikipedia link counts): 0 failures
+  - [x] Structural gate scripted across all 14 locales (headings, item counts, Wikipedia link counts): 0 failures (now 15 locales including `ko-kr`)
   - [x] Link gate: all 318 distinct Wikipedia slugs resolve (one non-existent slug removed from Topic 1.5)
   - [x] Cross-reference titles match target headings in every locale
   - [x] Bare topic numbers fixed in all 14 locales (mentions already followed by a titled citation in the same sentence are left as is)
+  - [ ] Korean (`ko-kr`) professional review (AI-drafted, 34/34 files)
   - [ ] Welsh (`cy-gb`, `cy-001`) professional review, including *pwnc* agreement after the chapter→topic rewording
 - [x] `README.md`, `GLOSSARY.md`, `INDEX.md` agree with `spec/index.md` §4 (verified by script)
 - [ ] This file fully checked off
