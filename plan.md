@@ -12,7 +12,7 @@ Public value theory itself (Mark Moore's *Creating Public Value* and *Recognizin
 
 **Phase 0 — Scaffolding** — repository layout, `spec/`, `AGENTS.md` and role cards, `STYLE_GUIDE.md`, locale directories with `.locale-peer-id` files for all 34 topic units across the original 6 locales (9 more added in Phase 4), `bin/` tooling vendored, `GLOSSARY.md`/`INDEX.md` skeletons, `README.md`, `CITATION.cff`. *(Done first, before any topic prose.)*
 
-**Phase 1 — Canonical topics, part by part** — write all 33 topics plus the preface in `en-gb-oxendict`, one topic-author per topic, fanned out across distinct files, part by part (Part 1 before Part 2, etc., since later parts' scope notes assume earlier concepts like the strategic triangle and the public value scorecard).
+**Phase 1 — Canonical topics, part by part** — write all 33 topics plus the preface in `en-gb-oxendict`, one topic-author per topic, one topic at a time, part by part (Part 1 before Part 2, etc., since later parts' scope notes assume earlier concepts like the strategic triangle and the public value scorecard).
 
 **Phase 2 — Reference matter** — `GLOSSARY.md` and `INDEX.md` populated as topics land (each topic-author registers their own new terms; a reference-editor pass reconciles at the end of each part).
 
@@ -24,9 +24,9 @@ Public value theory itself (Mark Moore's *Creating Public Value* and *Recognizin
 
 ## Working method
 
-- One writer per file; fan agents out across distinct topics, never the same file concurrently.
+- One writer per file, one topic at a time. Work serially: no subagents or fan-outs in this repo (maintainer's standing rule).
 - Finish a part's canonical topics and pass its quality gate before starting that part's localization.
-- After any parallel fan-out, verify what actually reached disk before re-running anything.
+- After any interrupted batch, verify what actually reached disk before re-running anything.
 
 ## Risks and mitigations
 
