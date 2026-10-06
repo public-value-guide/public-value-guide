@@ -123,8 +123,8 @@
           "path": "locales/en-gb-oxendict/topics/01-05-stakeholders-citizens-and-co-production/index.md",
           "locales": {
             "ar-001": "locales/ar-001/topics/01-05-ashab-al-maslaha-wa-al-muwatinun-wa-al-intaj-al-mushtarak/index.md",
-            "cy-001": "locales/cy-001/topics/01-05-rhanddeiliaid-dinasyddion-a-chyd-gynhyrchu/index.md",
-            "cy-gb": "locales/cy-gb/topics/01-05-rhanddeiliaid-dinasyddion-a-chyd-gynhyrchu/index.md",
+            "cy-001": "locales/cy-001/topics/01-05-rhanddeiliaid-dinasyddion-a-chydgynhyrchu/index.md",
+            "cy-gb": "locales/cy-gb/topics/01-05-rhanddeiliaid-dinasyddion-a-chydgynhyrchu/index.md",
             "de-de": "locales/de-de/topics/01-05-interessengruppen-buergerinnen-und-buerger-und-koproduktion/index.md",
             "en-001": "locales/en-001/topics/01-05-stakeholders-citizens-and-co-production/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-05-stakeholders-citizens-and-co-production/index.md",
@@ -195,8 +195,8 @@
           "path": "locales/en-gb-oxendict/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
           "locales": {
             "ar-001": "locales/ar-001/topics/02-03-al-aid-al-ijtimai-ala-al-istithmar-wa-qiyas-al-athar/index.md",
-            "cy-001": "locales/cy-001/topics/02-03-adenillion-cymdeithasol-ar-fuddsoddiad-a-mesur-effaith/index.md",
-            "cy-gb": "locales/cy-gb/topics/02-03-adenillion-cymdeithasol-ar-fuddsoddiad-a-mesur-effaith/index.md",
+            "cy-001": "locales/cy-001/topics/02-03-adenillion-cymdeithasol-o-fuddsoddi-a-mesur-effaith/index.md",
+            "cy-gb": "locales/cy-gb/topics/02-03-adenillion-cymdeithasol-o-fuddsoddi-a-mesur-effaith/index.md",
             "de-de": "locales/de-de/topics/02-03-sozialer-return-on-investment-und-wirkungsmessung/index.md",
             "en-001": "locales/en-001/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
@@ -531,8 +531,8 @@
           "path": "locales/en-gb-oxendict/topics/03-12-crisis-emergency-and-resilience-management/index.md",
           "locales": {
             "ar-001": "locales/ar-001/topics/03-12-idarat-al-azmat-wa-al-tawari-wa-al-qudra-ala-al-sumud/index.md",
-            "cy-001": "locales/cy-001/topics/03-12-rheoli-argyfwng-brys-a-gwytnwch/index.md",
-            "cy-gb": "locales/cy-gb/topics/03-12-rheoli-argyfwng-brys-a-gwytnwch/index.md",
+            "cy-001": "locales/cy-001/topics/03-12-rheoli-argyfwng-brys-a-gwydnwch/index.md",
+            "cy-gb": "locales/cy-gb/topics/03-12-rheoli-argyfwng-brys-a-gwydnwch/index.md",
             "de-de": "locales/de-de/topics/03-12-krisen-notfall-und-resilienzmanagement/index.md",
             "en-001": "locales/en-001/topics/03-12-crisis-emergency-and-resilience-management/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-12-crisis-emergency-and-resilience-management/index.md",

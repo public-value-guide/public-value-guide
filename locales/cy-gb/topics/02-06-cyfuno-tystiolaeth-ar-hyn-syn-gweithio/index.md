@@ -130,7 +130,7 @@ Mae cyrff amlochrog a rhyngwladol yn wynebu'r broblem generaliadwyedd yn ei ffur
 - Canllawiau Cydweithrediad Campbell ar adolygiadau systematig a chyfuno tystiolaeth ar gyfer polisi cymdeithasol, ymddygiadol, a throseddegol, ar gyfer estyniad uniongyrchol y fethodoleg honno i mewn i feysydd polisi cyhoeddus y tu hwnt i iechyd.
 - Llawlyfr Safonau What Works Clearinghouse (Sefydliad Gwyddorau Addysg, Unol Daleithiau), ar gyfer enghraifft waith o sut mae tŷ-clirio cenedlaethol yn gosod safonau dyluniad astudiaeth eglur ac yn graddio tystiolaeth yn eu herbyn.
 - Pecyn Cymorth Addysgu a Dysgu Sefydliad Gwaddol Addysg, ar gyfer enghraifft ymarferol, wynebu-ymarferwr o gyfieithu tystiolaeth wedi'i chyfuno i mewn i raddiadau cost, effaith, a chryfder-tystiolaeth cymharadwy.
-- Gwaith Sefydliad Cydweithrediad a Datblygiad Economaidd (OECD) ar adeiladu capasiti ar gyfer llunio polisi wedi'i hysbysu-gan-dystiolaeth, ar gyfer cyfrif traws-wladol o sut mae llywodraethau'n trefnu ochrau galw a chyflenwad defnydd tystiolaeth.
+- Gwaith Sefydliad Cydweithrediad a Datblygiad Economaidd (OECD) ar feithrin gallu ar gyfer llunio polisi wedi'i hysbysu-gan-dystiolaeth, ar gyfer cyfrif traws-wladol o sut mae llywodraethau'n trefnu ochrau galw a chyflenwad defnydd tystiolaeth.
 - Canolfan Beth Sy'n Gweithio Coleg Plismona ar gyfer Lleihau Trosedd a'i becyn cymorth lleihau trosedd, ar gyfer enghraifft waith bellach o'r patrwm tŷ-clirio wedi'i gymhwyso y tu allan i iechyd ac addysg.
 
 ## Cyfeiriadau
