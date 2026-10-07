@@ -1,8 +1,16 @@
-slug_lowercase  endodymn	exodym_en_001
-cy-001	Cymraeg	Cymraeg
-en-001	English	English
-en-gb	English - Great Britain	English - Great Britain
-en-gb-oxendict	English - Great Britain - Oxford	English - Great Britain - Oxford
-en-us	English - United States	English - United States
-es-011  Español	Spanish
-zh-cn	?	Chinese - China
+slug	endonym	exonym_en_001
+ar-001	العربية	Arabic (World)
+cy-001	Cymraeg	Welsh (World)
+cy-gb	Cymraeg - Cymru	Welsh (Wales)
+de-de	Deutsch - Deutschland	German (Germany)
+en-001	English	English (World)
+en-gb	English - Great Britain	English (Great Britain)
+en-gb-oxendict	English - Great Britain - Oxford	English (Great Britain, Oxford spelling)
+en-us	English - United States	English (United States)
+es-001	Español	Spanish (World)
+fr-001	Français	French (World)
+hi-in	हिन्दी - भारत	Hindi (India)
+ja-jp	日本語 - 日本	Japanese (Japan)
+ko-kr	한국어 - 대한민국	Korean (South Korea)
+ru-ru	Русский - Россия	Russian (Russia)
+zh-cn	中文 - 中国大陆 - 简体	Chinese (Mainland China, Simplified)

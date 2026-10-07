@@ -119,3 +119,62 @@ Fix: have `locales/[locale]/+layout.server.js` supply this locale's own title,
 which overrides the root layout's canonical one via SvelteKit's merged
 `page.data` on any route under `/locales/<locale>/` — the root picker and
 `/about/` (no locale in the URL) correctly keep the canonical English title.
+
+## Locale directory names
+
+Every directory under `locales/` is named `<language>-<region>[-<variant>]`: a
+lowercase two-letter language code, a hyphen, a region that is a lowercase
+two-letter country code (`gb`) or a three-digit UN M.49 code (`001` is the
+world), and optionally a registered variant (`oxendict`). A language-only
+directory such as `locales/en/` is never created. `bin/check` enforces this.
+
+## Routes on the reading site
+
+- Every locale is served at `/<locale>/…` using its directory name:
+  `/<locale>/contents/` and `/<locale>/topics/<slug>/`.
+- `/<locale>/` alone redirects to `/<locale>/contents/`.
+- The `-001` locales are also reachable at a two-letter alias (`/en/…` serves
+  the same content as `/en-001/…`; likewise `es`, `fr`, `cy`, `ar`). The alias
+  is a route only, never a directory. There is **no** forwarding in either
+  direction between `/<language>-001/` and `/<language>/`: each URL stays
+  where it is.
+- Slugs differ per locale, so the picker maps a topic across locales by topic
+  number (equivalently by `.locale-peer-id`), never by slug.
+
+## Root route `/` chooses a locale from the browser language
+
+`/` has no content. In the browser it redirects to `/<locale>/contents/` for
+the first match of this order:
+
+1. The locale the reader chose earlier with the picker (saved in the browser).
+2. For each language in `navigator.languages` (first entry is
+   `navigator.language`), in order: normalize case, treat `_` as `-` and drop
+   a script subtag, then:
+   1. an exact locale (`cy_GB` → `cy-gb`, `en-US` → `en-us`);
+   2. otherwise the language's international `-001` locale (`en-AU` →
+      `en-001`, `fr-CA` → `fr-001`; not the two-letter alias);
+   3. otherwise the first locale in that language (`de-AT` → `de-de`).
+3. Otherwise the canonical locale, `en-gb-oxendict`.
+
+`/?<query>` is the site search and is never redirected. When testing, use a
+fresh browser context per case, because landing on a locale saves it.
+
+## Welsh
+
+`cy-gb` and `cy-001` are kept byte-identical. Terminology follows the Welsh
+Government's TermCymru term bank (status A, then B, where the entry's subject
+area fits). See `spec/index.md` §4a for the list of aligned terms.
+
+## Rendering notes for CJK locales
+
+CommonMark does not close `**…)**である` (punctuation before the closing mark, a
+letter after), so Japanese, Chinese and Korean pages showed literal asterisks.
+The site rewrites asterisk-only `**strong**` and `*emphasis*` to HTML before
+parsing, outside code. A new locale also needs its five part titles and
+taglines added to the site's part translations, and its UI strings.
+
+## Current locales
+
+`locales.tsv` lists the fifteen locales (one canonical, fourteen localized).
+Eleven of the fifteen — every locale except the four English ones — are
+AI-translated drafts awaiting professional review; see `spec/index.md` §4a.
