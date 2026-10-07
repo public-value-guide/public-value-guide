@@ -5,6 +5,7 @@
   bin/check --links    also resolve every distinct Wikipedia slug (needs network)
 
 Gates (spec §10):
+  locale names  every directory under locales/ is <language>-<region>[-<variant>] (spec §4a)
   completeness  every locale has all 34 topic directories, each with a non-empty index.md
                 and a .locale-peer-id identical to the canonical locale's
   structural    heading shape, 8-12 best practices, exactly 6 questions, 3-5 maturity rows,
@@ -25,6 +26,8 @@ def fail(msg):
 
 def unit_dirs(loc):
     d = f"{L}/{loc}/topics"
+    if not os.path.isdir(d):
+        return []
     return sorted(x for x in os.listdir(d) if os.path.isdir(f"{d}/{x}"))
 
 def sections(text):
@@ -55,6 +58,11 @@ def metrics(text):
 canon_units = {u[:5]: u for u in unit_dirs(CANON)}
 canon_metrics = {k: metrics(open(f"{L}/{CANON}/topics/{u}/index.md").read()) for k, u in canon_units.items() if not k.startswith("00")}
 locales = sorted(x for x in os.listdir(L) if os.path.isdir(f"{L}/{x}"))
+
+# locale directory names: <language>-<region>[-<variant>] (spec §4a)
+for loc in locales:
+    if not re.fullmatch(r"[a-z]{2}-(?:[a-z]{2}|\d{3})(?:-[a-z]{5,8})?", loc):
+        fail(f"locales/{loc}: directory name is not <language>-<region> (spec §4a)")
 
 # completeness + peer ids
 for loc in locales:

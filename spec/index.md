@@ -134,6 +134,8 @@ Numbering is `Part.Topic`. Filenames are the topic's directory name: zero-padded
 
 The book is authored once, in the canonical locale, and translated into the other locales listed below. Locale directory and content conventions follow `sixarm/locale-help`:
 
+**Locale directory names.** Every directory under `locales/` is named `<language>-<region>`: a lowercase two-letter language code, a hyphen, and a region that is either a lowercase two-letter country code (`gb`, `us`, `de`) or a three-digit UN M.49 code for a world region (`001` is the world). A registered variant subtag may follow (`en-gb-oxendict`). A language-only directory such as `locales/en/` is never created: `en` is not a locale of this book, and the World locale for English is `en-001`. Two-letter *URLs* on the reading site are a presentation alias for `-001` locales, never a directory in this repository. `bin/check` fails on any directory that does not match.
+
 | Locale | What it is |
 |---|---|
 | `en-gb-oxendict` | **Canonical / source locale.** English (Great Britain), Oxford spelling. All new topics are drafted here first. |
