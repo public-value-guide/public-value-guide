@@ -73,6 +73,9 @@ for loc in locales:
         f = f"{L}/{loc}/topics/{u}/index.md"
         if not os.path.isfile(f) or os.path.getsize(f) < 500:
             fail(f"{loc}/{u}: index.md missing or near-empty")
+        readme = f"{L}/{loc}/topics/{u}/README.md"
+        if not os.path.islink(readme) or os.readlink(readme) != "index.md":
+            fail(f"{loc}/{u}: README.md should be a symlink to index.md")
         pid, cpid = f"{L}/{loc}/topics/{u}/.locale-peer-id", f"{L}/{CANON}/topics/{canon_units.get(k, '')}/.locale-peer-id"
         if not os.path.isfile(pid) or not os.path.isfile(cpid) or open(pid).read() != open(cpid).read():
             fail(f"{loc}/{u}: .locale-peer-id differs from canonical")
