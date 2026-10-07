@@ -133,11 +133,9 @@ directory such as `locales/en/` is never created. `bin/check` enforces this.
 - Every locale is served at `/<locale>/…` using its directory name:
   `/<locale>/contents/` and `/<locale>/topics/<slug>/`.
 - `/<locale>/` alone redirects to `/<locale>/contents/`.
-- The `-001` locales are also reachable at a two-letter alias (`/en/…` serves
-  the same content as `/en-001/…`; likewise `es`, `fr`, `cy`, `ar`). The alias
-  is a route only, never a directory. There is **no** forwarding in either
-  direction between `/<language>-001/` and `/<language>/`: each URL stays
-  where it is.
+- There are no two-letter alias routes: `/en/` does not exist, and no URL
+  forwards to another locale's URL. A World locale is served only at its own
+  slug (`/en-001/…`).
 - Slugs differ per locale, so the picker maps a topic across locales by topic
   number (equivalently by `.locale-peer-id`), never by slug.
 
@@ -152,7 +150,7 @@ the first match of this order:
    a script subtag, then:
    1. an exact locale (`cy_GB` → `cy-gb`, `en-US` → `en-us`);
    2. otherwise the language's international `-001` locale (`en-AU` →
-      `en-001`, `fr-CA` → `fr-001`; not the two-letter alias);
+      `en-001`, `fr-CA` → `fr-001`);
    3. otherwise the first locale in that language (`de-AT` → `de-de`).
 3. Otherwise the canonical locale, `en-gb-oxendict`.
 
