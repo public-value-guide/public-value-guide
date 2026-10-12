@@ -27,7 +27,9 @@ def locale_paths(topic_path):
     unit = topic_path.split("/")[-2]
     key = unit[:5]
     out = {}
-    for d in sorted(glob.glob(os.path.join(root, "locales", "*", "topics", key + "-*"))):
+    for d in sorted(glob.glob(os.path.join(root, "locales", "*", "*", key + "-*"))):
+        if not os.path.exists(os.path.join(os.path.dirname(d), ".locale-peer-id")):
+            continue  # not a topics directory
         f = os.path.join(d, "index.md")
         if os.path.getsize(f) > 0:
             out[d.split(os.sep)[-3]] = os.path.relpath(f, root)

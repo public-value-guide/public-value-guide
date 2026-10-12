@@ -173,6 +173,6 @@ taglines added to the site's part translations, and its UI strings.
 
 ## Current locales
 
-`locales.tsv` lists the fifteen locales (one canonical, fourteen localized).
-Eleven of the fifteen — every locale except the four English ones — are
+`locales.tsv` lists the twenty-one locales (one canonical, twenty localized).
+Seventeen of the twenty-one — every locale except the four English ones — are
 AI-translated drafts awaiting professional review; see `spec/index.md` §4a.

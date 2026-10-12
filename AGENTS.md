@@ -1,6 +1,6 @@
 # AGENTS.md — Operating instructions for AI agents
 
-This repository is a book: the *Public Value Guide*, 33 Markdown topics in 5 parts plus a preface, published in 15 locales (one canonical, 14 localized). Agents do most of the authoring and checking. This file tells any agent how to work here safely.
+This repository is a book: the *Public Value Guide*, 33 Markdown topics in 5 parts plus a preface, published in 21 locales (one canonical, 20 localized). Agents do most of the authoring and checking. This file tells any agent how to work here safely.
 
 ## The one rule that governs everything
 

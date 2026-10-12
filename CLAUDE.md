@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This repository is the *Public Value Guide* (33 topics plus a preface, 15 locales). All operating instructions live in [`AGENTS.md`](AGENTS.md); the governing specification is [`spec/index.md`](spec/index.md), which wins wherever any file disagrees with it.
+This repository is the *Public Value Guide* (33 topics plus a preface, 21 locales). All operating instructions live in [`AGENTS.md`](AGENTS.md); the governing specification is [`spec/index.md`](spec/index.md), which wins wherever any file disagrees with it.
 
 Read in this order: `spec/index.md` → `AGENTS.md` → the role card in `AGENTS/` for your task.
 

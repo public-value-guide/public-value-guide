@@ -24,8 +24,18 @@ failures = []
 def fail(msg):
     failures.append(msg)
 
+def topics_dir(loc):
+    """A locale's topics directory name. English locales call it `topics`; every other
+    locale translates the name. It is the subdirectory whose children carry a `.locale-peer-id`."""
+    base = f"{L}/{loc}"
+    for e in sorted(os.listdir(base)):
+        d = f"{base}/{e}"
+        if os.path.isdir(d) and any(os.path.exists(f"{d}/{c}/.locale-peer-id") for c in os.listdir(d)):
+            return e
+    return "topics"
+
 def unit_dirs(loc):
-    d = f"{L}/{loc}/topics"
+    d = f"{L}/{loc}/{topics_dir(loc)}"
     if not os.path.isdir(d):
         return []
     return sorted(x for x in os.listdir(d) if os.path.isdir(f"{d}/{x}"))
@@ -70,13 +80,13 @@ for loc in locales:
     for k in sorted(set(canon_units) ^ set(have)):
         fail(f"{loc}: unit {k} missing or extra")
     for k, u in have.items():
-        f = f"{L}/{loc}/topics/{u}/index.md"
+        f = f"{L}/{loc}/{topics_dir(loc)}/{u}/index.md"
         if not os.path.isfile(f) or os.path.getsize(f) < 500:
             fail(f"{loc}/{u}: index.md missing or near-empty")
-        readme = f"{L}/{loc}/topics/{u}/README.md"
+        readme = f"{L}/{loc}/{topics_dir(loc)}/{u}/README.md"
         if not os.path.islink(readme) or os.readlink(readme) != "index.md":
             fail(f"{loc}/{u}: README.md should be a symlink to index.md")
-        pid, cpid = f"{L}/{loc}/topics/{u}/.locale-peer-id", f"{L}/{CANON}/topics/{canon_units.get(k, '')}/.locale-peer-id"
+        pid, cpid = f"{L}/{loc}/{topics_dir(loc)}/{u}/.locale-peer-id", f"{L}/{CANON}/topics/{canon_units.get(k, '')}/.locale-peer-id"
         if not os.path.isfile(pid) or not os.path.isfile(cpid) or open(pid).read() != open(cpid).read():
             fail(f"{loc}/{u}: .locale-peer-id differs from canonical")
 
@@ -84,7 +94,7 @@ for loc in locales:
 for loc in locales:
     for u in unit_dirs(loc):
         k = u[:5]
-        f = f"{L}/{loc}/topics/{u}/index.md"
+        f = f"{L}/{loc}/{topics_dir(loc)}/{u}/index.md"
         if k.startswith("00") or not os.path.isfile(f):
             continue
         m, c = metrics(open(f).read()), canon_metrics.get(k, {})
@@ -102,7 +112,7 @@ for loc in locales:
 bare_total = 0
 for loc in locales:
     titles = {}
-    for p in glob.glob(f"{L}/{loc}/topics/*/index.md"):
+    for p in glob.glob(f"{L}/{loc}/{topics_dir(loc)}/*/index.md"):
         k = os.path.basename(os.path.dirname(p))[:5]
         if k.startswith("00"):
             continue
@@ -112,7 +122,7 @@ for loc in locales:
             fail(f"{loc}/{k}: H1 not 'Topic N.N — Title'")
             continue
         titles[m.group(1)] = m.group(2).strip()
-    for p in sorted(glob.glob(f"{L}/{loc}/topics/*/index.md")):
+    for p in sorted(glob.glob(f"{L}/{loc}/{topics_dir(loc)}/*/index.md")):
         key = os.path.basename(os.path.dirname(p))[:5]
         body = open(p).read().split("\n## References")[0].split("\n", 1)[-1]
         for m in re.finditer(r"(?<![\d.])([1-5]\.\d{1,2})(?![\d.]\d)", body):
@@ -131,7 +141,7 @@ for loc in locales:
 # optional link gate
 if "--links" in sys.argv:
     slugs = set()
-    for p in glob.glob(f"{L}/*/topics/*/index.md"):
+    for p in [p for loc in locales for p in glob.glob(f"{L}/{loc}/{topics_dir(loc)}/*/index.md")]:
         for u in re.findall(r"https://en\.wikipedia\.org/wiki/([\w%()\-.,:'~!+;=@/$&]+)", open(p).read(), re.A):
             depth, end = 0, len(u)
             for n, ch in enumerate(u):
