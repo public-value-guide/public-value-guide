@@ -90,6 +90,7 @@ Live checklist. Update in the same change as the work it tracks.
 - [x] `cy-001` — all topics (flagged for professional review, spec §4a)
 - [x] `ar-001`, `de-de`, `es-001`, `fr-001`, `hi-in`, `ja-jp`, `ru-ru`, `zh-cn` — all topics (34/34 files each; not yet independently reviewed)
 - [x] `ko-kr` — all topics (34/34 files; AI-drafted, South Korean public-administration terminology, spec §4a)
+- [x] `sv-se`, `sv-001` — all topics (34/34 files each; AI-drafted, Swedish public-administration terminology, spec §4a)
 - [x] Prefaces in all 15 locales state eleven of fifteen locales are AI-translated drafts
 
 ## Phase 5 — Release checks
@@ -100,6 +101,7 @@ Live checklist. Update in the same change as the work it tracks.
   - [x] Cross-reference titles match target headings in every locale
   - [x] Bare topic numbers fixed in all 14 locales (mentions already followed by a titled citation in the same sentence are left as is)
   - [ ] Korean (`ko-kr`) professional review (AI-drafted, 34/34 files)
+  - [ ] Swedish (`sv-se`, `sv-001`) professional review (AI-drafted, 34/34 files)
   - [x] Welsh terminology aligned with TermCymru (status A/B; `cy-gb` and `cy-001` kept identical; 2026-10 pass)
   - [ ] Welsh (`cy-gb`, `cy-001`) professional review, including *pwnc* agreement after the chapter→topic rewording
 - [x] `README.md`, `GLOSSARY.md`, `INDEX.md` agree with `spec/index.md` §4 (verified by script)

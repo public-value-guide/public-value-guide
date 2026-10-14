@@ -153,6 +153,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `ja-jp` | 日本語（日本）— Japanese (Japan), using Japanese public-administration terminology conventions. |
 | `ru-ru` | Русский (Россия) — Russian (Russia), using Russian public-administration terminology conventions and Cyrillic script. |
 | `ko-kr` | 한국어 (대한민국) — Korean (South Korea), using South Korean public-administration terminology conventions and Hangul script. |
+| `sv-se` | Svenska (Sverige) — Swedish (Sweden), using Swedish public-administration terminology conventions; du-tilltal, formal written register; directory slugs are lowercase Swedish with å, ä, ö kept. |
+| `sv-001` | Svenska (världen) — Swedish (World), an identical copy of `sv-se` for readers outside Sweden. |
 | `id-001` | Bahasa Indonesia (Dunia) — Indonesian (World), standard Bahasa Indonesia in the formal register with public-administration terminology kept neutral; directory slugs are lowercase Indonesian. |
 | `bn-001` | বাংলা (বিশ্ব) — Bengali (World), standard Bengali (Bangla) in the formal register with public-administration terminology kept neutral; directory slugs are in Bengali script (lowercase digits and hyphens as separators); headings and cross-reference numbers use ASCII digits. |
 
