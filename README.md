@@ -68,7 +68,7 @@ The scope is worldwide. National governments, regional and local government, soc
 
 ## Locales
 
-The canonical text is authored in `en-gb-oxendict` (English, Great Britain, Oxford spelling) and localized into twenty further locales — `en-gb`, `en-us`, `en-001` (English, World), `cy-gb`, `cy-001` (Cymraeg), `es-001` (Spanish), `zh-cn` (Chinese), `ar-001` (Arabic), `hi-in` (Hindi), `fr-001` (French), `de-de` (German), `ja-jp` (Japanese), `ru-ru` (Russian), `ko-kr` (Korean), and `sv-se` / `sv-001` (Swedish). See `spec/index.md` §4a for the full locale table and the locale-peer-id tracking convention (`sixarm/locale-help`). The two Welsh locales and the eight other non-English locales (`es-001`, `zh-cn`, `ar-001`, `hi-in`, `fr-001`, `de-de`, `ja-jp`, `ru-ru`, `ko-kr`, `sv-se`, `sv-001`) are AI-drafted pending professional review — see the caveats in §4a.
+The canonical text is authored in `en-gb-oxendict` (English, Great Britain, Oxford spelling) and localized into twenty further locales — `en-gb`, `en-us`, `en-001` (English, World), `cy-gb`, `cy-001` (Cymraeg), `es-001` (Spanish), `zh-cn` (Chinese), `ar-001` (Arabic), `hi-in` (Hindi), `fr-001` (French), `de-de` (German), `ja-jp` (Japanese), `ru-ru` (Russian), `ko-kr` (Korean), `sv-se` / `sv-001` (Swedish), and `nl-nl` / `nl-001` (Dutch). See `spec/index.md` §4a for the full locale table and the locale-peer-id tracking convention (`sixarm/locale-help`). The two Welsh locales and the eight other non-English locales (`es-001`, `zh-cn`, `ar-001`, `hi-in`, `fr-001`, `de-de`, `ja-jp`, `ru-ru`, `ko-kr`, `sv-se`, `sv-001`, `nl-nl`, `nl-001`) are AI-drafted pending professional review — see the caveats in §4a.
 
 ## Use with Claude Code
 
