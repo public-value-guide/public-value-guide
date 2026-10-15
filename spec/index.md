@@ -157,6 +157,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `sv-001` | Svenska (världen) — Swedish (World), an identical copy of `sv-se` for readers outside Sweden. |
 | `nl-nl` | Nederlands (Nederland) — Dutch (Netherlands), using Dutch public-administration terminology conventions; formal "u" register; directory slugs are lowercase Dutch ASCII with diacritics kept (e.g. `financiën`). |
 | `nl-001` | Nederlands (wereld) — Dutch (World), an identical copy of `nl-nl` for readers outside the Netherlands. |
+| `is-is` | Íslenska (Ísland) — Icelandic (Iceland), using Icelandic public-administration terminology conventions; formal written register; directory slugs are lowercase Icelandic with diacritics and þ/ð kept. |
+| `is-001` | Íslenska (heimurinn) — Icelandic (World), an identical copy of `is-is` for readers outside Iceland. |
 | `id-001` | Bahasa Indonesia (Dunia) — Indonesian (World), standard Bahasa Indonesia in the formal register with public-administration terminology kept neutral; directory slugs are lowercase Indonesian. |
 | `bn-001` | বাংলা (বিশ্ব) — Bengali (World), standard Bengali (Bangla) in the formal register with public-administration terminology kept neutral; directory slugs are in Bengali script (lowercase digits and hyphens as separators); headings and cross-reference numbers use ASCII digits. |
 
