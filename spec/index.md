@@ -160,6 +160,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `nl-001` | Nederlands (wereld) — Dutch (World), an identical copy of `nl-nl` for readers outside the Netherlands. |
 | `is-is` | Íslenska (Ísland) — Icelandic (Iceland), using Icelandic public-administration terminology conventions; formal written register; directory slugs are lowercase Icelandic with diacritics and þ/ð kept. |
 | `is-001` | Íslenska (heimurinn) — Icelandic (World), an identical copy of `is-is` for readers outside Iceland. |
+| `sw-tz` | Kiswahili (Tanzania) — Swahili (Tanzania), using Tanzanian public-administration terminology conventions; formal written register; directory slugs are lowercase Swahili ASCII. |
+| `sw-001` | Kiswahili (dunia) — Swahili (World), an identical copy of `sw-tz` for readers outside Tanzania. |
 | `id-001` | Bahasa Indonesia (Dunia) — Indonesian (World), standard Bahasa Indonesia in the formal register with public-administration terminology kept neutral; directory slugs are lowercase Indonesian. |
 | `bn-001` | বাংলা (বিশ্ব) — Bengali (World), standard Bengali (Bangla) in the formal register with public-administration terminology kept neutral; directory slugs are in Bengali script (lowercase digits and hyphens as separators); headings and cross-reference numbers use ASCII digits. |
 
@@ -190,6 +192,8 @@ Japanese translation caveat: topic content and directory slugs in `ja-jp` are AI
 Russian translation caveat: topic content and directory slugs in `ru-ru` and `ru-001` are AI-drafted, in Russian using Russian public-administration terminology conventions ("общественная ценность" for public value; formal "вы" register). Public-facing or funded use should have them reviewed by a professional Russian-language editor familiar with public-administration terminology in Russia, particularly for terms that are conventionally left in English or have competing Russian renderings (for example "value for money", "co-production", and "merit goods").
 
 Korean translation caveat: topic content and directory slugs in `ko-kr` are AI-drafted, in Korean using South Korean public-administration terminology conventions ("공공가치" for public value; plain written register, 해라체). Public-facing or funded use should have them reviewed by a professional Korean-language editor familiar with public-administration terminology in South Korea, particularly for terms that are conventionally left as English loanwords (hangul transliterations) versus rendered with a Sino-Korean coinage (for example "value for money", "co-production", "merit goods", and "scorecard").
+
+Swahili translation caveat: topic content and directory slugs in `sw-tz` and `sw-001` are AI-drafted, in Swahili using Tanzanian public-administration terminology conventions ("thamani ya umma" for public value; formal register). Public-facing or funded use should have them reviewed by a professional Swahili-language editor familiar with public-administration terminology in Tanzania, particularly for terms with no settled Kiswahili rendering (for example "value for money", "co-production", and "merit goods").
 
 ## 5. Voice, style and formatting
 
