@@ -152,6 +152,7 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `de-de` | Deutsch (Deutschland) — German (Germany), using Federal German (Bund/Länder) public-administration terminology conventions. |
 | `ja-jp` | 日本語（日本）— Japanese (Japan), using Japanese public-administration terminology conventions. |
 | `ru-ru` | Русский (Россия) — Russian (Russia), using Russian public-administration terminology conventions and Cyrillic script. |
+| `ru-001` | Русский (мир) — Russian (World), an identical copy of `ru-ru` for readers outside Russia; directory names and slugs are in Cyrillic. |
 | `ko-kr` | 한국어 (대한민국) — Korean (South Korea), using South Korean public-administration terminology conventions and Hangul script. |
 | `sv-se` | Svenska (Sverige) — Swedish (Sweden), using Swedish public-administration terminology conventions; du-tilltal, formal written register; directory slugs are lowercase Swedish with å, ä, ö kept. |
 | `sv-001` | Svenska (världen) — Swedish (World), an identical copy of `sv-se` for readers outside Sweden. |
@@ -186,7 +187,7 @@ German translation caveat: topic content and directory slugs in `de-de` are AI-d
 
 Japanese translation caveat: topic content and directory slugs in `ja-jp` are AI-drafted, in Japanese using Japanese public-administration terminology conventions. Public-facing or funded use should have them reviewed by a professional Japanese-language editor familiar with public-administration terminology in Japan, particularly for terms that are conventionally kept as English loanwords (katakana) versus rendered with a native or Sino-Japanese (kango) coinage in official Japanese usage.
 
-Russian translation caveat: topic content and directory slugs in `ru-ru` are AI-drafted, in Russian using Russian public-administration terminology conventions ("общественная ценность" for public value; formal "вы" register). Public-facing or funded use should have them reviewed by a professional Russian-language editor familiar with public-administration terminology in Russia, particularly for terms that are conventionally left in English or have competing Russian renderings (for example "value for money", "co-production", and "merit goods").
+Russian translation caveat: topic content and directory slugs in `ru-ru` and `ru-001` are AI-drafted, in Russian using Russian public-administration terminology conventions ("общественная ценность" for public value; formal "вы" register). Public-facing or funded use should have them reviewed by a professional Russian-language editor familiar with public-administration terminology in Russia, particularly for terms that are conventionally left in English or have competing Russian renderings (for example "value for money", "co-production", and "merit goods").
 
 Korean translation caveat: topic content and directory slugs in `ko-kr` are AI-drafted, in Korean using South Korean public-administration terminology conventions ("공공가치" for public value; plain written register, 해라체). Public-facing or funded use should have them reviewed by a professional Korean-language editor familiar with public-administration terminology in South Korea, particularly for terms that are conventionally left as English loanwords (hangul transliterations) versus rendered with a Sino-Korean coinage (for example "value for money", "co-production", "merit goods", and "scorecard").
 
