@@ -34,6 +34,7 @@
     "sv-se",
     "sw-001",
     "sw-tz",
+    "ur-001",
     "zh-001",
     "zh-cn",
     "zh-tw"
@@ -84,6 +85,7 @@
             "sv-se": "locales/sv-se/ämnen/01-01-introduktion-till-offentligt-värde/index.md",
             "sw-001": "locales/sw-001/mada/01-01-utangulizi-wa-thamani-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/01-01-utangulizi-wa-thamani-ya-umma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/01-01-عوامی-قدر-کا-تعارف/index.md",
             "zh-001": "locales/zh-001/主题/01-01-公共价值导论/index.md",
             "zh-cn": "locales/zh-cn/主题/01-01-公共价值导论/index.md",
             "zh-tw": "locales/zh-tw/主題/01-01-公共價值導論/index.md"
@@ -125,6 +127,7 @@
             "sv-se": "locales/sv-se/ämnen/01-02-den-strategiska-triangeln/index.md",
             "sw-001": "locales/sw-001/mada/01-02-pembetatu-ya-kimkakati-uhalali-thamani-na-uwezo/index.md",
             "sw-tz": "locales/sw-tz/mada/01-02-pembetatu-ya-kimkakati-uhalali-thamani-na-uwezo/index.md",
+            "ur-001": "locales/ur-001/موضوعات/01-02-اسٹریٹجک-مثلث-جواز-قدر-اور-صلاحیت/index.md",
             "zh-001": "locales/zh-001/主题/01-02-战略三角-合法性-价值与能力/index.md",
             "zh-cn": "locales/zh-cn/主题/01-02-战略三角-合法性-价值与能力/index.md",
             "zh-tw": "locales/zh-tw/主題/01-02-戰略三角-合法性-價值與能力/index.md"
@@ -166,6 +169,7 @@
             "sv-se": "locales/sv-se/ämnen/01-03-marknadsmisslyckanden-och-statsmisslyckanden/index.md",
             "sw-001": "locales/sw-001/mada/01-03-kushindwa-kwa-soko-na-kushindwa-kwa-serikali/index.md",
             "sw-tz": "locales/sw-tz/mada/01-03-kushindwa-kwa-soko-na-kushindwa-kwa-serikali/index.md",
+            "ur-001": "locales/ur-001/موضوعات/01-03-منڈی-کی-ناکامی-اور-حکومت-کی-ناکامی/index.md",
             "zh-001": "locales/zh-001/主题/01-03-市场失灵与政府失灵/index.md",
             "zh-cn": "locales/zh-cn/主题/01-03-市场失灵与政府失灵/index.md",
             "zh-tw": "locales/zh-tw/主題/01-03-市場失靈與政府失靈/index.md"
@@ -207,6 +211,7 @@
             "sv-se": "locales/sv-se/ämnen/01-04-kollektiva-nyttigheter-meritvaror-och-värdepluralism/index.md",
             "sw-001": "locales/sw-001/mada/01-04-bidhaa-za-umma-bidhaa-za-stahili-na-wingi-wa-maadili/index.md",
             "sw-tz": "locales/sw-tz/mada/01-04-bidhaa-za-umma-bidhaa-za-stahili-na-wingi-wa-maadili/index.md",
+            "ur-001": "locales/ur-001/موضوعات/01-04-عوامی-اشیا-استحقاقی-اشیا-اور-اقدار-کی-کثرتیت/index.md",
             "zh-001": "locales/zh-001/主题/01-04-公共物品-优值品与价值多元论/index.md",
             "zh-cn": "locales/zh-cn/主题/01-04-公共物品-优值品与价值多元论/index.md",
             "zh-tw": "locales/zh-tw/主題/01-04-公共物品-優值品與價值多元論/index.md"
@@ -248,6 +253,7 @@
             "sv-se": "locales/sv-se/ämnen/01-05-intressenter-medborgare-och-samproduktion/index.md",
             "sw-001": "locales/sw-001/mada/01-05-wadau-wananchi-na-uzalishaji-shirikishi/index.md",
             "sw-tz": "locales/sw-tz/mada/01-05-wadau-wananchi-na-uzalishaji-shirikishi/index.md",
+            "ur-001": "locales/ur-001/موضوعات/01-05-اسٹیک-ہولڈرز-شہری-اور-شراکتی-پیداوار/index.md",
             "zh-001": "locales/zh-001/主题/01-05-利益相关者-公民与协同生产/index.md",
             "zh-cn": "locales/zh-cn/主题/01-05-利益相关者-公民与协同生产/index.md",
             "zh-tw": "locales/zh-tw/主題/01-05-利益相關者-公民與協同生產/index.md"
@@ -295,6 +301,7 @@
             "sv-se": "locales/sv-se/ämnen/02-01-scorecard-för-offentligt-värde-och-resultatramverk/index.md",
             "sw-001": "locales/sw-001/mada/02-01-kadi-ya-alama-ya-thamani-ya-umma-na-mifumo-ya-matokeo/index.md",
             "sw-tz": "locales/sw-tz/mada/02-01-kadi-ya-alama-ya-thamani-ya-umma-na-mifumo-ya-matokeo/index.md",
+            "ur-001": "locales/ur-001/موضوعات/02-01-عوامی-قدر-کا-اسکور-کارڈ-اور-نتائج-کے-فریم-ورک/index.md",
             "zh-001": "locales/zh-001/主题/02-01-公共价值记分卡与成果框架/index.md",
             "zh-cn": "locales/zh-cn/主题/02-01-公共价值记分卡与成果框架/index.md",
             "zh-tw": "locales/zh-tw/主題/02-01-公共價值記分卡與成果框架/index.md"
@@ -336,6 +343,7 @@
             "sv-se": "locales/sv-se/ämnen/02-02-samhällsekonomisk-kostnads-nyttoanalys-och-kostnadseffektivitetsanalys/index.md",
             "sw-001": "locales/sw-001/mada/02-02-uchambuzi-wa-gharama-na-manufaa-ya-kijamii-na-wa-ufanisi-wa-gharama/index.md",
             "sw-tz": "locales/sw-tz/mada/02-02-uchambuzi-wa-gharama-na-manufaa-ya-kijamii-na-wa-ufanisi-wa-gharama/index.md",
+            "ur-001": "locales/ur-001/موضوعات/02-02-سماجی-لاگت-و-منفعت-اور-لاگت-کی-افادیت-کا-تجزیہ/index.md",
             "zh-001": "locales/zh-001/主题/02-02-社会成本效益与成本效果分析/index.md",
             "zh-cn": "locales/zh-cn/主题/02-02-社会成本效益与成本效果分析/index.md",
             "zh-tw": "locales/zh-tw/主題/02-02-社會成本效益與成本效果分析/index.md"
@@ -377,6 +385,7 @@
             "sv-se": "locales/sv-se/ämnen/02-03-social-avkastning-på-investeringar-och-effektmätning/index.md",
             "sw-001": "locales/sw-001/mada/02-03-faida-ya-kijamii-ya-uwekezaji-na-upimaji-wa-athari/index.md",
             "sw-tz": "locales/sw-tz/mada/02-03-faida-ya-kijamii-ya-uwekezaji-na-upimaji-wa-athari/index.md",
+            "ur-001": "locales/ur-001/موضوعات/02-03-سماجی-منافع-برائے-سرمایہ-کاری-اور-اثر-کی-پیمائش/index.md",
             "zh-001": "locales/zh-001/主题/02-03-社会投资回报与影响力测量/index.md",
             "zh-cn": "locales/zh-cn/主题/02-03-社会投资回报与影响力测量/index.md",
             "zh-tw": "locales/zh-tw/主題/02-03-社會投資回報與影響力測量/index.md"
@@ -418,6 +427,7 @@
             "sv-se": "locales/sv-se/ämnen/02-04-ekonometri-i-offentlig-sektor-och-programutvärdering/index.md",
             "sw-001": "locales/sw-001/mada/02-04-uchumimetria-ya-sekta-ya-umma-na-tathmini-ya-programu/index.md",
             "sw-tz": "locales/sw-tz/mada/02-04-uchumimetria-ya-sekta-ya-umma-na-tathmini-ya-programu/index.md",
+            "ur-001": "locales/ur-001/موضوعات/02-04-سرکاری-شعبے-کی-اقتصادی-پیمائش-اور-پروگرام-کا-جائزہ/index.md",
             "zh-001": "locales/zh-001/主题/02-04-公共部门计量经济学与项目评估/index.md",
             "zh-cn": "locales/zh-cn/主题/02-04-公共部门计量经济学与项目评估/index.md",
             "zh-tw": "locales/zh-tw/主題/02-04-公共部門計量經濟學與專案評估/index.md"
@@ -459,6 +469,7 @@
             "sv-se": "locales/sv-se/ämnen/02-05-affärscase-och-valuta-för-pengarna/index.md",
             "sw-001": "locales/sw-001/mada/02-05-hoja-za-kibiashara-na-thamani-ya-fedha/index.md",
             "sw-tz": "locales/sw-tz/mada/02-05-hoja-za-kibiashara-na-thamani-ya-fedha/index.md",
+            "ur-001": "locales/ur-001/موضوعات/02-05-کاروباری-مقدمات-اور-قدر-برائے-رقم/index.md",
             "zh-001": "locales/zh-001/主题/02-05-商业论证与物有所值/index.md",
             "zh-cn": "locales/zh-cn/主题/02-05-商业论证与物有所值/index.md",
             "zh-tw": "locales/zh-tw/主題/02-05-商業論證與物有所值/index.md"
@@ -500,6 +511,7 @@
             "sv-se": "locales/sv-se/ämnen/02-06-evidenssyntes-och-vad-som-fungerar/index.md",
             "sw-001": "locales/sw-001/mada/02-06-muunganisho-wa-ushahidi-na-kinachofanya-kazi/index.md",
             "sw-tz": "locales/sw-tz/mada/02-06-muunganisho-wa-ushahidi-na-kinachofanya-kazi/index.md",
+            "ur-001": "locales/ur-001/موضوعات/02-06-شواہد-کی-ترکیب-اور-کیا-کارآمد-ہے/index.md",
             "zh-001": "locales/zh-001/主题/02-06-证据综合与有效实践/index.md",
             "zh-cn": "locales/zh-cn/主题/02-06-证据综合与有效实践/index.md",
             "zh-tw": "locales/zh-tw/主題/02-06-證據綜合與有效實踐/index.md"
@@ -547,6 +559,7 @@
             "sv-se": "locales/sv-se/ämnen/03-01-system-och-modeller-för-offentlig-förvaltning/index.md",
             "sw-001": "locales/sw-001/mada/03-01-mifumo-na-miundo-ya-utawala-wa-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/03-01-mifumo-na-miundo-ya-utawala-wa-umma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-01-عوامی-انتظامیہ-کے-نظام-اور-نمونے/index.md",
             "zh-001": "locales/zh-001/主题/03-01-公共行政体系与模式/index.md",
             "zh-cn": "locales/zh-cn/主题/03-01-公共行政体系与模式/index.md",
             "zh-tw": "locales/zh-tw/主題/03-01-公共行政體系與模式/index.md"
@@ -588,6 +601,7 @@
             "sv-se": "locales/sv-se/ämnen/03-02-offentlig-politik-och-policycykeln/index.md",
             "sw-001": "locales/sw-001/mada/03-02-sera-za-umma-na-mzunguko-wa-sera/index.md",
             "sw-tz": "locales/sw-tz/mada/03-02-sera-za-umma-na-mzunguko-wa-sera/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-02-عوامی-پالیسی-اور-پالیسی-چکر/index.md",
             "zh-001": "locales/zh-001/主题/03-02-公共政策与政策周期/index.md",
             "zh-cn": "locales/zh-cn/主题/03-02-公共政策与政策周期/index.md",
             "zh-tw": "locales/zh-tw/主題/03-02-公共政策與政策週期/index.md"
@@ -629,6 +643,7 @@
             "sv-se": "locales/sv-se/ämnen/03-03-offentliga-finanser-och-budgetering/index.md",
             "sw-001": "locales/sw-001/mada/03-03-fedha-za-umma-na-uandaaji-wa-bajeti/index.md",
             "sw-tz": "locales/sw-tz/mada/03-03-fedha-za-umma-na-uandaaji-wa-bajeti/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-03-عوامی-مالیات-اور-بجٹ-سازی/index.md",
             "zh-001": "locales/zh-001/主题/03-03-公共财政与预算/index.md",
             "zh-cn": "locales/zh-cn/主题/03-03-公共财政与预算/index.md",
             "zh-tw": "locales/zh-tw/主題/03-03-公共財政與預算/index.md"
@@ -670,6 +685,7 @@
             "sv-se": "locales/sv-se/ämnen/03-04-ansvarsutkrävande-transparens-och-legitimitet/index.md",
             "sw-001": "locales/sw-001/mada/03-04-uwajibikaji-uwazi-na-uhalali/index.md",
             "sw-tz": "locales/sw-tz/mada/03-04-uwajibikaji-uwazi-na-uhalali/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-04-جوابدہی-شفافیت-اور-جواز/index.md",
             "zh-001": "locales/zh-001/主题/03-04-问责制-透明度与合法性/index.md",
             "zh-cn": "locales/zh-cn/主题/03-04-问责制-透明度与合法性/index.md",
             "zh-tw": "locales/zh-tw/主題/03-04-問責制-透明度與合法性/index.md"
@@ -711,6 +727,7 @@
             "sv-se": "locales/sv-se/ämnen/03-05-jämlikhet-rättvisa-och-fördelningsrättvisa/index.md",
             "sw-001": "locales/sw-001/mada/03-05-usawa-haki-na-haki-ya-ugawaji/index.md",
             "sw-tz": "locales/sw-tz/mada/03-05-usawa-haki-na-haki-ya-ugawaji/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-05-مساوات-انصاف-اور-تقسیمی-عدل/index.md",
             "zh-001": "locales/zh-001/主题/03-05-公平-公正与分配正义/index.md",
             "zh-cn": "locales/zh-cn/主题/03-05-公平-公正与分配正义/index.md",
             "zh-tw": "locales/zh-tw/主題/03-05-公平-公正與分配正義/index.md"
@@ -752,6 +769,7 @@
             "sv-se": "locales/sv-se/ämnen/03-06-offentlig-sektors-arbetskraft-och-arbetsmarknader/index.md",
             "sw-001": "locales/sw-001/mada/03-06-nguvu-kazi-ya-sekta-ya-umma-na-masoko-ya-ajira/index.md",
             "sw-tz": "locales/sw-tz/mada/03-06-nguvu-kazi-ya-sekta-ya-umma-na-masoko-ya-ajira/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-06-سرکاری-شعبے-کی-افرادی-قوت-اور-محنت-کی-منڈیاں/index.md",
             "zh-001": "locales/zh-001/主题/03-06-公共部门人力资源与劳动力市场/index.md",
             "zh-cn": "locales/zh-cn/主题/03-06-公共部门人力资源与劳动力市场/index.md",
             "zh-tw": "locales/zh-tw/主題/03-06-公共部門人力資源與勞動力市場/index.md"
@@ -793,6 +811,7 @@
             "sv-se": "locales/sv-se/ämnen/03-07-offentlig-upphandling-och-beställning/index.md",
             "sw-001": "locales/sw-001/mada/03-07-ununuzi-wa-umma-na-uagizaji-wa-huduma/index.md",
             "sw-tz": "locales/sw-tz/mada/03-07-ununuzi-wa-umma-na-uagizaji-wa-huduma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-07-عوامی-خریداری-اور-کمیشننگ/index.md",
             "zh-001": "locales/zh-001/主题/03-07-公共采购与委托/index.md",
             "zh-cn": "locales/zh-cn/主题/03-07-公共采购与委托/index.md",
             "zh-tw": "locales/zh-tw/主題/03-07-公共採購與委託/index.md"
@@ -834,6 +853,7 @@
             "sv-se": "locales/sv-se/ämnen/03-08-ledning-av-socialsektorn-och-ideella-organisationer/index.md",
             "sw-001": "locales/sw-001/mada/03-08-usimamizi-wa-sekta-ya-kijamii-na-mashirika-yasiyo-ya-faida/index.md",
             "sw-tz": "locales/sw-tz/mada/03-08-usimamizi-wa-sekta-ya-kijamii-na-mashirika-yasiyo-ya-faida/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-08-سماجی-شعبے-اور-غیر-منافع-بخش-اداروں-کا-انتظام/index.md",
             "zh-001": "locales/zh-001/主题/03-08-社会部门与非营利组织管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-08-社会部门与非营利组织管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-08-社會部門與非營利組織管理/index.md"
@@ -875,6 +895,7 @@
             "sv-se": "locales/sv-se/ämnen/03-09-relationer-mellan-förvaltningsnivåer-och-federalism/index.md",
             "sw-001": "locales/sw-001/mada/03-09-mahusiano-kati-ya-ngazi-za-serikali-na-mfumo-wa-shirikisho/index.md",
             "sw-tz": "locales/sw-tz/mada/03-09-mahusiano-kati-ya-ngazi-za-serikali-na-mfumo-wa-shirikisho/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-09-بین-الحکومتی-تعلقات-اور-وفاقیت/index.md",
             "zh-001": "locales/zh-001/主题/03-09-政府间关系与联邦制/index.md",
             "zh-cn": "locales/zh-cn/主题/03-09-政府间关系与联邦制/index.md",
             "zh-tw": "locales/zh-tw/主題/03-09-政府間關係與聯邦制/index.md"
@@ -916,6 +937,7 @@
             "sv-se": "locales/sv-se/ämnen/03-10-reglering-och-riskhantering-i-offentlig-sektor/index.md",
             "sw-001": "locales/sw-001/mada/03-10-udhibiti-na-usimamizi-wa-hatari-za-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/03-10-udhibiti-na-usimamizi-wa-hatari-za-umma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-10-ضابطہ-کاری-اور-عوامی-خطرات-کا-انتظام/index.md",
             "zh-001": "locales/zh-001/主题/03-10-监管与公共风险管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-10-监管与公共风险管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-10-監管與公共風險管理/index.md"
@@ -957,6 +979,7 @@
             "sv-se": "locales/sv-se/ämnen/03-11-kvalitet-säkerhet-och-prestationsstyrning/index.md",
             "sw-001": "locales/sw-001/mada/03-11-ubora-usalama-na-usimamizi-wa-utendaji/index.md",
             "sw-tz": "locales/sw-tz/mada/03-11-ubora-usalama-na-usimamizi-wa-utendaji/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-11-معیار-حفاظت-اور-کارکردگی-کا-انتظام/index.md",
             "zh-001": "locales/zh-001/主题/03-11-质量-安全与绩效管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-11-质量-安全与绩效管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-11-質量-安全與績效管理/index.md"
@@ -998,6 +1021,7 @@
             "sv-se": "locales/sv-se/ämnen/03-12-krishantering-beredskap-och-resiliens/index.md",
             "sw-001": "locales/sw-001/mada/03-12-usimamizi-wa-migogoro-dharura-na-ustahimilivu/index.md",
             "sw-tz": "locales/sw-tz/mada/03-12-usimamizi-wa-migogoro-dharura-na-ustahimilivu/index.md",
+            "ur-001": "locales/ur-001/موضوعات/03-12-بحران-ہنگامی-حالات-اور-لچک-کا-انتظام/index.md",
             "zh-001": "locales/zh-001/主题/03-12-危机-紧急情况与韧性管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-12-危机-紧急情况与韧性管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-12-危機-緊急情況與韌性管理/index.md"
@@ -1045,6 +1069,7 @@
             "sv-se": "locales/sv-se/ämnen/04-01-beteendeinriktad-offentlig-politik/index.md",
             "sw-001": "locales/sw-001/mada/04-01-sera-za-umma-za-kitabia/index.md",
             "sw-tz": "locales/sw-tz/mada/04-01-sera-za-umma-za-kitabia/index.md",
+            "ur-001": "locales/ur-001/موضوعات/04-01-رویہ-جاتی-عوامی-پالیسی/index.md",
             "zh-001": "locales/zh-001/主题/04-01-行为公共政策/index.md",
             "zh-cn": "locales/zh-cn/主题/04-01-行为公共政策/index.md",
             "zh-tw": "locales/zh-tw/主題/04-01-行為公共政策/index.md"
@@ -1086,6 +1111,7 @@
             "sv-se": "locales/sv-se/ämnen/04-02-förtroende-för-staten-och-medborgerligt-engagemang/index.md",
             "sw-001": "locales/sw-001/mada/04-02-imani-kwa-serikali-na-ushiriki-wa-wananchi/index.md",
             "sw-tz": "locales/sw-tz/mada/04-02-imani-kwa-serikali-na-ushiriki-wa-wananchi/index.md",
+            "ur-001": "locales/ur-001/موضوعات/04-02-حکومت-پر-اعتماد-اور-شہری-شمولیت/index.md",
             "zh-001": "locales/zh-001/主题/04-02-政府信任与公民参与/index.md",
             "zh-cn": "locales/zh-cn/主题/04-02-政府信任与公民参与/index.md",
             "zh-tw": "locales/zh-tw/主題/04-02-政府信任與公民參與/index.md"
@@ -1127,6 +1153,7 @@
             "sv-se": "locales/sv-se/ämnen/04-03-klimat-hållbarhet-och-miljömässigt-offentligt-värde/index.md",
             "sw-001": "locales/sw-001/mada/04-03-tabianchi-uendelevu-na-thamani-ya-umma-ya-kimazingira/index.md",
             "sw-tz": "locales/sw-tz/mada/04-03-tabianchi-uendelevu-na-thamani-ya-umma-ya-kimazingira/index.md",
+            "ur-001": "locales/ur-001/موضوعات/04-03-موسمیاتی-تبدیلی-پائیداری-اور-ماحولیاتی-عوامی-قدر/index.md",
             "zh-001": "locales/zh-001/主题/04-03-气候-可持续性与环境公共价值/index.md",
             "zh-cn": "locales/zh-cn/主题/04-03-气候-可持续性与环境公共价值/index.md",
             "zh-tw": "locales/zh-tw/主題/04-03-氣候-可持續性與環境公共價值/index.md"
@@ -1168,6 +1195,7 @@
             "sv-se": "locales/sv-se/ämnen/04-04-sociala-medier-desinformation-och-offentlig-kommunikation/index.md",
             "sw-001": "locales/sw-001/mada/04-04-mitandao-ya-kijamii-taarifa-potofu-na-mawasiliano-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/04-04-mitandao-ya-kijamii-taarifa-potofu-na-mawasiliano-ya-umma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/04-04-سوشل-میڈیا-غلط-معلومات-اور-عوامی-ابلاغ/index.md",
             "zh-001": "locales/zh-001/主题/04-04-社交媒体-错误信息与公共传播/index.md",
             "zh-cn": "locales/zh-cn/主题/04-04-社交媒体-错误信息与公共传播/index.md",
             "zh-tw": "locales/zh-tw/主題/04-04-社交媒體-錯誤資訊與公共傳播/index.md"
@@ -1215,6 +1243,7 @@
             "sv-se": "locales/sv-se/ämnen/05-01-digital-förvaltning-och-digital-omställning/index.md",
             "sw-001": "locales/sw-001/mada/05-01-serikali-mtandao-na-mageuzi-ya-kidijitali/index.md",
             "sw-tz": "locales/sw-tz/mada/05-01-serikali-mtandao-na-mageuzi-ya-kidijitali/index.md",
+            "ur-001": "locales/ur-001/موضوعات/05-01-ڈیجیٹل-حکومت-اور-ڈیجیٹل-تبدیلی/index.md",
             "zh-001": "locales/zh-001/主题/05-01-数字政府与数字化转型/index.md",
             "zh-cn": "locales/zh-cn/主题/05-01-数字政府与数字化转型/index.md",
             "zh-tw": "locales/zh-tw/主題/05-01-數字政府與數字化轉型/index.md"
@@ -1256,6 +1285,7 @@
             "sv-se": "locales/sv-se/ämnen/05-02-ai-och-algoritmiskt-beslutsfattande-i-offentlig-sektor/index.md",
             "sw-001": "locales/sw-001/mada/05-02-ai-na-uamuzi-wa-kialgoriti-katika-serikali/index.md",
             "sw-tz": "locales/sw-tz/mada/05-02-ai-na-uamuzi-wa-kialgoriti-katika-serikali/index.md",
+            "ur-001": "locales/ur-001/موضوعات/05-02-مصنوعی-ذہانت-اور-حکومت-میں-الگورتھمی-فیصلہ-سازی/index.md",
             "zh-001": "locales/zh-001/主题/05-02-政府中的人工智能与算法决策/index.md",
             "zh-cn": "locales/zh-cn/主题/05-02-政府中的人工智能与算法决策/index.md",
             "zh-tw": "locales/zh-tw/主題/05-02-政府中的人工智慧與演算法決策/index.md"
@@ -1297,6 +1327,7 @@
             "sv-se": "locales/sv-se/ämnen/05-03-mjukvaruutveckling-och-plattformar-i-offentlig-sektor/index.md",
             "sw-001": "locales/sw-001/mada/05-03-uhandisi-wa-programu-na-majukwaa-katika-sekta-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/05-03-uhandisi-wa-programu-na-majukwaa-katika-sekta-ya-umma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/05-03-سرکاری-شعبے-میں-سافٹ-ویئر-انجینئرنگ-اور-پلیٹ-فارم/index.md",
             "zh-001": "locales/zh-001/主题/05-03-公共部门软件工程与平台/index.md",
             "zh-cn": "locales/zh-cn/主题/05-03-公共部门软件工程与平台/index.md",
             "zh-tw": "locales/zh-tw/主題/05-03-公共部門軟體工程與平臺/index.md"
@@ -1338,6 +1369,7 @@
             "sv-se": "locales/sv-se/ämnen/05-04-data-interoperabilitet-och-öppna-data-i-offentlig-sektor/index.md",
             "sw-001": "locales/sw-001/mada/05-04-data-za-sekta-ya-umma-ushirikiano-wa-mifumo-na-data-huria/index.md",
             "sw-tz": "locales/sw-tz/mada/05-04-data-za-sekta-ya-umma-ushirikiano-wa-mifumo-na-data-huria/index.md",
+            "ur-001": "locales/ur-001/موضوعات/05-04-سرکاری-شعبے-کا-ڈیٹا-باہمی-ربط-پذیری-اور-کھلا-ڈیٹا/index.md",
             "zh-001": "locales/zh-001/主题/05-04-公共部门数据-互操作性与开放数据/index.md",
             "zh-cn": "locales/zh-cn/主题/05-04-公共部门数据-互操作性与开放数据/index.md",
             "zh-tw": "locales/zh-tw/主題/05-04-公共部門資料-互操作性與開放資料/index.md"
@@ -1379,6 +1411,7 @@
             "sv-se": "locales/sv-se/ämnen/05-05-cybersäkerhet-och-teknikrisker-i-offentlig-sektor/index.md",
             "sw-001": "locales/sw-001/mada/05-05-usalama-wa-mtandao-na-hatari-za-teknolojia-katika-sekta-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/05-05-usalama-wa-mtandao-na-hatari-za-teknolojia-katika-sekta-ya-umma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/05-05-سائبر-سکیورٹی-اور-سرکاری-شعبے-میں-ٹیکنالوجی-کے-خطرات/index.md",
             "zh-001": "locales/zh-001/主题/05-05-网络安全与公共部门技术风险/index.md",
             "zh-cn": "locales/zh-cn/主题/05-05-网络安全与公共部门技术风险/index.md",
             "zh-tw": "locales/zh-tw/主題/05-05-網路安全與公共部門技術風險/index.md"
@@ -1420,6 +1453,7 @@
             "sv-se": "locales/sv-se/ämnen/05-06-innovation-och-offentligt-entreprenörskap/index.md",
             "sw-001": "locales/sw-001/mada/05-06-ubunifu-na-ujasiriamali-wa-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/05-06-ubunifu-na-ujasiriamali-wa-umma/index.md",
+            "ur-001": "locales/ur-001/موضوعات/05-06-جدت-اور-عوامی-کاروباری-صلاحیت/index.md",
             "zh-001": "locales/zh-001/主题/05-06-创新与公共创业精神/index.md",
             "zh-cn": "locales/zh-cn/主题/05-06-创新与公共创业精神/index.md",
             "zh-tw": "locales/zh-tw/主題/05-06-創新與公共創業精神/index.md"
