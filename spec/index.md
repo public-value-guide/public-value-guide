@@ -164,6 +164,9 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `sw-001` | Kiswahili (dunia) — Swahili (World), an identical copy of `sw-tz` for readers outside Tanzania. |
 | `id-001` | Bahasa Indonesia (Dunia) — Indonesian (World), standard Bahasa Indonesia in the formal register with public-administration terminology kept neutral; directory slugs are lowercase Indonesian. |
 | `bn-001` | বাংলা (বিশ্ব) — Bengali (World), standard Bengali (Bangla) in the formal register with public-administration terminology kept neutral; directory slugs are in Bengali script (lowercase digits and hyphens as separators); headings and cross-reference numbers use ASCII digits. |
+| `de-001` | Deutsch (Welt) — German (World), an identical copy of `de-de` for readers outside Germany. |
+| `id-id` | Bahasa Indonesia (Indonesia) — Indonesian (Indonesia), an identical copy of `id-001` for readers in Indonesia. |
+| `zh-tw` | 中文（台灣，繁體）— Chinese (Taiwan), Traditional script, converted from `zh-cn` with Taiwan vocabulary (OpenCC s2twp) and reviewed; directory slugs are in Traditional Han script. |
 
 Every topic directory, in every locale, contains a file named `.locale-peer-id` holding a 32-character lowercase hexadecimal string followed by a newline. The same string appears in every locale's translation of the same logical topic, generated once with `bin/locale-peer-id` and never regenerated. `locales/<locale>/<topics-dir>/.locale-peer-id` similarly carries one shared id for the "topics" collection itself, identical across all fifteen locales. Use `bin/grep-locale-peer-id <id>` to find every locale's copy of a given topic.
 

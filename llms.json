@@ -7,6 +7,7 @@
     "bn-001",
     "cy-001",
     "cy-gb",
+    "de-001",
     "de-de",
     "en-001",
     "en-gb",
@@ -17,6 +18,7 @@
     "hi-001",
     "hi-in",
     "id-001",
+    "id-id",
     "is-001",
     "is-is",
     "ja-001",
@@ -32,7 +34,8 @@
     "sw-001",
     "sw-tz",
     "zh-001",
-    "zh-cn"
+    "zh-cn",
+    "zh-tw"
   ],
   "site": "https://public-value-guide.github.io",
   "raw_base": "https://raw.githubusercontent.com/public-value-guide/public-value-guide/main/",
@@ -53,6 +56,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/01-01-জনমূল্যের-পরিচিতি/index.md",
             "cy-001": "locales/cy-001/pynciau/01-01-cyflwyniad-i-werth-cyhoeddus/index.md",
             "cy-gb": "locales/cy-gb/pynciau/01-01-cyflwyniad-i-werth-cyhoeddus/index.md",
+            "de-001": "locales/de-001/topics/01-01-einfuehrung-in-den-oeffentlichen-wert/index.md",
             "de-de": "locales/de-de/topics/01-01-einfuehrung-in-den-oeffentlichen-wert/index.md",
             "en-001": "locales/en-001/topics/01-01-introduction-to-public-value/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-01-introduction-to-public-value/index.md",
@@ -63,6 +67,7 @@
             "hi-001": "locales/hi-001/विषय/01-01-लोक-मूल्य-का-परिचय/index.md",
             "hi-in": "locales/hi-in/विषय/01-01-लोक-मूल्य-का-परिचय/index.md",
             "id-001": "locales/id-001/topik/01-01-pengantar-nilai-publik/index.md",
+            "id-id": "locales/id-id/topik/01-01-pengantar-nilai-publik/index.md",
             "is-001": "locales/is-001/viðfangsefni/01-01-inngangur-að-almannavirði/index.md",
             "is-is": "locales/is-is/viðfangsefni/01-01-inngangur-að-almannavirði/index.md",
             "ja-001": "locales/ja-001/トピック/01-01-公共価値入門/index.md",
@@ -78,7 +83,8 @@
             "sw-001": "locales/sw-001/mada/01-01-utangulizi-wa-thamani-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/01-01-utangulizi-wa-thamani-ya-umma/index.md",
             "zh-001": "locales/zh-001/主题/01-01-公共价值导论/index.md",
-            "zh-cn": "locales/zh-cn/主题/01-01-公共价值导论/index.md"
+            "zh-cn": "locales/zh-cn/主题/01-01-公共价值导论/index.md",
+            "zh-tw": "locales/zh-tw/主題/01-01-公共價值導論/index.md"
           }
         },
         {
@@ -90,6 +96,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/01-02-কৌশলগত-ত্রিভুজ-বৈধতা-মূল্য-ও-সক্ষমতা/index.md",
             "cy-001": "locales/cy-001/pynciau/01-02-y-triongl-strategol/index.md",
             "cy-gb": "locales/cy-gb/pynciau/01-02-y-triongl-strategol/index.md",
+            "de-001": "locales/de-001/topics/01-02-das-strategische-dreieck/index.md",
             "de-de": "locales/de-de/topics/01-02-das-strategische-dreieck/index.md",
             "en-001": "locales/en-001/topics/01-02-the-strategic-triangle/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-02-the-strategic-triangle/index.md",
@@ -100,6 +107,7 @@
             "hi-001": "locales/hi-001/विषय/01-02-रणनीतिक-त्रिभुज-वैधता-मूल्य-और-क्षमता/index.md",
             "hi-in": "locales/hi-in/विषय/01-02-रणनीतिक-त्रिभुज-वैधता-मूल्य-और-क्षमता/index.md",
             "id-001": "locales/id-001/topik/01-02-segitiga-strategis/index.md",
+            "id-id": "locales/id-id/topik/01-02-segitiga-strategis/index.md",
             "is-001": "locales/is-001/viðfangsefni/01-02-stefnumótandi-þríhyrningurinn-lögmæti-virði-og-geta/index.md",
             "is-is": "locales/is-is/viðfangsefni/01-02-stefnumótandi-þríhyrningurinn-lögmæti-virði-og-geta/index.md",
             "ja-001": "locales/ja-001/トピック/01-02-戦略的三角形-正当性-価値-実行能力/index.md",
@@ -115,7 +123,8 @@
             "sw-001": "locales/sw-001/mada/01-02-pembetatu-ya-kimkakati-uhalali-thamani-na-uwezo/index.md",
             "sw-tz": "locales/sw-tz/mada/01-02-pembetatu-ya-kimkakati-uhalali-thamani-na-uwezo/index.md",
             "zh-001": "locales/zh-001/主题/01-02-战略三角-合法性-价值与能力/index.md",
-            "zh-cn": "locales/zh-cn/主题/01-02-战略三角-合法性-价值与能力/index.md"
+            "zh-cn": "locales/zh-cn/主题/01-02-战略三角-合法性-价值与能力/index.md",
+            "zh-tw": "locales/zh-tw/主題/01-02-戰略三角-合法性-價值與能力/index.md"
           }
         },
         {
@@ -127,6 +136,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/01-03-বাজার-ব্যর্থতা-ও-সরকারি-ব্যর্থতা/index.md",
             "cy-001": "locales/cy-001/pynciau/01-03-methiant-y-farchnad-a-methiant-y-llywodraeth/index.md",
             "cy-gb": "locales/cy-gb/pynciau/01-03-methiant-y-farchnad-a-methiant-y-llywodraeth/index.md",
+            "de-001": "locales/de-001/topics/01-03-marktversagen-und-staatsversagen/index.md",
             "de-de": "locales/de-de/topics/01-03-marktversagen-und-staatsversagen/index.md",
             "en-001": "locales/en-001/topics/01-03-market-failure-and-government-failure/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-03-market-failure-and-government-failure/index.md",
@@ -137,6 +147,7 @@
             "hi-001": "locales/hi-001/विषय/01-03-बाज़ार-विफलता-और-सरकारी-विफलता/index.md",
             "hi-in": "locales/hi-in/विषय/01-03-बाज़ार-विफलता-और-सरकारी-विफलता/index.md",
             "id-001": "locales/id-001/topik/01-03-kegagalan-pasar-dan-kegagalan-pemerintah/index.md",
+            "id-id": "locales/id-id/topik/01-03-kegagalan-pasar-dan-kegagalan-pemerintah/index.md",
             "is-001": "locales/is-001/viðfangsefni/01-03-markaðsbrestur-og-ríkisbrestur/index.md",
             "is-is": "locales/is-is/viðfangsefni/01-03-markaðsbrestur-og-ríkisbrestur/index.md",
             "ja-001": "locales/ja-001/トピック/01-03-市場の失敗と政府の失敗/index.md",
@@ -152,7 +163,8 @@
             "sw-001": "locales/sw-001/mada/01-03-kushindwa-kwa-soko-na-kushindwa-kwa-serikali/index.md",
             "sw-tz": "locales/sw-tz/mada/01-03-kushindwa-kwa-soko-na-kushindwa-kwa-serikali/index.md",
             "zh-001": "locales/zh-001/主题/01-03-市场失灵与政府失灵/index.md",
-            "zh-cn": "locales/zh-cn/主题/01-03-市场失灵与政府失灵/index.md"
+            "zh-cn": "locales/zh-cn/主题/01-03-市场失灵与政府失灵/index.md",
+            "zh-tw": "locales/zh-tw/主題/01-03-市場失靈與政府失靈/index.md"
           }
         },
         {
@@ -164,6 +176,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/01-04-জনপণ্য-যোগ্যপণ্য-ও-মূল্যবহুত্ববাদ/index.md",
             "cy-001": "locales/cy-001/pynciau/01-04-nwyddau-cyhoeddus-nwyddau-teilyngdod-a-lluosogaeth-gwerth/index.md",
             "cy-gb": "locales/cy-gb/pynciau/01-04-nwyddau-cyhoeddus-nwyddau-teilyngdod-a-lluosogaeth-gwerth/index.md",
+            "de-001": "locales/de-001/topics/01-04-oeffentliche-gueter-meritorische-gueter-und-wertepluralismus/index.md",
             "de-de": "locales/de-de/topics/01-04-oeffentliche-gueter-meritorische-gueter-und-wertepluralismus/index.md",
             "en-001": "locales/en-001/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-04-public-goods-merit-goods-and-value-pluralism/index.md",
@@ -174,6 +187,7 @@
             "hi-001": "locales/hi-001/विषय/01-04-सार्वजनिक-वस्तुएँ-गुणकारी-वस्तुएँ-और-मूल्य-बहुलवाद/index.md",
             "hi-in": "locales/hi-in/विषय/01-04-सार्वजनिक-वस्तुएँ-गुणकारी-वस्तुएँ-और-मूल्य-बहुलवाद/index.md",
             "id-001": "locales/id-001/topik/01-04-barang-publik-barang-merit-dan-pluralisme-nilai/index.md",
+            "id-id": "locales/id-id/topik/01-04-barang-publik-barang-merit-dan-pluralisme-nilai/index.md",
             "is-001": "locales/is-001/viðfangsefni/01-04-almannagæði-verðleikagæði-og-margbreytileiki-gilda/index.md",
             "is-is": "locales/is-is/viðfangsefni/01-04-almannagæði-verðleikagæði-og-margbreytileiki-gilda/index.md",
             "ja-001": "locales/ja-001/トピック/01-04-公共財-メリット財-価値多元主義/index.md",
@@ -189,7 +203,8 @@
             "sw-001": "locales/sw-001/mada/01-04-bidhaa-za-umma-bidhaa-za-stahili-na-wingi-wa-maadili/index.md",
             "sw-tz": "locales/sw-tz/mada/01-04-bidhaa-za-umma-bidhaa-za-stahili-na-wingi-wa-maadili/index.md",
             "zh-001": "locales/zh-001/主题/01-04-公共物品-优值品与价值多元论/index.md",
-            "zh-cn": "locales/zh-cn/主题/01-04-公共物品-优值品与价值多元论/index.md"
+            "zh-cn": "locales/zh-cn/主题/01-04-公共物品-优值品与价值多元论/index.md",
+            "zh-tw": "locales/zh-tw/主題/01-04-公共物品-優值品與價值多元論/index.md"
           }
         },
         {
@@ -201,6 +216,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/01-05-অংশীজন-নাগরিক-ও-সহউৎপাদন/index.md",
             "cy-001": "locales/cy-001/pynciau/01-05-rhanddeiliaid-dinasyddion-a-chydgynhyrchu/index.md",
             "cy-gb": "locales/cy-gb/pynciau/01-05-rhanddeiliaid-dinasyddion-a-chydgynhyrchu/index.md",
+            "de-001": "locales/de-001/topics/01-05-interessengruppen-buergerinnen-und-buerger-und-koproduktion/index.md",
             "de-de": "locales/de-de/topics/01-05-interessengruppen-buergerinnen-und-buerger-und-koproduktion/index.md",
             "en-001": "locales/en-001/topics/01-05-stakeholders-citizens-and-co-production/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/01-05-stakeholders-citizens-and-co-production/index.md",
@@ -211,6 +227,7 @@
             "hi-001": "locales/hi-001/विषय/01-05-हितधारक-नागरिक-और-सह-उत्पादन/index.md",
             "hi-in": "locales/hi-in/विषय/01-05-हितधारक-नागरिक-और-सह-उत्पादन/index.md",
             "id-001": "locales/id-001/topik/01-05-pemangku-kepentingan-warga-dan-koproduksi/index.md",
+            "id-id": "locales/id-id/topik/01-05-pemangku-kepentingan-warga-dan-koproduksi/index.md",
             "is-001": "locales/is-001/viðfangsefni/01-05-hagsmunaaðilar-borgarar-og-samframleiðsla/index.md",
             "is-is": "locales/is-is/viðfangsefni/01-05-hagsmunaaðilar-borgarar-og-samframleiðsla/index.md",
             "ja-001": "locales/ja-001/トピック/01-05-ステークホルダー-市民-共同生産/index.md",
@@ -226,7 +243,8 @@
             "sw-001": "locales/sw-001/mada/01-05-wadau-wananchi-na-uzalishaji-shirikishi/index.md",
             "sw-tz": "locales/sw-tz/mada/01-05-wadau-wananchi-na-uzalishaji-shirikishi/index.md",
             "zh-001": "locales/zh-001/主题/01-05-利益相关者-公民与协同生产/index.md",
-            "zh-cn": "locales/zh-cn/主题/01-05-利益相关者-公民与协同生产/index.md"
+            "zh-cn": "locales/zh-cn/主题/01-05-利益相关者-公民与协同生产/index.md",
+            "zh-tw": "locales/zh-tw/主題/01-05-利益相關者-公民與協同生產/index.md"
           }
         }
       ]
@@ -244,6 +262,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/02-01-জনমূল্য-স্কোরকার্ড-ও-ফলাফল-কাঠামো/index.md",
             "cy-001": "locales/cy-001/pynciau/02-01-y-sgorfwrdd-gwerth-cyhoeddus-a-fframweithiau-canlyniadau/index.md",
             "cy-gb": "locales/cy-gb/pynciau/02-01-y-sgorfwrdd-gwerth-cyhoeddus-a-fframweithiau-canlyniadau/index.md",
+            "de-001": "locales/de-001/topics/02-01-das-scorecard-fuer-oeffentlichen-wert-und-wirkungsrahmen/index.md",
             "de-de": "locales/de-de/topics/02-01-das-scorecard-fuer-oeffentlichen-wert-und-wirkungsrahmen/index.md",
             "en-001": "locales/en-001/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-01-the-public-value-scorecard-and-outcomes-frameworks/index.md",
@@ -254,6 +273,7 @@
             "hi-001": "locales/hi-001/विषय/02-01-लोक-मूल्य-स्कोरकार्ड-और-परिणाम-ढाँचे/index.md",
             "hi-in": "locales/hi-in/विषय/02-01-लोक-मूल्य-स्कोरकार्ड-और-परिणाम-ढाँचे/index.md",
             "id-001": "locales/id-001/topik/02-01-kartu-skor-nilai-publik-dan-kerangka-hasil/index.md",
+            "id-id": "locales/id-id/topik/02-01-kartu-skor-nilai-publik-dan-kerangka-hasil/index.md",
             "is-001": "locales/is-001/viðfangsefni/02-01-stigatafla-almannavirðis-og-árangursrammar/index.md",
             "is-is": "locales/is-is/viðfangsefni/02-01-stigatafla-almannavirðis-og-árangursrammar/index.md",
             "ja-001": "locales/ja-001/トピック/02-01-公共価値スコアカードと成果フレームワーク/index.md",
@@ -269,7 +289,8 @@
             "sw-001": "locales/sw-001/mada/02-01-kadi-ya-alama-ya-thamani-ya-umma-na-mifumo-ya-matokeo/index.md",
             "sw-tz": "locales/sw-tz/mada/02-01-kadi-ya-alama-ya-thamani-ya-umma-na-mifumo-ya-matokeo/index.md",
             "zh-001": "locales/zh-001/主题/02-01-公共价值记分卡与成果框架/index.md",
-            "zh-cn": "locales/zh-cn/主题/02-01-公共价值记分卡与成果框架/index.md"
+            "zh-cn": "locales/zh-cn/主题/02-01-公共价值记分卡与成果框架/index.md",
+            "zh-tw": "locales/zh-tw/主題/02-01-公共價值記分卡與成果框架/index.md"
           }
         },
         {
@@ -281,6 +302,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/02-02-সামাজিক-ব্যয়-সুবিধা-ও-ব্যয়-কার্যকারিতা-বিশ্লেষণ/index.md",
             "cy-001": "locales/cy-001/pynciau/02-02-dadansoddiad-cost-budd-cymdeithasol-ac-effeithiolrwydd-cost/index.md",
             "cy-gb": "locales/cy-gb/pynciau/02-02-dadansoddiad-cost-budd-cymdeithasol-ac-effeithiolrwydd-cost/index.md",
+            "de-001": "locales/de-001/topics/02-02-soziale-kosten-nutzen-analyse-und-kosteneffektivitaetsanalyse/index.md",
             "de-de": "locales/de-de/topics/02-02-soziale-kosten-nutzen-analyse-und-kosteneffektivitaetsanalyse/index.md",
             "en-001": "locales/en-001/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-02-social-cost-benefit-and-cost-effectiveness-analysis/index.md",
@@ -291,6 +313,7 @@
             "hi-001": "locales/hi-001/विषय/02-02-सामाजिक-लागत-लाभ-और-लागत-प्रभावशीलता-विश्लेषण/index.md",
             "hi-in": "locales/hi-in/विषय/02-02-सामाजिक-लागत-लाभ-और-लागत-प्रभावशीलता-विश्लेषण/index.md",
             "id-001": "locales/id-001/topik/02-02-analisis-biaya-manfaat-sosial-dan-efektivitas-biaya/index.md",
+            "id-id": "locales/id-id/topik/02-02-analisis-biaya-manfaat-sosial-dan-efektivitas-biaya/index.md",
             "is-001": "locales/is-001/viðfangsefni/02-02-þjóðhagsleg-kostnaðar-og-ábatagreining-og-hagkvæmnigreining/index.md",
             "is-is": "locales/is-is/viðfangsefni/02-02-þjóðhagsleg-kostnaðar-og-ábatagreining-og-hagkvæmnigreining/index.md",
             "ja-001": "locales/ja-001/トピック/02-02-社会的費用便益分析と費用効果分析/index.md",
@@ -306,7 +329,8 @@
             "sw-001": "locales/sw-001/mada/02-02-uchambuzi-wa-gharama-na-manufaa-ya-kijamii-na-wa-ufanisi-wa-gharama/index.md",
             "sw-tz": "locales/sw-tz/mada/02-02-uchambuzi-wa-gharama-na-manufaa-ya-kijamii-na-wa-ufanisi-wa-gharama/index.md",
             "zh-001": "locales/zh-001/主题/02-02-社会成本效益与成本效果分析/index.md",
-            "zh-cn": "locales/zh-cn/主题/02-02-社会成本效益与成本效果分析/index.md"
+            "zh-cn": "locales/zh-cn/主题/02-02-社会成本效益与成本效果分析/index.md",
+            "zh-tw": "locales/zh-tw/主題/02-02-社會成本效益與成本效果分析/index.md"
           }
         },
         {
@@ -318,6 +342,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/02-03-সামাজিক-বিনিয়োগ-প্রতিদান-ও-প্রভাব-পরিমাপ/index.md",
             "cy-001": "locales/cy-001/pynciau/02-03-adenillion-cymdeithasol-o-fuddsoddi-a-mesur-effaith/index.md",
             "cy-gb": "locales/cy-gb/pynciau/02-03-adenillion-cymdeithasol-o-fuddsoddi-a-mesur-effaith/index.md",
+            "de-001": "locales/de-001/topics/02-03-sozialer-return-on-investment-und-wirkungsmessung/index.md",
             "de-de": "locales/de-de/topics/02-03-sozialer-return-on-investment-und-wirkungsmessung/index.md",
             "en-001": "locales/en-001/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-03-social-return-on-investment-and-impact-measurement/index.md",
@@ -328,6 +353,7 @@
             "hi-001": "locales/hi-001/विषय/02-03-सामाजिक-निवेश-प्रतिफल-और-प्रभाव-मापन/index.md",
             "hi-in": "locales/hi-in/विषय/02-03-सामाजिक-निवेश-प्रतिफल-और-प्रभाव-मापन/index.md",
             "id-001": "locales/id-001/topik/02-03-pengembalian-sosial-atas-investasi-dan-pengukuran-dampak/index.md",
+            "id-id": "locales/id-id/topik/02-03-pengembalian-sosial-atas-investasi-dan-pengukuran-dampak/index.md",
             "is-001": "locales/is-001/viðfangsefni/02-03-samfélagsleg-ávöxtun-fjárfestingar-og-mæling-áhrifa/index.md",
             "is-is": "locales/is-is/viðfangsefni/02-03-samfélagsleg-ávöxtun-fjárfestingar-og-mæling-áhrifa/index.md",
             "ja-001": "locales/ja-001/トピック/02-03-社会的投資収益率とインパクト測定/index.md",
@@ -343,7 +369,8 @@
             "sw-001": "locales/sw-001/mada/02-03-faida-ya-kijamii-ya-uwekezaji-na-upimaji-wa-athari/index.md",
             "sw-tz": "locales/sw-tz/mada/02-03-faida-ya-kijamii-ya-uwekezaji-na-upimaji-wa-athari/index.md",
             "zh-001": "locales/zh-001/主题/02-03-社会投资回报与影响力测量/index.md",
-            "zh-cn": "locales/zh-cn/主题/02-03-社会投资回报与影响力测量/index.md"
+            "zh-cn": "locales/zh-cn/主题/02-03-社会投资回报与影响力测量/index.md",
+            "zh-tw": "locales/zh-tw/主題/02-03-社會投資回報與影響力測量/index.md"
           }
         },
         {
@@ -355,6 +382,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/02-04-সরকারি-খাতের-অর্থমিতি-ও-কর্মসূচি-মূল্যায়ন/index.md",
             "cy-001": "locales/cy-001/pynciau/02-04-econometreg-y-sector-cyhoeddus-a-gwerthuso-rhaglenni/index.md",
             "cy-gb": "locales/cy-gb/pynciau/02-04-econometreg-y-sector-cyhoeddus-a-gwerthuso-rhaglenni/index.md",
+            "de-001": "locales/de-001/topics/02-04-oekonometrie-des-oeffentlichen-sektors-und-programmevaluation/index.md",
             "de-de": "locales/de-de/topics/02-04-oekonometrie-des-oeffentlichen-sektors-und-programmevaluation/index.md",
             "en-001": "locales/en-001/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-04-public-sector-econometrics-and-programme-evaluation/index.md",
@@ -365,6 +393,7 @@
             "hi-001": "locales/hi-001/विषय/02-04-लोक-क्षेत्र-अर्थमिति-और-कार्यक्रम-मूल्यांकन/index.md",
             "hi-in": "locales/hi-in/विषय/02-04-लोक-क्षेत्र-अर्थमिति-और-कार्यक्रम-मूल्यांकन/index.md",
             "id-001": "locales/id-001/topik/02-04-ekonometrika-sektor-publik-dan-evaluasi-program/index.md",
+            "id-id": "locales/id-id/topik/02-04-ekonometrika-sektor-publik-dan-evaluasi-program/index.md",
             "is-001": "locales/is-001/viðfangsefni/02-04-hagmælingar-hins-opinbera-og-mat-á-áætlunum/index.md",
             "is-is": "locales/is-is/viðfangsefni/02-04-hagmælingar-hins-opinbera-og-mat-á-áætlunum/index.md",
             "ja-001": "locales/ja-001/トピック/02-04-公共部門の計量経済学とプログラム評価/index.md",
@@ -380,7 +409,8 @@
             "sw-001": "locales/sw-001/mada/02-04-uchumimetria-ya-sekta-ya-umma-na-tathmini-ya-programu/index.md",
             "sw-tz": "locales/sw-tz/mada/02-04-uchumimetria-ya-sekta-ya-umma-na-tathmini-ya-programu/index.md",
             "zh-001": "locales/zh-001/主题/02-04-公共部门计量经济学与项目评估/index.md",
-            "zh-cn": "locales/zh-cn/主题/02-04-公共部门计量经济学与项目评估/index.md"
+            "zh-cn": "locales/zh-cn/主题/02-04-公共部门计量经济学与项目评估/index.md",
+            "zh-tw": "locales/zh-tw/主題/02-04-公共部門計量經濟學與專案評估/index.md"
           }
         },
         {
@@ -392,6 +422,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/02-05-ব্যবসায়িক-যুক্তি-ও-অর্থের-যথাযথ-ব্যবহার/index.md",
             "cy-001": "locales/cy-001/pynciau/02-05-achosion-busnes-a-gwerth-am-arian/index.md",
             "cy-gb": "locales/cy-gb/pynciau/02-05-achosion-busnes-a-gwerth-am-arian/index.md",
+            "de-001": "locales/de-001/topics/02-05-wirtschaftlichkeitsuntersuchungen-und-value-for-money/index.md",
             "de-de": "locales/de-de/topics/02-05-wirtschaftlichkeitsuntersuchungen-und-value-for-money/index.md",
             "en-001": "locales/en-001/topics/02-05-business-cases-and-value-for-money/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-05-business-cases-and-value-for-money/index.md",
@@ -402,6 +433,7 @@
             "hi-001": "locales/hi-001/विषय/02-05-व्यवसाय-मामले-और-धन-के-बदले-मूल्य/index.md",
             "hi-in": "locales/hi-in/विषय/02-05-व्यवसाय-मामले-और-धन-के-बदले-मूल्य/index.md",
             "id-001": "locales/id-001/topik/02-05-kajian-bisnis-dan-nilai-uang/index.md",
+            "id-id": "locales/id-id/topik/02-05-kajian-bisnis-dan-nilai-uang/index.md",
             "is-001": "locales/is-001/viðfangsefni/02-05-viðskiptarök-og-hagkvæm-nýting-fjármuna/index.md",
             "is-is": "locales/is-is/viðfangsefni/02-05-viðskiptarök-og-hagkvæm-nýting-fjármuna/index.md",
             "ja-001": "locales/ja-001/トピック/02-05-事業計画書とバリュー-フォー-マネー/index.md",
@@ -417,7 +449,8 @@
             "sw-001": "locales/sw-001/mada/02-05-hoja-za-kibiashara-na-thamani-ya-fedha/index.md",
             "sw-tz": "locales/sw-tz/mada/02-05-hoja-za-kibiashara-na-thamani-ya-fedha/index.md",
             "zh-001": "locales/zh-001/主题/02-05-商业论证与物有所值/index.md",
-            "zh-cn": "locales/zh-cn/主题/02-05-商业论证与物有所值/index.md"
+            "zh-cn": "locales/zh-cn/主题/02-05-商业论证与物有所值/index.md",
+            "zh-tw": "locales/zh-tw/主題/02-05-商業論證與物有所值/index.md"
           }
         },
         {
@@ -429,6 +462,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/02-06-প্রমাণ-সংশ্লেষণ-ও-কী-কাজ-করে/index.md",
             "cy-001": "locales/cy-001/pynciau/02-06-cyfuno-tystiolaeth-ar-hyn-syn-gweithio/index.md",
             "cy-gb": "locales/cy-gb/pynciau/02-06-cyfuno-tystiolaeth-ar-hyn-syn-gweithio/index.md",
+            "de-001": "locales/de-001/topics/02-06-synthese-der-evidenz-und-was-funktioniert/index.md",
             "de-de": "locales/de-de/topics/02-06-synthese-der-evidenz-und-was-funktioniert/index.md",
             "en-001": "locales/en-001/topics/02-06-evidence-synthesis-and-what-works/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/02-06-evidence-synthesis-and-what-works/index.md",
@@ -439,6 +473,7 @@
             "hi-001": "locales/hi-001/विषय/02-06-साक्ष्य-संश्लेषण-और-क्या-कारगर-है/index.md",
             "hi-in": "locales/hi-in/विषय/02-06-साक्ष्य-संश्लेषण-और-क्या-कारगर-है/index.md",
             "id-001": "locales/id-001/topik/02-06-sintesis-bukti-dan-apa-yang-berhasil/index.md",
+            "id-id": "locales/id-id/topik/02-06-sintesis-bukti-dan-apa-yang-berhasil/index.md",
             "is-001": "locales/is-001/viðfangsefni/02-06-samantekt-sönnunargagna-og-hvað-virkar/index.md",
             "is-is": "locales/is-is/viðfangsefni/02-06-samantekt-sönnunargagna-og-hvað-virkar/index.md",
             "ja-001": "locales/ja-001/トピック/02-06-エビデンス統合と効果の実証/index.md",
@@ -454,7 +489,8 @@
             "sw-001": "locales/sw-001/mada/02-06-muunganisho-wa-ushahidi-na-kinachofanya-kazi/index.md",
             "sw-tz": "locales/sw-tz/mada/02-06-muunganisho-wa-ushahidi-na-kinachofanya-kazi/index.md",
             "zh-001": "locales/zh-001/主题/02-06-证据综合与有效实践/index.md",
-            "zh-cn": "locales/zh-cn/主题/02-06-证据综合与有效实践/index.md"
+            "zh-cn": "locales/zh-cn/主题/02-06-证据综合与有效实践/index.md",
+            "zh-tw": "locales/zh-tw/主題/02-06-證據綜合與有效實踐/index.md"
           }
         }
       ]
@@ -472,6 +508,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-01-সরকারি-প্রশাসনের-ব্যবস্থা-ও-মডেল/index.md",
             "cy-001": "locales/cy-001/pynciau/03-01-systemau-a-modelau-gweinyddiaeth-gyhoeddus/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-01-systemau-a-modelau-gweinyddiaeth-gyhoeddus/index.md",
+            "de-001": "locales/de-001/topics/03-01-systeme-und-modelle-der-oeffentlichen-verwaltung/index.md",
             "de-de": "locales/de-de/topics/03-01-systeme-und-modelle-der-oeffentlichen-verwaltung/index.md",
             "en-001": "locales/en-001/topics/03-01-public-administration-systems-and-models/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-01-public-administration-systems-and-models/index.md",
@@ -482,6 +519,7 @@
             "hi-001": "locales/hi-001/विषय/03-01-लोक-प्रशासन-प्रणालियाँ-और-मॉडल/index.md",
             "hi-in": "locales/hi-in/विषय/03-01-लोक-प्रशासन-प्रणालियाँ-और-मॉडल/index.md",
             "id-001": "locales/id-001/topik/03-01-sistem-dan-model-administrasi-publik/index.md",
+            "id-id": "locales/id-id/topik/03-01-sistem-dan-model-administrasi-publik/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-01-kerfi-og-líkön-opinberrar-stjórnsýslu/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-01-kerfi-og-líkön-opinberrar-stjórnsýslu/index.md",
             "ja-001": "locales/ja-001/トピック/03-01-行政システムとモデル/index.md",
@@ -497,7 +535,8 @@
             "sw-001": "locales/sw-001/mada/03-01-mifumo-na-miundo-ya-utawala-wa-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/03-01-mifumo-na-miundo-ya-utawala-wa-umma/index.md",
             "zh-001": "locales/zh-001/主题/03-01-公共行政体系与模式/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-01-公共行政体系与模式/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-01-公共行政体系与模式/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-01-公共行政體系與模式/index.md"
           }
         },
         {
@@ -509,6 +548,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-02-জননীতি-ও-নীতিচক্র/index.md",
             "cy-001": "locales/cy-001/pynciau/03-02-polisi-cyhoeddus-a-chylch-y-polisi/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-02-polisi-cyhoeddus-a-chylch-y-polisi/index.md",
+            "de-001": "locales/de-001/topics/03-02-oeffentliche-politik-und-der-politikzyklus/index.md",
             "de-de": "locales/de-de/topics/03-02-oeffentliche-politik-und-der-politikzyklus/index.md",
             "en-001": "locales/en-001/topics/03-02-public-policy-and-the-policy-cycle/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-02-public-policy-and-the-policy-cycle/index.md",
@@ -519,6 +559,7 @@
             "hi-001": "locales/hi-001/विषय/03-02-लोक-नीति-और-नीति-चक्र/index.md",
             "hi-in": "locales/hi-in/विषय/03-02-लोक-नीति-और-नीति-चक्र/index.md",
             "id-001": "locales/id-001/topik/03-02-kebijakan-publik-dan-siklus-kebijakan/index.md",
+            "id-id": "locales/id-id/topik/03-02-kebijakan-publik-dan-siklus-kebijakan/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-02-opinber-stefnumótun-og-stefnuhringurinn/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-02-opinber-stefnumótun-og-stefnuhringurinn/index.md",
             "ja-001": "locales/ja-001/トピック/03-02-公共政策と政策サイクル/index.md",
@@ -534,7 +575,8 @@
             "sw-001": "locales/sw-001/mada/03-02-sera-za-umma-na-mzunguko-wa-sera/index.md",
             "sw-tz": "locales/sw-tz/mada/03-02-sera-za-umma-na-mzunguko-wa-sera/index.md",
             "zh-001": "locales/zh-001/主题/03-02-公共政策与政策周期/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-02-公共政策与政策周期/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-02-公共政策与政策周期/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-02-公共政策與政策週期/index.md"
           }
         },
         {
@@ -546,6 +588,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-03-সরকারি-অর্থ-ও-বাজেট-প্রণয়ন/index.md",
             "cy-001": "locales/cy-001/pynciau/03-03-cyllid-cyhoeddus-a-chyllidebu/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-03-cyllid-cyhoeddus-a-chyllidebu/index.md",
+            "de-001": "locales/de-001/topics/03-03-oeffentliche-finanzen-und-haushaltsplanung/index.md",
             "de-de": "locales/de-de/topics/03-03-oeffentliche-finanzen-und-haushaltsplanung/index.md",
             "en-001": "locales/en-001/topics/03-03-public-finance-and-budgeting/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-03-public-finance-and-budgeting/index.md",
@@ -556,6 +599,7 @@
             "hi-001": "locales/hi-001/विषय/03-03-लोक-वित्त-और-बजट-निर्माण/index.md",
             "hi-in": "locales/hi-in/विषय/03-03-लोक-वित्त-और-बजट-निर्माण/index.md",
             "id-001": "locales/id-001/topik/03-03-keuangan-publik-dan-penganggaran/index.md",
+            "id-id": "locales/id-id/topik/03-03-keuangan-publik-dan-penganggaran/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-03-opinber-fjármál-og-fjárlagagerð/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-03-opinber-fjármál-og-fjárlagagerð/index.md",
             "ja-001": "locales/ja-001/トピック/03-03-財政と予算編成/index.md",
@@ -571,7 +615,8 @@
             "sw-001": "locales/sw-001/mada/03-03-fedha-za-umma-na-uandaaji-wa-bajeti/index.md",
             "sw-tz": "locales/sw-tz/mada/03-03-fedha-za-umma-na-uandaaji-wa-bajeti/index.md",
             "zh-001": "locales/zh-001/主题/03-03-公共财政与预算/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-03-公共财政与预算/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-03-公共财政与预算/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-03-公共財政與預算/index.md"
           }
         },
         {
@@ -583,6 +628,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-04-জবাবদিহি-স্বচ্ছতা-ও-বৈধতা/index.md",
             "cy-001": "locales/cy-001/pynciau/03-04-atebolrwydd-tryloywder-a-chyfreithlondeb/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-04-atebolrwydd-tryloywder-a-chyfreithlondeb/index.md",
+            "de-001": "locales/de-001/topics/03-04-rechenschaftspflicht-transparenz-und-legitimitaet/index.md",
             "de-de": "locales/de-de/topics/03-04-rechenschaftspflicht-transparenz-und-legitimitaet/index.md",
             "en-001": "locales/en-001/topics/03-04-accountability-transparency-and-legitimacy/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-04-accountability-transparency-and-legitimacy/index.md",
@@ -593,6 +639,7 @@
             "hi-001": "locales/hi-001/विषय/03-04-जवाबदेही-पारदर्शिता-और-वैधता/index.md",
             "hi-in": "locales/hi-in/विषय/03-04-जवाबदेही-पारदर्शिता-और-वैधता/index.md",
             "id-001": "locales/id-001/topik/03-04-akuntabilitas-transparansi-dan-legitimasi/index.md",
+            "id-id": "locales/id-id/topik/03-04-akuntabilitas-transparansi-dan-legitimasi/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-04-ábyrgðarskylda-gagnsæi-og-lögmæti/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-04-ábyrgðarskylda-gagnsæi-og-lögmæti/index.md",
             "ja-001": "locales/ja-001/トピック/03-04-説明責任-透明性-正当性/index.md",
@@ -608,7 +655,8 @@
             "sw-001": "locales/sw-001/mada/03-04-uwajibikaji-uwazi-na-uhalali/index.md",
             "sw-tz": "locales/sw-tz/mada/03-04-uwajibikaji-uwazi-na-uhalali/index.md",
             "zh-001": "locales/zh-001/主题/03-04-问责制-透明度与合法性/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-04-问责制-透明度与合法性/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-04-问责制-透明度与合法性/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-04-問責制-透明度與合法性/index.md"
           }
         },
         {
@@ -620,6 +668,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-05-সমতা-ন্যায্যতা-ও-বণ্টনমূলক-ন্যায়/index.md",
             "cy-001": "locales/cy-001/pynciau/03-05-tegwch-chwarae-teg-a-chyfiawnder-dosrannol/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-05-tegwch-chwarae-teg-a-chyfiawnder-dosrannol/index.md",
+            "de-001": "locales/de-001/topics/03-05-gleichheit-fairness-und-verteilungsgerechtigkeit/index.md",
             "de-de": "locales/de-de/topics/03-05-gleichheit-fairness-und-verteilungsgerechtigkeit/index.md",
             "en-001": "locales/en-001/topics/03-05-equity-fairness-and-distributive-justice/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-05-equity-fairness-and-distributive-justice/index.md",
@@ -630,6 +679,7 @@
             "hi-001": "locales/hi-001/विषय/03-05-समता-निष्पक्षता-और-वितरणात्मक-न्याय/index.md",
             "hi-in": "locales/hi-in/विषय/03-05-समता-निष्पक्षता-और-वितरणात्मक-न्याय/index.md",
             "id-001": "locales/id-001/topik/03-05-ekuitas-keadilan-dan-keadilan-distributif/index.md",
+            "id-id": "locales/id-id/topik/03-05-ekuitas-keadilan-dan-keadilan-distributif/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-05-jafnræði-sanngirni-og-dreifingarréttlæti/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-05-jafnræði-sanngirni-og-dreifingarréttlæti/index.md",
             "ja-001": "locales/ja-001/トピック/03-05-公平性-公正性-分配的正義/index.md",
@@ -645,7 +695,8 @@
             "sw-001": "locales/sw-001/mada/03-05-usawa-haki-na-haki-ya-ugawaji/index.md",
             "sw-tz": "locales/sw-tz/mada/03-05-usawa-haki-na-haki-ya-ugawaji/index.md",
             "zh-001": "locales/zh-001/主题/03-05-公平-公正与分配正义/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-05-公平-公正与分配正义/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-05-公平-公正与分配正义/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-05-公平-公正與分配正義/index.md"
           }
         },
         {
@@ -657,6 +708,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-06-সরকারি-খাতের-জনবল-ও-শ্রমবাজার/index.md",
             "cy-001": "locales/cy-001/pynciau/03-06-gweithlur-sector-cyhoeddus-a-marchnadoedd-llafur/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-06-gweithlur-sector-cyhoeddus-a-marchnadoedd-llafur/index.md",
+            "de-001": "locales/de-001/topics/03-06-personal-des-oeffentlichen-sektors-und-arbeitsmaerkte/index.md",
             "de-de": "locales/de-de/topics/03-06-personal-des-oeffentlichen-sektors-und-arbeitsmaerkte/index.md",
             "en-001": "locales/en-001/topics/03-06-public-sector-workforce-and-labour-markets/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-06-public-sector-workforce-and-labour-markets/index.md",
@@ -667,6 +719,7 @@
             "hi-001": "locales/hi-001/विषय/03-06-लोक-क्षेत्र-कार्यबल-और-श्रम-बाज़ार/index.md",
             "hi-in": "locales/hi-in/विषय/03-06-लोक-क्षेत्र-कार्यबल-और-श्रम-बाज़ार/index.md",
             "id-001": "locales/id-001/topik/03-06-tenaga-kerja-sektor-publik-dan-pasar-tenaga-kerja/index.md",
+            "id-id": "locales/id-id/topik/03-06-tenaga-kerja-sektor-publik-dan-pasar-tenaga-kerja/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-06-starfsfólk-hins-opinbera-og-vinnumarkaðir/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-06-starfsfólk-hins-opinbera-og-vinnumarkaðir/index.md",
             "ja-001": "locales/ja-001/トピック/03-06-公共部門の人材と労働市場/index.md",
@@ -682,7 +735,8 @@
             "sw-001": "locales/sw-001/mada/03-06-nguvu-kazi-ya-sekta-ya-umma-na-masoko-ya-ajira/index.md",
             "sw-tz": "locales/sw-tz/mada/03-06-nguvu-kazi-ya-sekta-ya-umma-na-masoko-ya-ajira/index.md",
             "zh-001": "locales/zh-001/主题/03-06-公共部门人力资源与劳动力市场/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-06-公共部门人力资源与劳动力市场/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-06-公共部门人力资源与劳动力市场/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-06-公共部門人力資源與勞動力市場/index.md"
           }
         },
         {
@@ -694,6 +748,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-07-সরকারি-ক্রয়-ও-কমিশনিং/index.md",
             "cy-001": "locales/cy-001/pynciau/03-07-caffael-cyhoeddus-a-chomisiynu/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-07-caffael-cyhoeddus-a-chomisiynu/index.md",
+            "de-001": "locales/de-001/topics/03-07-oeffentliche-beschaffung-und-leistungsvergabe/index.md",
             "de-de": "locales/de-de/topics/03-07-oeffentliche-beschaffung-und-leistungsvergabe/index.md",
             "en-001": "locales/en-001/topics/03-07-public-procurement-and-commissioning/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-07-public-procurement-and-commissioning/index.md",
@@ -704,6 +759,7 @@
             "hi-001": "locales/hi-001/विषय/03-07-लोक-ख़रीद-और-अधिदेशन/index.md",
             "hi-in": "locales/hi-in/विषय/03-07-लोक-ख़रीद-और-अधिदेशन/index.md",
             "id-001": "locales/id-001/topik/03-07-pengadaan-publik-dan-komisioning/index.md",
+            "id-id": "locales/id-id/topik/03-07-pengadaan-publik-dan-komisioning/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-07-opinber-innkaup-og-þjónustukaup/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-07-opinber-innkaup-og-þjónustukaup/index.md",
             "ja-001": "locales/ja-001/トピック/03-07-公共調達と委託/index.md",
@@ -719,7 +775,8 @@
             "sw-001": "locales/sw-001/mada/03-07-ununuzi-wa-umma-na-uagizaji-wa-huduma/index.md",
             "sw-tz": "locales/sw-tz/mada/03-07-ununuzi-wa-umma-na-uagizaji-wa-huduma/index.md",
             "zh-001": "locales/zh-001/主题/03-07-公共采购与委托/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-07-公共采购与委托/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-07-公共采购与委托/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-07-公共採購與委託/index.md"
           }
         },
         {
@@ -731,6 +788,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-08-সামাজিক-খাত-ও-অলাভজনক-প্রতিষ্ঠান-ব্যবস্থাপনা/index.md",
             "cy-001": "locales/cy-001/pynciau/03-08-rheoli-r-sector-cymdeithasol-a-sefydliadau-dielw/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-08-rheoli-r-sector-cymdeithasol-a-sefydliadau-dielw/index.md",
+            "de-001": "locales/de-001/topics/03-08-sozialer-sektor-und-management-gemeinnuetziger-organisationen/index.md",
             "de-de": "locales/de-de/topics/03-08-sozialer-sektor-und-management-gemeinnuetziger-organisationen/index.md",
             "en-001": "locales/en-001/topics/03-08-social-sector-and-nonprofit-management/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-08-social-sector-and-nonprofit-management/index.md",
@@ -741,6 +799,7 @@
             "hi-001": "locales/hi-001/विषय/03-08-सामाजिक-क्षेत्र-और-गैर-लाभकारी-प्रबंधन/index.md",
             "hi-in": "locales/hi-in/विषय/03-08-सामाजिक-क्षेत्र-और-गैर-लाभकारी-प्रबंधन/index.md",
             "id-001": "locales/id-001/topik/03-08-manajemen-sektor-sosial-dan-nirlaba/index.md",
+            "id-id": "locales/id-id/topik/03-08-manajemen-sektor-sosial-dan-nirlaba/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-08-stjórnun-félagageirans-og-félagasamtaka/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-08-stjórnun-félagageirans-og-félagasamtaka/index.md",
             "ja-001": "locales/ja-001/トピック/03-08-社会セクターと非営利団体のマネジメント/index.md",
@@ -756,7 +815,8 @@
             "sw-001": "locales/sw-001/mada/03-08-usimamizi-wa-sekta-ya-kijamii-na-mashirika-yasiyo-ya-faida/index.md",
             "sw-tz": "locales/sw-tz/mada/03-08-usimamizi-wa-sekta-ya-kijamii-na-mashirika-yasiyo-ya-faida/index.md",
             "zh-001": "locales/zh-001/主题/03-08-社会部门与非营利组织管理/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-08-社会部门与非营利组织管理/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-08-社会部门与非营利组织管理/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-08-社會部門與非營利組織管理/index.md"
           }
         },
         {
@@ -768,6 +828,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-09-আন্তঃসরকারি-সম্পর্ক-ও-যুক্তরাষ্ট্রীয়তা/index.md",
             "cy-001": "locales/cy-001/pynciau/03-09-cysylltiadau-rhynglywodraethol-a-ffederaliaeth/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-09-cysylltiadau-rhynglywodraethol-a-ffederaliaeth/index.md",
+            "de-001": "locales/de-001/topics/03-09-zwischenstaatliche-beziehungen-und-foederalismus/index.md",
             "de-de": "locales/de-de/topics/03-09-zwischenstaatliche-beziehungen-und-foederalismus/index.md",
             "en-001": "locales/en-001/topics/03-09-intergovernmental-relations-and-federalism/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-09-intergovernmental-relations-and-federalism/index.md",
@@ -778,6 +839,7 @@
             "hi-001": "locales/hi-001/विषय/03-09-अंतर-सरकारी-संबंध-और-संघवाद/index.md",
             "hi-in": "locales/hi-in/विषय/03-09-अंतर-सरकारी-संबंध-और-संघवाद/index.md",
             "id-001": "locales/id-001/topik/03-09-hubungan-antarpemerintah-dan-federalisme/index.md",
+            "id-id": "locales/id-id/topik/03-09-hubungan-antarpemerintah-dan-federalisme/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-09-samskipti-stjórnsýslustiga-og-sambandsríki/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-09-samskipti-stjórnsýslustiga-og-sambandsríki/index.md",
             "ja-001": "locales/ja-001/トピック/03-09-政府間関係と連邦制/index.md",
@@ -793,7 +855,8 @@
             "sw-001": "locales/sw-001/mada/03-09-mahusiano-kati-ya-ngazi-za-serikali-na-mfumo-wa-shirikisho/index.md",
             "sw-tz": "locales/sw-tz/mada/03-09-mahusiano-kati-ya-ngazi-za-serikali-na-mfumo-wa-shirikisho/index.md",
             "zh-001": "locales/zh-001/主题/03-09-政府间关系与联邦制/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-09-政府间关系与联邦制/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-09-政府间关系与联邦制/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-09-政府間關係與聯邦制/index.md"
           }
         },
         {
@@ -805,6 +868,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-10-নিয়ন্ত্রণ-ও-সরকারি-ঝুঁকি-ব্যবস্থাপনা/index.md",
             "cy-001": "locales/cy-001/pynciau/03-10-rheoleiddio-a-rheoli-risg-cyhoeddus/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-10-rheoleiddio-a-rheoli-risg-cyhoeddus/index.md",
+            "de-001": "locales/de-001/topics/03-10-regulierung-und-oeffentliches-risikomanagement/index.md",
             "de-de": "locales/de-de/topics/03-10-regulierung-und-oeffentliches-risikomanagement/index.md",
             "en-001": "locales/en-001/topics/03-10-regulation-and-public-risk-management/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-10-regulation-and-public-risk-management/index.md",
@@ -815,6 +879,7 @@
             "hi-001": "locales/hi-001/विषय/03-10-विनियमन-और-लोक-जोखिम-प्रबंधन/index.md",
             "hi-in": "locales/hi-in/विषय/03-10-विनियमन-और-लोक-जोखिम-प्रबंधन/index.md",
             "id-001": "locales/id-001/topik/03-10-regulasi-dan-manajemen-risiko-publik/index.md",
+            "id-id": "locales/id-id/topik/03-10-regulasi-dan-manajemen-risiko-publik/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-10-regluverk-og-opinber-áhættustýring/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-10-regluverk-og-opinber-áhættustýring/index.md",
             "ja-001": "locales/ja-001/トピック/03-10-規制と公共リスクマネジメント/index.md",
@@ -830,7 +895,8 @@
             "sw-001": "locales/sw-001/mada/03-10-udhibiti-na-usimamizi-wa-hatari-za-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/03-10-udhibiti-na-usimamizi-wa-hatari-za-umma/index.md",
             "zh-001": "locales/zh-001/主题/03-10-监管与公共风险管理/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-10-监管与公共风险管理/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-10-监管与公共风险管理/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-10-監管與公共風險管理/index.md"
           }
         },
         {
@@ -842,6 +908,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-11-মান-নিরাপত্তা-ও-কার্যসম্পাদন-ব্যবস্থাপনা/index.md",
             "cy-001": "locales/cy-001/pynciau/03-11-ansawdd-diogelwch-a-rheoli-perfformiad/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-11-ansawdd-diogelwch-a-rheoli-perfformiad/index.md",
+            "de-001": "locales/de-001/topics/03-11-qualitaet-sicherheit-und-leistungsmanagement/index.md",
             "de-de": "locales/de-de/topics/03-11-qualitaet-sicherheit-und-leistungsmanagement/index.md",
             "en-001": "locales/en-001/topics/03-11-quality-safety-and-performance-management/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-11-quality-safety-and-performance-management/index.md",
@@ -852,6 +919,7 @@
             "hi-001": "locales/hi-001/विषय/03-11-गुणवत्ता-सुरक्षा-और-प्रदर्शन-प्रबंधन/index.md",
             "hi-in": "locales/hi-in/विषय/03-11-गुणवत्ता-सुरक्षा-और-प्रदर्शन-प्रबंधन/index.md",
             "id-001": "locales/id-001/topik/03-11-manajemen-mutu-keselamatan-dan-kinerja/index.md",
+            "id-id": "locales/id-id/topik/03-11-manajemen-mutu-keselamatan-dan-kinerja/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-11-gæða-öryggis-og-árangursstjórnun/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-11-gæða-öryggis-og-árangursstjórnun/index.md",
             "ja-001": "locales/ja-001/トピック/03-11-品質-安全性-実績管理/index.md",
@@ -867,7 +935,8 @@
             "sw-001": "locales/sw-001/mada/03-11-ubora-usalama-na-usimamizi-wa-utendaji/index.md",
             "sw-tz": "locales/sw-tz/mada/03-11-ubora-usalama-na-usimamizi-wa-utendaji/index.md",
             "zh-001": "locales/zh-001/主题/03-11-质量-安全与绩效管理/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-11-质量-安全与绩效管理/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-11-质量-安全与绩效管理/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-11-質量-安全與績效管理/index.md"
           }
         },
         {
@@ -879,6 +948,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/03-12-সংকট-জরুরি-অবস্থা-ও-স্থিতিস্থাপকতা-ব্যবস্থাপনা/index.md",
             "cy-001": "locales/cy-001/pynciau/03-12-rheoli-argyfwng-brys-a-gwydnwch/index.md",
             "cy-gb": "locales/cy-gb/pynciau/03-12-rheoli-argyfwng-brys-a-gwydnwch/index.md",
+            "de-001": "locales/de-001/topics/03-12-krisen-notfall-und-resilienzmanagement/index.md",
             "de-de": "locales/de-de/topics/03-12-krisen-notfall-und-resilienzmanagement/index.md",
             "en-001": "locales/en-001/topics/03-12-crisis-emergency-and-resilience-management/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/03-12-crisis-emergency-and-resilience-management/index.md",
@@ -889,6 +959,7 @@
             "hi-001": "locales/hi-001/विषय/03-12-संकट-आपातकाल-और-लचीलापन-प्रबंधन/index.md",
             "hi-in": "locales/hi-in/विषय/03-12-संकट-आपातकाल-और-लचीलापन-प्रबंधन/index.md",
             "id-001": "locales/id-001/topik/03-12-manajemen-krisis-darurat-dan-ketahanan/index.md",
+            "id-id": "locales/id-id/topik/03-12-manajemen-krisis-darurat-dan-ketahanan/index.md",
             "is-001": "locales/is-001/viðfangsefni/03-12-krísu-neyðar-og-seiglustjórnun/index.md",
             "is-is": "locales/is-is/viðfangsefni/03-12-krísu-neyðar-og-seiglustjórnun/index.md",
             "ja-001": "locales/ja-001/トピック/03-12-危機-緊急事態-レジリエンス-マネジメント/index.md",
@@ -904,7 +975,8 @@
             "sw-001": "locales/sw-001/mada/03-12-usimamizi-wa-migogoro-dharura-na-ustahimilivu/index.md",
             "sw-tz": "locales/sw-tz/mada/03-12-usimamizi-wa-migogoro-dharura-na-ustahimilivu/index.md",
             "zh-001": "locales/zh-001/主题/03-12-危机-紧急情况与韧性管理/index.md",
-            "zh-cn": "locales/zh-cn/主题/03-12-危机-紧急情况与韧性管理/index.md"
+            "zh-cn": "locales/zh-cn/主题/03-12-危机-紧急情况与韧性管理/index.md",
+            "zh-tw": "locales/zh-tw/主題/03-12-危機-緊急情況與韌性管理/index.md"
           }
         }
       ]
@@ -922,6 +994,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/04-01-আচরণগত-জননীতি/index.md",
             "cy-001": "locales/cy-001/pynciau/04-01-polisi-cyhoeddus-ymddygiadol/index.md",
             "cy-gb": "locales/cy-gb/pynciau/04-01-polisi-cyhoeddus-ymddygiadol/index.md",
+            "de-001": "locales/de-001/topics/04-01-verhaltensbasierte-oeffentliche-politik/index.md",
             "de-de": "locales/de-de/topics/04-01-verhaltensbasierte-oeffentliche-politik/index.md",
             "en-001": "locales/en-001/topics/04-01-behavioural-public-policy/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-01-behavioural-public-policy/index.md",
@@ -932,6 +1005,7 @@
             "hi-001": "locales/hi-001/विषय/04-01-व्यावहारिक-लोक-नीति/index.md",
             "hi-in": "locales/hi-in/विषय/04-01-व्यावहारिक-लोक-नीति/index.md",
             "id-001": "locales/id-001/topik/04-01-kebijakan-publik-berbasis-perilaku/index.md",
+            "id-id": "locales/id-id/topik/04-01-kebijakan-publik-berbasis-perilaku/index.md",
             "is-001": "locales/is-001/viðfangsefni/04-01-atferlismiðuð-opinber-stefna/index.md",
             "is-is": "locales/is-is/viðfangsefni/04-01-atferlismiðuð-opinber-stefna/index.md",
             "ja-001": "locales/ja-001/トピック/04-01-行動公共政策/index.md",
@@ -947,7 +1021,8 @@
             "sw-001": "locales/sw-001/mada/04-01-sera-za-umma-za-kitabia/index.md",
             "sw-tz": "locales/sw-tz/mada/04-01-sera-za-umma-za-kitabia/index.md",
             "zh-001": "locales/zh-001/主题/04-01-行为公共政策/index.md",
-            "zh-cn": "locales/zh-cn/主题/04-01-行为公共政策/index.md"
+            "zh-cn": "locales/zh-cn/主题/04-01-行为公共政策/index.md",
+            "zh-tw": "locales/zh-tw/主題/04-01-行為公共政策/index.md"
           }
         },
         {
@@ -959,6 +1034,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/04-02-সরকারের-প্রতি-আস্থা-ও-নাগরিক-অংশগ্রহণ/index.md",
             "cy-001": "locales/cy-001/pynciau/04-02-ymddiriedaeth-mewn-llywodraeth-ac-ymgysylltiad-dinesig/index.md",
             "cy-gb": "locales/cy-gb/pynciau/04-02-ymddiriedaeth-mewn-llywodraeth-ac-ymgysylltiad-dinesig/index.md",
+            "de-001": "locales/de-001/topics/04-02-vertrauen-in-den-staat-und-buergerschaftliches-engagement/index.md",
             "de-de": "locales/de-de/topics/04-02-vertrauen-in-den-staat-und-buergerschaftliches-engagement/index.md",
             "en-001": "locales/en-001/topics/04-02-trust-in-government-and-civic-engagement/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-02-trust-in-government-and-civic-engagement/index.md",
@@ -969,6 +1045,7 @@
             "hi-001": "locales/hi-001/विषय/04-02-सरकार-में-विश्वास-और-नागरिक-सहभागिता/index.md",
             "hi-in": "locales/hi-in/विषय/04-02-सरकार-में-विश्वास-और-नागरिक-सहभागिता/index.md",
             "id-001": "locales/id-001/topik/04-02-kepercayaan-pada-pemerintah-dan-keterlibatan-warga/index.md",
+            "id-id": "locales/id-id/topik/04-02-kepercayaan-pada-pemerintah-dan-keterlibatan-warga/index.md",
             "is-001": "locales/is-001/viðfangsefni/04-02-traust-til-stjórnvalda-og-borgaraþátttaka/index.md",
             "is-is": "locales/is-is/viðfangsefni/04-02-traust-til-stjórnvalda-og-borgaraþátttaka/index.md",
             "ja-001": "locales/ja-001/トピック/04-02-政府への信頼と市民参加/index.md",
@@ -984,7 +1061,8 @@
             "sw-001": "locales/sw-001/mada/04-02-imani-kwa-serikali-na-ushiriki-wa-wananchi/index.md",
             "sw-tz": "locales/sw-tz/mada/04-02-imani-kwa-serikali-na-ushiriki-wa-wananchi/index.md",
             "zh-001": "locales/zh-001/主题/04-02-政府信任与公民参与/index.md",
-            "zh-cn": "locales/zh-cn/主题/04-02-政府信任与公民参与/index.md"
+            "zh-cn": "locales/zh-cn/主题/04-02-政府信任与公民参与/index.md",
+            "zh-tw": "locales/zh-tw/主題/04-02-政府信任與公民參與/index.md"
           }
         },
         {
@@ -996,6 +1074,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/04-03-জলবায়ু-টেকসইতা-ও-পরিবেশগত-জনমূল্য/index.md",
             "cy-001": "locales/cy-001/pynciau/04-03-hinsawdd-cynaliadwyedd-a-gwerth-cyhoeddus-amgylcheddol/index.md",
             "cy-gb": "locales/cy-gb/pynciau/04-03-hinsawdd-cynaliadwyedd-a-gwerth-cyhoeddus-amgylcheddol/index.md",
+            "de-001": "locales/de-001/topics/04-03-klima-nachhaltigkeit-und-oekologischer-oeffentlicher-wert/index.md",
             "de-de": "locales/de-de/topics/04-03-klima-nachhaltigkeit-und-oekologischer-oeffentlicher-wert/index.md",
             "en-001": "locales/en-001/topics/04-03-climate-sustainability-and-environmental-public-value/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-03-climate-sustainability-and-environmental-public-value/index.md",
@@ -1006,6 +1085,7 @@
             "hi-001": "locales/hi-001/विषय/04-03-जलवायु-स्थिरता-और-पर्यावरणीय-लोक-मूल्य/index.md",
             "hi-in": "locales/hi-in/विषय/04-03-जलवायु-स्थिरता-और-पर्यावरणीय-लोक-मूल्य/index.md",
             "id-001": "locales/id-001/topik/04-03-iklim-keberlanjutan-dan-nilai-publik-lingkungan/index.md",
+            "id-id": "locales/id-id/topik/04-03-iklim-keberlanjutan-dan-nilai-publik-lingkungan/index.md",
             "is-001": "locales/is-001/viðfangsefni/04-03-loftslag-sjálfbærni-og-umhverfislegt-almannavirði/index.md",
             "is-is": "locales/is-is/viðfangsefni/04-03-loftslag-sjálfbærni-og-umhverfislegt-almannavirði/index.md",
             "ja-001": "locales/ja-001/トピック/04-03-気候-持続可能性-環境的公共価値/index.md",
@@ -1021,7 +1101,8 @@
             "sw-001": "locales/sw-001/mada/04-03-tabianchi-uendelevu-na-thamani-ya-umma-ya-kimazingira/index.md",
             "sw-tz": "locales/sw-tz/mada/04-03-tabianchi-uendelevu-na-thamani-ya-umma-ya-kimazingira/index.md",
             "zh-001": "locales/zh-001/主题/04-03-气候-可持续性与环境公共价值/index.md",
-            "zh-cn": "locales/zh-cn/主题/04-03-气候-可持续性与环境公共价值/index.md"
+            "zh-cn": "locales/zh-cn/主题/04-03-气候-可持续性与环境公共价值/index.md",
+            "zh-tw": "locales/zh-tw/主題/04-03-氣候-可持續性與環境公共價值/index.md"
           }
         },
         {
@@ -1033,6 +1114,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/04-04-সামাজিক-মাধ্যম-ভুল-তথ্য-ও-গণযোগাযোগ/index.md",
             "cy-001": "locales/cy-001/pynciau/04-04-cyfryngau-cymdeithasol-camwybodaeth-a-chyfathrebu-cyhoeddus/index.md",
             "cy-gb": "locales/cy-gb/pynciau/04-04-cyfryngau-cymdeithasol-camwybodaeth-a-chyfathrebu-cyhoeddus/index.md",
+            "de-001": "locales/de-001/topics/04-04-soziale-medien-desinformation-und-oeffentliche-kommunikation/index.md",
             "de-de": "locales/de-de/topics/04-04-soziale-medien-desinformation-und-oeffentliche-kommunikation/index.md",
             "en-001": "locales/en-001/topics/04-04-social-media-misinformation-and-public-communication/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/04-04-social-media-misinformation-and-public-communication/index.md",
@@ -1043,6 +1125,7 @@
             "hi-001": "locales/hi-001/विषय/04-04-सोशल-मीडिया-ग़लत-सूचना-और-लोक-संचार/index.md",
             "hi-in": "locales/hi-in/विषय/04-04-सोशल-मीडिया-ग़लत-सूचना-और-लोक-संचार/index.md",
             "id-001": "locales/id-001/topik/04-04-media-sosial-misinformasi-dan-komunikasi-publik/index.md",
+            "id-id": "locales/id-id/topik/04-04-media-sosial-misinformasi-dan-komunikasi-publik/index.md",
             "is-001": "locales/is-001/viðfangsefni/04-04-samfélagsmiðlar-rangupplýsingar-og-opinber-miðlun/index.md",
             "is-is": "locales/is-is/viðfangsefni/04-04-samfélagsmiðlar-rangupplýsingar-og-opinber-miðlun/index.md",
             "ja-001": "locales/ja-001/トピック/04-04-ソーシャルメディア-誤情報-公共コミュニケーション/index.md",
@@ -1058,7 +1141,8 @@
             "sw-001": "locales/sw-001/mada/04-04-mitandao-ya-kijamii-taarifa-potofu-na-mawasiliano-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/04-04-mitandao-ya-kijamii-taarifa-potofu-na-mawasiliano-ya-umma/index.md",
             "zh-001": "locales/zh-001/主题/04-04-社交媒体-错误信息与公共传播/index.md",
-            "zh-cn": "locales/zh-cn/主题/04-04-社交媒体-错误信息与公共传播/index.md"
+            "zh-cn": "locales/zh-cn/主题/04-04-社交媒体-错误信息与公共传播/index.md",
+            "zh-tw": "locales/zh-tw/主題/04-04-社交媒體-錯誤資訊與公共傳播/index.md"
           }
         }
       ]
@@ -1076,6 +1160,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/05-01-ডিজিটাল-সরকার-ও-ডিজিটাল-রূপান্তর/index.md",
             "cy-001": "locales/cy-001/pynciau/05-01-llywodraeth-ddigidol-a-thrawsnewid-digidol/index.md",
             "cy-gb": "locales/cy-gb/pynciau/05-01-llywodraeth-ddigidol-a-thrawsnewid-digidol/index.md",
+            "de-001": "locales/de-001/topics/05-01-digitale-verwaltung-und-digitale-transformation/index.md",
             "de-de": "locales/de-de/topics/05-01-digitale-verwaltung-und-digitale-transformation/index.md",
             "en-001": "locales/en-001/topics/05-01-digital-government-and-digital-transformation/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-01-digital-government-and-digital-transformation/index.md",
@@ -1086,6 +1171,7 @@
             "hi-001": "locales/hi-001/विषय/05-01-डिजिटल-सरकार-और-डिजिटल-परिवर्तन/index.md",
             "hi-in": "locales/hi-in/विषय/05-01-डिजिटल-सरकार-और-डिजिटल-परिवर्तन/index.md",
             "id-001": "locales/id-001/topik/05-01-pemerintahan-digital-dan-transformasi-digital/index.md",
+            "id-id": "locales/id-id/topik/05-01-pemerintahan-digital-dan-transformasi-digital/index.md",
             "is-001": "locales/is-001/viðfangsefni/05-01-stafræn-stjórnsýsla-og-stafræn-umbreyting/index.md",
             "is-is": "locales/is-is/viðfangsefni/05-01-stafræn-stjórnsýsla-og-stafræn-umbreyting/index.md",
             "ja-001": "locales/ja-001/トピック/05-01-デジタル政府とデジタル変革/index.md",
@@ -1101,7 +1187,8 @@
             "sw-001": "locales/sw-001/mada/05-01-serikali-mtandao-na-mageuzi-ya-kidijitali/index.md",
             "sw-tz": "locales/sw-tz/mada/05-01-serikali-mtandao-na-mageuzi-ya-kidijitali/index.md",
             "zh-001": "locales/zh-001/主题/05-01-数字政府与数字化转型/index.md",
-            "zh-cn": "locales/zh-cn/主题/05-01-数字政府与数字化转型/index.md"
+            "zh-cn": "locales/zh-cn/主题/05-01-数字政府与数字化转型/index.md",
+            "zh-tw": "locales/zh-tw/主題/05-01-數字政府與數字化轉型/index.md"
           }
         },
         {
@@ -1113,6 +1200,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/05-02-কৃত্রিম-বুদ্ধিমত্তা-ও-সরকারে-অ্যালগরিদমভিত্তিক-সিদ্ধান্ত-গ্রহণ/index.md",
             "cy-001": "locales/cy-001/pynciau/05-02-deallusrwydd-artiffisial-a-gwneud-penderfyniadau-algorithmig-mewn-llywodraeth/index.md",
             "cy-gb": "locales/cy-gb/pynciau/05-02-deallusrwydd-artiffisial-a-gwneud-penderfyniadau-algorithmig-mewn-llywodraeth/index.md",
+            "de-001": "locales/de-001/topics/05-02-ki-und-algorithmische-entscheidungsfindung-in-der-verwaltung/index.md",
             "de-de": "locales/de-de/topics/05-02-ki-und-algorithmische-entscheidungsfindung-in-der-verwaltung/index.md",
             "en-001": "locales/en-001/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-02-ai-and-algorithmic-decision-making-in-government/index.md",
@@ -1123,6 +1211,7 @@
             "hi-001": "locales/hi-001/विषय/05-02-सरकार-में-एआई-और-कलनविधि-आधारित-निर्णय-प्रक्रिया/index.md",
             "hi-in": "locales/hi-in/विषय/05-02-सरकार-में-एआई-और-कलनविधि-आधारित-निर्णय-प्रक्रिया/index.md",
             "id-001": "locales/id-001/topik/05-02-ai-dan-pengambilan-keputusan-algoritmik-di-pemerintahan/index.md",
+            "id-id": "locales/id-id/topik/05-02-ai-dan-pengambilan-keputusan-algoritmik-di-pemerintahan/index.md",
             "is-001": "locales/is-001/viðfangsefni/05-02-gervigreind-og-reiknirit-í-ákvarðanatöku-hins-opinbera/index.md",
             "is-is": "locales/is-is/viðfangsefni/05-02-gervigreind-og-reiknirit-í-ákvarðanatöku-hins-opinbera/index.md",
             "ja-001": "locales/ja-001/トピック/05-02-行政におけるaiとアルゴリズム的意思決定/index.md",
@@ -1138,7 +1227,8 @@
             "sw-001": "locales/sw-001/mada/05-02-ai-na-uamuzi-wa-kialgoriti-katika-serikali/index.md",
             "sw-tz": "locales/sw-tz/mada/05-02-ai-na-uamuzi-wa-kialgoriti-katika-serikali/index.md",
             "zh-001": "locales/zh-001/主题/05-02-政府中的人工智能与算法决策/index.md",
-            "zh-cn": "locales/zh-cn/主题/05-02-政府中的人工智能与算法决策/index.md"
+            "zh-cn": "locales/zh-cn/主题/05-02-政府中的人工智能与算法决策/index.md",
+            "zh-tw": "locales/zh-tw/主題/05-02-政府中的人工智慧與演算法決策/index.md"
           }
         },
         {
@@ -1150,6 +1240,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/05-03-সরকারি-খাতের-সফটওয়্যার-প্রকৌশল-ও-প্ল্যাটফর্ম/index.md",
             "cy-001": "locales/cy-001/pynciau/05-03-peirianneg-meddalwedd-a-llwyfannau-r-sector-cyhoeddus/index.md",
             "cy-gb": "locales/cy-gb/pynciau/05-03-peirianneg-meddalwedd-a-llwyfannau-r-sector-cyhoeddus/index.md",
+            "de-001": "locales/de-001/topics/05-03-softwareentwicklung-und-plattformen-im-oeffentlichen-sektor/index.md",
             "de-de": "locales/de-de/topics/05-03-softwareentwicklung-und-plattformen-im-oeffentlichen-sektor/index.md",
             "en-001": "locales/en-001/topics/05-03-public-sector-software-engineering-and-platforms/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-03-public-sector-software-engineering-and-platforms/index.md",
@@ -1160,6 +1251,7 @@
             "hi-001": "locales/hi-001/विषय/05-03-लोक-क्षेत्र-सॉफ़्टवेयर-अभियांत्रिकी-और-प्लेटफ़ॉर्म/index.md",
             "hi-in": "locales/hi-in/विषय/05-03-लोक-क्षेत्र-सॉफ़्टवेयर-अभियांत्रिकी-और-प्लेटफ़ॉर्म/index.md",
             "id-001": "locales/id-001/topik/05-03-rekayasa-perangkat-lunak-dan-platform-sektor-publik/index.md",
+            "id-id": "locales/id-id/topik/05-03-rekayasa-perangkat-lunak-dan-platform-sektor-publik/index.md",
             "is-001": "locales/is-001/viðfangsefni/05-03-hugbúnaðarverkfræði-og-vettvangar-hins-opinbera/index.md",
             "is-is": "locales/is-is/viðfangsefni/05-03-hugbúnaðarverkfræði-og-vettvangar-hins-opinbera/index.md",
             "ja-001": "locales/ja-001/トピック/05-03-公共部門のソフトウェア工学とプラットフォーム/index.md",
@@ -1175,7 +1267,8 @@
             "sw-001": "locales/sw-001/mada/05-03-uhandisi-wa-programu-na-majukwaa-katika-sekta-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/05-03-uhandisi-wa-programu-na-majukwaa-katika-sekta-ya-umma/index.md",
             "zh-001": "locales/zh-001/主题/05-03-公共部门软件工程与平台/index.md",
-            "zh-cn": "locales/zh-cn/主题/05-03-公共部门软件工程与平台/index.md"
+            "zh-cn": "locales/zh-cn/主题/05-03-公共部门软件工程与平台/index.md",
+            "zh-tw": "locales/zh-tw/主題/05-03-公共部門軟體工程與平臺/index.md"
           }
         },
         {
@@ -1187,6 +1280,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/05-04-সরকারি-খাতের-উপাত্ত-আন্তঃপরিচালনযোগ্যতা-ও-উন্মুক্ত-উপাত্ত/index.md",
             "cy-001": "locales/cy-001/pynciau/05-04-data-r-sector-cyhoeddus-rhyngweithredu-a-data-agored/index.md",
             "cy-gb": "locales/cy-gb/pynciau/05-04-data-r-sector-cyhoeddus-rhyngweithredu-a-data-agored/index.md",
+            "de-001": "locales/de-001/topics/05-04-daten-interoperabilitaet-und-offene-daten-im-oeffentlichen-sektor/index.md",
             "de-de": "locales/de-de/topics/05-04-daten-interoperabilitaet-und-offene-daten-im-oeffentlichen-sektor/index.md",
             "en-001": "locales/en-001/topics/05-04-public-sector-data-interoperability-and-open-data/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-04-public-sector-data-interoperability-and-open-data/index.md",
@@ -1197,6 +1291,7 @@
             "hi-001": "locales/hi-001/विषय/05-04-लोक-क्षेत्र-डेटा-अंतरसंचालनीयता-और-खुला-डेटा/index.md",
             "hi-in": "locales/hi-in/विषय/05-04-लोक-क्षेत्र-डेटा-अंतरसंचालनीयता-और-खुला-डेटा/index.md",
             "id-001": "locales/id-001/topik/05-04-interoperabilitas-data-sektor-publik-dan-data-terbuka/index.md",
+            "id-id": "locales/id-id/topik/05-04-interoperabilitas-data-sektor-publik-dan-data-terbuka/index.md",
             "is-001": "locales/is-001/viðfangsefni/05-04-gögn-hins-opinbera-samvirkni-og-opin-gögn/index.md",
             "is-is": "locales/is-is/viðfangsefni/05-04-gögn-hins-opinbera-samvirkni-og-opin-gögn/index.md",
             "ja-001": "locales/ja-001/トピック/05-04-公共部門のデータ-相互運用性-オープンデータ/index.md",
@@ -1212,7 +1307,8 @@
             "sw-001": "locales/sw-001/mada/05-04-data-za-sekta-ya-umma-ushirikiano-wa-mifumo-na-data-huria/index.md",
             "sw-tz": "locales/sw-tz/mada/05-04-data-za-sekta-ya-umma-ushirikiano-wa-mifumo-na-data-huria/index.md",
             "zh-001": "locales/zh-001/主题/05-04-公共部门数据-互操作性与开放数据/index.md",
-            "zh-cn": "locales/zh-cn/主题/05-04-公共部门数据-互操作性与开放数据/index.md"
+            "zh-cn": "locales/zh-cn/主题/05-04-公共部门数据-互操作性与开放数据/index.md",
+            "zh-tw": "locales/zh-tw/主題/05-04-公共部門資料-互操作性與開放資料/index.md"
           }
         },
         {
@@ -1224,6 +1320,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/05-05-সাইবার-নিরাপত্তা-ও-সরকারি-খাতের-প্রযুক্তি-ঝুঁকি/index.md",
             "cy-001": "locales/cy-001/pynciau/05-05-seiberddiogelwch-a-risg-technoleg-y-sector-cyhoeddus/index.md",
             "cy-gb": "locales/cy-gb/pynciau/05-05-seiberddiogelwch-a-risg-technoleg-y-sector-cyhoeddus/index.md",
+            "de-001": "locales/de-001/topics/05-05-cybersicherheit-und-technologierisiken-im-oeffentlichen-sektor/index.md",
             "de-de": "locales/de-de/topics/05-05-cybersicherheit-und-technologierisiken-im-oeffentlichen-sektor/index.md",
             "en-001": "locales/en-001/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-05-cybersecurity-and-public-sector-technology-risk/index.md",
@@ -1234,6 +1331,7 @@
             "hi-001": "locales/hi-001/विषय/05-05-साइबर-सुरक्षा-और-लोक-क्षेत्र-प्रौद्योगिकी-जोखिम/index.md",
             "hi-in": "locales/hi-in/विषय/05-05-साइबर-सुरक्षा-और-लोक-क्षेत्र-प्रौद्योगिकी-जोखिम/index.md",
             "id-001": "locales/id-001/topik/05-05-keamanan-siber-dan-risiko-teknologi-sektor-publik/index.md",
+            "id-id": "locales/id-id/topik/05-05-keamanan-siber-dan-risiko-teknologi-sektor-publik/index.md",
             "is-001": "locales/is-001/viðfangsefni/05-05-netöryggi-og-tækniáhætta-hins-opinbera/index.md",
             "is-is": "locales/is-is/viðfangsefni/05-05-netöryggi-og-tækniáhætta-hins-opinbera/index.md",
             "ja-001": "locales/ja-001/トピック/05-05-サイバーセキュリティと公共部門の技術リスク/index.md",
@@ -1249,7 +1347,8 @@
             "sw-001": "locales/sw-001/mada/05-05-usalama-wa-mtandao-na-hatari-za-teknolojia-katika-sekta-ya-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/05-05-usalama-wa-mtandao-na-hatari-za-teknolojia-katika-sekta-ya-umma/index.md",
             "zh-001": "locales/zh-001/主题/05-05-网络安全与公共部门技术风险/index.md",
-            "zh-cn": "locales/zh-cn/主题/05-05-网络安全与公共部门技术风险/index.md"
+            "zh-cn": "locales/zh-cn/主题/05-05-网络安全与公共部门技术风险/index.md",
+            "zh-tw": "locales/zh-tw/主題/05-05-網路安全與公共部門技術風險/index.md"
           }
         },
         {
@@ -1261,6 +1360,7 @@
             "bn-001": "locales/bn-001/বিষয়সমূহ/05-06-উদ্ভাবন-ও-জনউদ্যোক্তা/index.md",
             "cy-001": "locales/cy-001/pynciau/05-06-arloesedd-ac-entrepreneuriaeth-gyhoeddus/index.md",
             "cy-gb": "locales/cy-gb/pynciau/05-06-arloesedd-ac-entrepreneuriaeth-gyhoeddus/index.md",
+            "de-001": "locales/de-001/topics/05-06-innovation-und-oeffentliches-unternehmertum/index.md",
             "de-de": "locales/de-de/topics/05-06-innovation-und-oeffentliches-unternehmertum/index.md",
             "en-001": "locales/en-001/topics/05-06-innovation-and-public-entrepreneurship/index.md",
             "en-gb-oxendict": "locales/en-gb-oxendict/topics/05-06-innovation-and-public-entrepreneurship/index.md",
@@ -1271,6 +1371,7 @@
             "hi-001": "locales/hi-001/विषय/05-06-नवाचार-और-लोक-उद्यमिता/index.md",
             "hi-in": "locales/hi-in/विषय/05-06-नवाचार-और-लोक-उद्यमिता/index.md",
             "id-001": "locales/id-001/topik/05-06-inovasi-dan-kewirausahaan-publik/index.md",
+            "id-id": "locales/id-id/topik/05-06-inovasi-dan-kewirausahaan-publik/index.md",
             "is-001": "locales/is-001/viðfangsefni/05-06-nýsköpun-og-frumkvöðlastarf-í-opinbera-geiranum/index.md",
             "is-is": "locales/is-is/viðfangsefni/05-06-nýsköpun-og-frumkvöðlastarf-í-opinbera-geiranum/index.md",
             "ja-001": "locales/ja-001/トピック/05-06-イノベーションと公共起業家精神/index.md",
@@ -1286,7 +1387,8 @@
             "sw-001": "locales/sw-001/mada/05-06-ubunifu-na-ujasiriamali-wa-umma/index.md",
             "sw-tz": "locales/sw-tz/mada/05-06-ubunifu-na-ujasiriamali-wa-umma/index.md",
             "zh-001": "locales/zh-001/主题/05-06-创新与公共创业精神/index.md",
-            "zh-cn": "locales/zh-cn/主题/05-06-创新与公共创业精神/index.md"
+            "zh-cn": "locales/zh-cn/主题/05-06-创新与公共创业精神/index.md",
+            "zh-tw": "locales/zh-tw/主題/05-06-創新與公共創業精神/index.md"
           }
         }
       ]
