@@ -174,6 +174,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `et-001` | Eesti (maailm) — Estonian (World), an identical copy of `et-ee` for readers worldwide. |
 | `fi-fi` | Suomi (Suomi) — Finnish (Finland), standard Finnish in the formal register; directory slugs are in Finnish (hyphen-separated, ä/ö kept); the topics directory is `aiheet`. |
 | `fi-001` | Suomi (maailma) — Finnish (World), an identical copy of `fi-fi` for readers worldwide. |
+| `it-it` | Italiano (Italia) — Italian (Italy), standard Italian in the formal register; directory slugs are in Italian (hyphen-separated, accented letters kept); the topics directory is `argomenti`. |
+| `it-001` | Italiano (mondo) — Italian (World), an identical copy of `it-it` for readers worldwide. |
 
 Every topic directory, in every locale, contains a file named `.locale-peer-id` holding a 32-character lowercase hexadecimal string followed by a newline. The same string appears in every locale's translation of the same logical topic, generated once with `bin/locale-peer-id` and never regenerated. `locales/<locale>/<topics-dir>/.locale-peer-id` similarly carries one shared id for the "topics" collection itself, identical across all fifteen locales. Use `bin/grep-locale-peer-id <id>` to find every locale's copy of a given topic.
 
