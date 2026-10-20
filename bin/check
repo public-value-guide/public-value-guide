@@ -117,7 +117,7 @@ for loc in locales:
         if k.startswith("00"):
             continue
         h = open(p).readline().strip()
-        m = re.match(r"#\s+(?:[^\d\s]+\s*)?(\d\.\d+)章?\s+[—–-]\s+(.*)", h)
+        m = re.match(r"#\s+[^\d\n]*?(\d\.\d+)章?\s+[—–-]\s+(.*)", h)
         if not m:
             fail(f"{loc}/{k}: H1 not 'Topic N.N — Title'")
             continue

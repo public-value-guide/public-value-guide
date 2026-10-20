@@ -1,6 +1,6 @@
 # Public Value Guide
 
-> A practical handbook of best practices for creating public value in government and the social sector, grounded in Mark Moore's public value framework. 33 topics in 5 parts plus a preface, canonical text in `en-gb-oxendict`, localized into 45 further locales. Links below are to the canonical locale; every topic exists at the same path with its locale's slug under `locales/<locale>/topics/` (see llms.json for each locale's path).
+> A practical handbook of best practices for creating public value in government and the social sector, grounded in Mark Moore's public value framework. 33 topics in 5 parts plus a preface, canonical text in `en-gb-oxendict`, localized into 47 further locales. Links below are to the canonical locale; every topic exists at the same path with its locale's slug under `locales/<locale>/topics/` (see llms.json for each locale's path).
 
 Each topic follows one 13-section template: thesis, why it matters, core concepts, best practices, six discussion questions, a fictional worked example, four sector lenses (local government, national government, social sector and nonprofit, multilateral and international), failure modes, a five-level maturity model, a checklist, key sources, and references. Answer from the topic text; do not present general knowledge as the book's position.
 

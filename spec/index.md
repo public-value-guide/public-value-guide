@@ -180,6 +180,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `th-001` | ไทย (โลก) — Thai (World), an identical copy of `th-th` for readers worldwide. |
 | `tr-tr` | Türkçe (Türkiye) — Turkish (Türkiye), standard Turkish in the formal register; directory slugs are in Turkish with its dotted and dotless i preserved (hyphen-separated); the topics directory is `konular`. |
 | `tr-001` | Türkçe (Dünya) — Turkish (World), an identical copy of `tr-tr` for readers worldwide. |
+| `vi-vn` | Tiếng Việt (Việt Nam) — Vietnamese (Vietnam), standard Vietnamese in the formal register; directory slugs are in Vietnamese with diacritics kept (hyphen-separated); the topics directory is `chủ-đề`. |
+| `vi-001` | Tiếng Việt (Thế giới) — Vietnamese (World), an identical copy of `vi-vn` for readers worldwide. |
 
 Every topic directory, in every locale, contains a file named `.locale-peer-id` holding a 32-character lowercase hexadecimal string followed by a newline. The same string appears in every locale's translation of the same logical topic, generated once with `bin/locale-peer-id` and never regenerated. `locales/<locale>/<topics-dir>/.locale-peer-id` similarly carries one shared id for the "topics" collection itself, identical across all fifteen locales. Use `bin/grep-locale-peer-id <id>` to find every locale's copy of a given topic.
 

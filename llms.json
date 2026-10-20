@@ -46,6 +46,8 @@
     "tr-001",
     "tr-tr",
     "ur-001",
+    "vi-001",
+    "vi-vn",
     "zh-001",
     "zh-cn",
     "zh-tw"
@@ -108,6 +110,8 @@
             "tr-001": "locales/tr-001/konular/01-01-kamu-değerine-giriş/index.md",
             "tr-tr": "locales/tr-tr/konular/01-01-kamu-değerine-giriş/index.md",
             "ur-001": "locales/ur-001/موضوعات/01-01-عوامی-قدر-کا-تعارف/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/01-01-giới-thiệu-về-giá-trị-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/01-01-giới-thiệu-về-giá-trị-công/index.md",
             "zh-001": "locales/zh-001/主题/01-01-公共价值导论/index.md",
             "zh-cn": "locales/zh-cn/主题/01-01-公共价值导论/index.md",
             "zh-tw": "locales/zh-tw/主題/01-01-公共價值導論/index.md"
@@ -161,6 +165,8 @@
             "tr-001": "locales/tr-001/konular/01-02-stratejik-üçgen-meşruiyet-değer-ve-kapasite/index.md",
             "tr-tr": "locales/tr-tr/konular/01-02-stratejik-üçgen-meşruiyet-değer-ve-kapasite/index.md",
             "ur-001": "locales/ur-001/موضوعات/01-02-اسٹریٹجک-مثلث-جواز-قدر-اور-صلاحیت/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/01-02-tam-giác-chiến-lược-tính-chính-danh-giá-trị-và-năng-lực/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/01-02-tam-giác-chiến-lược-tính-chính-danh-giá-trị-và-năng-lực/index.md",
             "zh-001": "locales/zh-001/主题/01-02-战略三角-合法性-价值与能力/index.md",
             "zh-cn": "locales/zh-cn/主题/01-02-战略三角-合法性-价值与能力/index.md",
             "zh-tw": "locales/zh-tw/主題/01-02-戰略三角-合法性-價值與能力/index.md"
@@ -214,6 +220,8 @@
             "tr-001": "locales/tr-001/konular/01-03-piyasa-başarısızlığı-ve-devlet-başarısızlığı/index.md",
             "tr-tr": "locales/tr-tr/konular/01-03-piyasa-başarısızlığı-ve-devlet-başarısızlığı/index.md",
             "ur-001": "locales/ur-001/موضوعات/01-03-منڈی-کی-ناکامی-اور-حکومت-کی-ناکامی/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/01-03-thất-bại-của-thị-trường-và-thất-bại-của-chính-phủ/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/01-03-thất-bại-của-thị-trường-và-thất-bại-của-chính-phủ/index.md",
             "zh-001": "locales/zh-001/主题/01-03-市场失灵与政府失灵/index.md",
             "zh-cn": "locales/zh-cn/主题/01-03-市场失灵与政府失灵/index.md",
             "zh-tw": "locales/zh-tw/主題/01-03-市場失靈與政府失靈/index.md"
@@ -267,6 +275,8 @@
             "tr-001": "locales/tr-001/konular/01-04-kamusal-mallar-değerli-mallar-ve-değer-çoğulculuğu/index.md",
             "tr-tr": "locales/tr-tr/konular/01-04-kamusal-mallar-değerli-mallar-ve-değer-çoğulculuğu/index.md",
             "ur-001": "locales/ur-001/موضوعات/01-04-عوامی-اشیا-استحقاقی-اشیا-اور-اقدار-کی-کثرتیت/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/01-04-hàng-hóa-công-hàng-hóa-khuyến-dụng-và-đa-nguyên-giá-trị/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/01-04-hàng-hóa-công-hàng-hóa-khuyến-dụng-và-đa-nguyên-giá-trị/index.md",
             "zh-001": "locales/zh-001/主题/01-04-公共物品-优值品与价值多元论/index.md",
             "zh-cn": "locales/zh-cn/主题/01-04-公共物品-优值品与价值多元论/index.md",
             "zh-tw": "locales/zh-tw/主題/01-04-公共物品-優值品與價值多元論/index.md"
@@ -320,6 +330,8 @@
             "tr-001": "locales/tr-001/konular/01-05-paydaşlar-yurttaşlar-ve-birlikte-üretim/index.md",
             "tr-tr": "locales/tr-tr/konular/01-05-paydaşlar-yurttaşlar-ve-birlikte-üretim/index.md",
             "ur-001": "locales/ur-001/موضوعات/01-05-اسٹیک-ہولڈرز-شہری-اور-شراکتی-پیداوار/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/01-05-các-bên-liên-quan-công-dân-và-đồng-sản-xuất/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/01-05-các-bên-liên-quan-công-dân-và-đồng-sản-xuất/index.md",
             "zh-001": "locales/zh-001/主题/01-05-利益相关者-公民与协同生产/index.md",
             "zh-cn": "locales/zh-cn/主题/01-05-利益相关者-公民与协同生产/index.md",
             "zh-tw": "locales/zh-tw/主題/01-05-利益相關者-公民與協同生產/index.md"
@@ -379,6 +391,8 @@
             "tr-001": "locales/tr-001/konular/02-01-kamu-değeri-karnesi-ve-sonuç-çerçeveleri/index.md",
             "tr-tr": "locales/tr-tr/konular/02-01-kamu-değeri-karnesi-ve-sonuç-çerçeveleri/index.md",
             "ur-001": "locales/ur-001/موضوعات/02-01-عوامی-قدر-کا-اسکور-کارڈ-اور-نتائج-کے-فریم-ورک/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/02-01-bảng-điểm-giá-trị-công-và-các-khung-kết-quả/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/02-01-bảng-điểm-giá-trị-công-và-các-khung-kết-quả/index.md",
             "zh-001": "locales/zh-001/主题/02-01-公共价值记分卡与成果框架/index.md",
             "zh-cn": "locales/zh-cn/主题/02-01-公共价值记分卡与成果框架/index.md",
             "zh-tw": "locales/zh-tw/主題/02-01-公共價值記分卡與成果框架/index.md"
@@ -432,6 +446,8 @@
             "tr-001": "locales/tr-001/konular/02-02-sosyal-fayda-maliyet-ve-maliyet-etkililik-analizi/index.md",
             "tr-tr": "locales/tr-tr/konular/02-02-sosyal-fayda-maliyet-ve-maliyet-etkililik-analizi/index.md",
             "ur-001": "locales/ur-001/موضوعات/02-02-سماجی-لاگت-و-منفعت-اور-لاگت-کی-افادیت-کا-تجزیہ/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/02-02-phân-tích-chi-phí-lợi-ích-xã-hội-và-phân-tích-hiệu-quả-chi-phí/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/02-02-phân-tích-chi-phí-lợi-ích-xã-hội-và-phân-tích-hiệu-quả-chi-phí/index.md",
             "zh-001": "locales/zh-001/主题/02-02-社会成本效益与成本效果分析/index.md",
             "zh-cn": "locales/zh-cn/主题/02-02-社会成本效益与成本效果分析/index.md",
             "zh-tw": "locales/zh-tw/主題/02-02-社會成本效益與成本效果分析/index.md"
@@ -485,6 +501,8 @@
             "tr-001": "locales/tr-001/konular/02-03-sosyal-yatırım-getirisi-ve-etki-ölçümü/index.md",
             "tr-tr": "locales/tr-tr/konular/02-03-sosyal-yatırım-getirisi-ve-etki-ölçümü/index.md",
             "ur-001": "locales/ur-001/موضوعات/02-03-سماجی-منافع-برائے-سرمایہ-کاری-اور-اثر-کی-پیمائش/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/02-03-lợi-tức-xã-hội-trên-đầu-tư-và-đo-lường-tác-động/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/02-03-lợi-tức-xã-hội-trên-đầu-tư-và-đo-lường-tác-động/index.md",
             "zh-001": "locales/zh-001/主题/02-03-社会投资回报与影响力测量/index.md",
             "zh-cn": "locales/zh-cn/主题/02-03-社会投资回报与影响力测量/index.md",
             "zh-tw": "locales/zh-tw/主題/02-03-社會投資回報與影響力測量/index.md"
@@ -538,6 +556,8 @@
             "tr-001": "locales/tr-001/konular/02-04-kamu-sektörü-ekonometrisi-ve-program-değerlendirmesi/index.md",
             "tr-tr": "locales/tr-tr/konular/02-04-kamu-sektörü-ekonometrisi-ve-program-değerlendirmesi/index.md",
             "ur-001": "locales/ur-001/موضوعات/02-04-سرکاری-شعبے-کی-اقتصادی-پیمائش-اور-پروگرام-کا-جائزہ/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/02-04-kinh-tế-lượng-khu-vực-công-và-đánh-giá-chương-trình/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/02-04-kinh-tế-lượng-khu-vực-công-và-đánh-giá-chương-trình/index.md",
             "zh-001": "locales/zh-001/主题/02-04-公共部门计量经济学与项目评估/index.md",
             "zh-cn": "locales/zh-cn/主题/02-04-公共部门计量经济学与项目评估/index.md",
             "zh-tw": "locales/zh-tw/主題/02-04-公共部門計量經濟學與專案評估/index.md"
@@ -591,6 +611,8 @@
             "tr-001": "locales/tr-001/konular/02-05-iş-gerekçeleri-ve-paranın-karşılığı/index.md",
             "tr-tr": "locales/tr-tr/konular/02-05-iş-gerekçeleri-ve-paranın-karşılığı/index.md",
             "ur-001": "locales/ur-001/موضوعات/02-05-کاروباری-مقدمات-اور-قدر-برائے-رقم/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/02-05-luận-chứng-kinh-tế-và-giá-trị-đồng-tiền/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/02-05-luận-chứng-kinh-tế-và-giá-trị-đồng-tiền/index.md",
             "zh-001": "locales/zh-001/主题/02-05-商业论证与物有所值/index.md",
             "zh-cn": "locales/zh-cn/主题/02-05-商业论证与物有所值/index.md",
             "zh-tw": "locales/zh-tw/主題/02-05-商業論證與物有所值/index.md"
@@ -644,6 +666,8 @@
             "tr-001": "locales/tr-001/konular/02-06-kanıt-sentezi-ve-neyin-işe-yaradığı/index.md",
             "tr-tr": "locales/tr-tr/konular/02-06-kanıt-sentezi-ve-neyin-işe-yaradığı/index.md",
             "ur-001": "locales/ur-001/موضوعات/02-06-شواہد-کی-ترکیب-اور-کیا-کارآمد-ہے/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/02-06-tổng-hợp-bằng-chứng-và-điều-gì-hiệu-quả/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/02-06-tổng-hợp-bằng-chứng-và-điều-gì-hiệu-quả/index.md",
             "zh-001": "locales/zh-001/主题/02-06-证据综合与有效实践/index.md",
             "zh-cn": "locales/zh-cn/主题/02-06-证据综合与有效实践/index.md",
             "zh-tw": "locales/zh-tw/主題/02-06-證據綜合與有效實踐/index.md"
@@ -703,6 +727,8 @@
             "tr-001": "locales/tr-001/konular/03-01-kamu-yönetimi-sistemleri-ve-modelleri/index.md",
             "tr-tr": "locales/tr-tr/konular/03-01-kamu-yönetimi-sistemleri-ve-modelleri/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-01-عوامی-انتظامیہ-کے-نظام-اور-نمونے/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-01-hệ-thống-và-mô-hình-hành-chính-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-01-hệ-thống-và-mô-hình-hành-chính-công/index.md",
             "zh-001": "locales/zh-001/主题/03-01-公共行政体系与模式/index.md",
             "zh-cn": "locales/zh-cn/主题/03-01-公共行政体系与模式/index.md",
             "zh-tw": "locales/zh-tw/主題/03-01-公共行政體系與模式/index.md"
@@ -756,6 +782,8 @@
             "tr-001": "locales/tr-001/konular/03-02-kamu-politikası-ve-politika-döngüsü/index.md",
             "tr-tr": "locales/tr-tr/konular/03-02-kamu-politikası-ve-politika-döngüsü/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-02-عوامی-پالیسی-اور-پالیسی-چکر/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-02-chính-sách-công-và-chu-trình-chính-sách/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-02-chính-sách-công-và-chu-trình-chính-sách/index.md",
             "zh-001": "locales/zh-001/主题/03-02-公共政策与政策周期/index.md",
             "zh-cn": "locales/zh-cn/主题/03-02-公共政策与政策周期/index.md",
             "zh-tw": "locales/zh-tw/主題/03-02-公共政策與政策週期/index.md"
@@ -809,6 +837,8 @@
             "tr-001": "locales/tr-001/konular/03-03-kamu-maliyesi-ve-bütçeleme/index.md",
             "tr-tr": "locales/tr-tr/konular/03-03-kamu-maliyesi-ve-bütçeleme/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-03-عوامی-مالیات-اور-بجٹ-سازی/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-03-tài-chính-công-và-lập-ngân-sách/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-03-tài-chính-công-và-lập-ngân-sách/index.md",
             "zh-001": "locales/zh-001/主题/03-03-公共财政与预算/index.md",
             "zh-cn": "locales/zh-cn/主题/03-03-公共财政与预算/index.md",
             "zh-tw": "locales/zh-tw/主題/03-03-公共財政與預算/index.md"
@@ -862,6 +892,8 @@
             "tr-001": "locales/tr-001/konular/03-04-hesap-verebilirlik-şeffaflık-ve-meşruiyet/index.md",
             "tr-tr": "locales/tr-tr/konular/03-04-hesap-verebilirlik-şeffaflık-ve-meşruiyet/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-04-جوابدہی-شفافیت-اور-جواز/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-04-trách-nhiệm-giải-trình-minh-bạch-và-tính-chính-danh/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-04-trách-nhiệm-giải-trình-minh-bạch-và-tính-chính-danh/index.md",
             "zh-001": "locales/zh-001/主题/03-04-问责制-透明度与合法性/index.md",
             "zh-cn": "locales/zh-cn/主题/03-04-问责制-透明度与合法性/index.md",
             "zh-tw": "locales/zh-tw/主題/03-04-問責制-透明度與合法性/index.md"
@@ -915,6 +947,8 @@
             "tr-001": "locales/tr-001/konular/03-05-eşitlik-hakkaniyet-ve-dağıtım-adaleti/index.md",
             "tr-tr": "locales/tr-tr/konular/03-05-eşitlik-hakkaniyet-ve-dağıtım-adaleti/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-05-مساوات-انصاف-اور-تقسیمی-عدل/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-05-công-bằng-bình-đẳng-và-công-lý-phân-phối/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-05-công-bằng-bình-đẳng-và-công-lý-phân-phối/index.md",
             "zh-001": "locales/zh-001/主题/03-05-公平-公正与分配正义/index.md",
             "zh-cn": "locales/zh-cn/主题/03-05-公平-公正与分配正义/index.md",
             "zh-tw": "locales/zh-tw/主題/03-05-公平-公正與分配正義/index.md"
@@ -968,6 +1002,8 @@
             "tr-001": "locales/tr-001/konular/03-06-kamu-sektörü-iş-gücü-ve-emek-piyasaları/index.md",
             "tr-tr": "locales/tr-tr/konular/03-06-kamu-sektörü-iş-gücü-ve-emek-piyasaları/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-06-سرکاری-شعبے-کی-افرادی-قوت-اور-محنت-کی-منڈیاں/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-06-lực-lượng-lao-động-khu-vực-công-và-thị-trường-lao-động/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-06-lực-lượng-lao-động-khu-vực-công-và-thị-trường-lao-động/index.md",
             "zh-001": "locales/zh-001/主题/03-06-公共部门人力资源与劳动力市场/index.md",
             "zh-cn": "locales/zh-cn/主题/03-06-公共部门人力资源与劳动力市场/index.md",
             "zh-tw": "locales/zh-tw/主題/03-06-公共部門人力資源與勞動力市場/index.md"
@@ -1021,6 +1057,8 @@
             "tr-001": "locales/tr-001/konular/03-07-kamu-alımları-ve-hizmet-tedariki/index.md",
             "tr-tr": "locales/tr-tr/konular/03-07-kamu-alımları-ve-hizmet-tedariki/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-07-عوامی-خریداری-اور-کمیشننگ/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-07-mua-sắm-công-và-đặt-hàng-dịch-vụ/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-07-mua-sắm-công-và-đặt-hàng-dịch-vụ/index.md",
             "zh-001": "locales/zh-001/主题/03-07-公共采购与委托/index.md",
             "zh-cn": "locales/zh-cn/主题/03-07-公共采购与委托/index.md",
             "zh-tw": "locales/zh-tw/主題/03-07-公共採購與委託/index.md"
@@ -1074,6 +1112,8 @@
             "tr-001": "locales/tr-001/konular/03-08-sosyal-sektör-ve-kâr-amacı-gütmeyen-kuruluşların-yönetimi/index.md",
             "tr-tr": "locales/tr-tr/konular/03-08-sosyal-sektör-ve-kâr-amacı-gütmeyen-kuruluşların-yönetimi/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-08-سماجی-شعبے-اور-غیر-منافع-بخش-اداروں-کا-انتظام/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-08-quản-lý-khu-vực-xã-hội-và-tổ-chức-phi-lợi-nhuận/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-08-quản-lý-khu-vực-xã-hội-và-tổ-chức-phi-lợi-nhuận/index.md",
             "zh-001": "locales/zh-001/主题/03-08-社会部门与非营利组织管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-08-社会部门与非营利组织管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-08-社會部門與非營利組織管理/index.md"
@@ -1127,6 +1167,8 @@
             "tr-001": "locales/tr-001/konular/03-09-hükümetlerarası-ilişkiler-ve-federalizm/index.md",
             "tr-tr": "locales/tr-tr/konular/03-09-hükümetlerarası-ilişkiler-ve-federalizm/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-09-بین-الحکومتی-تعلقات-اور-وفاقیت/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-09-quan-hệ-liên-chính-phủ-và-chế-độ-liên-bang/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-09-quan-hệ-liên-chính-phủ-và-chế-độ-liên-bang/index.md",
             "zh-001": "locales/zh-001/主题/03-09-政府间关系与联邦制/index.md",
             "zh-cn": "locales/zh-cn/主题/03-09-政府间关系与联邦制/index.md",
             "zh-tw": "locales/zh-tw/主題/03-09-政府間關係與聯邦制/index.md"
@@ -1180,6 +1222,8 @@
             "tr-001": "locales/tr-001/konular/03-10-düzenleme-ve-kamusal-risk-yönetimi/index.md",
             "tr-tr": "locales/tr-tr/konular/03-10-düzenleme-ve-kamusal-risk-yönetimi/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-10-ضابطہ-کاری-اور-عوامی-خطرات-کا-انتظام/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-10-quản-lý-quy-định-và-rủi-ro-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-10-quản-lý-quy-định-và-rủi-ro-công/index.md",
             "zh-001": "locales/zh-001/主题/03-10-监管与公共风险管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-10-监管与公共风险管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-10-監管與公共風險管理/index.md"
@@ -1233,6 +1277,8 @@
             "tr-001": "locales/tr-001/konular/03-11-kalite-güvenlik-ve-performans-yönetimi/index.md",
             "tr-tr": "locales/tr-tr/konular/03-11-kalite-güvenlik-ve-performans-yönetimi/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-11-معیار-حفاظت-اور-کارکردگی-کا-انتظام/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-11-quản-lý-chất-lượng-an-toàn-và-hiệu-suất/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-11-quản-lý-chất-lượng-an-toàn-và-hiệu-suất/index.md",
             "zh-001": "locales/zh-001/主题/03-11-质量-安全与绩效管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-11-质量-安全与绩效管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-11-質量-安全與績效管理/index.md"
@@ -1286,6 +1332,8 @@
             "tr-001": "locales/tr-001/konular/03-12-kriz-acil-durum-ve-dayanıklılık-yönetimi/index.md",
             "tr-tr": "locales/tr-tr/konular/03-12-kriz-acil-durum-ve-dayanıklılık-yönetimi/index.md",
             "ur-001": "locales/ur-001/موضوعات/03-12-بحران-ہنگامی-حالات-اور-لچک-کا-انتظام/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/03-12-quản-lý-khủng-hoảng-khẩn-cấp-và-khả-năng-chống-chịu/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/03-12-quản-lý-khủng-hoảng-khẩn-cấp-và-khả-năng-chống-chịu/index.md",
             "zh-001": "locales/zh-001/主题/03-12-危机-紧急情况与韧性管理/index.md",
             "zh-cn": "locales/zh-cn/主题/03-12-危机-紧急情况与韧性管理/index.md",
             "zh-tw": "locales/zh-tw/主題/03-12-危機-緊急情況與韌性管理/index.md"
@@ -1345,6 +1393,8 @@
             "tr-001": "locales/tr-001/konular/04-01-davranışsal-kamu-politikası/index.md",
             "tr-tr": "locales/tr-tr/konular/04-01-davranışsal-kamu-politikası/index.md",
             "ur-001": "locales/ur-001/موضوعات/04-01-رویہ-جاتی-عوامی-پالیسی/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/04-01-chính-sách-công-dựa-trên-hành-vi/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/04-01-chính-sách-công-dựa-trên-hành-vi/index.md",
             "zh-001": "locales/zh-001/主题/04-01-行为公共政策/index.md",
             "zh-cn": "locales/zh-cn/主题/04-01-行为公共政策/index.md",
             "zh-tw": "locales/zh-tw/主題/04-01-行為公共政策/index.md"
@@ -1398,6 +1448,8 @@
             "tr-001": "locales/tr-001/konular/04-02-devlete-güven-ve-yurttaş-katılımı/index.md",
             "tr-tr": "locales/tr-tr/konular/04-02-devlete-güven-ve-yurttaş-katılımı/index.md",
             "ur-001": "locales/ur-001/موضوعات/04-02-حکومت-پر-اعتماد-اور-شہری-شمولیت/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/04-02-niềm-tin-vào-chính-phủ-và-sự-tham-gia-của-công-dân/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/04-02-niềm-tin-vào-chính-phủ-và-sự-tham-gia-của-công-dân/index.md",
             "zh-001": "locales/zh-001/主题/04-02-政府信任与公民参与/index.md",
             "zh-cn": "locales/zh-cn/主题/04-02-政府信任与公民参与/index.md",
             "zh-tw": "locales/zh-tw/主題/04-02-政府信任與公民參與/index.md"
@@ -1451,6 +1503,8 @@
             "tr-001": "locales/tr-001/konular/04-03-iklim-sürdürülebilirlik-ve-çevresel-kamu-değeri/index.md",
             "tr-tr": "locales/tr-tr/konular/04-03-iklim-sürdürülebilirlik-ve-çevresel-kamu-değeri/index.md",
             "ur-001": "locales/ur-001/موضوعات/04-03-موسمیاتی-تبدیلی-پائیداری-اور-ماحولیاتی-عوامی-قدر/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/04-03-khí-hậu-tính-bền-vững-và-giá-trị-công-về-môi-trường/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/04-03-khí-hậu-tính-bền-vững-và-giá-trị-công-về-môi-trường/index.md",
             "zh-001": "locales/zh-001/主题/04-03-气候-可持续性与环境公共价值/index.md",
             "zh-cn": "locales/zh-cn/主题/04-03-气候-可持续性与环境公共价值/index.md",
             "zh-tw": "locales/zh-tw/主題/04-03-氣候-可持續性與環境公共價值/index.md"
@@ -1504,6 +1558,8 @@
             "tr-001": "locales/tr-001/konular/04-04-sosyal-medya-yanlış-bilgi-ve-kamusal-iletişim/index.md",
             "tr-tr": "locales/tr-tr/konular/04-04-sosyal-medya-yanlış-bilgi-ve-kamusal-iletişim/index.md",
             "ur-001": "locales/ur-001/موضوعات/04-04-سوشل-میڈیا-غلط-معلومات-اور-عوامی-ابلاغ/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/04-04-mạng-xã-hội-thông-tin-sai-lệch-và-truyền-thông-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/04-04-mạng-xã-hội-thông-tin-sai-lệch-và-truyền-thông-công/index.md",
             "zh-001": "locales/zh-001/主题/04-04-社交媒体-错误信息与公共传播/index.md",
             "zh-cn": "locales/zh-cn/主题/04-04-社交媒体-错误信息与公共传播/index.md",
             "zh-tw": "locales/zh-tw/主題/04-04-社交媒體-錯誤資訊與公共傳播/index.md"
@@ -1563,6 +1619,8 @@
             "tr-001": "locales/tr-001/konular/05-01-dijital-devlet-ve-dijital-dönüşüm/index.md",
             "tr-tr": "locales/tr-tr/konular/05-01-dijital-devlet-ve-dijital-dönüşüm/index.md",
             "ur-001": "locales/ur-001/موضوعات/05-01-ڈیجیٹل-حکومت-اور-ڈیجیٹل-تبدیلی/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/05-01-chính-phủ-số-và-chuyển-đổi-số/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/05-01-chính-phủ-số-và-chuyển-đổi-số/index.md",
             "zh-001": "locales/zh-001/主题/05-01-数字政府与数字化转型/index.md",
             "zh-cn": "locales/zh-cn/主题/05-01-数字政府与数字化转型/index.md",
             "zh-tw": "locales/zh-tw/主題/05-01-數字政府與數字化轉型/index.md"
@@ -1616,6 +1674,8 @@
             "tr-001": "locales/tr-001/konular/05-02-kamuda-yapay-zekâ-ve-algoritmik-karar-verme/index.md",
             "tr-tr": "locales/tr-tr/konular/05-02-kamuda-yapay-zekâ-ve-algoritmik-karar-verme/index.md",
             "ur-001": "locales/ur-001/موضوعات/05-02-مصنوعی-ذہانت-اور-حکومت-میں-الگورتھمی-فیصلہ-سازی/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/05-02-trí-tuệ-nhân-tạo-và-ra-quyết-định-theo-thuật-toán-trong-chính-phủ/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/05-02-trí-tuệ-nhân-tạo-và-ra-quyết-định-theo-thuật-toán-trong-chính-phủ/index.md",
             "zh-001": "locales/zh-001/主题/05-02-政府中的人工智能与算法决策/index.md",
             "zh-cn": "locales/zh-cn/主题/05-02-政府中的人工智能与算法决策/index.md",
             "zh-tw": "locales/zh-tw/主題/05-02-政府中的人工智慧與演算法決策/index.md"
@@ -1669,6 +1729,8 @@
             "tr-001": "locales/tr-001/konular/05-03-kamu-sektörü-yazılım-mühendisliği-ve-platformlar/index.md",
             "tr-tr": "locales/tr-tr/konular/05-03-kamu-sektörü-yazılım-mühendisliği-ve-platformlar/index.md",
             "ur-001": "locales/ur-001/موضوعات/05-03-سرکاری-شعبے-میں-سافٹ-ویئر-انجینئرنگ-اور-پلیٹ-فارم/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/05-03-kỹ-nghệ-phần-mềm-và-nền-tảng-khu-vực-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/05-03-kỹ-nghệ-phần-mềm-và-nền-tảng-khu-vực-công/index.md",
             "zh-001": "locales/zh-001/主题/05-03-公共部门软件工程与平台/index.md",
             "zh-cn": "locales/zh-cn/主题/05-03-公共部门软件工程与平台/index.md",
             "zh-tw": "locales/zh-tw/主題/05-03-公共部門軟體工程與平臺/index.md"
@@ -1722,6 +1784,8 @@
             "tr-001": "locales/tr-001/konular/05-04-kamu-sektörü-verisi-birlikte-çalışabilirlik-ve-açık-veri/index.md",
             "tr-tr": "locales/tr-tr/konular/05-04-kamu-sektörü-verisi-birlikte-çalışabilirlik-ve-açık-veri/index.md",
             "ur-001": "locales/ur-001/موضوعات/05-04-سرکاری-شعبے-کا-ڈیٹا-باہمی-ربط-پذیری-اور-کھلا-ڈیٹا/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/05-04-dữ-liệu-khả-năng-liên-thông-và-dữ-liệu-mở-của-khu-vực-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/05-04-dữ-liệu-khả-năng-liên-thông-và-dữ-liệu-mở-của-khu-vực-công/index.md",
             "zh-001": "locales/zh-001/主题/05-04-公共部门数据-互操作性与开放数据/index.md",
             "zh-cn": "locales/zh-cn/主题/05-04-公共部门数据-互操作性与开放数据/index.md",
             "zh-tw": "locales/zh-tw/主題/05-04-公共部門資料-互操作性與開放資料/index.md"
@@ -1775,6 +1839,8 @@
             "tr-001": "locales/tr-001/konular/05-05-siber-güvenlik-ve-kamu-sektörü-teknoloji-riski/index.md",
             "tr-tr": "locales/tr-tr/konular/05-05-siber-güvenlik-ve-kamu-sektörü-teknoloji-riski/index.md",
             "ur-001": "locales/ur-001/موضوعات/05-05-سائبر-سکیورٹی-اور-سرکاری-شعبے-میں-ٹیکنالوجی-کے-خطرات/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/05-05-an-ninh-mạng-và-rủi-ro-công-nghệ-của-khu-vực-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/05-05-an-ninh-mạng-và-rủi-ro-công-nghệ-của-khu-vực-công/index.md",
             "zh-001": "locales/zh-001/主题/05-05-网络安全与公共部门技术风险/index.md",
             "zh-cn": "locales/zh-cn/主题/05-05-网络安全与公共部门技术风险/index.md",
             "zh-tw": "locales/zh-tw/主題/05-05-網路安全與公共部門技術風險/index.md"
@@ -1828,6 +1894,8 @@
             "tr-001": "locales/tr-001/konular/05-06-yenilik-ve-kamu-girişimciliği/index.md",
             "tr-tr": "locales/tr-tr/konular/05-06-yenilik-ve-kamu-girişimciliği/index.md",
             "ur-001": "locales/ur-001/موضوعات/05-06-جدت-اور-عوامی-کاروباری-صلاحیت/index.md",
+            "vi-001": "locales/vi-001/chủ-đề/05-06-đổi-mới-sáng-tạo-và-tinh-thần-khởi-nghiệp-công/index.md",
+            "vi-vn": "locales/vi-vn/chủ-đề/05-06-đổi-mới-sáng-tạo-và-tinh-thần-khởi-nghiệp-công/index.md",
             "zh-001": "locales/zh-001/主题/05-06-创新与公共创业精神/index.md",
             "zh-cn": "locales/zh-cn/主题/05-06-创新与公共创业精神/index.md",
             "zh-tw": "locales/zh-tw/主題/05-06-創新與公共創業精神/index.md"
