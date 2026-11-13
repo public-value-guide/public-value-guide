@@ -1,0 +1,159 @@
+# Ämne 2.3 — Social avkastning på investeringar och effektmätning
+
+**När ett resultat motstår ett ärligt pris är det som bör förtjäna en läsares förtroende inte det tal en metod ger, utan om resonemangskedjan bakom det – från aktivitet, till resultat, till påstått värde – klarar en främlings granskning.**
+
+## Varför detta är viktigt för offentligt värde
+
+Finansiärer, beställare och styrelser vill alltmer ha ett enda, jämförbart tal som visar om ett program är värt att fortsätta med. Social avkastning på investeringar (*Social Return on Investment*, SROI) lovar just det: en kvot, uttryckt som så många valutaenheter socialt värde skapat för varje investerad enhet. Löftet är förförande eftersom det lånar den finansiella avkastningens läsbarhet samtidigt som det hävdar att fånga det en finansiell avkastning inte kan – minskad ensamhet, återvunnet självförtroende, en ung människa som stannar kvar i utbildning.
+
+Spänningen en läsare möter i år är att talet vanligen är mer självsäkert än evidensen bakom det. Trycket att ta fram en stor, försvarbar kvot kan i det tysta omforma vilka resultat som väljs, vilka finansiella ersättningsvärden som används och vilka förbehåll som stryks ur finansieringsansökan innan den lämnar huset. Vissa av de resultat en organisation i social sektor skapar – värdighet, tillhörighet, kulturell kontinuitet – är sådana som många yrkesverksamma anser aldrig borde reduceras till ett penningbelopp, av princip och inte bara på grund av svårigheter.
+
+Det här är det territorium som formell kostnads-nyttoanalys reserverar åt sig själv (se Ämne 2.2 — Samhällsekonomisk kostnads-nyttoanalys och kostnadseffektivitetsanalys), vilken behandlar monetarisering som ett löst metodproblem: hitta skuggpriset, tillämpa diskonteringsräntan, väg fördelningen. Det här ämnet behandlar det svårare fallet – där monetarisering antingen ännu inte är möjlig med någon stringens, eller där själva påtvingandet är det omstridda draget. Att få detta rätt spelar roll eftersom alternativet till en disciplinerad SROI-övning eller förändringsteoriövning inte är ”ingen mätning” – det är en odisciplinerad, utklädd med en kvot som ser precis ut och inte är det.
+
+## Grundläggande begrepp
+
+En **förändringsteori** (*theory of change*) är den uttryckliga, prövbara berättelsen om hur och varför en organisations aktiviteter förväntas leda till de resultat den hävdar. [Förändringsteorin](https://en.wikipedia.org/wiki/Theory_of_change) introduceras som den disciplin som håller en logisk modell ärlig om vad den faktiskt hävdar sig orsaka (se Ämne 2.1 — Scorecard för offentligt värde och resultatramverk); här är den den logiska ryggrad som resten av detta ämne vilar på. Den anger de antaganden ett program är beroende av – vem som förändras, genom vilken mekanism, över vilken tid, under vilka villkor – så att de kan granskas och, helst, prövas i stället för att bara påstås. En **logisk modell** är förändringsteorins diagrammatiska kusin: en kedja av insatsvaror, aktiviteter, prestationer, resultat och effekt, användbar för planering och rapportering men tunnare på det orsaksmässiga *varför*. [Logiska modeller](https://en.wikipedia.org/wiki/Logic_model) och resultatramverk i allmänhet behandlas fullt ut där (se Ämne 2.1 — Scorecard för offentligt värde och resultatramverk). En värderingsövning byggd på en svag förändringsteori ärver den svagheten oavsett hur noggrann den efterföljande aritmetiken är.
+
+**Social avkastning på investeringar** är en principbaserad metod, utvecklad ur arbete som ursprungligen beställdes av brittiska Cabinet Office och som nu förvaltas internationellt, för att uttrycka extrafinansiellt värde – socialt, miljömässigt, ekonomiskt – med hjälp av finansiella ersättningsvärden vid sidan av konventionell redovisning. [Social avkastning på investeringar](https://en.wikipedia.org/wiki/Social_return_on_investment) går typiskt igenom sex steg: att fastställa omfattning och identifiera intressenter; att kartlägga resultat genom en förändringsteori; att hitta evidens för dessa resultat och ge dem ett vägledande värde; att fastställa effekt genom att dra bort det som ändå skulle ha hänt; att beräkna kvoten; och att rapportera, använda och förankra fynden. Varje steg bär omdömesbedömningar som en läsare inte kan se i den slutliga kvoten om inte organisationen redovisar sitt arbete.
+
+Fyra justeringar ligger i centrum för steget att ”fastställa effekt”, och var och en finns för att hindra en organisation från att göra anspråk på för mycket av äran. **Dödvikt** (*deadweight*) är den andel av resultatet som skulle ha hänt utan insatsen över huvud taget. **Tillskrivning** (*attribution*) är den andel av resultatet som med rätta tillskrivs andra aktörer – andra finansiärer, andra tjänster, personens egen insats – snarare än den här organisationen ensam. **Undanträngning** (*displacement*) är i vilken utsträckning ett positivt resultat för en grupp skedde på bekostnad av ett negativt resultat för en annan (ett jobb som skapades men helt enkelt flyttade från en grannstad, till exempel). **Avtagande** (*drop-off*) är hur ett resultats värde klingar av under åren efter en insats, eftersom en nytta sällan består med full styrka för alltid. Att hoppa över någon av dessa fyra, eller tillämpa dem slarvigt, är det vanligaste sättet på vilket en SROI-kvot blir större än evidensen stöder.
+
+Ett **finansiellt ersättningsvärde** (*financial proxy*) är en monetär ställföreträdare för ett resultat som saknar eget marknadspris – till exempel att använda kostnaden för en jämförbar fritidsaktivitet som ersättningsvärde för värdet av ökat socialt självförtroende. Ett ersättningsvärde är inte ett marknadspris och ska aldrig presenteras som ett; det är ett argumenterat, redovisningsbart val, och olika förnuftiga människor kan välja olika ersättningsvärden för samma resultat. **Social redovisning** är den bredare disciplinen att kommunicera en organisations sociala och miljömässiga effekter till sina intressenter – [social redovisning](https://en.wikipedia.org/wiki/Social_accounting) är den praxisfamilj som SROI hör till, vid sidan av äldre flerdimensionella ramverk som [triple bottom line](https://en.wikipedia.org/wiki/Triple_bottom_line) (att redovisa social, miljömässig och ekonomisk prestation sida vid sida i stället för att vika in alla tre i ett tal) och certifieringsbaserade angreppssätt som [B Corporation](https://en.wikipedia.org/wiki/B_Corporation_(certification))-status, som bedömer en organisations sociala och miljömässiga prestation mot en standard i stället för att ta fram en skräddarsydd kvot över huvud taget.
+
+Indikatoruppsättningar erbjuder ytterligare ett alternativ till en skräddarsydd kvot. Systemet **IRIS+** som underhålls av [Global Impact Investing Network](https://en.wikipedia.org/wiki/Global_Impact_Investing_Network) (GIIN) – ett ideellt nätverk som stöder praktiken [effektinvestering](https://en.wikipedia.org/wiki/Impact_investing) (*impact investing*), investering avsedd att generera mätbar social eller miljömässig nytta vid sidan av finansiell avkastning – låter en investerare eller ett investeringsobjekt välja ur en gemensam katalog av mått i stället för att monetarisera varje resultat. Det är viktigast för ett [socialt företag](https://en.wikipedia.org/wiki/Social_enterprise) eller en [ideell organisation](https://en.wikipedia.org/wiki/Nonprofit_organization) som rapporterar till flera finansiärer samtidigt, av vilka var och en annars kan kräva en egen skräddarsydd värdering av samma resultat. Slutligen är **effektmätning och effekthantering** (*impact measurement and management*) den paraplyterm som alltmer används inom social sektor och effektinvestering för den pågående disciplinen att sätta resultat, samla in evidens och använda den för att justera praxis – till skillnad från en engångsutvärdering framställd för att tillfredsställa en enda finansiär.
+
+## Bästa praxis
+
+1. **Bygg förändringsteorin innan du bygger kalkylbladet.** En SROI-kvot beräknad ovanpå en förändringsteori som ingen har stresstestat är aritmetik i evidensens kostym. Skissa orsaksberättelsen först, pröva den mot vad frontpersonal och deltagare faktiskt observerar, och bestäm först därefter vad som är värt att värdera.
+
+2. **Behandla kvoten som ett kommunikationsmedel, inte en dom.** Ett enda tal – ”varje investerat pund ger fyra pund socialt värde” – är en sammanfattning, inte analysen. Presentera det tillsammans med de antaganden och den evidenskvalitet som gav det, så att en läsare kan bedöma hur stor vikt det förtjänar.
+
+3. **Publicera dina finansiella ersättningsvärden och deras källor.** Om ett ersättningsvärde inte klarar att visas för de människor vars resultat det representerar bör det inte finnas i modellen. Att namnge källan till varje ersättningsvärde – ett marknadspris, en statlig värdering, en jämförbar enkät – låter andra kontrollera ditt resonemang i stället för att lita på din slutsats.
+
+4. **Tillämpa dödvikt, tillskrivning, undanträngning och avtagande även när det sänker kvoten.** Dessa avdrag finns just för att hindra en organisation från att göra anspråk på mer ära än den har förtjänat. En SROI-övning som ger en mindre, bättre belagd kvot är mer användbar än en som ger en större, oprövad.
+
+5. **Involvera de intressenter vars resultat du värderar, inte bara den finansiär som beställer rapporten.** SROI:s egna principer kräver intressentmedverkan i beslutet om vad som ska mätas och hur det ska värderas; att hoppa över det steget och låta ekonomi- eller insamlingsfunktionen välja ersättningsvärden på egen hand är den vanligaste genvägen som underminerar legitimiteten senare.
+
+6. **Skilj det du kan räkna från det du måste belägga.** Prestationer – genomförda tillfällen, närvarande personer, serverade måltider – kan räknas direkt. Resultat – minskad isolering, förbättrad hälsa, varaktig sysselsättning – kräver evidens för förändring hos de berörda människorna, inte bara evidens för att aktivitet levererats.
+
+7. **Anpassa din evidensstandard till programmets mognad och insatser.** Ett pilotprojekt med 30 deltagare behöver inte, och kan inte ärligt ge, samma evidensmässiga tilltro som ett nationellt program som går in på sitt femte år. Ramverk som använder graderade evidensnivåer, från ett rimligt logiskt argument till oberoende replikerad orsaksevidens, hjälper till att ställa den förväntan uttryckligen i stället för av förbiseende.
+
+8. **Reservera en fullständig SROI-kvot för beslut som är stora nog att motivera ansträngningen.** Metoden är resurskrävande att göra väl. För det mesta av den dagliga rapporteringen ger en välbelagd resultatberättelse mot en förändringsteori mer beslutsanvändbar information per arbetstimme än en påtvingad kvot.
+
+9. **Sök oberoende kvalitetssäkring innan du publicerar en kvot du tänker använda jämförande.** Självbedömda SROI-tal är vanliga och kan ändå vara användbara internt, men en kvot som läggs fram för en finansiär, en investerare eller allmänheten väger tyngre, och är mer riskfylld om den har fel, när den används för att jämföra organisationer eller fatta ett fördelningsbeslut.
+
+10. **Jämför aldrig SROI-kvoter mellan organisationer som använt olika avgränsning, ersättningsvärden eller tidshorisonter.** En kvot på sju från en välgörenhetsorganisation och en på tre från en annan säger nästan ingenting om vilken som gör mest nytta; det speglar oftare vilken som valde generösare ersättningsvärden.
+
+11. **Para den kvantitativa kvoten med kvalitativ fallevidens.** Siffror övertygar en ekonomikommitté; en välbelagd redogörelse för vad som förändrades för en verklig (anonymiserad) deltagare övertygar alla andra, och det är ofta den kvalitativa redogörelsen som fångar ett resultat som modellen missade.
+
+12. **Se över förändringsteorin enligt en fast cykel, inte bara när en finansiär frågar.** Program utvecklas, och en förändringsteori som skrevs för tre omorganisationer sedan kommer i det tysta att leda mätinsatserna mot resultat som programmet inte längre faktiskt eftersträvar.
+
+## Frågor att diskutera med ditt team
+
+**Vilket beslut kommer den här övningen faktiskt att informera?** Innan ni lägger personaltid på en uppdatering av förändringsteorin eller en SROI-beräkning, var uttryckliga med vilket beslut resultatet ska mata – en finansieringsförnyelse, en intern resursförskjutning, en offentlig rapport eller ett genuint omdöme om huruvida programmet ska fortsätta. En övning byggd för ett syfte (att marknadsföra en stark rubrikkvot) kommer att göra andra, och ibland motstridiga, metodval än en byggd för ett annat (att lära sig var ett program underpresterar). Om ingen kan namnge beslutet riskerar övningen att bli en efterlevnadsartefakt som förbrukar just den personaltid som annars kunde gå till tjänsteleverans. Att namnge beslutet i förväg talar också om hur mycket stringens som är proportionerlig att investera.
+
+**Vems förändringsteori är det här – finansiärens eller de människors som utför arbetet?** En förändringsteori skriven av ett beställarteam under en enda eftermiddag, utan frontpersonal eller deltagare i rummet, tenderar att beskriva det program finansiären föreställde sig snarare än det som faktiskt drivs. Fråga vilka som satt i rummet när den nuvarande förändringsteorin skrevs, och om frontpersonalen skulle känna igen den som en ärlig beskrivning av hur de tror att förändring sker. Om svaret är obekvämt är den obekvämligheten i sig användbar information om var mätinsatserna för närvarande är felriktade.
+
+**Vilka av våra finansiella ersättningsvärden skulle inte överleva att göras offentliga?** Gå igenom varje ersättningsvärde som för närvarande används i en pågående SROI-modell och fråga, ett i taget, om det skulle kunna visas för en skeptisk journalist, en oimponerad styrelseledamot eller den deltagare det påstås representera utan att det är pinsamt. Ett ersättningsvärde som valts för att det var det största försvarbara talet som fanns, snarare än det mest representativa, är ett tecken på att övningen har glidit från mätning mot påverkansarbete. Det är värt att göra som en stående övning, inte bara när en kvot snart ska publiceras.
+
+**Drar vi av dödvikt och tillskrivning ärligt, eller bara när det passar?** Avdragen för dödvikt och tillskrivning är de delar av en SROI-beräkning som sannolikast mjukas upp under tryck att ta fram ett imponerande tal. Be teamet som förbereder nästa SROI-rapport att visa sina antaganden om dödvikt och tillskrivning uttryckligen, med den evidens eller det resonemang som ligger bakom vart och ett, i stället för som en enda oförklarad rabattprocent begravd i en fotnot. Om samma team inte kan förklara varför årets avdrag är mindre än fjolårets, behandla det som en varningsflagga, inte en fotnot.
+
+**Vad skulle vi göra annorlunda om vi inte alls kunde uttrycka det här resultatet som en kvot?** Vissa resultat som er organisation skapar är kanske sådana som era intressenter skulle invända mot att se monetariserade – värdighet, kulturell kontinuitet, en känsla av trygghet. Diskutera vilka resultat i er nuvarande förändringsteori som hör till den kategorin, och om er rapportering för närvarande ändå pressar in dessa resultat i ett ersättningsvärde därför att rapportmallen kräver ett. Där svaret är ja, diskutera hur ett legitimt icke-monetärt alternativ skulle se ut, och om era finansiärer skulle acceptera det.
+
+**Hur jämför vi effekt över program som mäter helt olika saker?** En portföljfinansiär eller en styrelse för en ideell organisation med flera program ombeds regelbundet jämföra ett läsprogram med ett bostadsprogram och en besöksvänstjänst, vart och ett med sin egen förändringsteori och sina egna ersättningsvärden. Diskutera ärligt om er organisation för närvarande gör detta genom att tvinga in allt i SROI-kvoter (vilket inbjuder till just den falska jämförbarhet som varnas för på annat håll i detta ämne), eller på något annat sätt – ett gemensamt resultatramverk, en standardiserad indikatoruppsättning eller en berättelse på portföljnivå som motstår falsk precision. Kom överens, som team, om vilket angreppssätt ni faktiskt är beredda att försvara under granskning.
+
+## I praktiken: ett exempel på offentligt värde
+
+*Följande scenario är en fiktiv illustration, inte en redogörelse för någon verklig organisation.*
+
+En ideell organisation för samhällets välbefinnande, här bara kallad Stiftelsen, drev ett kamratstödsprogram för människor som nyss skrivits ut från sjukhus efter en psykisk kris. Dess huvudfinansiär – ett lokalt organ för hälsobeställning – bad om en SROI-kvot inför ett beslut om förnyad finansiering, efter att ha sett tekniken användas till förmån för andra sökande det året.
+
+Stiftelsens utvärderingsansvarige började, medvetet, med förändringsteorin snarare än kalkylbladet. Två workshoppar med kamratstödjare och åtta programdeltagare gav en orsaksberättelse som skilde sig på ett viktigt sätt från den finansieringsansökan som ursprungligen hade skapat programmet: deltagarna beskrev konsekvent det mest värdefulla resultatet som att känna sig *trodd*, inte bara ”mindre isolerad”, den term som den ursprungliga logiska modellen hade använt. Förändringsteorin reviderades för att spegla detta, vilket i sin tur ändrade vilka resultat värderingsövningen behövde belägga.
+
+Att värdera ”att känna sig trodd” mot ett finansiellt ersättningsvärde visade sig vara omstritt inom Stiftelsen själv. En kandidat – den undvikta kostnaden för en återinläggning vid kris – var försvarbar men riskerade att antyda att programmets värde enbart låg i efterföljande besparingar för hälso- och sjukvården, vilket underskattade vad deltagarna sa att de själva uppskattade mest. Gruppen valde att använda det ersättningsvärdet för ett enda resultat, tillämpade ett försiktigt tillskrivningsavdrag på 40 procent för att spegla de andra tjänster deltagarna också använde och redovisade ett andra, icke-monetariserat resultat – självrapporterad känsla av att bli trodd, följd på en vanlig välbefinnandeskala – som ett berättande fynd vid sidan av kvoten i stället för att vika in det i den.
+
+Den slutliga rapporten till beställaren inleddes med förändringsteorin och evidensen, inte med talet; kvoten dök upp med sina antaganden redovisade i en bilaga, tillsammans med ett enkelt konstaterande att en del av programmets värde redovisades kvalitativt därför att Stiftelsen bedömde att ytterligare monetarisering skulle förvanska vad deltagarna hade sagt. Beställaren förnyade finansieringen och angav evidensbasens kvalitet lika mycket som själva kvoten – ett exempel på att en försvarbar, ärligt förbehållen redogörelse kan göra mer övertygande arbete än ett större, mindre granskat tal.
+
+## Fyra sektorperspektiv
+
+### Lokal förvaltning
+
+Lokala beställare bygger alltmer in socialt värde i upphandlingen, inte bara i bidragsfinansierad utvärdering. I Storbritannien kräver [Public Services (Social Value) Act 2012](https://en.wikipedia.org/wiki/Public_Services_(Social_Value)_Act_2012) att offentliga organ överväger hur de tjänster de beställer kan förbättra områdets ekonomiska, sociala och miljömässiga välbefinnande, vilket har fört SROI-närliggande tänkande in i den vanliga poängsättningen av kontrakt i stället för att lämna det som ett valfritt tillägg enbart för social sektor. Den särskilda risken på den här nivån är skalfel: ett nationellt eller standardiserat ersättningsvärde som tillämpas likformigt över mycket olika lokala sammanhang kan återge värdet felaktigt i endera riktningen, och lokala beställare är väl placerade att veta när ett nationellt ersättningsvärde helt enkelt inte beskriver deras område.
+
+### Nationell förvaltning
+
+Nationell förvaltning ligger närmare den formella kostnads-nyttoapparaten (se Ämne 2.2 — Samhällsekonomisk kostnads-nyttoanalys och kostnadseffektivitetsanalys), med skuggpriser och diskonteringsräntor som fastställs centralt och tillämpas konsekvent över departement. Där SROI-liknande tänkande gör sig förtjänt av sin plats på nationell nivå är inom programområden – stöd i tidiga år, förebyggande av hemlöshet, samhällssammanhållning – där en nationell utvärderingsfunktion ändå behöver ett disciplinerat sätt att beskriva resultat som motstår den sortens stringenta monetarisering som en fullständig kostnads-nyttoanalys skulle kräva (se Ämne 2.2 — Samhällsekonomisk kostnads-nyttoanalys och kostnadseffektivitetsanalys). Nationella organ är också ofta källan till de graderade evidensstandarder och bibliotek med ersättningsvärden som lokala organisationer och organisationer i social sektor förlitar sig på, vilket gör kvaliteten på det centrala arbetet oproportionerligt viktig.
+
+### Social sektor och ideell sektor
+
+Det här är SROI:s hemmaplan, och också där trycket att ta fram en smickrande kvot är som störst, eftersom kvoten direkt kan påverka en bidragsförnyelse eller en plats på en lista över förstahandsleverantörer (se Ämne 3.8 — Ledning av socialsektorn och ideella organisationer för de finansieringsmodelltryck som formar detta beteende). Mindre ideella organisationer saknar ofta den specialistkapacitet som krävs för att genomföra en stringent SROI-övning över huvud taget, vilket skapar ett verkligt jämlikhetsproblem: välresurssatta organisationer producerar mer polerade kvoter, inte nödvändigtvis mer verklig effekt, och finansiärer som jämför kvoter naivt slutar med att belöna mätkapacitet snarare än resultat.
+
+### Multilaterala och internationella organ
+
+Internationella utvecklingsorgan och effektinvesterare har konvergerat mot gemensamma indikatoruppsättningar snarare än organisationsvisa SROI-kvoter, just för att göra jämförelse över mycket olika sammanhang mer ärlig. Systemet IRIS+ som underhålls av Global Impact Investing Network är det tydligaste exemplet: i stället för att be varje effektinvestering ta fram sin egen skräddarsydda kvot erbjuder det en gemensam katalog av mått som investerare och investeringsobjekt kan välja ur, vilket förbättrar jämförbarheten utan att låtsas att en enda monetariserad kvot meningsfullt kan sammanfatta en portfölj som spänner över jordbruk, hälsa och finansiell inkludering. Den perspektivspecifika risken här är att globalt standardiserade mått kan platta ut lokalt meningsfulla resultat som inte kartläggs snyggt mot standardkatalogen.
+
+## Vanliga felmönster
+
+**Inflation av ersättningsvärden.** Under tryck att ta fram en imponerande kvot väljer en organisation det mest generösa försvarbara finansiella ersättningsvärdet för varje resultat i stället för det mest representativa. Kostnaden är inte bara en vilseledande kvot; det är en långsam urholkning av förtroendet när en finansiär eller journalist jämför ersättningsvärden över en sektor och märker mönstret, ibland kallat ”SROI-shopping”.
+
+**Mjuk dödvikt och tillskrivning.** Avdragen för dödvikt och tillskrivning är det lättaste stället att underskatta vad som ändå skulle ha hänt, eftersom de kräver ett ärligt, ibland föga smickrande omdöme om hur mycket ära organisationen faktiskt förtjänar. Kostnaden är en uppblåst kvot som faller samman under granskning första gången en extern utvärderare tillämpar strängare antaganden.
+
+**En förändringsteori som skrivits i efterhand.** Vissa organisationer tar bara fram en förändringsteori när en finansiär kräver en, baklänges konstruerad ur de resultat organisationen redan ville göra anspråk på. Det ger ett dokument som ser stringent ut men aldrig användes för att pröva eller utmana programmets egna antaganden, och som misslyckas i samma stund frontpersonalen tillfrågas om det beskriver vad de faktiskt gör.
+
+**Engångsmätning, aldrig upprepad.** En SROI-övning som beställs en gång för att vinna ett visst anbud och aldrig uppdateras fungerar som marknadsföring snarare än ledning. Kostnaden är att organisationen inte lär sig något av den internt, och att talet stelnar till ett påstående som upprepas i åratal efter att det underliggande programmet har förändrats.
+
+**Falsk precision.** En kvot som redovisas med två decimaler – ”4,32 pund socialt värde för varje investerat pund” – antyder en aritmetisk säkerhet som de underliggande ersättningsvärdena, avdragen och evidensen sällan stöder. Kostnaden är ryktesmässig: en kunnig läsare som granskar en indata och finner den mjuk kommer att diskontera hela övningen, inte bara indatan.
+
+**Jämförelse av ojämförbara kvoter.** Finansiärer och styrelser rangordnar ibland program eller bidragsmottagare enbart efter SROI-kvot, som om talet vore lika standardiserat som en finansiell avkastning. Eftersom avgränsning, ersättningsvärden, tidshorisont och stringens varierar enormt mellan övningar belönar den här praktiken systematiskt optimistisk modellering framför verklig effekt, och den är en av de mest citerade kritikpunkterna mot metoden i den akademiska litteraturen om SROI:s användning i praktiken.
+
+## Mognadsmodell
+
+| Delområde | Initiera | Utveckla | Standardisera | Styra | Orkestrera |
+|---|---|---|---|---|---|
+| Förändringsteori | Ingen uttrycklig teori finns; resultat påstås, modelleras inte. | En förändringsteori finns för flaggskeppsprogram, utarbetad enbart av ledningen. | Varje finansierat program har en förändringsteori, framtagen gemensamt med frontpersonal och översedd enligt en fast cykel. | Förändringsteorier prövas mot verklig evidens och revideras när evidensen motsäger dem. | Förändringsteorier delas och förfinas gemensamt med motsvarande organisationer, finansiärer och deltagare över ett leveransnätverk. |
+| Resultatevidens | Endast prestationer (aktivitetsmått) registreras. | Viss resultatdata samlas in, inkonsekvent, mest för finansiärsrapportering. | Ett standardiserat ramverk för resultatevidens tillämpas över alla program, anpassat till programmets mognad. | Kvaliteten på resultatevidensen mäts och rapporteras, och luckor utlöser ytterligare utvärderingsinvesteringar. | Resultatevidens sammanförs och jämförs över organisationer med hjälp av gemensamma indikatoruppsättningar. |
+| Styrning av värdering och ersättningsvärden | Inga finansiella ersättningsvärden används; monetarisering försöks inte. | Ersättningsvärden väljs ad hoc, odokumenterat, av den som förbereder finansieringsansökan. | Ett dokumenterat bibliotek över ersättningsvärden finns med redovisade källor; dödvikt, tillskrivning, undanträngning och avtagande tillämpas konsekvent. | Val av ersättningsvärden och avdrag granskas periodiskt eller kvalitetssäkras oberoende. | Praxis för ersättningsvärden och värdering samordnas av ett sektorsorgan, vilket minskar dubblerad och inkonsekvent modellering. |
+| Användning och kommunikation av kvoten | Ingen kvot tas fram; effekt beskrivs bara i berättelse, om alls. | En kvot tas fram enstaka gånger, vanligen för att tillfredsställa en särskild finansiärs önskemål. | Kvoter tas fram med fullständiga antaganden redovisade och används aldrig som enda grund för ett beslut. | Kvoter följs över tid per program, och förändringar undersöks i stället för att bara redovisas. | Kvoter och deras antaganden publiceras öppet och används för att informera lärande i hela sektorn, inte bara rapportering inom en enskild organisation. |
+| Jämförbarhet över en portfölj | Varje program mäter effekt på ett helt skräddarsytt sätt. | Vissa gemensamma resultatkategorier finns men tillämpas inkonsekvent. | Ett gemensamt resultat- eller indikatorramverk föreskrivs över portföljen. | Jämförelser på portföljnivå tar uttryckligen hänsyn till skillnader i omfattning, sammanhang och evidenskvalitet i stället för att rangordna enbart efter kvot. | Organisationen bidrar till, och hämtar från, standardiserade mått över sektorer (såsom IRIS+) för att stödja jämförbarhet bortom den egna portföljen. |
+
+## Checklista
+
+- [ ] En aktuell, av frontpersonal prövad förändringsteori finns för det program som mäts.
+- [ ] Resultat skiljs uttryckligen från prestationer i all rapportering.
+- [ ] Det beslut som den här mätövningen ska informera är namngivet innan övningen börjar.
+- [ ] Varje finansiellt ersättningsvärde som används har en redovisad källa och en dokumenterad motivering.
+- [ ] Dödvikt, tillskrivning, undanträngning och avtagande är beräknade och redovisade, inte invikta i en enda odokumenterad rabatt.
+- [ ] Intressenter vars resultat värderas var delaktiga i valet av vad som ska mätas och hur det ska värderas.
+- [ ] Minst ett resultat som motstår monetarisering redovisas kvalitativt i stället för att tvingas in i ett ersättningsvärde.
+- [ ] Varje publicerad kvot åtföljs av sina antaganden och sin evidenskvalitet, och presenteras inte ensam.
+- [ ] Den tillämpade evidensstandarden motsvarar programmets mognad och beslutets insatser.
+- [ ] SROI-kvoter jämförs inte med andra organisationers kvoter utan att först kontrollera avgränsning och metodik.
+- [ ] Förändringsteorin och värderingsmodellen är schemalagda för översyn och behandlas inte som permanenta.
+- [ ] Oberoende kvalitetssäkring har sökts för varje kvot som används i extern jämförelse eller offentlig rapportering.
+
+## Viktiga källor
+
+- Social Value International, *A Guide to Social Return on Investment* och *Standards and Guidance* — den främsta metodreferensen för SROI:s principer, steg och kvalitetssäkringsprocess.
+- Nesta, *Standards of Evidence* — ett graderat ramverk för att anpassa evidensens styrka till en insats mognad, vitt använt inom den brittiska sociala sektorn och socialt inriktade investeringar.
+- Global Impact Investing Network, *IRIS+ system* — en gemensam katalog av effektmått som stöder jämförbarhet över effektinvesteringar utan att tvinga in varje investering i en enda monetariserad kvot.
+- Arvidson, M., Lyon, F., McKay, S. och Moro, D. (2013), ”Valuing the social? The nature and controversies of measuring social return on investment (SROI)”, *Voluntary Sector Review*, volym 4, nummer 1 — en vetenskapligt granskad kritik av SROI:s användning i praktiken, inklusive val av ersättningsvärden och jämförbarhetsproblem.
+- Storbritanniens Public Services (Social Value) Act 2012 (legislation.gov.uk) — den lagstadgade grunden för att beakta socialt värde i brittisk offentlig upphandling, här använd som exempel på mönstret och inte som ett påstående om hur varje jurisdiktion reglerar beställning.
+
+## Referenser
+
+1. Social return on investment — Wikipedia — https://en.wikipedia.org/wiki/Social_return_on_investment
+2. Theory of change — Wikipedia — https://en.wikipedia.org/wiki/Theory_of_change
+3. Logic model — Wikipedia — https://en.wikipedia.org/wiki/Logic_model
+4. Social enterprise — Wikipedia — https://en.wikipedia.org/wiki/Social_enterprise
+5. Impact investing — Wikipedia — https://en.wikipedia.org/wiki/Impact_investing
+6. Nonprofit organization — Wikipedia — https://en.wikipedia.org/wiki/Nonprofit_organization
+7. Triple bottom line — Wikipedia — https://en.wikipedia.org/wiki/Triple_bottom_line
+8. B Corporation (certification) — Wikipedia — https://en.wikipedia.org/wiki/B_Corporation_(certification)
+9. Social accounting — Wikipedia — https://en.wikipedia.org/wiki/Social_accounting
+10. Global Impact Investing Network — Wikipedia — https://en.wikipedia.org/wiki/Global_Impact_Investing_Network
+11. Public Services (Social Value) Act 2012 — Wikipedia — https://en.wikipedia.org/wiki/Public_Services_(Social_Value)_Act_2012
+12. A Guide to Social Return on Investment — Social Value International — https://www.socialvalueint.org/guide-to-sroi
+13. Standards of Evidence — Nesta — https://www.nesta.org.uk/report/nesta-standards-of-evidence/
+14. IRIS+ system — Global Impact Investing Network — https://iris.thegiin.org/
+15. 'Valuing the social? The nature and controversies of measuring social return on investment (SROI)' — Arvidson, Lyon, McKay and Moro, *Voluntary Sector Review* — https://bristoluniversitypressdigital.com/view/journals/vsr/4/1/article-p3.xml
+16. Public Services (Social Value) Act 2012 — legislation.gov.uk — https://www.legislation.gov.uk/ukpga/2012/3/contents
