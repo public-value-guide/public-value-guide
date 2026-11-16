@@ -2,6 +2,13 @@
 
 Guidance for AI agents working on this repository. Read `README.md` first for the layout and the commands.
 
+## Specification Driven Development
+
+**The `spec/` directory is the source of truth.** 
+- Before doing anything read all files inside the `spec/` directory using your file-reading tools.
+- Treat all files inside `spec/` as strict requirements. Where any file disagrees with the spec, the spec wins: fix the file, or change the spec on purpose and bring the other files into line in the same commit. 
+- Do not improvise structure, style, or citation practice.
+
 ## Roles
 
 Role cards in `AGENTS/`: [`content-syncer`](AGENTS/content-syncer.md) (sync the book, add locales), [`site-developer`](AGENTS/site-developer.md) (code, styling, build), [`site-reviewer`](AGENTS/site-reviewer.md) (audit the built site; read-only). A single agent may wear several hats but must meet each role's exit criteria.
