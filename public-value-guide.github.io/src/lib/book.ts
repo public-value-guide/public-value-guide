@@ -55,6 +55,7 @@ export const LOCALES: Locale[] = [
   { slug: 'cy-gb', label: 'Cymraeg - Prydain Fawr' },
   { slug: 'cy-001', label: 'Cymraeg' },
   { slug: 'es-001', label: 'Español' },
+  { slug: 'es-mx', label: 'Español - México' },
   { slug: 'fr-001', label: 'Français' },
   { slug: 'de-de', label: 'Deutsch - Deutschland' },
   { slug: 'zh-cn', label: '中文 - 中国大陆 - 简体' },
@@ -679,6 +680,7 @@ PART_TRANSLATIONS['tr-tr'] = {
   5: { title: 'Dijital, yazılım ve teknoloji', tagline: 'Teknolojinin kamu değeri: dijital devlet, yapay zekâ, yazılım, veri ve siber güvenlik' }
 };
 PART_TRANSLATIONS['tr-001'] = PART_TRANSLATIONS['tr-tr'];
+PART_TRANSLATIONS['es-mx'] = PART_TRANSLATIONS['es-001'];
 PART_TRANSLATIONS['vi-vn'] = {
   1: { title: 'Nền tảng', tagline: 'Vì sao giá trị công khác với giá trị thị trường và ủy quyền dân chủ, và các mô hình giải thích điều đó' },
   2: { title: 'Đánh giá và bằng chứng', tagline: 'Bộ công cụ của nhà phân tích: định giá kết quả, xây dựng luận cứ và kiểm nghiệm các tuyên bố' },

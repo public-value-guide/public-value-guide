@@ -50,6 +50,11 @@ export const HERO: Record<string, { tagline: string; intro?: string; translation
   "intro": "Esta guía es para quienes dirigen organizaciones del sector público y social: responsables de organismos, dirigentes de gobiernos locales, directores de organizaciones sin ánimo de lucro y los líderes de políticas, tecnología, finanzas y operaciones que los apoyan. Aplica la teoría del valor público, desde el triángulo estratégico de Mark Moore, a decisiones prácticas en 33 temas autónomos.",
   "translations": "Traducciones: "
  },
+ "es-mx": {
+  "tagline": "Un manual práctico de buenas prácticas para crear valor público en el gobierno y el sector social.",
+  "intro": "Esta guía es para quienes dirigen organizaciones del sector público y social: responsables de organismos, dirigentes de gobiernos locales, directores de organizaciones sin fines de lucro y los líderes de políticas, tecnología, finanzas y operaciones que los apoyan. Aplica la teoría del valor público, desde el triángulo estratégico de Mark Moore, a decisiones prácticas en 33 temas autónomos.",
+  "translations": "Traducciones: "
+ },
  "fr-001": {
   "tagline": "Un manuel pratique de bonnes pratiques pour créer de la valeur publique dans l'administration et le secteur social.",
   "intro": "Ce guide s'adresse à celles et ceux qui dirigent des organisations publiques et du secteur social : responsables d'agences, élus et dirigeants locaux, directeurs d'organisations à but non lucratif, ainsi que les responsables des politiques, du numérique, des finances et des opérations qui les accompagnent. Il applique la théorie de la valeur publique, à partir du triangle stratégique de Mark Moore, à des décisions concrètes en 33 sujets autonomes.",
@@ -253,6 +258,7 @@ export const ENDONYMS: Record<string, string> = {
  "en-gb-oxendict": "English (Great Britain, Oxford spelling)",
  "en-us": "English (United States)",
  "es-001": "Español",
+ "es-mx": "Español",
  "fr-001": "Français",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",

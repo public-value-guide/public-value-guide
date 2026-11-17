@@ -1602,6 +1602,7 @@ const STRINGS: Record<string, UiStrings> = {
   'cy-gb': cyGb,
   'cy-001': cy001,
   'es-001': es001,
+  'es-mx': es001,
   'fr-001': fr001,
   'de-de': deDe,
   'zh-cn': zhCn,
