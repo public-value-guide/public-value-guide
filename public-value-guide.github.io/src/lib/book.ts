@@ -55,8 +55,11 @@ export const LOCALES: Locale[] = [
   { slug: 'cy-gb', label: 'Cymraeg - Prydain Fawr' },
   { slug: 'cy-001', label: 'Cymraeg' },
   { slug: 'es-001', label: 'Español' },
+  { slug: 'es-es', label: 'Español - España' },
   { slug: 'es-mx', label: 'Español - México' },
   { slug: 'fr-001', label: 'Français' },
+  { slug: 'fr-ca', label: 'Français - Canada' },
+  { slug: 'fr-fr', label: 'Français - France' },
   { slug: 'de-de', label: 'Deutsch - Deutschland' },
   { slug: 'zh-cn', label: '中文 - 中国大陆 - 简体' },
   { slug: 'ar-001', label: 'العربية' },
@@ -83,6 +86,8 @@ export const LOCALES: Locale[] = [
   { slug: 'id-id', label: 'Bahasa Indonesia - Indonesia' },
   { slug: 'zh-tw', label: '中文 - 台灣 - 繁體' },
   { slug: 'pt-001', label: 'Português' },
+  { slug: 'pt-br', label: 'Português - Brasil' },
+  { slug: 'pt-pt', label: 'Português - Portugal' },
   { slug: 'ur-001', label: 'اردو' },
   { slug: 'da-001', label: 'Dansk' },
   { slug: 'et-ee', label: 'Eesti' },
@@ -680,7 +685,10 @@ PART_TRANSLATIONS['tr-tr'] = {
   5: { title: 'Dijital, yazılım ve teknoloji', tagline: 'Teknolojinin kamu değeri: dijital devlet, yapay zekâ, yazılım, veri ve siber güvenlik' }
 };
 PART_TRANSLATIONS['tr-001'] = PART_TRANSLATIONS['tr-tr'];
+PART_TRANSLATIONS['es-es'] = PART_TRANSLATIONS['es-001'];
 PART_TRANSLATIONS['es-mx'] = PART_TRANSLATIONS['es-001'];
+PART_TRANSLATIONS['fr-fr'] = PART_TRANSLATIONS['fr-001'];
+PART_TRANSLATIONS['fr-ca'] = PART_TRANSLATIONS['fr-001'];
 PART_TRANSLATIONS['vi-vn'] = {
   1: { title: 'Nền tảng', tagline: 'Vì sao giá trị công khác với giá trị thị trường và ủy quyền dân chủ, và các mô hình giải thích điều đó' },
   2: { title: 'Đánh giá và bằng chứng', tagline: 'Bộ công cụ của nhà phân tích: định giá kết quả, xây dựng luận cứ và kiểm nghiệm các tuyên bố' },
@@ -710,6 +718,8 @@ PART_TRANSLATIONS['pt-001'] = {
   4: { title: 'Questões globais e societais', tagline: 'o valor público para além de uma instituição: comportamento, confiança, o planeta e a conversa pública' },
   5: { title: 'Digital, software e tecnologia', tagline: 'o valor público da tecnologia: governo digital, inteligência artificial, software, dados e cibersegurança' }
 };
+PART_TRANSLATIONS['pt-br'] = PART_TRANSLATIONS['pt-001'];
+PART_TRANSLATIONS['pt-pt'] = PART_TRANSLATIONS['pt-001'];
 
 /** `PARTS`, translated for `locale` where a translation exists, English otherwise. */
 export function partsFor(locale: string): Part[] {
