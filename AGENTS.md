@@ -52,7 +52,7 @@ An orchestrating agent assigns roles; a single agent may wear several hats for a
 3. Draft to the template in the canonical locale, `en-gb-oxendict`. Self-check against the definition of done (spec §8).
 4. Register new terms in `GLOSSARY.md` and `INDEX.md`; tick your item in `tasks.md`.
 5. Hand off to a reviewer running the spec §10 gates.
-6. Only after the canonical topic passes review, localize into the other fourteen locales (list in `spec/index.md` §4a) — the directory and `.locale-peer-id` already exist; write `index.md` in each.
+6. Only after the canonical topic passes review, localize into the other 59 locales (every directory under `locales/`) — the directory and `.locale-peer-id` already exist; write `index.md` in each.
 
 ## Workflow for localizing a topic
 
