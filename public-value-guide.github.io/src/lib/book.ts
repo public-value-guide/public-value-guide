@@ -63,9 +63,12 @@ export const LOCALES: Locale[] = [
   { slug: 'de-de', label: 'Deutsch - Deutschland' },
   { slug: 'zh-cn', label: '中文 - 中国大陆 - 简体' },
   { slug: 'ar-001', label: 'العربية' },
+  { slug: 'ar-dz', label: 'العربية - الجزائر' },
+  { slug: 'ar-eg', label: 'العربية - مصر' },
   { slug: 'hi-in', label: 'हिन्दी - भारत' },
   { slug: 'ja-jp', label: '日本語 - 日本' },
   { slug: 'ru-ru', label: 'Русский - Россия' },
+  { slug: 'ru-by', label: 'Русский - Беларусь' },
   { slug: 'ko-kr', label: '한국어 - 대한민국' },
   { slug: 'sv-se', label: 'Svenska - Sverige' },
   { slug: 'nl-nl', label: 'Nederlands - Nederland' },
@@ -82,8 +85,11 @@ export const LOCALES: Locale[] = [
   { slug: 'sw-001', label: 'Kiswahili' },
   { slug: 'id-001', label: 'Bahasa Indonesia' },
   { slug: 'bn-001', label: 'বাংলা' },
+  { slug: 'bn-in', label: 'বাংলা - ভারত' },
+  { slug: 'bn-bd', label: 'বাংলা - বাংলাদেশ' },
   { slug: 'de-001', label: 'Deutsch' },
   { slug: 'id-id', label: 'Bahasa Indonesia - Indonesia' },
+  { slug: 'id-my', label: 'Bahasa Indonesia - Malaysia' },
   { slug: 'zh-tw', label: '中文 - 台灣 - 繁體' },
   { slug: 'pt-001', label: 'Português' },
   { slug: 'pt-br', label: 'Português - Brasil' },
@@ -645,6 +651,12 @@ PART_TRANSLATIONS['ru-001'] = PART_TRANSLATIONS['ru-ru'];
 PART_TRANSLATIONS['sw-001'] = PART_TRANSLATIONS['sw-tz'];
 PART_TRANSLATIONS['de-001'] = PART_TRANSLATIONS['de-de'];
 PART_TRANSLATIONS['id-id'] = PART_TRANSLATIONS['id-001'];
+PART_TRANSLATIONS['ar-eg'] = PART_TRANSLATIONS['ar-001'];
+PART_TRANSLATIONS['ar-dz'] = PART_TRANSLATIONS['ar-001'];
+PART_TRANSLATIONS['ru-by'] = PART_TRANSLATIONS['ru-ru'];
+PART_TRANSLATIONS['bn-bd'] = PART_TRANSLATIONS['bn-001'];
+PART_TRANSLATIONS['bn-in'] = PART_TRANSLATIONS['bn-001'];
+PART_TRANSLATIONS['id-my'] = PART_TRANSLATIONS['id-001'];
 PART_TRANSLATIONS['et-ee'] = {
   1: { title: 'Alused', tagline: 'Miks avalik väärtus erineb turuväärtusest ja demokraatlikust mandaadist ning mudelid, mis seda selgitavad' },
   2: { title: 'Hindamine ja tõendid', tagline: 'Analüütiku tööriistakast: tulemuste väärtustamine, juhtumi ülesehitamine ja väidete proovilepanek' },

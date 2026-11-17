@@ -16,8 +16,13 @@
 // negligible for this formal content. `es-001` (World/neutral Spanish),
 // `fr-001` (World/neutral French), `de-de` (German, Germany), `zh-cn`
 // (Mainland China, Simplified script), `ar-001` (World/neutral Arabic),
+// (Mainland China, Simplified script), `ar-eg` (World/neutral Arabic (Egypt)),
+// (Mainland China, Simplified script), `ar-dz` (World/neutral Arabic (Algeria)),
 // `hi-in` (Hindi, India), `ja-jp` (Japanese, Japan), `ru-ru` (Russian, Russia), and `ko-kr` (Korean, South Korea) each get their own
+// `hi-in` (Hindi, India), `ja-jp` (Japanese, Japan), `ru-by` (Russian, Russia), and `ko-kr` (Korean, South Korea) each get their own
 // strings, in the same neutral register their topic prose uses. `ar-001`
+// strings, in the same neutral register their topic prose uses. `ar-eg`
+// strings, in the same neutral register their topic prose uses. `ar-dz`
 // needs no separate `dir`
 // handling here — the Lily locale picker sets `dir="rtl"` on the document
 // itself for any locale whose base language subtag is in its own RTL list,
@@ -1610,9 +1615,12 @@ const STRINGS: Record<string, UiStrings> = {
   'de-de': deDe,
   'zh-cn': zhCn,
   'ar-001': ar001,
+  'ar-eg': ar001,
+  'ar-dz': ar001,
   'hi-in': hiIn,
   'ja-jp': jaJp,
   'ru-ru': ruRu,
+  'ru-by': ruRu,
   'ko-kr': koKr,
   'sv-se': svSe,
   'nl-nl': nlNl,
@@ -1629,8 +1637,11 @@ const STRINGS: Record<string, UiStrings> = {
   'sw-001': swTz,
   'id-001': id001,
   'bn-001': bn001,
+  'bn-bd': bn001,
+  'bn-in': bn001,
   'de-001': deDe,
   'id-id': id001,
+  'id-my': id001,
   'zh-tw': zhTw,
   'pt-001': pt001,
   'pt-br': pt001,
