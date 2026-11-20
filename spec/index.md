@@ -188,6 +188,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `tr-001` | Türkçe (Dünya) — Turkish (World), an identical copy of `tr-tr` for readers worldwide. |
 | `vi-vn` | Tiếng Việt (Việt Nam) — Vietnamese (Vietnam), standard Vietnamese in the formal register; directory slugs are in Vietnamese with diacritics kept (hyphen-separated); the topics directory is `chủ-đề`. |
 | `vi-001` | Tiếng Việt (Thế giới) — Vietnamese (World), an identical copy of `vi-vn` for readers worldwide. |
+| `bg-bg` | Български (България) — Bulgarian (Bulgaria), standard Bulgarian in the formal register using Bulgarian public-administration terminology conventions and Cyrillic script; directory slugs are in Bulgarian Cyrillic (lowercase, hyphen-separated); the topics directory is `теми`. |
+| `bg-001` | Български (свят) — Bulgarian (World), an identical copy of `bg-bg` for readers worldwide. |
 
 The table above lists the locales with notes on terminology and script. The book is published in 60 locales in all; the directory names under `locales/` are the authoritative list, and each follows the naming convention above.
 
