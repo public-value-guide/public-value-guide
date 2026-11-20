@@ -107,7 +107,11 @@ export const LOCALES: Locale[] = [
   { slug: 'tr-tr', label: 'Türkçe' },
   { slug: 'tr-001', label: 'Türkçe' },
   { slug: 'vi-vn', label: 'Tiếng Việt' },
-  { slug: 'vi-001', label: 'Tiếng Việt' }
+  { slug: 'vi-001', label: 'Tiếng Việt' },
+  { slug: 'zh-th', label: '中文 - 泰国 - 简体' },
+  { slug: 'hi-np', label: 'हिन्दी - नेपाल' },
+  { slug: 'cy-ar', label: 'Cymraeg - Ariannin' },
+  { slug: 'de-at', label: 'Deutsch - Österreich' }
 ];
 
 /**
@@ -732,6 +736,10 @@ PART_TRANSLATIONS['pt-001'] = {
 };
 PART_TRANSLATIONS['pt-br'] = PART_TRANSLATIONS['pt-001'];
 PART_TRANSLATIONS['pt-pt'] = PART_TRANSLATIONS['pt-001'];
+PART_TRANSLATIONS['zh-th'] = PART_TRANSLATIONS['zh-cn'];
+PART_TRANSLATIONS['hi-np'] = PART_TRANSLATIONS['hi-in'];
+PART_TRANSLATIONS['cy-ar'] = PART_TRANSLATIONS['cy-gb'];
+PART_TRANSLATIONS['de-at'] = PART_TRANSLATIONS['de-de'];
 
 /** `PARTS`, translated for `locale` where a translation exists, English otherwise. */
 export function partsFor(locale: string): Part[] {

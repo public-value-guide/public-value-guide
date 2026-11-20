@@ -40,7 +40,17 @@ export const HERO: Record<string, { tagline: string; intro?: string; translation
   "intro": "Mae'r canllaw hwn ar gyfer y bobl sy'n arwain sefydliadau'r sector cyhoeddus a'r sector cymdeithasol: penaethiaid asiantaethau, arweinwyr llywodraeth leol, cyfarwyddwyr elusennau a'r arweinwyr polisi, digidol, cyllid a gweithrediadau sy'n eu cefnogi. Mae'n cymhwyso theori gwerth cyhoeddus, o driongl strategol Mark Moore ymlaen, at benderfyniadau ymarferol mewn 33 pwnc hunangynhwysol.",
   "translations": "Cyfieithiadau: "
  },
+ "cy-ar": {
+  "tagline": "Llawlyfr ymarferol o arferion gorau ar gyfer creu gwerth cyhoeddus yn y llywodraeth a'r sector cymdeithasol.",
+  "intro": "Mae'r canllaw hwn ar gyfer y bobl sy'n arwain sefydliadau'r sector cyhoeddus a'r sector cymdeithasol: penaethiaid asiantaethau, arweinwyr llywodraeth leol, cyfarwyddwyr elusennau a'r arweinwyr polisi, digidol, cyllid a gweithrediadau sy'n eu cefnogi. Mae'n cymhwyso theori gwerth cyhoeddus, o driongl strategol Mark Moore ymlaen, at benderfyniadau ymarferol mewn 33 pwnc hunangynhwysol.",
+  "translations": "Cyfieithiadau: "
+ },
  "de-de": {
+  "tagline": "Ein praxisnahes Handbuch bewährter Verfahren zur Schaffung öffentlichen Werts in Verwaltung und Sozialsektor.",
+  "intro": "Dieser Leitfaden richtet sich an Menschen, die Organisationen des öffentlichen und des sozialen Sektors führen: Behördenleitungen, kommunale Führungskräfte, Geschäftsführungen gemeinnütziger Organisationen sowie die Leitungen für Politik, Digitales, Finanzen und Betrieb, die sie unterstützen. Er wendet die Theorie des öffentlichen Werts, ausgehend von Mark Moores strategischem Dreieck, in 33 in sich geschlossenen Themen auf praktische Entscheidungen an.",
+  "translations": "Übersetzungen: "
+ },
+ "de-at": {
   "tagline": "Ein praxisnahes Handbuch bewährter Verfahren zur Schaffung öffentlichen Werts in Verwaltung und Sozialsektor.",
   "intro": "Dieser Leitfaden richtet sich an Menschen, die Organisationen des öffentlichen und des sozialen Sektors führen: Behördenleitungen, kommunale Führungskräfte, Geschäftsführungen gemeinnütziger Organisationen sowie die Leitungen für Politik, Digitales, Finanzen und Betrieb, die sie unterstützen. Er wendet die Theorie des öffentlichen Werts, ausgehend von Mark Moores strategischem Dreieck, in 33 in sich geschlossenen Themen auf praktische Entscheidungen an.",
   "translations": "Übersetzungen: "
@@ -101,6 +111,11 @@ export const HERO: Record<string, { tagline: string; intro?: string; translation
   "translations": "अनुवाद: "
  },
  "hi-in": {
+  "tagline": "सरकार और सामाजिक क्षेत्र में सार्वजनिक मूल्य के सृजन की सर्वोत्तम प्रथाओं की एक व्यावहारिक पुस्तिका।",
+  "intro": "यह मार्गदर्शिका उन लोगों के लिए है जो सार्वजनिक और सामाजिक क्षेत्र के संगठनों का नेतृत्व करते हैं: एजेंसी प्रमुख, स्थानीय सरकार के नेता, गैर-लाभकारी संस्थाओं के निदेशक और उनकी सहायता करने वाले नीति, डिजिटल, वित्त और संचालन के नेता। यह मार्क मूर के रणनीतिक त्रिकोण से शुरू होकर सार्वजनिक मूल्य सिद्धांत को 33 स्वतंत्र विषयों में व्यावहारिक निर्णयों पर लागू करती है।",
+  "translations": "अनुवाद: "
+ },
+ "hi-np": {
   "tagline": "सरकार और सामाजिक क्षेत्र में सार्वजनिक मूल्य के सृजन की सर्वोत्तम प्रथाओं की एक व्यावहारिक पुस्तिका।",
   "intro": "यह मार्गदर्शिका उन लोगों के लिए है जो सार्वजनिक और सामाजिक क्षेत्र के संगठनों का नेतृत्व करते हैं: एजेंसी प्रमुख, स्थानीय सरकार के नेता, गैर-लाभकारी संस्थाओं के निदेशक और उनकी सहायता करने वाले नीति, डिजिटल, वित्त और संचालन के नेता। यह मार्क मूर के रणनीतिक त्रिकोण से शुरू होकर सार्वजनिक मूल्य सिद्धांत को 33 स्वतंत्र विषयों में व्यावहारिक निर्णयों पर लागू करती है।",
   "translations": "अनुवाद: "
@@ -191,6 +206,11 @@ export const HERO: Record<string, { tagline: string; intro?: string; translation
   "translations": "翻译： "
  },
  "zh-cn": {
+  "tagline": "一本在政府和社会部门创造公共价值的最佳实践实用手册。",
+  "intro": "本指南面向领导公共和社会部门组织的人士：机构负责人、地方政府领导、非营利组织负责人，以及为他们提供支持的政策、数字、财务与运营负责人。它从马克·摩尔的战略三角出发，将公共价值理论运用到33个相互独立的主题中的实际决策里。",
+  "translations": "翻译： "
+ },
+ "zh-th": {
   "tagline": "一本在政府和社会部门创造公共价值的最佳实践实用手册。",
   "intro": "本指南面向领导公共和社会部门组织的人士：机构负责人、地方政府领导、非营利组织负责人，以及为他们提供支持的政策、数字、财务与运营负责人。它从马克·摩尔的战略三角出发，将公共价值理论运用到33个相互独立的主题中的实际决策里。",
   "translations": "翻译： "
@@ -362,5 +382,9 @@ export const ENDONYMS: Record<string, string> = {
  "tr-tr": "Türkçe",
  "tr-001": "Türkçe",
  "vi-vn": "Tiếng Việt",
- "vi-001": "Tiếng Việt"
+ "vi-001": "Tiếng Việt",
+ "zh-th": "简体中文 (泰国)",
+ "hi-np": "हिन्दी (नेपाल)",
+ "cy-ar": "Cymraeg (Ariannin)",
+ "de-at": "Deutsch (Österreich)"
 };
