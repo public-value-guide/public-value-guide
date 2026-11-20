@@ -200,6 +200,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `eu-001` | Euskara (mundua) — Basque (World), standard unified Basque (euskara batua) in the formal register; directory slugs are in Basque (lowercase, hyphen-separated); the topics directory is `gaiak`. |
 | `eu-es` | Euskara (Espainia) — Basque (Spain), an identical copy of `eu-001` for readers in Spain. |
 | `fa-001` | فارسی (جهان) — Persian (World), standard formal Persian, right-to-left, avoiding Iran- or Afghanistan-specific administrative idiom where a neutral term exists; directory slugs are in native Persian script (hyphen-separated, half-spaces turned into hyphens); the topics directory is `موضوعات`. AI-assisted and pending native review. |
+| `ga-001` | Gaeilge (domhan) — Irish (World), standard Irish (An Caighdeán Oifigiúil) in the formal register; directory slugs are in Irish (lowercase, hyphen-separated); the topics directory is `téamaí`. AI-assisted and pending native review. |
+| `ga-ie` | Gaeilge (Éire) — Irish (Ireland), an identical copy of `ga-001` for readers in Ireland. |
 
 The table above lists the locales with notes on terminology and script. The book is published in 60 locales in all; the directory names under `locales/` are the authoritative list, and each follows the naming convention above.
 
