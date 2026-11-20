@@ -140,6 +140,7 @@ The book is authored once, in the canonical locale, and translated into the othe
 |---|---|
 | `en-gb-oxendict` | **Canonical / source locale.** English (Great Britain), Oxford spelling. All new topics are drafted here first. |
 | `en-gb` | English (Great Britain), non-Oxford (`-ise` spellings). |
+| `en-ie` | English (Ireland), currently an identical copy of `en-gb` (`-ise` spellings, as used in Irish English); Ireland-specific institutional terminology is not yet applied. |
 | `en-us` | English (United States). |
 | `en-001` | English (World) — the CLDR "English (World)" variant: DD/MM/YYYY dates, Monday-first week, metric units, US$ instead of bare `$`. Used as the default fallback rather than `en-us`. |
 | `cy-gb` | Cymraeg (Wales, United Kingdom). |
@@ -196,6 +197,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `el-001` | Ελληνικά (κόσμος) — Greek (World), standard modern Greek in the formal register, avoiding Greece-specific administrative idiom where a neutral term exists; monotonic orthography; directory slugs are in Greek (lowercase, hyphen-separated); the topics directory is `θέματα`. |
 | `el-gr` | Ελληνικά (Ελλάδα) — Greek (Greece), an identical copy of `el-001` for readers in Greece. |
 | `el-cy` | Ελληνικά (Κύπρος) — Greek (Cyprus), currently an identical copy of `el-gr` for readers in Cyprus; Cyprus-specific administrative terminology is not yet applied. |
+| `eu-001` | Euskara (mundua) — Basque (World), standard unified Basque (euskara batua) in the formal register; directory slugs are in Basque (lowercase, hyphen-separated); the topics directory is `gaiak`. |
+| `eu-es` | Euskara (Espainia) — Basque (Spain), an identical copy of `eu-001` for readers in Spain. |
 
 The table above lists the locales with notes on terminology and script. The book is published in 60 locales in all; the directory names under `locales/` are the authoritative list, and each follows the naming convention above.
 
