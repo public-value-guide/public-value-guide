@@ -211,6 +211,7 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `hr-hr` | Hrvatski (Hrvatska) — Croatian (Croatia), an identical copy of `hr-001` for readers in Croatia. |
 | `hu-001` | Magyar (világ) — Hungarian (World), standard Hungarian in the formal register, avoiding Hungary-specific administrative idiom where a neutral term exists; directory slugs are in Hungarian (lowercase, hyphen-separated, diacritics kept); the topics directory is `témák`. AI-assisted and pending native review. |
 | `hu-hu` | Magyar (Magyarország) — Hungarian (Hungary), an identical copy of `hu-001` for readers in Hungary. |
+| `jv-001` | Basa Jawa (donya) — Javanese (World), standard written Javanese in Latin script in a formal register; directory slugs are in Javanese (lowercase, hyphen-separated, diacritics kept); the topics directory is `topik`. AI-assisted and pending native review. |
 
 The table above lists the locales with notes on terminology and script. The book is published in 60 locales in all; the directory names under `locales/` are the authoritative list, and each follows the naming convention above.
 
