@@ -16,7 +16,7 @@
   <link rel="canonical" href="{SITE_URL}/{data.locale}/" />
 </svelte:head>
 
-<ArticleLayout class="page">
+<ArticleLayout class={hero.tiles ? 'page page-home' : 'page'}>
   <header class="page-header page-hero">
     <h1>{t.siteTitle}</h1>
     <p class="page-hero-subheadline">{hero.tagline}</p>
@@ -29,4 +29,15 @@
         >{/each}
     </p>
   </header>
+  {#if hero.tiles}
+    <ul class="page-tiles">
+      {#each hero.tiles as tile (tile.topic)}
+        <li class="page-tile">
+          <h2>{tile.title}</h2>
+          <p>{tile.text}</p>
+          <p class="page-tile-link"><a href="/{data.locale}/topics/{tile.topic}/">{tile.link}</a></p>
+        </li>
+      {/each}
+    </ul>
+  {/if}
 </ArticleLayout>
