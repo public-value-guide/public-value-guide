@@ -1,8 +1,5 @@
 // Hand-authored hero strings (subheadline, intro, and the Translations label) and locale endonyms.
-/** One tile card on a locale landing page: a plain-language benefit and a link to the topic with more. */
-export type Tile = { title: string; text: string; topic: string; link: string };
-
-export const HERO: Record<string, { tagline: string; intro?: string; translations: string; tiles?: Tile[] }> = {
+export const HERO: Record<string, { tagline: string; intro?: string; translations: string }> = {
  "ar-001": {
   "tagline": "دليل عملي لأفضل الممارسات في خلق القيمة العامة في الحكومة والقطاع الاجتماعي.",
   "intro": "هذا الدليل موجّه إلى من يقودون مؤسسات القطاع العام والقطاع الاجتماعي: رؤساء الجهات الحكومية وقادة الحكم المحلي ومديرو المنظمات غير الربحية وقادة السياسات والتقنية والمالية والعمليات الذين يخدمونهم. يطبّق نظرية القيمة العامة، بدءًا من المثلث الاستراتيجي لمارك مور، على القرارات العملية في 33 موضوعًا مستقلًا.",
@@ -61,45 +58,7 @@ export const HERO: Record<string, { tagline: string; intro?: string; translation
  "en-001": {
   "tagline": "A practical handbook of best practices for creating public value in government and the social sector.",
   "intro": "This guide is for the people who lead public and social-sector organizations: agency heads, local-government leaders, nonprofit directors, and the policy, digital, finance, and operations leaders who serve them. It applies public value theory, from Mark Moore's strategic triangle onward, to practical decisions in 33 self-contained topics.",
-  "translations": "Translations: ",
-  "tiles": [
-   {
-    "title": "Know what you are here to achieve",
-    "text": "Get a clear, shared answer to what your organization is for, and why that matters to the people it serves. You will leave with words you can use in a strategy, a budget meeting, or a team talk.",
-    "topic": "1-1-introduction-to-public-value",
-    "link": "Read about public value"
-   },
-   {
-    "title": "Work with the people you serve",
-    "text": "Learn practical ways to involve residents, service users, and partners in designing and delivering services, so the result fits their lives and earns their support.",
-    "topic": "1-5-stakeholders-citizens-and-co-production",
-    "link": "Read about co-production"
-   },
-   {
-    "title": "Show the difference you make",
-    "text": "Build a simple set of measures that tell your story honestly, so you can see what is working, adjust early, and explain results to leaders and the public.",
-    "topic": "2-1-the-public-value-scorecard-and-outcomes-frameworks",
-    "link": "Read about scorecards and outcomes"
-   },
-   {
-    "title": "Make a stronger case for funding",
-    "text": "Learn how to set out costs, benefits, and risks so decision makers can say yes with confidence, and so you can show later that the money was well spent.",
-    "topic": "2-5-business-cases-and-value-for-money",
-    "link": "Read about business cases"
-   },
-   {
-    "title": "Earn and keep trust",
-    "text": "See what makes an organization accountable, open, and legitimate in the eyes of the public, and what you can do this year to strengthen all three.",
-    "topic": "3-4-accountability-transparency-and-legitimacy",
-    "link": "Read about accountability and trust"
-   },
-   {
-    "title": "Use digital tools to serve people better",
-    "text": "Find out how to improve services with technology without losing sight of people who are hardest to reach, and how to avoid the common reasons digital projects stall.",
-    "topic": "5-1-digital-government-and-digital-transformation",
-    "link": "Read about digital government"
-   }
-  ]
+  "translations": "Translations: "
  },
  "en-gb": {
   "tagline": "A practical handbook of best practices for creating public value in government and the social sector.",
