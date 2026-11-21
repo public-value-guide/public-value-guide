@@ -214,6 +214,7 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `jv-001` | Basa Jawa (donya) — Javanese (World), standard written Javanese in Latin script in a formal register; directory slugs are in Javanese (lowercase, hyphen-separated, diacritics kept); the topics directory is `topik`. AI-assisted and pending native review. |
 | `km-001` | ខ្មែរ (ពិភពលោក) — Khmer (World), standard formal Khmer in Khmer script following Royal Academy spelling, avoiding Cambodia-specific administrative idiom where a neutral term exists; directory slugs are in native Khmer script (hyphen-separated, combining marks kept); the topics directory is `ប្រធានបទ`. AI-assisted and pending native review. |
 | `km-kh` | ខ្មែរ (កម្ពុជា) — Khmer (Cambodia), an identical copy of `km-001` for readers in Cambodia. |
+| `kn-001` | ಕನ್ನಡ (ವಿಶ್ವ) — Kannada (World), standard formal Kannada in Kannada script, avoiding Karnataka-specific administrative idiom where a neutral term exists; directory slugs are in native Kannada script (hyphen-separated, combining marks kept); the topics directory is `ವಿಷಯಗಳು`. AI-assisted and pending native review. |
 
 The table above lists the locales with notes on terminology and script. The book is published in 60 locales in all; the directory names under `locales/` are the authoritative list, and each follows the naming convention above.
 
