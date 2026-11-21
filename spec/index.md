@@ -207,6 +207,8 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `gu-001` | ગુજરાતી (વિશ્વ) — Gujarati (World), standard formal Gujarati in Gujarati script, avoiding India-specific administrative idiom where a neutral term exists; directory slugs are in native Gujarati script (hyphen-separated, combining marks kept); the topics directory is `વિષયો`. AI-assisted and pending native review. |
 | `ha-001` | Hausa (duniya) — Hausa (World), standard Hausa in Latin (boko) script with hooked letters (ɓ ɗ ƙ ƴ), formal register; directory slugs are in Hausa (lowercase, hyphen-separated, apostrophes dropped); the topics directory is `batutuwa`. AI-assisted and pending native review. |
 | `he-001` | עברית (העולם) — Hebrew (World), standard formal Modern Hebrew without niqqud, right-to-left, avoiding Israel-specific administrative idiom where a neutral term exists; directory slugs are in native Hebrew script (hyphen-separated); the topics directory is `נושאים`. AI-assisted and pending native review. |
+| `hr-001` | Hrvatski (svijet) — Croatian (World), standard Croatian in the formal register, avoiding Croatia-specific administrative idiom where a neutral term exists; directory slugs are in Croatian (lowercase, hyphen-separated, diacritics kept); the topics directory is `teme`. AI-assisted and pending native review. |
+| `hr-hr` | Hrvatski (Hrvatska) — Croatian (Croatia), an identical copy of `hr-001` for readers in Croatia. |
 
 The table above lists the locales with notes on terminology and script. The book is published in 60 locales in all; the directory names under `locales/` are the authoritative list, and each follows the naming convention above.
 
