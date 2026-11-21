@@ -111,7 +111,23 @@ export const LOCALES: Locale[] = [
   { slug: 'zh-th', label: '中文 - 泰国 - 简体' },
   { slug: 'hi-np', label: 'हिन्दी - नेपाल' },
   { slug: 'cy-ar', label: 'Cymraeg - Ariannin' },
-  { slug: 'de-at', label: 'Deutsch - Österreich' }
+  { slug: 'de-at', label: 'Deutsch - Österreich' },
+  { slug: 'bg-001', label: 'Български' },
+  { slug: 'bg-bg', label: 'Български - България' },
+  { slug: 'cs-001', label: 'Čeština' },
+  { slug: 'cs-cz', label: 'Čeština - Česko' },
+  { slug: 'el-001', label: 'Ελληνικά' },
+  { slug: 'el-gr', label: 'Ελληνικά - Ελλάδα' },
+  { slug: 'el-cy', label: 'Ελληνικά - Κύπρος' },
+  { slug: 'fa-001', label: 'فارسی' },
+  { slug: 'ga-001', label: 'Gaeilge' },
+  { slug: 'ga-ie', label: 'Gaeilge - Éire' },
+  { slug: 'gd-001', label: 'Gàidhlig' },
+  { slug: 'gd-gb', label: 'Gàidhlig - Breatainn Mhòr' },
+  { slug: 'eu-001', label: 'Euskara' },
+  { slug: 'eu-es', label: 'Euskara - Espainia' },
+  { slug: 'da-dk', label: 'Dansk - Danmark' },
+  { slug: 'en-ie', label: 'English - Ireland' }
 ];
 
 /**
@@ -740,6 +756,102 @@ PART_TRANSLATIONS['zh-th'] = PART_TRANSLATIONS['zh-cn'];
 PART_TRANSLATIONS['hi-np'] = PART_TRANSLATIONS['hi-in'];
 PART_TRANSLATIONS['cy-ar'] = PART_TRANSLATIONS['cy-gb'];
 PART_TRANSLATIONS['de-at'] = PART_TRANSLATIONS['de-de'];
+PART_TRANSLATIONS['bg-001'] = {
+  1: { title: 'Основи', tagline: 'защо публичната стойност се различава от пазарната стойност и от демократичния мандат сами по себе си, и моделите, които я обясняват' },
+  2: { title: 'Оценка и доказателства', tagline: 'инструментариумът на анализатора: остойностяване на резултатите, изграждане на аргументацията, проверка на твърденията' },
+  3: { title: 'Системи, управление и приоритети', tagline: 'как са структурирани, финансирани и държани отговорни публичните организации и организациите от социалния сектор' },
+  4: { title: 'Глобални и обществени проблеми', tagline: 'публичната стойност отвъд една институция: поведение, доверие, планетата и общественият разговор' },
+  5: { title: 'Цифрова сфера, софтуер и технологии', tagline: 'публичната стойност на технологиите: цифрово управление, изкуствен интелект, софтуер, данни и киберсигурност' }
+};
+PART_TRANSLATIONS['bg-bg'] = PART_TRANSLATIONS['bg-001'];
+PART_TRANSLATIONS['cs-001'] = {
+  1: { title: 'Základy', tagline: 'proč se veřejná hodnota liší od tržní hodnoty i od samotného demokratického mandátu a jaké modely ji vysvětlují' },
+  2: { title: 'Hodnocení a důkazy', tagline: 'analytikova sada nástrojů: oceňování výsledků, budování argumentace, ověřování tvrzení' },
+  3: { title: 'Systémy, správa a priority', tagline: 'jak jsou veřejné organizace a organizace sociálního sektoru strukturovány, financovány a jak jsou volány k odpovědnosti' },
+  4: { title: 'Globální a společenské otázky', tagline: 'veřejná hodnota nad rámec jedné instituce: chování, důvěra, planeta a veřejná debata' },
+  5: { title: 'Digitální technologie, software a technika', tagline: 'veřejná hodnota technologií: digitální vláda, umělá inteligence, software, data a kybernetická bezpečnost' }
+};
+PART_TRANSLATIONS['cs-cz'] = PART_TRANSLATIONS['cs-001'];
+PART_TRANSLATIONS['el-001'] = {
+  1: { title: 'Θεμέλια', tagline: 'γιατί η δημόσια αξία διαφέρει από την αξία της αγοράς ή μόνο από τη δημοκρατική εντολή, και τα μοντέλα που την εξηγούν' },
+  2: { title: 'Αξιολόγηση και τεκμήρια', tagline: 'η εργαλειοθήκη του αναλυτή: αποτίμηση των αποτελεσμάτων, θεμελίωση της επιχειρηματολογίας, έλεγχος των ισχυρισμών' },
+  3: { title: 'Συστήματα, διακυβέρνηση και προτεραιότητες', tagline: 'πώς δομούνται, χρηματοδοτούνται και λογοδοτούν οι δημόσιοι οργανισμοί και οι οργανισμοί του κοινωνικού τομέα' },
+  4: { title: 'Παγκόσμια και κοινωνικά ζητήματα', tagline: 'δημόσια αξία πέρα από έναν μεμονωμένο θεσμό: συμπεριφορά, εμπιστοσύνη, ο πλανήτης και ο δημόσιος διάλογος' },
+  5: { title: 'Ψηφιακά, λογισμικό και τεχνολογία', tagline: 'η δημόσια αξία της τεχνολογίας: ψηφιακή διακυβέρνηση, τεχνητή νοημοσύνη, λογισμικό, δεδομένα και κυβερνοασφάλεια' }
+};
+PART_TRANSLATIONS['el-gr'] = PART_TRANSLATIONS['el-001'];
+PART_TRANSLATIONS['el-cy'] = PART_TRANSLATIONS['el-001'];
+PART_TRANSLATIONS['fa-001'] = {
+  1: { title: 'بنیان‌ها', tagline: 'چرا ارزش عمومی با ارزش بازار یا مأموریت دموکراتیک به‌تنهایی فرق دارد، و الگوهایی که آن را توضیح می‌دهند' },
+  2: { title: 'ارزیابی و شواهد', tagline: 'جعبه‌ابزار تحلیلگر: ارزش‌گذاری پیامدها، ساختن استدلال، آزمودن ادعاها' },
+  3: { title: 'نظام‌ها، حکمرانی و اولویت‌ها', tagline: 'سازمان‌های عمومی و بخش اجتماعی چگونه ساختار می‌یابند، تأمین مالی می‌شوند و پاسخگو نگه داشته می‌شوند' },
+  4: { title: 'مسائل جهانی و اجتماعی', tagline: 'ارزش عمومی فراتر از یک نهاد: رفتار، اعتماد، کرهٔ زمین و گفت‌وگوی عمومی' },
+  5: { title: 'دیجیتال، نرم‌افزار و فناوری', tagline: 'ارزش عمومی فناوری: دولت دیجیتال، هوش مصنوعی، نرم‌افزار، داده و امنیت سایبری' }
+};
+PART_TRANSLATIONS['ga-001'] = {
+  1: {
+    title: 'Bunsraitheanna',
+    tagline:
+      'cén fáth a bhfuil luach poiblí difriúil ó luach margaidh nó ó shainordú daonlathach amháin, agus na samhlacha a mhíníonn é'
+  },
+  2: {
+    title: 'Meastóireacht agus Fianaise',
+    tagline: 'bosca uirlisí an anailísí: luach a chur ar thorthaí, an cás a thógáil, éilimh a thástáil'
+  },
+  3: {
+    title: 'Córais, Rialachas agus Tosaíochtaí',
+    tagline:
+      'conas a bhfuil eagraíochtaí poiblí agus eagraíochtaí san earnáil shóisialta struchtúrtha, maoinithe agus cuntasach'
+  },
+  4: {
+    title: 'Saincheisteanna Domhanda agus Sochaíocha',
+    tagline:
+      'luach poiblí níos faide ná institiúid amháin: iompar, muinín, an phláinéad agus an comhrá poiblí'
+  },
+  5: {
+    title: 'Digiteach, Bogearraí agus Teicneolaíocht',
+    tagline:
+      'luach poiblí na teicneolaíochta: rialtas digiteach, intleacht shaorga, bogearraí, sonraí agus cibearshlándáil'
+  }
+};
+PART_TRANSLATIONS['ga-ie'] = PART_TRANSLATIONS['ga-001'];
+PART_TRANSLATIONS['gd-001'] = {
+  1: { title: "Bunaitean", tagline: "carson a tha luach poblach eadar-dhealaichte bho luach margaidh no ùghdarras deamocratach leis fhèin, agus na modailean a mhìnicheas e" },
+  2: { title: "Measadh agus Fianais", tagline: "bogsa-innealan an sgrùdaiche: luach a chur air builean, an cùis a thogail, agus tagraidhean a dhearbhadh" },
+  3: { title: "Siostaman, Riaghladh agus Prìomhachasan", tagline: "mar a tha buidhnean poblach is buidhnean na roinne sòisealta air an structaradh, air am maoineachadh agus air an cumail cunntachail" },
+  4: { title: "Cùisean Cruinneil is Sòisealta", tagline: "luach poblach nas fhaide na aon institiud: giùlan, earbsa, an saoghal agus an còmhradh poblach" },
+  5: { title: "Didseatach, Bathar-bog agus Teicneòlas", tagline: "luach poblach an teicneòlais: riaghaltas didseatach, fiosrachadh fuadain, bathar-bog, dàta agus tèarainteachd lìn" }
+};
+PART_TRANSLATIONS['gd-gb'] = PART_TRANSLATIONS['gd-001'];
+PART_TRANSLATIONS['eu-001'] = {
+  1: {
+    title: 'Oinarriak',
+    tagline:
+      'zergatik den balio publikoa merkatu-balioaren edo agindu demokratikoaren soilik desberdina, eta hori azaltzen duten ereduak'
+  },
+  2: {
+    title: 'Ebaluazioa eta Ebidentzia',
+    tagline: 'analistaren tresna-kutxa: emaitzak baloratzea, kasua eraikitzea, baieztapenak probatzea'
+  },
+  3: {
+    title: 'Sistemak, Gobernantza eta Lehentasunak',
+    tagline:
+      'sektore publikoko eta gizarte-sektoreko erakundeak nola egituratzen, finantzatzen eta kontuak ematera behartzen diren'
+  },
+  4: {
+    title: 'Gai Global eta Sozialak',
+    tagline:
+      'erakunde bakar bat gainditzen duen balio publikoa: portaera, konfiantza, planeta eta eztabaida publikoa'
+  },
+  5: {
+    title: 'Digitala, Softwarea eta Teknologia',
+    tagline:
+      'teknologiaren balio publikoa: gobernu digitala, adimen artifiziala, softwarea, datuak eta zibersegurtasuna'
+  }
+};
+PART_TRANSLATIONS['eu-es'] = PART_TRANSLATIONS['eu-001'];
+PART_TRANSLATIONS['da-dk'] = PART_TRANSLATIONS['da-001'];
+PART_TRANSLATIONS['en-ie'] = PART_TRANSLATIONS['en-gb'];
 
 /** `PARTS`, translated for `locale` where a translation exists, English otherwise. */
 export function partsFor(locale: string): Part[] {

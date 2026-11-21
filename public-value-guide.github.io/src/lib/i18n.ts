@@ -1599,6 +1599,391 @@ const viVn: UiStrings = {
   }
 };
 
+const bgUi: UiStrings = {
+  siteTitle: 'Наръчник за публичната стойност',
+  skipToContent: 'Към основното съдържание',
+  nav: { contents: 'Съдържание', glossary: 'Речник', index: 'Азбучен указател', source: 'Изходен код' },
+  breadcrumb: { home: 'Начало', contents: 'Съдържание' },
+  picker: { theme: 'Тема на оформлението', locale: 'Език', textSize: 'Размер на текста', share: 'Споделяне',
+    search: 'Търсене',
+    searchInput: 'Търсене в наръчника',
+    searchSubmit: 'Изпращане на търсенето'
+  },
+  share: {
+    emailLink: 'Изпращане на връзката по имейл',
+    shareOnLinkedIn: 'Споделяне в LinkedIn',
+    shareOnReddit: 'Споделяне в Reddit',
+    shareOnBluesky: 'Споделяне в Bluesky',
+    shareOnMastodon: 'Споделяне в Mastodon',
+    copyLink: 'Копиране на връзката',
+    copied: 'Копирано!',
+    copyFailed: 'Копирането не бе успешно – копирайте адреса от адресната лента'
+  },
+  contents: {
+    pageTitle: 'Съдържание',
+    lead: 'Всяка тема е самостоятелна. Прочетете наръчника от начало докрай като курс по публична стойност или преминете направо към темата, която отговаря на решението, пред което сте изправени.',
+    readingIn: (label) => `Четете на ${label}. Сменете езика от избора на език в горната част на страницата.`,
+    frontMatter: 'Предговор',
+    part: (n) => `Част ${n}`,
+    reference: 'Справочни материали'
+  },
+  topic: {
+    topicEyebrow: (n) => `Тема ${n}`,
+    paginationLabel: 'Тема',
+    onThisPage: 'На тази страница',
+    previous: 'Предишна',
+    next: 'Следваща'
+  },
+  links: { label: 'Връзки', skills: 'Умения за ИИ', llms: 'За ИИ агенти (llms.txt)', issues: 'Подаване на сигнал за проблем' },
+  results: {
+    label: 'Резултати от търсенето',
+    heading: (q) => `Търсене: ${q}`,
+    searching: 'Търсене…',
+    none: (q) => `Няма резултати за „${q}“.`,
+    browse: 'Преглед на съдържанието',
+    failed: 'Индексът за търсене не можа да бъде зареден.',
+    count: (n, more) => `${n}${more ? '+' : ''} ${n === 1 ? 'резултат' : 'резултата'}`,
+    button: 'Търсене'
+  },
+  footer: {
+    tagline:
+      'практически наръчник с най-добри практики за създаване на публична стойност в държавното управление и социалния сектор, с обхват по целия свят.',
+    sourceAndContributions: 'Изходен код и принос:',
+    builtWith: 'Създадено с',
+    ledBy: 'Ръководител:'
+  }
+};
+
+const csUi: UiStrings = {
+  siteTitle: 'Průvodce veřejnou hodnotou',
+  skipToContent: 'Přejít na hlavní obsah',
+  nav: { contents: 'Obsah', glossary: 'Slovníček', index: 'Rejstřík', source: 'Zdroj' },
+  breadcrumb: { home: 'Domů', contents: 'Obsah' },
+  picker: { theme: 'Motiv', locale: 'Jazyk', textSize: 'Velikost textu', share: 'Sdílet',
+    search: 'Hledat',
+    searchInput: 'Hledat v průvodci',
+    searchSubmit: 'Odeslat hledání'
+  },
+  share: {
+    emailLink: 'Poslat odkaz e-mailem',
+    shareOnLinkedIn: 'Sdílet na LinkedIn',
+    shareOnReddit: 'Sdílet na Reddit',
+    shareOnBluesky: 'Sdílet na Bluesky',
+    shareOnMastodon: 'Sdílet na Mastodon',
+    copyLink: 'Kopírovat odkaz',
+    copied: 'Zkopírováno!',
+    copyFailed: 'Kopírování se nezdařilo – zkopírujte místo toho adresu z adresního řádku'
+  },
+  contents: {
+    pageTitle: 'Obsah',
+    lead: 'Každé téma je samostatné. Můžete číst od začátku do konce jako kurz veřejné hodnoty, nebo přejít přímo k tématu, které odpovídá rozhodnutí, před nímž stojíte.',
+    readingIn: (label) => `Čtete v jazyce: ${label}. Jazyk změníte ve výběru jazyka v záhlaví.`,
+    frontMatter: 'Úvodní části',
+    part: (n) => `Část ${n}`,
+    reference: 'Reference'
+  },
+  topic: {
+    topicEyebrow: (n) => `Téma ${n}`,
+    paginationLabel: 'Téma',
+    onThisPage: 'Na této stránce',
+    previous: 'Předchozí',
+    next: 'Další'
+  },
+  links: { label: 'Odkazy', skills: 'Dovednosti pro AI', llms: 'Pro agenty AI (llms.txt)', issues: 'Nahlásit problém' },
+  results: {
+    label: 'Výsledky hledání',
+    heading: (q) => `Hledání: ${q}`,
+    searching: 'Hledání…',
+    none: (q) => `Pro „${q}“ nebyly nalezeny žádné výsledky.`,
+    browse: 'Procházet obsah',
+    failed: 'Vyhledávací index se nepodařilo načíst.',
+    count: (n, more) => `${n}${more ? '+' : ''} ${n === 1 ? 'výsledek' : n >= 2 && n <= 4 ? 'výsledky' : 'výsledků'}`,
+    button: 'Hledat'
+  },
+  footer: {
+    tagline:
+      'praktická příručka osvědčených postupů tvorby veřejné hodnoty ve veřejné správě a v sociálním sektoru, s celosvětovým záběrem.',
+    sourceAndContributions: 'Zdroj a příspěvky:',
+    builtWith: 'Vytvořeno s využitím',
+    ledBy: 'Vede'
+  }
+};
+
+const elUi: UiStrings = {
+  siteTitle: 'Οδηγός Δημόσιας Αξίας',
+  skipToContent: 'Μετάβαση στο κύριο περιεχόμενο',
+  nav: { contents: 'Περιεχόμενα', glossary: 'Γλωσσάριο', index: 'Ευρετήριο', source: 'Πηγή' },
+  breadcrumb: { home: 'Αρχική', contents: 'Περιεχόμενα' },
+  picker: { theme: 'Θέμα εμφάνισης', locale: 'Γλώσσα', textSize: 'Μέγεθος κειμένου', share: 'Κοινοποίηση',
+    search: 'Αναζήτηση',
+    searchInput: 'Αναζήτηση στον οδηγό',
+    searchSubmit: 'Υποβολή αναζήτησης'
+  },
+  share: {
+    emailLink: 'Αποστολή συνδέσμου με email',
+    shareOnLinkedIn: 'Κοινοποίηση στο LinkedIn',
+    shareOnReddit: 'Κοινοποίηση στο Reddit',
+    shareOnBluesky: 'Κοινοποίηση στο Bluesky',
+    shareOnMastodon: 'Κοινοποίηση στο Mastodon',
+    copyLink: 'Αντιγραφή συνδέσμου',
+    copied: 'Αντιγράφηκε!',
+    copyFailed: 'Η αντιγραφή απέτυχε — αντιγράψτε τη διεύθυνση από τη γραμμή διευθύνσεων'
+  },
+  contents: {
+    pageTitle: 'Περιεχόμενα',
+    lead: 'Κάθε θέμα είναι αυτοτελές. Διαβάστε τον οδηγό από την αρχή ως το τέλος ως μάθημα για τη δημόσια αξία ή μεταβείτε απευθείας στο θέμα που ταιριάζει με την απόφαση που έχετε μπροστά σας.',
+    readingIn: (label) => `Διαβάζετε στα ${label}. Αλλάξτε γλώσσα από την επιλογή γλώσσας στην κεφαλίδα.`,
+    frontMatter: 'Προλεγόμενα',
+    part: (n) => `Μέρος ${n}`,
+    reference: 'Αναφορά'
+  },
+  topic: {
+    topicEyebrow: (n) => `Θέμα ${n}`,
+    paginationLabel: 'Θέμα',
+    onThisPage: 'Σε αυτή τη σελίδα',
+    previous: 'Προηγούμενο',
+    next: 'Επόμενο'
+  },
+  links: { label: 'Σύνδεσμοι', skills: 'Δεξιότητες τεχνητής νοημοσύνης', llms: 'Για πράκτορες τεχνητής νοημοσύνης (llms.txt)', issues: 'Αναφορά προβλήματος' },
+  results: {
+    label: 'Αποτελέσματα αναζήτησης',
+    heading: (q) => `Αναζήτηση: ${q}`,
+    searching: 'Αναζήτηση…',
+    none: (q) => `Δεν βρέθηκαν αποτελέσματα για «${q}».`,
+    browse: 'Περιήγηση στα περιεχόμενα',
+    failed: 'Δεν ήταν δυνατή η φόρτωση του ευρετηρίου αναζήτησης.',
+    count: (n, more) => `${n}${more ? '+' : ''} ${n === 1 ? 'αποτέλεσμα' : 'αποτελέσματα'}`,
+    button: 'Αναζήτηση'
+  },
+  footer: {
+    tagline:
+      'ένα πρακτικό εγχειρίδιο βέλτιστων πρακτικών για τη δημιουργία δημόσιας αξίας στη διακυβέρνηση και στον κοινωνικό τομέα, με παγκόσμια εμβέλεια.',
+    sourceAndContributions: 'Πηγή και συνεισφορές:',
+    builtWith: 'Δημιουργήθηκε με το',
+    ledBy: 'Υπό την ηγεσία του'
+  }
+};
+
+const faUi: UiStrings = {
+  siteTitle: 'راهنمای ارزش عمومی',
+  skipToContent: 'رفتن به محتوای اصلی',
+  nav: { contents: 'فهرست مطالب', glossary: 'واژه‌نامه', index: 'نمایه', source: 'منبع' },
+  breadcrumb: { home: 'خانه', contents: 'فهرست مطالب' },
+  picker: { theme: 'پوسته', locale: 'زبان', textSize: 'اندازهٔ متن', share: 'اشتراک‌گذاری',
+    search: 'جست‌وجو',
+    searchInput: 'جست‌وجو در راهنما',
+    searchSubmit: 'ثبت جست‌وجو'
+  },
+  share: {
+    emailLink: 'ارسال پیوند با ایمیل',
+    shareOnLinkedIn: 'اشتراک‌گذاری در LinkedIn',
+    shareOnReddit: 'اشتراک‌گذاری در Reddit',
+    shareOnBluesky: 'اشتراک‌گذاری در Bluesky',
+    shareOnMastodon: 'اشتراک‌گذاری در Mastodon',
+    copyLink: 'کپی پیوند',
+    copied: 'کپی شد!',
+    copyFailed: 'کپی انجام نشد — نشانی را از نوار آدرس کپی کنید'
+  },
+  contents: {
+    pageTitle: 'فهرست مطالب',
+    lead: 'هر موضوع به‌تنهایی کامل است. می‌توانید آن را همچون یک دورهٔ آموزشی دربارهٔ ارزش عمومی از ابتدا تا انتها بخوانید، یا مستقیم به موضوعی بروید که با تصمیم پیش روی شما همخوان است.',
+    readingIn: (label) => `در حال مطالعه به زبان ${label}. زبان را از انتخابگر زبان در سرصفحه تغییر دهید.`,
+    frontMatter: 'بخش آغازین',
+    part: (n) => `بخش ${n}`,
+    reference: 'مرجع'
+  },
+  topic: {
+    topicEyebrow: (n) => `موضوع ${n}`,
+    paginationLabel: 'موضوع',
+    onThisPage: 'در این صفحه',
+    previous: 'قبلی',
+    next: 'بعدی'
+  },
+  links: { label: 'پیوندها', skills: 'مهارت‌های هوش مصنوعی', llms: 'برای عامل‌های هوش مصنوعی (llms.txt)', issues: 'گزارش مشکل' },
+  results: {
+    label: 'نتایج جست‌وجو',
+    heading: (q) => `جست‌وجو: ${q}`,
+    searching: 'در حال جست‌وجو…',
+    none: (q) => `نتیجه‌ای برای «${q}» یافت نشد.`,
+    browse: 'مرور فهرست مطالب',
+    failed: 'بارگذاری نمایهٔ جست‌وجو ممکن نشد.',
+    count: (n, more) => `${n}${more ? '+' : ''} نتیجه`,
+    button: 'جست‌وجو'
+  },
+  footer: {
+    tagline:
+      'راهنمایی عملی از بهترین روش‌ها برای آفرینش ارزش عمومی در دولت و بخش اجتماعی، با دامنه‌ای جهانی.',
+    sourceAndContributions: 'منبع و مشارکت‌ها:',
+    builtWith: 'ساخته‌شده با',
+    ledBy: 'به رهبری'
+  }
+};
+
+const gaUi: UiStrings = {
+  siteTitle: 'Treoir um Luach Poiblí',
+  skipToContent: 'Léim go dtí an príomhábhar',
+  nav: { contents: 'Clár ábhair', glossary: 'Foclóir', index: 'Innéacs', source: 'Foinse' },
+  breadcrumb: { home: 'Baile', contents: 'Clár ábhair' },
+  picker: { theme: 'Cuma', locale: 'Teanga', textSize: 'Méid an téacs', share: 'Comhroinn',
+    search: 'Cuardach',
+    searchInput: 'Cuardaigh an treoir',
+    searchSubmit: 'Cuir an cuardach isteach'
+  },
+  share: {
+    emailLink: 'Seol an nasc trí ríomhphost',
+    shareOnLinkedIn: 'Comhroinn ar LinkedIn',
+    shareOnReddit: 'Comhroinn ar Reddit',
+    shareOnBluesky: 'Comhroinn ar Bluesky',
+    shareOnMastodon: 'Comhroinn ar Mastodon',
+    copyLink: 'Cóipeáil an nasc',
+    copied: 'Cóipeáilte!',
+    copyFailed: 'Theip ar an gcóipeáil – cóipeáil seoladh an bhrabhsálaí ina ionad'
+  },
+  contents: {
+    pageTitle: 'Clár ábhair',
+    lead: 'Tá gach téama féinchuimsitheach. Is féidir an treoir a léamh ó thús deireadh mar chúrsa i luach poiblí, nó dul go díreach chuig an téama a oireann don chinneadh atá le déanamh.',
+    readingIn: (label) => `Ag léamh i ${label}. Athraigh an teanga ón roghnóir teanga sa cheanntásc.`,
+    frontMatter: 'Réamhábhar',
+    part: (n) => `Cuid ${n}`,
+    reference: 'Tagairt'
+  },
+  topic: {
+    topicEyebrow: (n) => `Téama ${n}`,
+    paginationLabel: 'Téama',
+    onThisPage: 'Ar an leathanach seo',
+    previous: 'Roimhe',
+    next: 'Ar aghaidh'
+  },
+  links: { label: 'Naisc', skills: 'Scileanna AI', llms: "Do ghníomhairí AI (llms.txt)", issues: 'Tuairiscigh fadhb' },
+  results: {
+    label: 'Torthaí cuardaigh',
+    heading: (q) => `Cuardach: ${q}`,
+    searching: 'Ag cuardach…',
+    none: (q) => `Gan torthaí do “${q}”.`,
+    browse: 'Brabhsáil an clár ábhair',
+    failed: 'Níorbh fhéidir an t-innéacs cuardaigh a luchtú.',
+    count: (n, more) => `Torthaí: ${n}${more ? '+' : ''}`,
+    button: 'Cuardaigh'
+  },
+  footer: {
+    tagline:
+      'lámhleabhar praiticiúil de dhea-chleachtais chun luach poiblí a chruthú sa rialtas agus san earnáil shóisialta, a bhfuil raon domhanda aige.',
+    sourceAndContributions: 'Foinse agus ranníocaíochtaí:',
+    builtWith: 'Tógtha le',
+    ledBy: 'Faoi stiúir'
+  }
+};
+
+const gdUi: UiStrings = {
+  siteTitle: "Treòir Luach Phoblaich",
+  skipToContent: "Leum dhan phrìomh susbaint",
+  nav: { contents: "Clàr-innse", glossary: "Faclair", index: "Clàr-amais", source: "Tùs" },
+  breadcrumb: { home: "Dachaigh", contents: "Clàr-innse" },
+  picker: { theme: "Dreach", locale: "Cànan", textSize: "Meud an teacsa", share: "Co-roinn",
+    search: "Lorg",
+    searchInput: "Lorg san treòir",
+    searchSubmit: "Cuir a-null an lorg"
+  },
+  share: {
+    emailLink: "Cuir an ceangal air post-d",
+    shareOnLinkedIn: "Co-roinn air LinkedIn",
+    shareOnReddit: "Co-roinn air Reddit",
+    shareOnBluesky: "Co-roinn air Bluesky",
+    shareOnMastodon: "Co-roinn air Mastodon",
+    copyLink: "Dèan lethbhreac dhen cheangal",
+    copied: "Chaidh lethbhreac a dhèanamh!",
+    copyFailed: "Dh’fhàillig an lethbhreac – dèanaibh lethbhreac de bhàr an t-seòlaidh na àite"
+  },
+  contents: {
+    pageTitle: "Clàr-innse",
+    lead: "Tha gach cuspair fèin-chumhaichte. Leughaibh o thòiseach gu deireadh e mar chùrsa ann an luach poblach, no rachaibh gu dìreach chun a’ chuspair a fhreagras air a’ cho-dhùnadh a tha romhaibh.",
+    readingIn: (label) => `A’ leughadh ann an ${label}. Atharraichibh cànan bhon taghadair aig mullach na duilleige.`,
+    frontMatter: "Roimh-ràdh",
+    part: (n) => `Pàirt ${n}`,
+    reference: "Iomradh"
+  },
+  topic: {
+    topicEyebrow: (n) => `Cuspair ${n}`,
+    paginationLabel: "Cuspair",
+    onThisPage: "Air an duilleag seo",
+    previous: "Roimhe",
+    next: "Air adhart"
+  },
+  links: { label: "Ceanglaichean", skills: "Sgilean AI", llms: "Airson àidseantan AI (llms.txt)", issues: "Dèan aithris air duilgheadas" },
+  results: {
+    label: "Toraidhean an luirg",
+    heading: (q) => `Lorg: ${q}`,
+    searching: "A’ lorg…",
+    none: (q) => `Cha deach toradh a lorg airson “${q}”.`,
+    browse: "Brabhsaich an clàr-innse",
+    failed: "Cha b’ urrainn clàr-amais an luirg a luchdadh.",
+    count: (n, more) => `Toraidhean: ${n}${more ? '+' : ''}`,
+    button: "Lorg"
+  },
+  footer: {
+    tagline:
+      "leabhar-làimhe practaigeach de na cleachdaidhean as fheàrr airson luach poblach a chruthachadh ann an riaghaltas agus san roinn shòisealta, air sgàile na cruinne.",
+    sourceAndContributions: "Tùs agus tabhartasan:",
+    builtWith: "Air a thogail leis an",
+    ledBy: "Fo stiùir"
+  }
+};
+
+const euUi: UiStrings = {
+  siteTitle: 'Balio Publikoaren Gida',
+  skipToContent: 'Joan eduki nagusira',
+  nav: { contents: 'Edukia', glossary: 'Glosarioa', index: 'Aurkibide alfabetikoa', source: 'Iturria' },
+  breadcrumb: { home: 'Hasiera', contents: 'Edukia' },
+  picker: { theme: 'Itxura', locale: 'Hizkuntza', textSize: 'Testuaren tamaina', share: 'Partekatu',
+    search: 'Bilatu',
+    searchInput: 'Bilatu gidan',
+    searchSubmit: 'Bidali bilaketa'
+  },
+  share: {
+    emailLink: 'Bidali esteka posta elektronikoz',
+    shareOnLinkedIn: 'Partekatu LinkedIn-en',
+    shareOnReddit: 'Partekatu Reddit-en',
+    shareOnBluesky: 'Partekatu Bluesky-n',
+    shareOnMastodon: 'Partekatu Mastodon-en',
+    copyLink: 'Kopiatu esteka',
+    copied: 'Kopiatuta!',
+    copyFailed: 'Ezin izan da kopiatu — kopiatu helbide-barra'
+  },
+  contents: {
+    pageTitle: 'Edukia',
+    lead: 'Gai bakoitza bere horretan ulergarria da. Irakurri hasieratik bukaeraraino balio publikoari buruzko ikastaro gisa, edo joan zuzenean zure aurrean duzun erabakiarekin bat datorren gaira.',
+    readingIn: (label) => `${label} hizkuntzan irakurtzen. Aldatu hizkuntza goiburuko hautatzailetik.`,
+    frontMatter: 'Sarrera-atala',
+    part: (n) => `${n}. zatia`,
+    reference: 'Erreferentziak'
+  },
+  topic: {
+    topicEyebrow: (n) => `Gaia ${n}`,
+    paginationLabel: 'Gaia',
+    onThisPage: 'Orri honetan',
+    previous: 'Aurrekoa',
+    next: 'Hurrengoa'
+  },
+  links: { label: 'Estekak', skills: 'Adimen artifizialaren trebetasunak', llms: 'Adimen artifizialeko agenteentzat (llms.txt)', issues: 'Jakinarazi arazo bat' },
+  results: {
+    label: 'Bilaketaren emaitzak',
+    heading: (q) => `Bilaketa: ${q}`,
+    searching: 'Bilatzen…',
+    none: (q) => `Ez da emaitzarik aurkitu “${q}” bilaketarako.`,
+    browse: 'Arakatu edukia',
+    failed: 'Ezin izan da bilaketa-indizea kargatu.',
+    count: (n, more) => `${n}${more ? '+' : ''} emaitza`,
+    button: 'Bilatu'
+  },
+  footer: {
+    tagline:
+      'gobernuan eta gizarte-sektorean balio publikoa sortzeko jardunbide egokien eskuliburu praktikoa, mundu osoko irismenarekin.',
+    sourceAndContributions: 'Iturria eta ekarpenak:',
+    builtWith: 'Hauekin eraikia:',
+    ledBy: 'Zuzendaria:'
+  }
+};
+
 const STRINGS: Record<string, UiStrings> = {
   'en-gb-oxendict': enGbOxendict,
   'en-gb': enGb,
@@ -1663,7 +2048,23 @@ const STRINGS: Record<string, UiStrings> = {
   'tr-tr': trTr,
   'tr-001': trTr,
   'vi-vn': viVn,
-  'vi-001': viVn
+  'vi-001': viVn,
+  'bg-001': bgUi,
+  'bg-bg': bgUi,
+  'cs-001': csUi,
+  'cs-cz': csUi,
+  'el-001': elUi,
+  'el-gr': elUi,
+  'el-cy': elUi,
+  'fa-001': faUi,
+  'ga-001': gaUi,
+  'ga-ie': gaUi,
+  'gd-001': gdUi,
+  'gd-gb': gdUi,
+  'eu-001': euUi,
+  'eu-es': euUi,
+  'da-dk': da001,
+  'en-ie': enGb
 };
 
 /** UI chrome strings for `locale`, falling back to English if the locale is unknown. */

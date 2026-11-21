@@ -1,0 +1,154 @@
+# Téma 2.4 — Ekonometrie veřejného sektoru a hodnocení programů
+
+**Program, po němž se lidem vedlo lépe než těm, kdo se do něj nikdy nezapojili, není totéž tvrzení jako program, který toto lepší výsledné postavení způsobil. Veřejné peníze by se neměly obhajovat prvním tvrzením, zatímco všichni mlčky myslí to druhé.**
+
+## Proč na tom pro veřejnou hodnotu záleží
+
+Každý rok veřejné orgány obnovují, rozšiřují či ruší programy na základě srovnání výsledků: účastníci programu zaměstnanosti našli práci rychleji než ti, kdo se neúčastnili; žáci v doučovacím programu dosáhli lepšího skóre než žáci, kteří doučováni nebyli. Každé z těchto srovnání je jako popis pravdivé a jako argument nebezpečné, protože žádné samo o sobě neříká, zda rozdíl způsobil program. Lidé, kteří se do programu zaměstnanosti hlásí, bývají často motivovanější než ti, kdo ne, a žáci vybraní k doučování bývají vybráni proto, že učitel už očekává, že na něj dobře zareagují. Propast mezi „léčená skupina si vedla lépe“ a „léčba způsobila, že si vedla lépe“ je právě ta propast, kterou má kauzální inference zacelit.
+
+Nejde o akademickou jemnůstku. Finanční výbor, který je žádán o obnovení financování programu, je implicitně žádán o povolení vynaložení veřejných peněz na základě tvrzení o příčinnosti, ať už toto slovo kdokoli v místnosti použije, nebo ne. Téma 2.1 poskytlo rámec výsledků, který stanoví, co má program změnit (viz Téma 2.1 — Skórekarta veřejné hodnoty a rámce výsledků); toto téma poskytuje metody, které prověřují, zda to skutečně změnil a v jaké míře. Analýza nákladů a přínosů a analýza nákladové efektivnosti (viz Téma 2.2 — Sociální analýza nákladů a přínosů a analýza nákladové efektivnosti) i sociální návratnost investice (viz Téma 2.3 — Sociální návratnost investice a měření dopadu) potřebují obhajitelnou velikost efektu; toto téma je místem, odkud tato velikost efektu pochází, nebo kde zjistíte, že číslo, které již máte, neunese váhu, která na ně je kladena.
+
+Sázky nejsou jen finanční. Vláda, která rozšíří neúčinný program, protože chybné hodnocení ho nechalo vypadat účinně, vyplýtvala peníze a často hůře – vytlačila skutečně účinnou alternativu, která nikdy nedostala šanci; vláda, která zruší účinný program, protože naivní srovnání ho nechalo vypadat zbytečně, zničila hodnotu, kterou by lépe navržené hodnocení ochránilo. Správné určení příčinnosti a vědomí, kdy je nelze správně určit, je samo kompetencí veřejné hodnoty, nikoli vedlejším zájmem specialistů.
+
+## Základní pojmy
+
+**Kauzální inference** je odvětví statistiky zabývající se určením, zda a v jaké míře změna jedné proměnné vyvolává změnu v jiné, na rozdíl od pouhého společného pohybu obou proměnných. Poskytuje koncepční základ – kontrafaktuální uvažování, jazyk léčby a kontroly, katalog konkrétních ohrožení kauzálního tvrzení –, z něhož čerpají všechny metody tohoto tématu. Wikipedia: [Causal inference](https://en.wikipedia.org/wiki/Causal_inference).
+
+**Kontrafaktuál** je výsledek, který by osoba nebo jednotka zažila, kdyby program nedostala, a je centrální, nepozorovatelnou veličinou, kterou se každá kauzální metoda snaží aproximovat: můžete sledovat, co se stalo účastníkovi, ale nikdy ne to, co by se stalo téže osobě bez pomoci. Každá z níže uvedených metod je jinou strategií, jak sestavit věrohodnou náhradu této chybějícího pozorování. **Rubinův kauzální model**, vyvinutý především statistikem Donaldem Rubinem, to formalizuje jako rámec „potenciálních výsledků“: každá jednotka má potenciální výsledek při léčbě a jeden při kontrole a kauzální efekt je jejich rozdíl, z nichž se pozoruje vždy jen jeden. Wikipedia: [Rubin causal model](https://en.wikipedia.org/wiki/Rubin_causal_model).
+
+**Zavádějící vliv (confounding)** nastává, když třetí faktor ovlivňuje jak to, zda jednotka program dostane, tak výsledek, který má program změnit, takže se zdá, že program způsobil efekt, který ve skutečnosti vyvolal tento třetí faktor. Motivace, předchozí schopnosti, místní hospodářské podmínky a majetek domácnosti jsou při hodnocení veřejných programů opakujícími se zavádějícími faktory, protože běžně ovlivňují jak to, kdo službu využije, tak to, jak se danému člověku či místu poté daří. Wikipedia: [Confounding](https://en.wikipedia.org/wiki/Confounding).
+
+**Výběrové zkreslení (selection bias)** je zvláštní případ zavádějícího vlivu vyplývající z toho, jak se účastníci do léčené skupiny vůbec dostávají – sebevýběr, doporučení pracovníky nebo pravidla způsobilosti – takže se léčená a neléčená skupina systematicky liší ještě předtím, než se jich program dotkne. Program zaměstnanosti, do něhož se zapíší jen nejmotivovanější uchazeči o zaměstnání, bude vypadat účinně, i kdyby nedělal nic, protože srovnávací skupina nikdy nebyla spravedlivou náhradou za to, co by účastníci dokázali bez pomoci. Wikipedia: [Selection bias](https://en.wikipedia.org/wiki/Selection_bias).
+
+**Korelace neimplikuje kauzalitu** je obecné varování, které toto téma operacionalizuje: společný pohyb dvou proměnných je slučitelný s tím, že jedna způsobuje druhou, s opakem, se společnou příčinou i s náhodou a samotný vzorec mezi nimi nedokáže rozlišit. Prodej zmrzliny i počet utonutí každé léto rostou, aniž by jedno způsobovalo druhé, protože obojí řídí teplé počasí; hodnocení veřejných programů je plné jemnějších verzí téže pasti. Wikipedia: [Correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation).
+
+**Randomizovaná kontrolovaná studie (RCT)**, v literatuře o hodnocení politik nazývaná **randomizované hodnocení**, přiděluje způsobilé jednotky náhodně do léčené skupiny, která program dostane, a do kontrolní skupiny, která jej nedostane, takže se obě skupiny v průměru liší jen tím, zda byly léčeny. Randomizace je silná, protože se zavádějícím vlivem vypořádá hromadně: vyrovná jak zavádějící faktory, které lze měřit, tak ty, které nelze, aniž by je bylo třeba předem pojmenovat. Wikipedia: [Randomized controlled trial](https://en.wikipedia.org/wiki/Randomized_controlled_trial).
+
+**Rozdíl v rozdílech (DiD)** porovnává změnu výsledků v čase u léčené skupiny se změnou za stejné období u srovnávací skupiny, která program nedostala, za předpokladu, že by bez programu obě skupiny sledovaly rovnoběžné trendy. Je to základní metoda, když program dorazil do jedné jurisdikce dříve než do jiné a randomizace nebyla nikdy možná, protože může využít běžně shromažďovaná administrativní data místo účelově vytvořené studie. Wikipedia: [Difference in differences](https://en.wikipedia.org/wiki/Difference_in_differences).
+
+**Regresní diskontinuita (RDD)** využívá pravidlo programu, které přiděluje léčbu podle toho, že měřené skóre překročí pevnou hranici – dávka přiznaná přesně od určité hranice příjmu, nápravná třída přidělená žákům, kteří dosáhli těsně pod hranicí pro uspění –, a porovnává výsledky jednotek těsně nad hranicí a těsně pod ní, které jsou jinak podobné. Protože je v úzkém pásmu kolem hranice to, na které straně jednotka leží, v podstatě libovolné, srovnání aproximuje lokální randomizovaný experiment, aniž by cokoli někdo randomizoval. Wikipedia: [Regression discontinuity design](https://en.wikipedia.org/wiki/Regression_discontinuity_design).
+
+**Odhad pomocí instrumentálních proměnných (IV)** využívá třetí proměnnou, „instrument“, která ovlivňuje využití programu, ale nemá přímý vliv na výsledek jinak než prostřednictvím tohoto využití, aby odstranila tu část vztahu mezi léčbou a výsledkem, kterou by jinak zavádějící vliv kontaminoval. Klasickým instrumentem ve veřejné politice je vzdálenost k zařízení nebo místo přidělené losem, což posouvá účast, aniž by to samostatně způsobovalo výsledek; většina obtížnosti metody spočívá v obhájení, že instrument ovlivňuje výsledek pouze prostřednictvím programu. Wikipedia: [Instrumental variables estimation](https://en.wikipedia.org/wiki/Instrumental_variables_estimation).
+
+**Přirozený experiment** je situace vzniklá z politiky, geografie nebo okolností, nikoli z návrhu výzkumníka, v níž jsou někteří lidé programu vystaveni a srovnatelní jiní ne, jako by byl proveden experiment, aniž by jej někdo prováděl. Změna politiky, která vstoupí v platnost od určitého data narození, hranice, která staví téměř totožné domácnosti do různých jurisdikcí, nebo los, kterým se přiděluje přetížené místo, jsou přirozené experimenty, které pak lze analyzovat pomocí RDD, IV či DiD. Wikipedia: [Natural experiment](https://en.wikipedia.org/wiki/Natural_experiment).
+
+**Hawthornský efekt** označuje riziko, že lidé mění své chování jednoduše proto, že vědí, že jsou pozorováni, nezávisle na skutečném obsahu programu, což může nafouknout odhadovaný efekt, pokud kontrolní skupina není pozorována se stejnou intenzitou – samotné měření se může stát součástí léčby. Wikipedia: [Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect).
+
+**Statistická síla (power)** je pravděpodobnost, že hodnocení odhalí skutečný efekt dané velikosti, pokud existuje; závisí hlavně na velikosti vzorku, hledané velikosti efektu a na tom, jak moc se výsledky uvnitř skupin liší. Hodnocení s nedostatečnou silou, které nenajde „žádný významný efekt“, často neprokázalo, že program nedělá nic; prokázalo, že bylo příliš malé na to, aby to rozhodlo tak či onak, což je rozlišení, které vedoucí pracovníci pod tlakem dospět k verdiktu často přehlédnou. Wikipedia: [Power (statistics)](https://en.wikipedia.org/wiki/Power_(statistics)).
+
+## Osvědčené postupy
+
+1. **Návrh hodnocení určete před zahájením programu, nikoli po něm.** Randomizované hodnocení, postupné zavádění vhodné pro rozdíl v rozdílech nebo práh způsobilosti vhodný pro regresní diskontinuitu je mnohem snazší zabudovat od počátku než dodatečně doplnit, jakmile se realizace již ad hoc rozběhla.
+2. **Kontrafaktuál uveďte výslovně v každém zadání hodnocení.** Zapište jednou větou, s čím účastníky srovnáváte – žádný program, předchozí program, jiná intervence –, protože nevyslovený kontrafaktuál je místem, kde se obvykle skrývají nejostřejší spory o hodnocení.
+3. **Jednoduché srovnání před a po berte jako výchozí hypotézu, nikdy jako zjištění.** Výsledky se vyvíjejí z mnoha důvodů nesouvisejících s vaším programem – hospodářský cyklus, sezónní vlivy, jiné politické změny nastávající současně – a design před–po nedokáže oddělit příspěvek vašeho programu od jejich příspěvku.
+4. **Metodu přizpůsobte pravidlu, které program skutečně přidělilo, nikoli metodě, kterou znáte nejlépe.** Program přidělovaný losem volá po logice randomizovaného hodnocení, i když jej nikdy nenazvete studií; program přidělovaný podle skórového prahu volá po regresní diskontinuitě; program zavedený v některých oblastech dříve než v jiných volá po rozdílu v rozdílech.
+5. **Měřítka výsledků a plán analýzy předem zaregistrujte, než uvidíte výsledky.** Rozhodovat, který výsledek se počítá jako „úspěch“, až poté, co se vidí, který se pohnul, je dobře zdokumentovaná cesta k falešně pozitivním zjištěním a předběžná registrace je standardní obranou proti ní.
+6. **Sílu hodnocení nastavte na nejmenší velikost efektu, která by stále ospravedlnila náklady programu, nikoli podle pohodlnosti.** Hodnocení příliš malé na to, aby odhalilo politicky relevantní efekt, přinese nic neříkající výsledek „žádný významný rozdíl“, který bude nesprávně vykládán jako důkaz selhání.
+7. **Uvádějte charakteristiky srovnávací skupiny vedle charakteristik léčené skupiny, nejen hlavní efekt.** Věrohodné hodnocení umožňuje skeptickému čtenáři ověřit, že si obě skupiny byly před léčbou podobné; hodnocení, které to skrývá, nutí čtenáře věřit vyváženosti na slovo.
+8. **Hodnocení zadejte zdroji nezávislému na realizačním týmu, nebo, pokud to nelze, analýzu oddělte ochrannou zdí.** Tým se zájmem na úspěchu programu má strukturální, často nevědomý podnět vykládat nejednoznačné důkazy ve prospěch programu.
+9. **V každé zprávě oddělte statistickou významnost od praktické a fiskální významnosti.** Přesně odhadnutý nepatrný efekt a nepřesně odhadnutý velký efekt jsou odlišná zjištění, která vyžadují odlišná rozhodnutí, a sloučení obou do „významný“ či „nevýznamný“ vymaže rozlišení, které rozhodnutí o financování skutečně potřebuje.
+10. **Hodnocení rozpočtujte jako pevný podíl nákladů programu již ve fázi návrhu, nikoli jako zbytek.** Program dost velký na to, aby měl pro veřejnou hodnotu význam, je obvykle dost velký na to, aby financoval věrohodné hodnocení dopadu, a považovat hodnocení za nepovinné je cesta, jak se slabé důkazy stávají rutinou.
+11. **Nulové a negativní výsledky zveřejňujte se stejnou viditelností jako pozitivní.** Prostředí zadávání, které zveřejňuje jen úspěšná hodnocení, vytváří výběrové zkreslení v samotné zveřejněné důkazní základně a posouvá pozdější úsudky všech o tom, „co funguje“, k optimismu.
+12. **Každé dokončené hodnocení vložte do širší důkazní základny, kterou váš sektor udržuje, nejen do vlastního archivu.** Jediné hodnocení, ať je navrženo sebelépe, je jeden datový bod; systematická syntéza napříč mnoha hodnoceními mění zjištění o programu na přenositelné znalosti (viz Téma 2.6 — Syntéza důkazů a co funguje).
+
+## Otázky k diskusi s týmem
+
+**S jakým kontrafaktuálem tento program skutečně srovnáváme a řekli jsme to nahlas?** Každé tvrzení o dopadu implikuje srovnání, ale týmy je často nechávají implicitní a nechávají „to fungovalo“ nenápadně klouzat mezi „lepší než nic“, „lepší než to, co jsme dělali dříve“ a „lepší než nejlepší alternativa, kterou jsme mohli financovat“. Požádejte vedoucího hodnocení, aby kontrafaktuál formuloval jednou větou prostým jazykem, a poté zkontrolujte, zda důkazy, které máte, skutečně podporují tvrzení o tomto konkrétním srovnání. Pokud je poctivým kontrafaktuálem „nevíme, co by se stalo jinak“, berte současné tvrzení o dopadu jako hypotézu, nikoli zjištění, a projednejte, co by bylo třeba k zacelení této mezery.
+
+**Mohli by se lidé či místa, která program využila, systematicky lišit od těch, která ne, způsoby, které by ovlivnily i výsledek?** To je otázka výběrového zkreslení a stojí za to ji klást, i když – a zvlášť když – se odpověď zdá zjevně „ne“. Motivace, předchozí okolnosti, místní kapacita a vzorce doporučování pracovníky jsou běžné skryté zdroje rozdílu, které vytvoří zavádějící odhad dopadu i u velkého, pečlivě vypadajícího vzorku. Pokud tým nedokáže popsat, jak se účastníci do programu dostali, nemůže to vyloučit, a tato mezera by vás měla znepokojovat více než malá velikost vzorku.
+
+**Byl návrh našeho hodnocení zabudován do programu, nebo dodatečně přilepen, a co nás to stálo?** Randomizované hodnocení, postupné zavádění nebo skórový práh způsobilosti jsou mnohem levnější a věrohodnější, když se plánují před zahájením, než když se rekonstruují z jakýchkoli administrativních dat, která náhodou přežila. Zeptejte se, jaké možnosti návrhu hodnocení byly zvažovány ve fázi návrhu programu, a pokud žádné, berte to jako procesní mezeru, kterou je třeba uzavřít před dalším programem, nikoli jen omezení tohoto. Projednejte, jaká data by musela existovat od prvního dne, aby další významný program podpořil věrohodný kauzální odhad.
+
+**Je náš vzorek dostatečně velký na odhalení efektu, který stojí za to znát, a poznali bychom hodnocení s nedostatečnou silou, které hlásí „žádný efekt“, kdybychom je viděli?** Hodnocení, které hlásí žádný statisticky významný efekt, vám někdy správně říká, že program nefunguje, a někdy vám jen říká, že hodnocení bylo příliš malé, aby efekt, který skutečně existuje, zachytilo. Požádejte analytiky, aby uvedli minimální velikost efektu, kterou bylo hodnocení nastaveno detekovat, a porovnejte ji s velikostí efektu, která by skutečně ospravedlnila náklady programu. Jsou-li tato dvě čísla daleko od sebe, může být zjištění „žádný efekt“ spíše nic neříkající než usvědčující a tým by to měl říci otevřeně, místo aby mlčení bylo čteno jako selhání.
+
+**Kdo má profesně nebo reputačně prospěch, pokud hodnocení vyjde pozitivně, a mění to, kolik nezávislé kontroly potřebuje?** Nejde o obvinění z nepoctivosti; je to uznání, že lidé, kdo program navrhli nebo realizují, mají strukturálně větší sklon vykládat nejednoznačné výsledky blahosklonně, často aniž by si toho všimli. Projednejte, zda bylo hodnocení zadáno, analyzováno či přezkoumáno někým nezávislým na realizačním týmu, a pokud ne, jak by vypadala přiměřená ochranná zeď pro program takové velikosti. Cílem je výsledek, kterému by důvěřoval i váš nejskeptičtější poskytovatel financí, nikoli jen ten, který je vašemu týmu pohodlné obhajovat.
+
+**Pokud je zjištění tohoto hodnocení robustní, co bychom skutečně dělali jinak a jsme na to připraveni?** Hodnocení zadané, ale nikdy nezamýšlené změnit rozhodnutí, je utopený náklad převlečený za náležitou péči a stojí za to toto riziko pojmenovat dříve, než výsledky dorazí, nikoli až po nich. Projednejte předem, co by silné pozitivní zjištění ospravedlnilo (rozšíření, a o kolik) a co by nulové či negativní zjištění spustilo (přepracování, nebo zrušení, a v jakém časovém rámci). Pokud nikdo v místnosti nedokáže na to odpovědět dříve, než uvidí výsledky, může hodnocení plnit funkci legitimity, nikoli funkci rozhodování, a stojí za to být k tomu upřímní (viz Téma 2.1 — Skórekarta veřejné hodnoty a rámce výsledků).
+
+## V praxi: příklad veřejné hodnoty
+
+Fiktivní ilustrace. Ministerstvo služeb zaměstnanosti ve středně velké, nejmenované zemi provozovalo roční pilot intenzivní koučovací služby pro dlouhodobě nezaměstnané uchazeče o zaměstnání vedle stávající standardní služby. Na konci pilotu interní zpráva porovnala skupinu, která intenzivní koučink dostala, se všemi ostatními, kdo ve stejném období vystoupili z nezaměstnanosti: koučovaná skupina měla míru umístění do zaměstnání do šesti měsíců 38 %, zatímco zbytek evidence 24 %. Ministrům bylo řečeno, že program „fungoval“, a obchodní případ byl předložen k celostátnímu zavedení.
+
+Před schválením financování se finanční výbor zeptal na přímou otázku: jak se uchazeči o zaměstnání do koučované skupiny vůbec dostali? Odpověď se ukázala jako nesmírně důležitá. Pracovníci evidence doporučovali do koučovacího pilotu uchazeče, o nichž usoudili, že z něj „nejspíše získají“, což bylo dobře míněné třídění, které v důsledku vybralo do léčby od počátku skupinu s větší připraveností k práci. Srovnání 38 % oproti 24 % bylo zkontaminováno právě tím výběrovým zkreslením, před nímž toto téma varuje: bylo zcela možné, že by koučovaná skupina předčila zbytek evidence i bez jakéhokoli koučinku.
+
+Namísto schválení či zamítnutí zavedení na základě tohoto srovnání navrhl hodnotící útvar ministerstva druhou fázi s využitím losování. Poptávka po koučovací službě již převyšovala dostupná místa, a útvar proto přidělil místa náhodně mezi stejně způsobilé zájemce a porovnal míry umístění mezi výherci a nevýherci losu, což je uplatnění logiky randomizovaného hodnocení, aniž by bylo třeba odepřít službu někomu, kdo by ji jinak nedostal. O dvanáct měsíců později losové srovnání ukázalo menší, ale skutečný efekt: zlepšení umístění po šesti měsících o 9 procentních bodů, nikoli rozdíl 14 bodů, který naznačovalo původní srovnání. Ministerstvo použilo odhad založený na losování spolu s vlastními údaji o nákladech k vybudování obhajitelného zdůvodnění nákladové efektivnosti (viz Téma 2.2 — Sociální analýza nákladů a přínosů a analýza nákladové efektivnosti) pro rozšíření v omezeném rozsahu a při omezených zdrojích, místo většího, nerealizovatelného rozšíření, které by ospravedlnilo chybné původní srovnání.
+
+## Čtyři sektorové perspektivy
+
+### Místní samospráva
+
+Místní úřady obvykle provozují mnoho malých a středně velkých programů místo několika velmi velkých, což činí účelově vytvořená randomizovaná hodnocení drahými vzhledem k velikosti programu a tlačí místní hodnotitele ke kvaziexperimentálním metodám, které znovu využívají již shromažďovaná administrativní data – rozdíl v rozdílech napříč oblastmi služeb, které změnu zavedly v různou dobu, nebo regresní diskontinuita kolem místního prahu způsobilosti. Rozdíly v hranicích a jurisdikcích, které by jinde byly nepříjemností, jsou pro místního hodnotitele často nejlepším přirozeným experimentem, protože dva sousední obvody či okresy se mohou lišit v politice, a přitom si zůstat podobné téměř ve všem ostatním.
+
+### Národní vláda
+
+Národní vlády mají měřítko k financování účelově vytvořených randomizovaných hodnocení a administrativní datové soubory, často propojené napříč daňovými, dávkovými, zdravotními a vzdělávacími záznamy, k provádění věrohodných kvaziexperimentálních návrhů při nízkých mezních nákladech. V tomto měřítku také sídlí pracovní skupiny pro hodnocení „co funguje“ a centralizované pokyny k hodnocení, jako je standardní příručka hodnocení ministerstva financí, protože jen národní vláda může odůvodnit fixní náklady na udržování stálé hodnotící infrastruktury a společného metodologického standardu napříč mnoha resorty.
+
+### Sociální a neziskový sektor
+
+Neziskové a nevládní organizace jen zřídka mají velikosti vzorků či rozpočty, které dobře napájené randomizované hodnocení potřebuje, a jejich programy se často adaptivně mění v reakci na to, co pozorují pracovníci v první linii, což komplikuje každý návrh předpokládající stabilní, dobře vymezenou léčbu. Partnerství s akademickou výzkumnou skupinou nebo specializovaným hodnotícím zprostředkovatelem, jaké vyrostlo kolem hnutí za randomizovaná hodnocení v mezinárodním rozvoji, je často jedinou realistickou cestou k přísnému kauzálnímu odhadu a poskytovatelé financí stále častěji žádají právě takové externí partnerství, než se zavážou k víceletým grantům.
+
+### Multilaterální a mezinárodní úroveň
+
+Multilaterální instituce financují programy napříč mnoha zeměmi s odlišnými datovými systémy, správní kapacitou a normami etického přezkumu, což ztěžuje jednotné uplatňování standardizovaných kauzálních metod, ale také vytváří přirozenou mezinárodní variabilitu, která sama může být přirozeným experimentem, když je politika přijata v některých členských státech dříve než v jiných. Randomizovaná hodnocení v rozvojové ekonomii byla v tomto měřítku zvlášť vlivná a přinesla důkazy, které utvářely rozdělování mezinárodního rozvojového financování, ale nesou také zdokumentované riziko selhání vnější validity: výsledek platný v zemi a kontextu, který byl studován, se automaticky nepřenáší do jiného kontextu, což je výhrada, kterou návrh multilaterálních programů příliš často přechází.
+
+## Běžné způsoby selhání
+
+**Naivní srovnání před a po.** Program se posuzuje výhradně srovnáním výsledků před jeho zahájením s výsledky po něm, bez jakékoli srovnávací skupiny, takže jakýkoli již probíhající trend – hospodářské oživení, demografický posun, samostatná změna politiky – je chybně připsán programu. Cenou je sebejistý kauzální příběh postavený na návrhu, který ve skutečnosti nedokáže odlišit efekt programu od všeho ostatního, co se stalo ve stejnou dobu.
+
+**Výběrové zkreslení zaměněné za efekt programu.** Účastníci, kteří se přihlásili, nebo byli doporučeni, protože se zdálo pravděpodobné, že uspějí, jsou srovnáváni se všemi ostatními, což vytvoří odhad dopadu, který je ve skutečnosti měřítkem toho, koho program přilákal, nikoli co s nimi udělal. Cenou je rozšířený program, který vypadá méně účinně, někdy mnohem méně, jakmile dosáhne méně sebevybrané populace.
+
+**Hodnocení s nedostatečnou silou vykázané jako nulové zjištění.** Malý pilot nenajde „žádný statisticky významný efekt“ a je čten jako důkaz, že program nefunguje, ačkoli vzorek byl ve skutečnosti příliš malý na to, aby odhalil efekt takové velikosti, na které by záleželo. Cena jde oběma směry: skutečně účinný program může být zrušen na základě důkazů, které nikdy nebyly schopny ukázat, že funguje, nebo se zdroje přesunou k financování větší studie, která by nemusela být nutná, kdyby původní zadání mělo správnou sílu.
+
+**Extrapolace lokálního odhadu za hranice jeho kontextu.** Regresní diskontinuita správně odhaduje efekt pro jednotky poblíž hranice způsobilosti a odhad pomocí instrumentálních proměnných správně odhaduje efekt pro jednotky, jejichž stav léčby instrument skutečně posunul, ale obě zjištění se pak aplikují na celou populaci, jako by odhad platil všude. Cenou je politika rozšířená na základě čísla, které bylo vždy platné jen lokálně.
+
+**Hodnocení jako divadlo.** Hodnocení je zadáno, aby vytvořilo zdání rozhodování založeného na důkazech, ale rozhodnutí bylo fakticky již učiněno a žádné věrohodné zjištění by je nezměnilo. Cenou je promarněný rozpočet na hodnocení a, což je zhoubnější, pomalá eroze důvěry v samotné hodnocení, jakmile si zaměstnanci všimnou, že výsledky zdánlivě nikdy nemění výsledky.
+
+## Model zralosti
+
+| Dílčí dimenze | Zahájení | Rozvoj | Standardizace | Řízení | Orchestrace |
+|---|---|---|---|---|---|
+| Návrh hodnocení zvolený ve vztahu k návrhu programu | Hodnocení, pokud vůbec, je dodatečný nápad po zahájení realizace | Některé týmy zvažují možnosti návrhu neformálně, nejednotně | Standardní rozhodovací průvodce přiřazuje typ programu k metodě hodnocení | Volby návrhu se přezkoumávají a schvalují před zahájením, v celé organizaci | Standardy návrhu se sdílejí a srovnávají s partnerskými organizacemi |
+| Zacházení s výběrem a zavádějícími vlivy | Srovnání se provádějí bez ohledu na to, jak se skupiny liší | Určité povědomí o výběrovém zkreslení, řešené ad hoc | Standardní kontroly srovnatelnosti léčené a srovnávací skupiny | Srovnatelnost se před přijetím výsledků nezávisle audituje | Metody zacházení s výběrem se otevřeně sdílejí a zlepšují s partnery |
+| Statistická síla a plánování vzorku | Velikost vzorku se stanoví podle pohodlnosti, nikoli podle hledané velikosti efektu | O síle se někdy diskutuje, ale zřídka se formálně počítá | Výpočty síly jsou povinnou součástí každého plánu hodnocení | Hodnocení s nedostatečnou silou se označují a buď posilují, nebo přerámcují | Standardy síly se koordinují napříč portfoliem souvisejících programů |
+| Nezávislost a transparentnost zjištění | Hodnocení provádí a interpretuje výhradně realizační tým | Interní recenzent příležitostně zkontroluje zjištění | Nezávislý přezkum nebo ochranná zeď je standardem u významných hodnocení | Nezávislá zjištění, pozitivní i negativní, se rutinně zveřejňují | Nezávislá hodnotící kapacita se sdružuje či sdílí napříč organizacemi |
+| Zjištění z hodnocení vstupující do rozhodování | Zjištění se vytvářejí, ale po učinění rozhodnutí se k nim zřídka vrací | Zjištění někdy ovlivní pozdější rozpočtová kola | Definovaný proces směruje zjištění do rozhodování o financování a rozšiřování | Rozhodnutí se sledují vzhledem k zjištěním a rozpory se vysvětlují | Zjištění vstupují do sdílené, meziorganizační důkazní základny (viz Téma 2.6 — Syntéza důkazů a co funguje) |
+
+## Kontrolní seznam
+
+- [ ] Uveďte kontrafaktuál pro každé významné hodnocení programu jednou větou prostým jazykem.
+- [ ] Potvrďte, jak se účastníci dostali do léčené skupiny, a posuďte, zda tento proces sám nemůže vysvětlit rozdíl ve výsledcích.
+- [ ] Zvolte metodu hodnocení (randomizované hodnocení, rozdíl v rozdílech, regresní diskontinuita, instrumentální proměnné nebo přirozený experiment) podle skutečného pravidla přidělení, pokud možno před zahájením realizace.
+- [ ] Vypočtěte statistickou sílu potřebnou k odhalení nejmenší velikosti efektu, která by ospravedlnila náklady programu.
+- [ ] Zaregistrujte předem měřítka výsledků a plán analýzy, než se výsledky uvidí.
+- [ ] Vykazujte srovnatelnost léčené a srovnávací skupiny vedle hlavního efektu.
+- [ ] Hodnocení zadejte nebo přezkoumejte prostřednictvím funkce nezávislé na realizačním týmu.
+- [ ] Ve všech zprávách pro osoby rozhodující oddělte statistickou významnost od fiskální a praktické významnosti.
+- [ ] Hodnocení rozpočtujte jako pevný podíl nákladů programu ve fázi návrhu.
+- [ ] Zveřejňujte nulová a negativní zjištění se stejnou viditelností jako pozitivní.
+- [ ] Zkontrolujte, zda se pozitivní lokální odhad (z regresní diskontinuity nebo instrumentálních proměnných) neextrapoluje za populaci, kterou skutečně pokrývá.
+- [ ] Dokončená hodnocení směrujte do širší důkazní základny, kterou váš sektor udržuje, nejen do vlastního archivu.
+
+## Klíčové zdroje
+
+Metodologické jádro tohoto tématu čerpá z tradice aplikované ekonometrie spojené s Joshuou D. Angristem a Jörn-Steffenem Pischkem a z rámce potenciálních výsledků formalizovaného Donaldem Rubinem. Hnutí za randomizovaná hodnocení ve veřejné politice a rozvojové ekonomii, spojené s Abdul Latif Jameel Poverty Action Lab (J-PAL) a jeho akademickou sítí, poskytuje velkou část aplikované praxe, na niž odkazují sektorové perspektivy. Vládní standardy hodnocení čerpají z pokynů Magenta Book britského ministerstva financí (UK Treasury) a praxe syntézy důkazů ze standardů Campbell Collaboration pro systematické přehledy v sociální politice (viz Téma 2.6 — Syntéza důkazů a co funguje).
+
+## Literatura
+
+1. Causal inference — Wikipedia — https://en.wikipedia.org/wiki/Causal_inference
+2. Randomized controlled trial — Wikipedia — https://en.wikipedia.org/wiki/Randomized_controlled_trial
+3. Difference in differences — Wikipedia — https://en.wikipedia.org/wiki/Difference_in_differences
+4. Regression discontinuity design — Wikipedia — https://en.wikipedia.org/wiki/Regression_discontinuity_design
+5. Instrumental variables estimation — Wikipedia — https://en.wikipedia.org/wiki/Instrumental_variables_estimation
+6. Natural experiment — Wikipedia — https://en.wikipedia.org/wiki/Natural_experiment
+7. Correlation does not imply causation — Wikipedia — https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation
+8. Confounding — Wikipedia — https://en.wikipedia.org/wiki/Confounding
+9. Selection bias — Wikipedia — https://en.wikipedia.org/wiki/Selection_bias
+10. Rubin causal model — Wikipedia — https://en.wikipedia.org/wiki/Rubin_causal_model
+11. Hawthorne effect — Wikipedia — https://en.wikipedia.org/wiki/Hawthorne_effect
+12. Power (statistics) — Wikipedia — https://en.wikipedia.org/wiki/Power_(statistics)
+13. J-PAL (Abdul Latif Jameel Poverty Action Lab) — Massachusetts Institute of Technology — https://www.povertyactionlab.org/
+14. Impact Evaluation in Practice — Paul J. Gertler, Sebastian Martinez, Patrick Premand, Laura B. Rawlings, and Christel M. J. Vermeersch, World Bank — https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice
+15. Mostly Harmless Econometrics: An Empiricist's Companion — Joshua D. Angrist and Jörn-Steffen Pischke, Princeton University Press — https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics
+16. The Magenta Book — HM Treasury — https://www.gov.uk/government/publications/the-magenta-book
+17. Campbell Collaboration — Campbell Collaboration — https://www.campbellcollaboration.org/
+18. What Works Network — UK Cabinet Office — https://www.gov.uk/guidance/what-works-network

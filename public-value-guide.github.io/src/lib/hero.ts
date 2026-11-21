@@ -319,6 +319,86 @@ export const HERO: Record<string, { tagline: string; intro?: string; translation
   "tagline": "Hướng dẫn thực hành về các thực hành tốt nhất để tạo giá trị công trong khu vực công và khu vực xã hội",
   "intro": "Hướng dẫn này được viết cho những người lãnh đạo các tổ chức công và khu vực xã hội: người đứng đầu cơ quan, lãnh đạo chính quyền địa phương, giám đốc điều hành tổ chức phi lợi nhuận, cùng các nhà lãnh đạo chính sách, số, tài chính và vận hành hỗ trợ họ. Bắt đầu từ tam giác chiến lược của Mark Moore, hướng dẫn áp dụng lý thuyết giá trị công vào các quyết định thực tiễn qua 33 chủ đề đầy đủ.",
   "translations": "Bản dịch: "
+ },
+ "bg-001": {
+  "tagline": "Практически наръчник с най-добри практики за създаване на публична стойност в държавното управление и социалния сектор.",
+  "intro": "Този наръчник е предназначен за хората, които ръководят публични организации и организации от социалния сектор: ръководители на институции, лидери на местната власт, директори на неправителствени организации, както и ръководителите по политики, цифрови технологии, финанси и операции, които им съдействат. Той прилага теорията за публичната стойност, започвайки със стратегическия триъгълник на Марк Мур, към практически решения в 33 самостоятелни теми.",
+  "translations": "Преводи: "
+ },
+ "bg-bg": {
+  "tagline": "Практически наръчник с най-добри практики за създаване на публична стойност в държавното управление и социалния сектор.",
+  "intro": "Този наръчник е предназначен за хората, които ръководят публични организации и организации от социалния сектор: ръководители на институции, лидери на местната власт, директори на неправителствени организации, както и ръководителите по политики, цифрови технологии, финанси и операции, които им съдействат. Той прилага теорията за публичната стойност, започвайки със стратегическия триъгълник на Марк Мур, към практически решения в 33 самостоятелни теми.",
+  "translations": "Преводи: "
+ },
+ "cs-001": {
+  "tagline": "Praktická příručka osvědčených postupů tvorby veřejné hodnoty ve veřejné správě a v sociálním sektoru.",
+  "intro": "Tento průvodce je určen těm, kdo řídí veřejné organizace a organizace sociálního sektoru: ředitelům úřadů, představitelům místní samosprávy, ředitelům neziskových organizací a vedoucím pracovníkům v oblasti politik, digitalizace, financí a provozu, kteří jim pomáhají. Uplatňuje teorii veřejné hodnoty, počínaje strategickým trojúhelníkem Marka Moorea, na praktická rozhodnutí ve 33 samostatných tématech.",
+  "translations": "Překlady: "
+ },
+ "cs-cz": {
+  "tagline": "Praktická příručka osvědčených postupů tvorby veřejné hodnoty ve veřejné správě a v sociálním sektoru.",
+  "intro": "Tento průvodce je určen těm, kdo řídí veřejné organizace a organizace sociálního sektoru: ředitelům úřadů, představitelům místní samosprávy, ředitelům neziskových organizací a vedoucím pracovníkům v oblasti politik, digitalizace, financí a provozu, kteří jim pomáhají. Uplatňuje teorii veřejné hodnoty, počínaje strategickým trojúhelníkem Marka Moorea, na praktická rozhodnutí ve 33 samostatných tématech.",
+  "translations": "Překlady: "
+ },
+ "el-001": {
+  "tagline": "Ένα πρακτικό εγχειρίδιο βέλτιστων πρακτικών για τη δημιουργία δημόσιας αξίας στη διακυβέρνηση και στον κοινωνικό τομέα.",
+  "intro": "Ο οδηγός απευθύνεται σε όσους ηγούνται δημόσιων οργανισμών και οργανισμών του κοινωνικού τομέα: επικεφαλής υπηρεσιών, ηγέτες της τοπικής αυτοδιοίκησης, διευθυντές μη κερδοσκοπικών οργανισμών, καθώς και στα στελέχη πολιτικής, ψηφιακών υπηρεσιών, οικονομικών και λειτουργιών που τους υποστηρίζουν. Εφαρμόζει τη θεωρία της δημόσιας αξίας, από το στρατηγικό τρίγωνο του Mark Moore και μετά, σε πρακτικές αποφάσεις μέσα από 33 αυτοτελή θέματα.",
+  "translations": "Μεταφράσεις: "
+ },
+ "el-gr": {
+  "tagline": "Ένα πρακτικό εγχειρίδιο βέλτιστων πρακτικών για τη δημιουργία δημόσιας αξίας στη διακυβέρνηση και στον κοινωνικό τομέα.",
+  "intro": "Ο οδηγός απευθύνεται σε όσους ηγούνται δημόσιων οργανισμών και οργανισμών του κοινωνικού τομέα: επικεφαλής υπηρεσιών, ηγέτες της τοπικής αυτοδιοίκησης, διευθυντές μη κερδοσκοπικών οργανισμών, καθώς και στα στελέχη πολιτικής, ψηφιακών υπηρεσιών, οικονομικών και λειτουργιών που τους υποστηρίζουν. Εφαρμόζει τη θεωρία της δημόσιας αξίας, από το στρατηγικό τρίγωνο του Mark Moore και μετά, σε πρακτικές αποφάσεις μέσα από 33 αυτοτελή θέματα.",
+  "translations": "Μεταφράσεις: "
+ },
+ "el-cy": {
+  "tagline": "Ένα πρακτικό εγχειρίδιο βέλτιστων πρακτικών για τη δημιουργία δημόσιας αξίας στη διακυβέρνηση και στον κοινωνικό τομέα.",
+  "intro": "Ο οδηγός απευθύνεται σε όσους ηγούνται δημόσιων οργανισμών και οργανισμών του κοινωνικού τομέα: επικεφαλής υπηρεσιών, ηγέτες της τοπικής αυτοδιοίκησης, διευθυντές μη κερδοσκοπικών οργανισμών, καθώς και στα στελέχη πολιτικής, ψηφιακών υπηρεσιών, οικονομικών και λειτουργιών που τους υποστηρίζουν. Εφαρμόζει τη θεωρία της δημόσιας αξίας, από το στρατηγικό τρίγωνο του Mark Moore και μετά, σε πρακτικές αποφάσεις μέσα από 33 αυτοτελή θέματα.",
+  "translations": "Μεταφράσεις: "
+ },
+ "fa-001": {
+  "tagline": "راهنمایی عملی از بهترین روش‌ها برای آفرینش ارزش عمومی در دولت و بخش اجتماعی.",
+  "intro": "این راهنما برای کسانی است که سازمان‌های عمومی و بخش اجتماعی را رهبری می‌کنند: رؤسای نهادهای دولتی، رهبران حکومت‌های محلی، مدیران سازمان‌های غیرانتفاعی، و مدیران سیاست‌گذاری، دیجیتال، مالی و عملیات که در کنار آنان کار می‌کنند. این راهنما نظریهٔ ارزش عمومی، از مثلث راهبردی مارک مور به بعد، را در ۳۳ موضوع مستقل بر تصمیم‌های عملی به کار می‌بندد.",
+  "translations": "ترجمه‌ها: "
+ },
+ "ga-001": {
+  "tagline": "Lámhleabhar praiticiúil de dhea-chleachtais chun luach poiblí a chruthú sa rialtas agus san earnáil shóisialta.",
+  "intro": "Tá an treoir seo do na daoine a stiúrann eagraíochtaí poiblí agus eagraíochtaí san earnáil shóisialta: ceannairí gníomhaireachtaí, ceannairí rialtais áitiúil, stiúrthóirí neamhbhrabúis, agus ceannairí beartais, digiteacha, airgeadais agus oibríochtaí a fhreastalaíonn orthu. Cuireann sí teoiric an luacha phoiblí, ó thriantán straitéiseach Mark Moore ar aghaidh, i bhfeidhm ar chinntí praiticiúla i 33 téama féinchuimsitheach.",
+  "translations": "Aistriúcháin: "
+ },
+ "ga-ie": {
+  "tagline": "Lámhleabhar praiticiúil de dhea-chleachtais chun luach poiblí a chruthú sa rialtas agus san earnáil shóisialta.",
+  "intro": "Tá an treoir seo do na daoine a stiúrann eagraíochtaí poiblí agus eagraíochtaí san earnáil shóisialta: ceannairí gníomhaireachtaí, ceannairí rialtais áitiúil, stiúrthóirí neamhbhrabúis, agus ceannairí beartais, digiteacha, airgeadais agus oibríochtaí a fhreastalaíonn orthu. Cuireann sí teoiric an luacha phoiblí, ó thriantán straitéiseach Mark Moore ar aghaidh, i bhfeidhm ar chinntí praiticiúla i 33 téama féinchuimsitheach.",
+  "translations": "Aistriúcháin: "
+ },
+ "gd-001": {
+  "tagline": "Leabhar-làimhe practaigeach de na cleachdaidhean as fheàrr airson luach poblach a chruthachadh ann an riaghaltas agus san roinn shòisealta.",
+  "intro": "Tha an treòir seo airson na feadhna a stiùireas buidhnean poblach agus buidhnean na roinne sòisealta: ceannardan bhuidhnean, stiùirichean riaghaltais ionadail, stiùirichean charthannasan, agus stiùirichean poileasaidh, didseatach, ionmhais is gnìomhachd a tha gam frithealadh. Cuiridh i teòiridh an luach phoblaich, o thriantan ro-innleachdail Mark Moore air adhart, an sàs ann an co-dhùnaidhean practaigeach ann an 33 cuspair fèin-chumhaichte.",
+  "translations": "Eadar-theangachaidhean: "
+ },
+ "gd-gb": {
+  "tagline": "Leabhar-làimhe practaigeach de na cleachdaidhean as fheàrr airson luach poblach a chruthachadh ann an riaghaltas agus san roinn shòisealta.",
+  "intro": "Tha an treòir seo airson na feadhna a stiùireas buidhnean poblach agus buidhnean na roinne sòisealta: ceannardan bhuidhnean, stiùirichean riaghaltais ionadail, stiùirichean charthannasan, agus stiùirichean poileasaidh, didseatach, ionmhais is gnìomhachd a tha gam frithealadh. Cuiridh i teòiridh an luach phoblaich, o thriantan ro-innleachdail Mark Moore air adhart, an sàs ann an co-dhùnaidhean practaigeach ann an 33 cuspair fèin-chumhaichte.",
+  "translations": "Eadar-theangachaidhean: "
+ },
+ "eu-001": {
+  "tagline": "Gobernuan eta gizarte-sektorean balio publikoa sortzeko jardunbide egokien eskuliburu praktikoa.",
+  "intro": "Gida hau sektore publikoko eta gizarte-sektoreko erakundeak zuzentzen dituztenentzat da: agentzietako buruzagiak, tokiko gobernuetako arduradunak, irabazi-asmorik gabeko erakundeetako zuzendariak, eta haiei zerbitzua ematen dieten politika-, digital-, finantza- eta eragiketa-arloko burukideak. Mark Mooreren hirukote estrategikotik abiatuta, balio publikoaren teoria erabaki praktikoetan aplikatzen du, bere horretan ulergarriak diren 33 gaitan.",
+  "translations": "Itzulpenak: "
+ },
+ "eu-es": {
+  "tagline": "Gobernuan eta gizarte-sektorean balio publikoa sortzeko jardunbide egokien eskuliburu praktikoa.",
+  "intro": "Gida hau sektore publikoko eta gizarte-sektoreko erakundeak zuzentzen dituztenentzat da: agentzietako buruzagiak, tokiko gobernuetako arduradunak, irabazi-asmorik gabeko erakundeetako zuzendariak, eta haiei zerbitzua ematen dieten politika-, digital-, finantza- eta eragiketa-arloko burukideak. Mark Mooreren hirukote estrategikotik abiatuta, balio publikoaren teoria erabaki praktikoetan aplikatzen du, bere horretan ulergarriak diren 33 gaitan.",
+  "translations": "Itzulpenak: "
+ },
+ "da-dk": {
+  "tagline": "En praktisk guide til bedste praksis for at skabe offentlig værdi i det offentlige og i den sociale sektor.",
+  "intro": "Denne guide er skrevet til de mennesker, der leder offentlige organisationer og organisationer i den sociale sektor: myndighedschefer, ledere i lokal forvaltning, direktører i nonprofitorganisationer og de politik-, digitale, økonomi- og driftsledere, der støtter dem. Den tager teorien om offentlig værdi, med udgangspunkt i Mark Moores strategiske trekant, og anvender den på praktiske beslutninger i 33 fulde emner.",
+  "translations": "Oversættelser: "
+ },
+ "en-ie": {
+  "tagline": "A practical handbook of best practices for creating public value in government and the social sector.",
+  "intro": "This guide is for the people who lead public and social-sector organizations: agency heads, local-government leaders, nonprofit directors, and the policy, digital, finance, and operations leaders who serve them. It applies public value theory, from Mark Moore's strategic triangle onward, to practical decisions in 33 self-contained topics.",
+  "translations": "Translations: "
  }
 };
 
@@ -386,5 +466,21 @@ export const ENDONYMS: Record<string, string> = {
  "zh-th": "简体中文 (泰国)",
  "hi-np": "हिन्दी (नेपाल)",
  "cy-ar": "Cymraeg (Ariannin)",
- "de-at": "Deutsch (Österreich)"
+ "de-at": "Deutsch (Österreich)",
+ "bg-001": "Български",
+ "bg-bg": "Български - България",
+ "cs-001": "Čeština",
+ "cs-cz": "Čeština - Česko",
+ "el-001": "Ελληνικά",
+ "el-gr": "Ελληνικά - Ελλάδα",
+ "el-cy": "Ελληνικά - Κύπρος",
+ "fa-001": "فارسی",
+ "ga-001": "Gaeilge",
+ "ga-ie": "Gaeilge - Éire",
+ "gd-001": "Gàidhlig",
+ "gd-gb": "Gàidhlig - Breatainn Mhòr",
+ "eu-001": "Euskara",
+ "eu-es": "Euskara - Espainia",
+ "da-dk": "Dansk - Danmark",
+ "en-ie": "English - Ireland"
 };
