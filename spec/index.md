@@ -205,6 +205,7 @@ The book is authored once, in the canonical locale, and translated into the othe
 | `gd-001` | Gàidhlig (an saoghal) — Scottish Gaelic (World), standard modern Scottish Gaelic (GOC orthography) in the formal register; directory slugs are in Scottish Gaelic (lowercase, hyphen-separated); the topics directory is `cuspairean`. AI-assisted and pending native review. |
 | `gd-gb` | Gàidhlig (Breatainn Mhòr) — Scottish Gaelic (Great Britain), an identical copy of `gd-001` for readers in Great Britain. |
 | `gu-001` | ગુજરાતી (વિશ્વ) — Gujarati (World), standard formal Gujarati in Gujarati script, avoiding India-specific administrative idiom where a neutral term exists; directory slugs are in native Gujarati script (hyphen-separated, combining marks kept); the topics directory is `વિષયો`. AI-assisted and pending native review. |
+| `ha-001` | Hausa (duniya) — Hausa (World), standard Hausa in Latin (boko) script with hooked letters (ɓ ɗ ƙ ƴ), formal register; directory slugs are in Hausa (lowercase, hyphen-separated, apostrophes dropped); the topics directory is `batutuwa`. AI-assisted and pending native review. |
 
 The table above lists the locales with notes on terminology and script. The book is published in 60 locales in all; the directory names under `locales/` are the authoritative list, and each follows the naming convention above.
 
