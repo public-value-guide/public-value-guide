@@ -399,6 +399,76 @@ export const HERO: Record<string, { tagline: string; intro?: string; translation
   "tagline": "A practical handbook of best practices for creating public value in government and the social sector.",
   "intro": "This guide is for the people who lead public and social-sector organizations: agency heads, local-government leaders, nonprofit directors, and the policy, digital, finance, and operations leaders who serve them. It applies public value theory, from Mark Moore's strategic triangle onward, to practical decisions in 33 self-contained topics.",
   "translations": "Translations: "
+ },
+ "gu-001": {
+  "tagline": "સરકાર અને સામાજિક ક્ષેત્રમાં જાહેર મૂલ્ય સર્જવા માટેની શ્રેષ્ઠ પદ્ધતિઓની વ્યવહારુ માર્ગદર્શિકા.",
+  "intro": "આ માર્ગદર્શિકા જાહેર અને સામાજિક ક્ષેત્રની સંસ્થાઓનું નેતૃત્વ કરનારાઓ માટે છે: એજન્સીના વડાઓ, સ્થાનિક સરકારના નેતાઓ, બિનનફાકારક સંસ્થાઓના નિયામકો, તેમજ તેમને સેવા આપતા નીતિ, ડિજિટલ, નાણાં અને સંચાલન ક્ષેત્રના નેતાઓ. માર્ક મૂરના વ્યૂહાત્મક ત્રિકોણથી શરૂ કરીને, તે જાહેર મૂલ્યના સિદ્ધાંતને 33 સ્વયંપૂર્ણ વિષયોમાં વ્યવહારુ નિર્ણયો પર લાગુ કરે છે.",
+  "translations": "અનુવાદો: "
+ },
+ "ha-001": {
+  "tagline": "Jagorar aiki mai amfani na mafi kyawun ayyuka wajen ƙirƙirar darajar jama'a a gwamnati da fannin zamantakewa.",
+  "intro": "An rubuta wannan jagora ne don mutanen da ke jagorantar ƙungiyoyin gwamnati da na fannin zamantakewa: shugabannin hukumomi, shugabannin ƙananan hukumomi, daraktocin ƙungiyoyi masu zaman kansu marasa riba, da shugabannin manufofi, dijital, kuɗi da gudanarwa da ke yi musu hidima. Yana amfani da ka'idar darajar jama'a, tun daga alwatika ta dabaru ta Mark Moore zuwa gaba, a kan shawarwari na aiki cikin batutuwa 33 cikakku kowanne da kansa.",
+  "translations": "Fassarori: "
+ },
+ "he-001": {
+  "tagline": "מדריך מעשי לשיטות עבודה מיטביות ליצירת ערך ציבורי בממשל ובמגזר החברתי.",
+  "intro": "מדריך זה מיועד לאנשים העומדים בראש ארגונים ציבוריים וארגוני המגזר החברתי: ראשי רשויות וסוכנויות, מנהיגי שלטון מקומי, מנהלי ארגונים ללא מטרות רווח, וכן מובילי המדיניות, הדיגיטל, הכספים והתפעול התומכים בהם. המדריך מיישם את תורת הערך הציבורי, החל ממשולש האסטרטגיה של מארק מור ואילך, בהחלטות מעשיות ב-33 נושאים העומדים כל אחד בפני עצמו.",
+  "translations": "תרגומים: "
+ },
+ "hr-001": {
+  "tagline": "Praktični priručnik najboljih praksi za stvaranje javne vrijednosti u državnoj upravi i društvenom sektoru.",
+  "intro": "Ovaj je vodič namijenjen ljudima koji vode javne organizacije i organizacije društvenog sektora: čelnicima agencija, čelnicima lokalne samouprave, ravnateljima neprofitnih organizacija te rukovoditeljima za politike, digitalizaciju, financije i poslovanje koji ih podupiru. Od strateškog trokuta Marka Moorea nadalje primjenjuje teoriju javne vrijednosti na praktične odluke kroz 33 zaokružene teme.",
+  "translations": "Prijevodi: "
+ },
+ "hr-hr": {
+  "tagline": "Praktični priručnik najboljih praksi za stvaranje javne vrijednosti u državnoj upravi i društvenom sektoru.",
+  "intro": "Ovaj je vodič namijenjen ljudima koji vode javne organizacije i organizacije društvenog sektora: čelnicima agencija, čelnicima lokalne samouprave, ravnateljima neprofitnih organizacija te rukovoditeljima za politike, digitalizaciju, financije i poslovanje koji ih podupiru. Od strateškog trokuta Marka Moorea nadalje primjenjuje teoriju javne vrijednosti na praktične odluke kroz 33 zaokružene teme.",
+  "translations": "Prijevodi: "
+ },
+ "hu-001": {
+  "tagline": "Gyakorlati kézikönyv a közérték megteremtésének bevált módszereiről a kormányzatban és a társadalmi szektorban.",
+  "intro": "Ez az útmutató a köz- és a társadalmi szektor szervezeteinek vezetőihez szól: hivatalvezetőkhöz, helyi önkormányzati vezetőkhöz, nonprofit szervezetek igazgatóihoz, valamint a munkájukat segítő szakpolitikai, digitális, pénzügyi és működési vezetőkhöz. A közértékelméletet, Mark Moore stratégiai háromszögétől kezdve, gyakorlati döntésekre alkalmazza 33 önállóan is érthető témában.",
+  "translations": "Fordítások: "
+ },
+ "hu-hu": {
+  "tagline": "Gyakorlati kézikönyv a közérték megteremtésének bevált módszereiről a kormányzatban és a társadalmi szektorban.",
+  "intro": "Ez az útmutató a köz- és a társadalmi szektor szervezeteinek vezetőihez szól: hivatalvezetőkhöz, helyi önkormányzati vezetőkhöz, nonprofit szervezetek igazgatóihoz, valamint a munkájukat segítő szakpolitikai, digitális, pénzügyi és működési vezetőkhöz. A közértékelméletet, Mark Moore stratégiai háromszögétől kezdve, gyakorlati döntésekre alkalmazza 33 önállóan is érthető témában.",
+  "translations": "Fordítások: "
+ },
+ "jv-001": {
+  "tagline": "Buku pandhuan praktis babagan praktik paling apik kanggo nggawe nilai publik ing pamarentahan lan sektor sosial.",
+  "intro": "Pandhuan iki kanggo para pimpinan organisasi publik lan sektor sosial: kepala lembaga, pimpinan pamarentah daerah, direktur organisasi nirlaba, uga para pimpinan bidang kebijakan, digital, keuangan, lan operasional sing ndhukung dheweke. Pandhuan iki nrapake teori nilai publik, wiwit saka segitiga strategis Mark Moore, ing keputusan-keputusan praktis lumantar 33 topik sing saben-sabene bisa dibaca mandhiri.",
+  "translations": "Terjemahan: "
+ },
+ "km-001": {
+  "tagline": "សៀវភៅណែនាំជាក់ស្តែងស្តីពីការអនុវត្តល្អបំផុតសម្រាប់បង្កើតតម្លៃសាធារណៈក្នុងរដ្ឋាភិបាល និងវិស័យសង្គម។",
+  "intro": "មគ្គុទ្ទេសក៍នេះសរសេរសម្រាប់អ្នកដឹកនាំអង្គការវិស័យសាធារណៈ និងវិស័យសង្គម ដូចជាប្រធានទីភ្នាក់ងារ អ្នកដឹកនាំរដ្ឋបាលមូលដ្ឋាន នាយកអង្គការមិនស្វែងរកប្រាក់ចំណេញ និងអ្នកដឹកនាំផ្នែកគោលនយោបាយ ឌីជីថល ហិរញ្ញវត្ថុ និងប្រតិបត្តិការ ដែលបម្រើពួកគេ។ ចាប់ពីត្រីកោណយុទ្ធសាស្ត្ររបស់ Mark Moore តទៅ មគ្គុទ្ទេសក៍នេះអនុវត្តទ្រឹស្តីតម្លៃសាធារណៈទៅលើការសម្រេចចិត្តជាក់ស្តែងតាមរយៈប្រធានបទពេញលេញក្នុងខ្លួនចំនួន 33។",
+  "translations": "ការបកប្រែ៖ "
+ },
+ "km-kh": {
+  "tagline": "សៀវភៅណែនាំជាក់ស្តែងស្តីពីការអនុវត្តល្អបំផុតសម្រាប់បង្កើតតម្លៃសាធារណៈក្នុងរដ្ឋាភិបាល និងវិស័យសង្គម។",
+  "intro": "មគ្គុទ្ទេសក៍នេះសរសេរសម្រាប់អ្នកដឹកនាំអង្គការវិស័យសាធារណៈ និងវិស័យសង្គម ដូចជាប្រធានទីភ្នាក់ងារ អ្នកដឹកនាំរដ្ឋបាលមូលដ្ឋាន នាយកអង្គការមិនស្វែងរកប្រាក់ចំណេញ និងអ្នកដឹកនាំផ្នែកគោលនយោបាយ ឌីជីថល ហិរញ្ញវត្ថុ និងប្រតិបត្តិការ ដែលបម្រើពួកគេ។ ចាប់ពីត្រីកោណយុទ្ធសាស្ត្ររបស់ Mark Moore តទៅ មគ្គុទ្ទេសក៍នេះអនុវត្តទ្រឹស្តីតម្លៃសាធារណៈទៅលើការសម្រេចចិត្តជាក់ស្តែងតាមរយៈប្រធានបទពេញលេញក្នុងខ្លួនចំនួន 33។",
+  "translations": "ការបកប្រែ៖ "
+ },
+ "kn-001": {
+  "tagline": "ಸರ್ಕಾರ ಮತ್ತು ಸಾಮಾಜಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯವನ್ನು ಸೃಷ್ಟಿಸಲು ಅತ್ಯುತ್ತಮ ಪದ್ಧತಿಗಳ ಪ್ರಾಯೋಗಿಕ ಕೈಪಿಡಿ.",
+  "intro": "ಈ ಮಾರ್ಗದರ್ಶಿಯು ಸಾರ್ವಜನಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ಕ್ಷೇತ್ರದ ಸಂಸ್ಥೆಗಳನ್ನು ಮುನ್ನಡೆಸುವವರಿಗಾಗಿ ಇದೆ: ಸಂಸ್ಥೆಗಳ ಮುಖ್ಯಸ್ಥರು, ಸ್ಥಳೀಯ ಸರ್ಕಾರದ ನಾಯಕರು, ಲಾಭರಹಿತ ಸಂಸ್ಥೆಗಳ ನಿರ್ದೇಶಕರು, ಮತ್ತು ಅವರಿಗೆ ಸೇವೆ ಸಲ್ಲಿಸುವ ನೀತಿ, ಡಿಜಿಟಲ್, ಹಣಕಾಸು ಮತ್ತು ಕಾರ್ಯಾಚರಣೆ ನಾಯಕರು. ಮಾರ್ಕ್ ಮೂರ್ ಅವರ ಕಾರ್ಯತಂತ್ರದ ತ್ರಿಕೋನದಿಂದ ಮುಂದಕ್ಕೆ ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯ ಸಿದ್ಧಾಂತವನ್ನು, 33 ಸ್ವಯಂಪೂರ್ಣ ವಿಷಯಗಳಲ್ಲಿ ಪ್ರಾಯೋಗಿಕ ನಿರ್ಧಾರಗಳಿಗೆ ಅನ್ವಯಿಸುತ್ತದೆ.",
+  "translations": "ಅನುವಾದಗಳು: "
+ },
+ "fr-be": {
+  "tagline": "Un manuel pratique de bonnes pratiques pour créer de la valeur publique dans l'administration et le secteur social.",
+  "intro": "Ce guide s'adresse à celles et ceux qui dirigent des organisations publiques et du secteur social : responsables d'agences, élus et dirigeants locaux, directeurs d'organisations à but non lucratif, ainsi que les responsables des politiques, du numérique, des finances et des opérations qui les accompagnent. Il applique la théorie de la valeur publique, à partir du triangle stratégique de Mark Moore, à des décisions concrètes en 33 sujets autonomes.",
+  "translations": "Traductions: "
+ },
+ "fr-lu": {
+  "tagline": "Un manuel pratique de bonnes pratiques pour créer de la valeur publique dans l'administration et le secteur social.",
+  "intro": "Ce guide s'adresse à celles et ceux qui dirigent des organisations publiques et du secteur social : responsables d'agences, élus et dirigeants locaux, directeurs d'organisations à but non lucratif, ainsi que les responsables des politiques, du numérique, des finances et des opérations qui les accompagnent. Il applique la théorie de la valeur publique, à partir du triangle stratégique de Mark Moore, à des décisions concrètes en 33 sujets autonomes.",
+  "translations": "Traductions: "
+ },
+ "nl-be": {
+  "tagline": "Een praktisch handboek met beste praktijken voor het creëren van publieke waarde bij de overheid en in de sociale sector.",
+  "intro": "Deze gids is bedoeld voor de mensen die organisaties in de publieke en sociale sector leiden: directeuren van uitvoeringsorganisaties, bestuurders van lokale overheden, directeuren van non-profitorganisaties en de leiders op het gebied van beleid, digitaal, financiën en uitvoering die hen bijstaan. Zij past de theorie van publieke waarde, te beginnen bij de strategische driehoek van Mark Moore, toe op praktische beslissingen in 33 zelfstandige onderwerpen.",
+  "translations": "Vertalingen: "
  }
 };
 
@@ -482,5 +552,19 @@ export const ENDONYMS: Record<string, string> = {
  "eu-001": "Euskara",
  "eu-es": "Euskara - Espainia",
  "da-dk": "Dansk - Danmark",
- "en-ie": "English - Ireland"
+ "en-ie": "English - Ireland",
+ "gu-001": "ગુજરાતી",
+ "ha-001": "Hausa",
+ "he-001": "עברית",
+ "hr-001": "Hrvatski",
+ "hr-hr": "Hrvatski - Hrvatska",
+ "hu-001": "Magyar",
+ "hu-hu": "Magyar - Magyarország",
+ "jv-001": "Basa Jawa",
+ "km-001": "ខ្មែរ",
+ "km-kh": "ខ្មែរ - កម្ពុជា",
+ "kn-001": "ಕನ್ನಡ",
+ "fr-be": "Français - Belgique",
+ "fr-lu": "Français - Luxembourg",
+ "nl-be": "Nederlands - België"
 };

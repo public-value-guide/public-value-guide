@@ -127,7 +127,21 @@ export const LOCALES: Locale[] = [
   { slug: 'eu-001', label: 'Euskara' },
   { slug: 'eu-es', label: 'Euskara - Espainia' },
   { slug: 'da-dk', label: 'Dansk - Danmark' },
-  { slug: 'en-ie', label: 'English - Ireland' }
+  { slug: 'en-ie', label: 'English - Ireland' },
+  { slug: 'gu-001', label: "ગુજરાતી" },
+  { slug: 'ha-001', label: "Hausa" },
+  { slug: 'he-001', label: "עברית" },
+  { slug: 'hr-001', label: "Hrvatski" },
+  { slug: 'hr-hr', label: "Hrvatski - Hrvatska" },
+  { slug: 'hu-001', label: "Magyar" },
+  { slug: 'hu-hu', label: "Magyar - Magyarország" },
+  { slug: 'jv-001', label: "Basa Jawa" },
+  { slug: 'km-001', label: "ខ្មែរ" },
+  { slug: 'km-kh', label: "ខ្មែរ - កម្ពុជា" },
+  { slug: 'kn-001', label: "ಕನ್ನಡ" },
+  { slug: 'fr-be', label: "Français - Belgique" },
+  { slug: 'fr-lu', label: "Français - Luxembourg" },
+  { slug: 'nl-be', label: "Nederlands - België" }
 ];
 
 /**
@@ -852,6 +866,68 @@ PART_TRANSLATIONS['eu-001'] = {
 PART_TRANSLATIONS['eu-es'] = PART_TRANSLATIONS['eu-001'];
 PART_TRANSLATIONS['da-dk'] = PART_TRANSLATIONS['da-001'];
 PART_TRANSLATIONS['en-ie'] = PART_TRANSLATIONS['en-gb'];
+PART_TRANSLATIONS['gu-001'] = {
+  1: { title: 'પાયો', tagline: 'જાહેર મૂલ્ય બજાર મૂલ્ય અથવા માત્ર લોકશાહી જનાદેશથી શા માટે અલગ છે, અને તેને સમજાવતાં મૉડલ' },
+  2: { title: 'મૂલ્યાંકન અને પુરાવા', tagline: 'વિશ્લેષકની ઓજાર-પેટી: પરિણામોનું મૂલ્ય આંકવું, દલીલ તૈયાર કરવી, દાવાઓની ચકાસણી કરવી' },
+  3: { title: 'પ્રણાલીઓ, શાસન અને અગ્રતાઓ', tagline: 'જાહેર અને સામાજિક ક્ષેત્રની સંસ્થાઓનું માળખું, નાણાકીય પોષણ અને જવાબદેહી કેવી રીતે નક્કી થાય છે' },
+  4: { title: 'વૈશ્વિક અને સામાજિક મુદ્દાઓ', tagline: 'એક સંસ્થાથી આગળ જાહેર મૂલ્ય: વર્તન, વિશ્વાસ, પૃથ્વી અને જાહેર સંવાદ' },
+  5: { title: 'ડિજિટલ, સૉફ્ટવેર અને ટેક્નોલૉજી', tagline: 'ટેક્નોલૉજીનું જાહેર મૂલ્ય: ડિજિટલ સરકાર, કૃત્રિમ બુદ્ધિમત્તા, સૉફ્ટવેર, ડેટા અને સાયબર સુરક્ષા' }
+};
+PART_TRANSLATIONS['ha-001'] = {
+  1: { title: "Tushe", tagline: "dalilin da ya sa darajar jama'a ta bambanta da darajar kasuwa ko ikon da dimokuraɗiyya ta ba da su kaɗai, da samfuran da ke bayyana ta" },
+  2: { title: "Kimantawa da Shaida", tagline: "kayan aikin mai nazari: ƙididdige sakamako, gina hujja, gwada iƙirari" },
+  3: { title: "Tsare-tsare, Shugabanci da Fifiko", tagline: "yadda aka tsara ƙungiyoyin gwamnati da na fannin zamantakewa, yadda ake ba su kuɗi, da yadda ake tuhumar su" },
+  4: { title: "Batutuwan Duniya da na Al'umma", tagline: "darajar jama'a fiye da cibiya ɗaya: ɗabi'a, amana, duniyarmu, da tattaunawar jama'a" },
+  5: { title: "Dijital, Manhaja da Fasaha", tagline: "darajar jama'a ta fasaha: gwamnatin dijital, basirar wucin gadi, manhaja, bayanai da tsaron yanar gizo" }
+};
+PART_TRANSLATIONS['he-001'] = {
+  1: { title: 'יסודות', tagline: 'מדוע ערך ציבורי שונה מערך שוק או ממנדט דמוקרטי בלבד, והמודלים המסבירים אותו' },
+  2: { title: 'הערכה וראיות', tagline: 'ארגז הכלים של האנליסט: תמחור תוצאות, בניית הנימוקים ובחינת טענות' },
+  3: { title: 'מערכות, ממשל ועדיפויות', tagline: 'כיצד ארגונים ציבוריים וארגוני המגזר החברתי בנויים, ממומנים ונתונים לאחריותיות' },
+  4: { title: 'סוגיות עולמיות וחברתיות', tagline: 'ערך ציבורי מעבר למוסד בודד: התנהגות, אמון, כדור הארץ והשיח הציבורי' },
+  5: { title: 'דיגיטל, תוכנה וטכנולוגיה', tagline: 'הערך הציבורי של הטכנולוגיה: ממשל דיגיטלי, בינה מלאכותית, תוכנה, נתונים וסייבר' }
+};
+PART_TRANSLATIONS['hr-001'] = {
+  1: { title: 'Temelji', tagline: 'zašto se javna vrijednost razlikuje od tržišne vrijednosti ili samoga demokratskog mandata te modeli koji to objašnjavaju' },
+  2: { title: 'Evaluacija i dokazi', tagline: 'analitičarev alat: vrednovanje ishoda, izgradnja argumentacije, provjera tvrdnji' },
+  3: { title: 'Sustavi, upravljanje i prioriteti', tagline: 'kako su javne organizacije i organizacije društvenog sektora ustrojene, financirane i kako za svoj rad odgovaraju' },
+  4: { title: 'Globalna i društvena pitanja', tagline: 'javna vrijednost izvan granica jedne institucije: ponašanje, povjerenje, planet i javni razgovor' },
+  5: { title: 'Digitalno, softver i tehnologija', tagline: 'javna vrijednost tehnologije: digitalna uprava, umjetna inteligencija, softver, podaci i kibernetička sigurnost' }
+};
+PART_TRANSLATIONS['hr-hr'] = PART_TRANSLATIONS['hr-001'];
+PART_TRANSLATIONS['hu-001'] = {
+  1: { title: 'Alapok', tagline: 'miért más a közérték, mint a piaci érték vagy a pusztán demokratikus felhatalmazás, és milyen modellek magyarázzák' },
+  2: { title: 'Értékelés és bizonyítékok', tagline: 'az elemző eszköztára: az eredmények értékelése, az érvelés felépítése, az állítások próbára tétele' },
+  3: { title: 'Rendszerek, irányítás és prioritások', tagline: 'hogyan épülnek fel, hogyan finanszírozzák és hogyan számoltatják el a köz- és társadalmi szektor szervezeteit' },
+  4: { title: 'Globális és társadalmi kérdések', tagline: 'a közérték egyetlen intézményen túl: magatartás, bizalom, a bolygó és a közéleti párbeszéd' },
+  5: { title: 'Digitális megoldások, szoftver és technológia', tagline: 'a technológia közértéke: digitális kormányzat, mesterséges intelligencia, szoftver, adatok és kiberbiztonság' }
+};
+PART_TRANSLATIONS['hu-hu'] = PART_TRANSLATIONS['hu-001'];
+PART_TRANSLATIONS['jv-001'] = {
+  1: { title: 'Dhasar', tagline: 'Apa sebabe nilai publik beda saka nilai pasar utawa mandat demokratis piyambak, lan model-model sing nerangake iku' },
+  2: { title: 'Evaluasi lan Bukti', tagline: 'Piranti kanggo analis: ngregani asil, nyusun argumentasi, lan nguji klaim' },
+  3: { title: 'Sistem, Tata Kelola, lan Prioritas', tagline: 'Kepriye organisasi publik lan sektor sosial disusun, dibiayani, lan dituntut tanggung jawabe' },
+  4: { title: 'Prakara Global lan Kemasyarakatan', tagline: 'Nilai publik ngluwihi siji lembaga: prilaku, kapercayan, bumi, lan rembugan publik' },
+  5: { title: 'Digital, Piranti Lunak, lan Teknologi', tagline: 'Nilai publik saka teknologi: pamarentahan digital, kecerdasan buatan, piranti lunak, data, lan keamanan siber' }
+};
+PART_TRANSLATIONS['km-001'] = {
+  1: { title: 'មូលដ្ឋានគ្រឹះ', tagline: 'ហេតុអ្វីបានជាតម្លៃសាធារណៈខុសពីតម្លៃទីផ្សារ ឬអាណត្តិប្រជាធិបតេយ្យតែមួយមុខ និងគំរូដែលពន្យល់អំពីវា' },
+  2: { title: 'ការវាយតម្លៃ និងភស្តុតាង', tagline: 'ឧបករណ៍របស់អ្នកវិភាគ៖ ការកំណត់តម្លៃលទ្ធផល ការកសាងហេតុផល និងការសាកល្បងការអះអាង' },
+  3: { title: 'ប្រព័ន្ធ អភិបាលកិច្ច និងអាទិភាព', tagline: 'របៀបដែលអង្គការវិស័យសាធារណៈ និងវិស័យសង្គមត្រូវបានរៀបចំរចនាសម្ព័ន្ធ ផ្តល់ថវិកា និងត្រូវទទួលខុសត្រូវ' },
+  4: { title: 'បញ្ហាសកល និងសង្គម', tagline: 'តម្លៃសាធារណៈហួសពីស្ថាប័នតែមួយ៖ ឥរិយាបថ ទំនុកចិត្ត ភពផែនដី និងការសន្ទនាសាធារណៈ' },
+  5: { title: 'ឌីជីថល កម្មវិធី និងបច្ចេកវិទ្យា', tagline: 'តម្លៃសាធារណៈនៃបច្ចេកវិទ្យា៖ រដ្ឋាភិបាលឌីជីថល បញ្ញាសិប្បនិម្មិត កម្មវិធី ទិន្នន័យ និងសន្តិសុខអ៊ីនធឺណិត' }
+};
+PART_TRANSLATIONS['km-kh'] = PART_TRANSLATIONS['km-001'];
+PART_TRANSLATIONS['kn-001'] = {
+  1: { title: 'ಅಡಿಪಾಯಗಳು', tagline: 'ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯವು ಮಾರುಕಟ್ಟೆ ಮೌಲ್ಯಕ್ಕಿಂತ ಅಥವಾ ಕೇವಲ ಪ್ರಜಾಪ್ರಭುತ್ವದ ಜನಾದೇಶಕ್ಕಿಂತ ಏಕೆ ಭಿನ್ನ, ಮತ್ತು ಅದನ್ನು ವಿವರಿಸುವ ಮಾದರಿಗಳು' },
+  2: { title: 'ಮೌಲ್ಯಮಾಪನ ಮತ್ತು ಸಾಕ್ಷ್ಯ', tagline: 'ವಿಶ್ಲೇಷಕರ ಉಪಕರಣ ಪೆಟ್ಟಿಗೆ: ಫಲಿತಾಂಶಗಳಿಗೆ ಮೌಲ್ಯ ಕಟ್ಟುವುದು, ವಾದವನ್ನು ರೂಪಿಸುವುದು, ಹೇಳಿಕೆಗಳನ್ನು ಪರೀಕ್ಷಿಸುವುದು' },
+  3: { title: 'ವ್ಯವಸ್ಥೆಗಳು, ಆಡಳಿತ ಮತ್ತು ಆದ್ಯತೆಗಳು', tagline: 'ಸಾರ್ವಜನಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ಕ್ಷೇತ್ರದ ಸಂಸ್ಥೆಗಳು ಹೇಗೆ ರಚಿತವಾಗಿವೆ, ಹೇಗೆ ಹಣಕಾಸು ಪಡೆಯುತ್ತವೆ ಮತ್ತು ಹೇಗೆ ಉತ್ತರದಾಯಿಯಾಗಿರುತ್ತವೆ' },
+  4: { title: 'ಜಾಗತಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ವಿಷಯಗಳು', tagline: 'ಒಂದೇ ಸಂಸ್ಥೆಯನ್ನು ಮೀರಿದ ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯ: ನಡವಳಿಕೆ, ವಿಶ್ವಾಸ, ಭೂಗ್ರಹ ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸಂವಾದ' },
+  5: { title: 'ಡಿಜಿಟಲ್, ಸಾಫ್ಟ್‌ವೇರ್ ಮತ್ತು ತಂತ್ರಜ್ಞಾನ', tagline: 'ತಂತ್ರಜ್ಞಾನದ ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯ: ಡಿಜಿಟಲ್ ಸರ್ಕಾರ, ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ, ಸಾಫ್ಟ್‌ವೇರ್, ಡೇಟಾ ಮತ್ತು ಸೈಬರ್ ಭದ್ರತೆ' }
+};
+PART_TRANSLATIONS['fr-be'] = PART_TRANSLATIONS['fr-001'];
+PART_TRANSLATIONS['fr-lu'] = PART_TRANSLATIONS['fr-001'];
+PART_TRANSLATIONS['nl-be'] = PART_TRANSLATIONS['nl-001'];
 
 /** `PARTS`, translated for `locale` where a translation exists, English otherwise. */
 export function partsFor(locale: string): Part[] {

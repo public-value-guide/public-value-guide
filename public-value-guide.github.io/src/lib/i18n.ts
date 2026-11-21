@@ -1984,6 +1984,450 @@ const euUi: UiStrings = {
   }
 };
 
+const guUi: UiStrings = {
+  siteTitle: 'જાહેર મૂલ્ય માર્ગદર્શિકા',
+  skipToContent: 'મુખ્ય સામગ્રી પર જાઓ',
+  nav: { contents: 'અનુક્રમણિકા', glossary: 'શબ્દાવલિ', index: 'સૂચિ', source: 'સ્રોત' },
+  breadcrumb: { home: 'મુખ્ય પૃષ્ઠ', contents: 'અનુક્રમણિકા' },
+  picker: { theme: 'થીમ', locale: 'ભાષા', textSize: 'લખાણનું કદ', share: 'શેર કરો',
+    search: 'શોધો',
+    searchInput: 'માર્ગદર્શિકામાં શોધો',
+    searchSubmit: 'શોધ સબમિટ કરો'
+  },
+  share: {
+    emailLink: 'લિંક ઇમેઇલ કરો',
+    shareOnLinkedIn: 'LinkedIn પર શેર કરો',
+    shareOnReddit: 'Reddit પર શેર કરો',
+    shareOnBluesky: 'Bluesky પર શેર કરો',
+    shareOnMastodon: 'Mastodon પર શેર કરો',
+    copyLink: 'લિંક કૉપિ કરો',
+    copied: 'કૉપિ થઈ ગયું!',
+    copyFailed: 'કૉપિ થઈ શક્યું નહીં — તેને બદલે એડ્રેસ બારમાંનું સરનામું કૉપિ કરો'
+  },
+  contents: {
+    pageTitle: 'અનુક્રમણિકા',
+    lead: 'દરેક વિષય પોતાનામાં સંપૂર્ણ છે. જાહેર મૂલ્યના અભ્યાસક્રમ તરીકે શરૂઆતથી અંત સુધી વાંચો, અથવા તમારી સામેના નિર્ણયને અનુરૂપ વિષય પર સીધા જાઓ.',
+    readingIn: (label) => `${label} માં વાંચી રહ્યા છો. હેડરમાંના ભાષા પસંદગીકારથી ભાષા બદલો.`,
+    frontMatter: 'પ્રારંભિક સામગ્રી',
+    part: (n) => `ભાગ ${n}`,
+    reference: 'સંદર્ભ'
+  },
+  topic: {
+    topicEyebrow: (n) => `વિષય ${n}`,
+    paginationLabel: 'વિષય',
+    onThisPage: 'આ પૃષ્ઠ પર',
+    previous: 'પાછળનું',
+    next: 'આગળનું'
+  },
+  links: { label: 'લિંક્સ', skills: 'AI સ્કિલ્સ', llms: 'AI એજન્ટો માટે (llms.txt)', issues: 'સમસ્યા નોંધાવો' },
+  results: {
+    label: 'શોધ પરિણામો',
+    heading: (q) => `શોધ: ${q}`,
+    searching: 'શોધી રહ્યા છીએ…',
+    none: (q) => `“${q}” માટે કોઈ પરિણામ મળ્યું નથી.`,
+    browse: 'અનુક્રમણિકા જુઓ',
+    failed: 'શોધ સૂચિ લોડ થઈ શકી નથી.',
+    count: (n, more) => `${n}${more ? '+' : ''} પરિણામ`,
+    button: 'શોધો'
+  },
+  footer: {
+    tagline:
+      'સરકાર અને સામાજિક ક્ષેત્રમાં જાહેર મૂલ્ય સર્જવા માટેની શ્રેષ્ઠ પદ્ધતિઓની વ્યવહારુ માર્ગદર્શિકા, જેનો વ્યાપ સમગ્ર વિશ્વમાં છે.',
+    sourceAndContributions: 'સ્રોત અને યોગદાન:',
+    builtWith: 'આના વડે બનાવેલ:',
+    ledBy: 'નેતૃત્વ:'
+  }
+};
+
+const haUi: UiStrings = {
+  siteTitle: "Jagorar Darajar Jama'a",
+  skipToContent: "Tsallake zuwa babban abin da ke ciki",
+  nav: { contents: "Abubuwan da ke ciki", glossary: "Ƙamus", index: "Fihirisa", source: "Tushe" },
+  breadcrumb: { home: "Shafin farko", contents: "Abubuwan da ke ciki" },
+  picker: { theme: "Salo", locale: "Harshe", textSize: "Girman rubutu", share: "Raba",
+    search: "Bincike",
+    searchInput: "Nemi a cikin jagoran",
+    searchSubmit: "Aika bincike"
+  },
+  share: {
+    emailLink: "Aika mahaɗi ta imel",
+    shareOnLinkedIn: "Raba a LinkedIn",
+    shareOnReddit: "Raba a Reddit",
+    shareOnBluesky: "Raba a Bluesky",
+    shareOnMastodon: "Raba a Mastodon",
+    copyLink: "Kwafi mahaɗi",
+    copied: "An kwafa!",
+    copyFailed: "Kwafin bai yi nasara ba — a kwafi adireshin daga sandar adireshi"
+  },
+  contents: {
+    pageTitle: "Abubuwan da ke ciki",
+    lead: "Kowane batu cikakke ne da kansa. A karanta daga farko zuwa ƙarshe don samun cikakken kwas kan darajar jama'a, ko a je kai tsaye zuwa batun da ya dace da shawarar da ke gabanka.",
+    readingIn: (label) => `Kana karantawa da ${label}. Ka canza harshe daga zaɓin harshe da ke saman shafi.`,
+    frontMatter: "Gabatarwa",
+    part: (n) => `Sashe na ${n}`,
+    reference: "Bayanan nuni"
+  },
+  topic: {
+    topicEyebrow: (n) => `Batu ${n}`,
+    paginationLabel: "Batu",
+    onThisPage: "A wannan shafi",
+    previous: "Na baya",
+    next: "Na gaba"
+  },
+  links: { label: "Mahaɗai", skills: "Ƙwarewar AI", llms: "Ga wakilan AI (llms.txt)", issues: "Bayar da rahoton matsala" },
+  results: {
+    label: "Sakamakon bincike",
+    heading: (q) => `Bincike: ${q}`,
+    searching: "Ana bincike…",
+    none: (q) => `Babu sakamako ga “${q}”.`,
+    browse: "Bincika abubuwan da ke ciki",
+    failed: "Ba a iya loda fihirisar bincike ba.",
+    count: (n, more) => `${n}${more ? '+' : ''} sakamako`,
+    button: "Bincika"
+  },
+  footer: {
+    tagline:
+      "jagorar aiki mai amfani na mafi kyawun ayyuka wajen ƙirƙirar darajar jama'a a gwamnati da fannin zamantakewa, mai fa'ida a faɗin duniya.",
+    sourceAndContributions: "Tushe da gudummawa:",
+    builtWith: "An gina da",
+    ledBy: "Karkashin jagorancin"
+  }
+};
+
+const heUi: UiStrings = {
+  siteTitle: "המדריך לערך ציבורי",
+  skipToContent: "דלג לתוכן הראשי",
+  nav: { contents: "תוכן העניינים", glossary: "מילון מונחים", index: "מפתח", source: "מקור" },
+  breadcrumb: { home: "בית", contents: "תוכן העניינים" },
+  picker: { theme: "ערכת נושא", locale: "שפה", textSize: "גודל טקסט", share: "שיתוף",
+    search: "חיפוש",
+    searchInput: "חיפוש במדריך",
+    searchSubmit: "שליחת החיפוש"
+  },
+  share: {
+    emailLink: "שליחת הקישור בדוא״ל",
+    shareOnLinkedIn: "שיתוף ב-LinkedIn",
+    shareOnReddit: "שיתוף ב-Reddit",
+    shareOnBluesky: "שיתוף ב-Bluesky",
+    shareOnMastodon: "שיתוף ב-Mastodon",
+    copyLink: "העתקת הקישור",
+    copied: "הועתק!",
+    copyFailed: "ההעתקה נכשלה — העתיקו את הכתובת משורת הכתובת"
+  },
+  contents: {
+    pageTitle: "תוכן העניינים",
+    lead: "כל נושא עומד בפני עצמו. אפשר לקרוא ברצף כקורס בערך ציבורי, או לעבור ישירות לנושא התואם את ההחלטה העומדת לפניכם.",
+    readingIn: (label) => `הקריאה ב${label}. ניתן להחליף שפה בבורר השפה שבכותרת העליונה.`,
+    frontMatter: "פתיח",
+    part: (n) => `חלק ${n}`,
+    reference: "מראי מקום"
+  },
+  topic: {
+    topicEyebrow: (n) => `נושא ${n}`,
+    paginationLabel: "נושא",
+    onThisPage: "בעמוד זה",
+    previous: "הקודם",
+    next: "הבא"
+  },
+  links: { label: "קישורים", skills: "כישורי בינה מלאכותית", llms: "לסוכני בינה מלאכותית (llms.txt)", issues: "דיווח על בעיה" },
+  results: {
+    label: "תוצאות חיפוש",
+    heading: (q) => `חיפוש: ${q}`,
+    searching: "מחפש…",
+    none: (q) => `לא נמצאו תוצאות עבור ”${q}“.`,
+    browse: "עיון בתוכן העניינים",
+    failed: "לא ניתן היה לטעון את אינדקס החיפוש.",
+    count: (n, more) => (n === 1 && !more ? "תוצאה אחת" : `${n}${more ? '+' : ''} תוצאות`),
+    button: "חיפוש"
+  },
+  footer: {
+    tagline:
+      "מדריך מעשי לשיטות עבודה מיטביות ליצירת ערך ציבורי בממשל ובמגזר החברתי, בהיקף עולמי.",
+    sourceAndContributions: "מקור ותרומות:",
+    builtWith: "נבנה באמצעות",
+    ledBy: "בהובלת"
+  }
+};
+
+const hrUi: UiStrings = {
+  siteTitle: 'Vodič kroz javnu vrijednost',
+  skipToContent: 'Preskoči na glavni sadržaj',
+  nav: { contents: 'Sadržaj', glossary: 'Pojmovnik', index: 'Kazalo', source: 'Izvor' },
+  breadcrumb: { home: 'Početna', contents: 'Sadržaj' },
+  picker: { theme: 'Tema prikaza', locale: 'Jezik', textSize: 'Veličina teksta', share: 'Podijeli',
+    search: 'Pretraži',
+    searchInput: 'Pretražite vodič',
+    searchSubmit: 'Pošalji pretragu'
+  },
+  share: {
+    emailLink: 'Pošalji poveznicu e-poštom',
+    shareOnLinkedIn: 'Podijeli na LinkedInu',
+    shareOnReddit: 'Podijeli na Redditu',
+    shareOnBluesky: 'Podijeli na Blueskyju',
+    shareOnMastodon: 'Podijeli na Mastodonu',
+    copyLink: 'Kopiraj poveznicu',
+    copied: 'Kopirano!',
+    copyFailed: 'Kopiranje nije uspjelo – umjesto toga kopirajte adresu iz adresne trake'
+  },
+  contents: {
+    pageTitle: 'Sadržaj',
+    lead: 'Svaka je tema zaokružena cjelina. Čitajte od početka do kraja kao tečaj o javnoj vrijednosti ili idite izravno na temu koja odgovara odluci pred vama.',
+    readingIn: (label) => `Čitate na jeziku: ${label}. Jezik promijenite u izborniku jezika u zaglavlju.`,
+    frontMatter: 'Uvodni dio',
+    part: (n) => `Dio ${n}`,
+    reference: 'Referentni dio'
+  },
+  topic: {
+    topicEyebrow: (n) => `Tema ${n}`,
+    paginationLabel: 'Tema',
+    onThisPage: 'Na ovoj stranici',
+    previous: 'Prethodna',
+    next: 'Sljedeća'
+  },
+  links: { label: 'Poveznice', skills: 'Vještine za umjetnu inteligenciju', llms: 'Za AI agente (llms.txt)', issues: 'Prijavite problem' },
+  results: {
+    label: 'Rezultati pretrage',
+    heading: (q) => `Pretraga: ${q}`,
+    searching: 'Pretraživanje…',
+    none: (q) => `Nema rezultata za „${q}”.`,
+    browse: 'Pregledajte sadržaj',
+    failed: 'Indeks pretraživanja nije se mogao učitati.',
+    count: (n, more) => {
+      const m10 = n % 10, m100 = n % 100;
+      const one = !more && m10 === 1 && m100 !== 11;
+      return `${n}${more ? '+' : ''} ${one ? 'rezultat' : 'rezultata'}`;
+    },
+    button: 'Pretraži'
+  },
+  footer: {
+    tagline:
+      'praktični priručnik najboljih praksi za stvaranje javne vrijednosti u državnoj upravi i društvenom sektoru, s globalnim dosegom.',
+    sourceAndContributions: 'Izvor i doprinosi:',
+    builtWith: 'Izrađeno pomoću:',
+    ledBy: 'Voditelj:'
+  }
+};
+
+const huUi: UiStrings = {
+  siteTitle: 'Közérték-útmutató',
+  skipToContent: 'Ugrás a fő tartalomhoz',
+  nav: { contents: 'Tartalom', glossary: 'Szójegyzék', index: 'Tárgymutató', source: 'Forrás' },
+  breadcrumb: { home: 'Főoldal', contents: 'Tartalom' },
+  picker: { theme: 'Megjelenés', locale: 'Nyelv', textSize: 'Szövegméret', share: 'Megosztás',
+    search: 'Keresés',
+    searchInput: 'Keresés az útmutatóban',
+    searchSubmit: 'Keresés indítása'
+  },
+  share: {
+    emailLink: 'Hivatkozás küldése e-mailben',
+    shareOnLinkedIn: 'Megosztás a LinkedIn-en',
+    shareOnReddit: 'Megosztás a Redditen',
+    shareOnBluesky: 'Megosztás a Bluesky-on',
+    shareOnMastodon: 'Megosztás a Mastodonon',
+    copyLink: 'Hivatkozás másolása',
+    copied: 'Átmásolva!',
+    copyFailed: 'A másolás nem sikerült — másolja ki inkább a címsor tartalmát'
+  },
+  contents: {
+    pageTitle: 'Tartalom',
+    lead: 'Minden téma önállóan is megáll. Olvassa végig a közértékről szóló tanfolyamként, vagy ugorjon közvetlenül ahhoz a témához, amely az Ön előtt álló döntéshez illik.',
+    readingIn: (label) => `Olvasási nyelv: ${label}. A nyelvet a fejléc nyelvválasztójával válthatja.`,
+    frontMatter: 'Bevezető rész',
+    part: (n) => `${n}. rész`,
+    reference: 'Hivatkozások'
+  },
+  topic: {
+    topicEyebrow: (n) => `Téma ${n}`,
+    paginationLabel: 'Téma',
+    onThisPage: 'Ezen az oldalon',
+    previous: 'Előző',
+    next: 'Következő'
+  },
+  links: { label: 'Hivatkozások', skills: 'MI-képességek', llms: 'MI-ügynököknek (llms.txt)', issues: 'Hiba bejelentése' },
+  results: {
+    label: 'Keresési találatok',
+    heading: (q) => `Keresés: ${q}`,
+    searching: 'Keresés…',
+    none: (q) => `Nincs találat a(z) „${q}” kifejezésre.`,
+    browse: 'Tartalom böngészése',
+    failed: 'A keresési indexet nem sikerült betölteni.',
+    count: (n, more) => `${n}${more ? '+' : ''} találat`,
+    button: 'Keresés'
+  },
+  footer: {
+    tagline:
+      'gyakorlati kézikönyv a közérték megteremtésének bevált módszereiről a kormányzatban és a társadalmi szektorban, világszintű hatókörrel.',
+    sourceAndContributions: 'Forrás és közreműködés:',
+    builtWith: 'Készült ezzel:',
+    ledBy: 'Vezeti:'
+  }
+};
+
+const jvUi: UiStrings = {
+  siteTitle: 'Pandhuan Nilai Publik',
+  skipToContent: 'Langsung menyang isi utama',
+  nav: { contents: 'Daftar Isi', glossary: 'Glosarium', index: 'Indeks', source: 'Sumber' },
+  breadcrumb: { home: 'Ngarep', contents: 'Daftar Isi' },
+  picker: { theme: 'Tema', locale: 'Basa', textSize: 'Ukuran teks', share: 'Bagekake',
+    search: 'Golek',
+    searchInput: 'Golek ing pandhuan',
+    searchSubmit: 'Kirim panelusuran'
+  },
+  share: {
+    emailLink: 'Kirim Tautan lumantar Email',
+    shareOnLinkedIn: 'Bagekake ing LinkedIn',
+    shareOnReddit: 'Bagekake ing Reddit',
+    shareOnBluesky: 'Bagekake ing Bluesky',
+    shareOnMastodon: 'Bagekake ing Mastodon',
+    copyLink: 'Salin Tautan',
+    copied: 'Wis disalin!',
+    copyFailed: 'Panyalinan gagal — mangga salin alamat saka bar alamat'
+  },
+  contents: {
+    pageTitle: 'Daftar Isi',
+    lead: 'Saben topik bisa dibaca kanthi mandhiri. Mangga waca saka wiwitan nganti pungkasan minangka kursus babagan nilai publik, utawa langsung menyang topik sing cocog karo keputusan sing kaadhepi.',
+    readingIn: (label) => `Maca ing ${label}. Basa bisa diowahi saka pamilih ing sirah kaca.`,
+    frontMatter: 'Bab pambuka',
+    part: (n) => `Bagian ${n}`,
+    reference: 'Rujukan'
+  },
+  topic: {
+    topicEyebrow: (n) => `Topik ${n}`,
+    paginationLabel: 'Topik',
+    onThisPage: 'Ing kaca iki',
+    previous: 'Sadurunge',
+    next: 'Sabanjure'
+  },
+  links: { label: 'Tautan', skills: 'Kaprigelan AI', llms: 'Kanggo agen AI (llms.txt)', issues: 'Laporake masalah' },
+  results: {
+    label: 'Asil panelusuran',
+    heading: (q) => `Panelusuran: ${q}`,
+    searching: 'Lagi nggolek…',
+    none: (q) => `Ora ana asil kanggo “${q}”.`,
+    browse: 'Jelajahi daftar isi',
+    failed: 'Indeks panelusuran ora bisa dimuat.',
+    count: (n, more) => `${n}${more ? '+' : ''} asil`,
+    button: 'Golek'
+  },
+  footer: {
+    tagline:
+      'buku pandhuan praktis babagan praktik paling apik kanggo nggawe nilai publik ing pamarentahan lan sektor sosial, kanthi jangkoan sa-donya.',
+    sourceAndContributions: 'Sumber lan kontribusi:',
+    builtWith: 'Dibangun nganggo',
+    ledBy: 'Dipimpin dening'
+  }
+};
+
+const kmUi: UiStrings = {
+  siteTitle: 'មគ្គុទ្ទេសក៍តម្លៃសាធារណៈ',
+  skipToContent: 'រំលងទៅមាតិកាសំខាន់',
+  nav: { contents: 'មាតិកា', glossary: 'សទ្ទានុក្រម', index: 'លិបិក្រម', source: 'ប្រភព' },
+  breadcrumb: { home: 'ទំព័រដើម', contents: 'មាតិកា' },
+  picker: { theme: 'រចនាប័ទ្ម', locale: 'ភាសា', textSize: 'ទំហំអក្សរ', share: 'ចែករំលែក',
+    search: 'ស្វែងរក',
+    searchInput: 'ស្វែងរកក្នុងមគ្គុទ្ទេសក៍',
+    searchSubmit: 'ដាក់ស្នើការស្វែងរក'
+  },
+  share: {
+    emailLink: 'ផ្ញើតំណតាមអ៊ីមែល',
+    shareOnLinkedIn: 'ចែករំលែកលើ LinkedIn',
+    shareOnReddit: 'ចែករំលែកលើ Reddit',
+    shareOnBluesky: 'ចែករំលែកលើ Bluesky',
+    shareOnMastodon: 'ចែករំលែកលើ Mastodon',
+    copyLink: 'ចម្លងតំណ',
+    copied: 'បានចម្លង!',
+    copyFailed: 'ចម្លងមិនបានសម្រេច – សូមចម្លងអាសយដ្ឋានពីរបារអាសយដ្ឋានជំនួសវិញ'
+  },
+  contents: {
+    pageTitle: 'មាតិកា',
+    lead: 'ប្រធានបទនីមួយៗមានខ្លឹមសារពេញលេញក្នុងខ្លួនឯង។ លោកអ្នកអាចអានពីដើមដល់ចប់ជាវគ្គសិក្សាស្តីពីតម្លៃសាធារណៈ ឬចូលទៅកាន់ប្រធានបទដែលត្រូវនឹងការសម្រេចចិត្តនៅចំពោះមុខលោកអ្នកដោយផ្ទាល់ក៏បាន។',
+    readingIn: (label) => `កំពុងអានជា${label}។ សូមប្តូរភាសាតាមរយៈប្រអប់ជ្រើសរើសភាសានៅផ្នែកក្បាលទំព័រ។`,
+    frontMatter: 'បុព្វកថា',
+    part: (n) => `ផ្នែកទី ${n}`,
+    reference: 'ឯកសារយោង'
+  },
+  topic: {
+    topicEyebrow: (n) => `ប្រធានបទ ${n}`,
+    paginationLabel: 'ប្រធានបទ',
+    onThisPage: 'ក្នុងទំព័រនេះ',
+    previous: 'មុន',
+    next: 'បន្ទាប់'
+  },
+  links: { label: 'តំណ', skills: 'ជំនាញសម្រាប់ AI', llms: 'សម្រាប់ភ្នាក់ងារ AI (llms.txt)', issues: 'រាយការណ៍បញ្ហា' },
+  results: {
+    label: 'លទ្ធផលស្វែងរក',
+    heading: (q) => `ស្វែងរក៖ ${q}`,
+    searching: 'កំពុងស្វែងរក…',
+    none: (q) => `រកមិនឃើញលទ្ធផលសម្រាប់ “${q}” ទេ។`,
+    browse: 'រុករកមាតិកា',
+    failed: 'មិនអាចផ្ទុកលិបិក្រមស្វែងរកបានទេ។',
+    count: (n, more) => `${n}${more ? '+' : ''} លទ្ធផល`,
+    button: 'ស្វែងរក'
+  },
+  footer: {
+    tagline:
+      'សៀវភៅណែនាំជាក់ស្តែងស្តីពីការអនុវត្តល្អបំផុតសម្រាប់បង្កើតតម្លៃសាធារណៈក្នុងរដ្ឋាភិបាល និងវិស័យសង្គម ដែលមានវិសាលភាពទូទាំងពិភពលោក។',
+    sourceAndContributions: 'ប្រភព និងការរួមចំណែក៖',
+    builtWith: 'បង្កើតឡើងដោយប្រើ៖',
+    ledBy: 'ដឹកនាំដោយ៖'
+  }
+};
+
+const knUi: UiStrings = {
+  siteTitle: 'ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯ ಮಾರ್ಗದರ್ಶಿ',
+  skipToContent: 'ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ಹೋಗಿ',
+  nav: { contents: 'ವಿಷಯಸೂಚಿ', glossary: 'ಪದಕೋಶ', index: 'ಅನುಕ್ರಮಣಿಕೆ', source: 'ಮೂಲ' },
+  breadcrumb: { home: 'ಮುಖಪುಟ', contents: 'ವಿಷಯಸೂಚಿ' },
+  picker: { theme: 'ಥೀಮ್', locale: 'ಭಾಷೆ', textSize: 'ಅಕ್ಷರ ಗಾತ್ರ', share: 'ಹಂಚಿಕೊಳ್ಳಿ',
+    search: 'ಹುಡುಕಿ',
+    searchInput: 'ಮಾರ್ಗದರ್ಶಿಯಲ್ಲಿ ಹುಡುಕಿ',
+    searchSubmit: 'ಹುಡುಕಾಟ ಸಲ್ಲಿಸಿ'
+  },
+  share: {
+    emailLink: 'ಲಿಂಕ್ ಅನ್ನು ಇಮೇಲ್ ಮಾಡಿ',
+    shareOnLinkedIn: 'LinkedIn ನಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ',
+    shareOnReddit: 'Reddit ನಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ',
+    shareOnBluesky: 'Bluesky ನಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ',
+    shareOnMastodon: 'Mastodon ನಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ',
+    copyLink: 'ಲಿಂಕ್ ನಕಲಿಸಿ',
+    copied: 'ನಕಲಿಸಲಾಗಿದೆ!',
+    copyFailed: 'ನಕಲಿಸಲು ಆಗಲಿಲ್ಲ — ಬದಲಿಗೆ ವಿಳಾಸ ಪಟ್ಟಿಯಿಂದ ವಿಳಾಸವನ್ನು ನಕಲಿಸಿ'
+  },
+  contents: {
+    pageTitle: 'ವಿಷಯಸೂಚಿ',
+    lead: 'ಪ್ರತಿಯೊಂದು ವಿಷಯವೂ ಸ್ವಯಂಪೂರ್ಣವಾಗಿದೆ. ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯದ ಕುರಿತ ಪಠ್ಯಕ್ರಮದಂತೆ ಮೊದಲಿನಿಂದ ಕೊನೆಯವರೆಗೆ ಓದಿ, ಅಥವಾ ನಿಮ್ಮ ಮುಂದಿರುವ ನಿರ್ಧಾರಕ್ಕೆ ಹೊಂದುವ ವಿಷಯಕ್ಕೆ ನೇರವಾಗಿ ಹೋಗಿ.',
+    readingIn: (label) => `${label} ಭಾಷೆಯಲ್ಲಿ ಓದುತ್ತಿದ್ದೀರಿ. ಶೀರ್ಷಿಕೆಯಲ್ಲಿರುವ ಭಾಷಾ ಆಯ್ಕೆಯಿಂದ ಭಾಷೆಯನ್ನು ಬದಲಿಸಿ.`,
+    frontMatter: 'ಮುನ್ನುಡಿ ವಿಭಾಗ',
+    part: (n) => `ಭಾಗ ${n}`,
+    reference: 'ಉಲ್ಲೇಖ'
+  },
+  topic: {
+    topicEyebrow: (n) => `ವಿಷಯ ${n}`,
+    paginationLabel: 'ವಿಷಯ',
+    onThisPage: 'ಈ ಪುಟದಲ್ಲಿ',
+    previous: 'ಹಿಂದಿನದು',
+    next: 'ಮುಂದಿನದು'
+  },
+  links: { label: 'ಲಿಂಕ್‌ಗಳು', skills: 'AI ಕೌಶಲಗಳು', llms: 'AI ಏಜೆಂಟ್‌ಗಳಿಗಾಗಿ (llms.txt)', issues: 'ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ' },
+  results: {
+    label: 'ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು',
+    heading: (q) => `ಹುಡುಕಾಟ: ${q}`,
+    searching: 'ಹುಡುಕಲಾಗುತ್ತಿದೆ…',
+    none: (q) => `“${q}” ಗಾಗಿ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳಿಲ್ಲ.`,
+    browse: 'ವಿಷಯಸೂಚಿಯನ್ನು ನೋಡಿ',
+    failed: 'ಹುಡುಕಾಟ ಸೂಚಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.',
+    count: (n, more) => `${n}${more ? '+' : ''} ಫಲಿತಾಂಶ${n === 1 ? '' : 'ಗಳು'}`,
+    button: 'ಹುಡುಕಿ'
+  },
+  footer: {
+    tagline:
+      'ಸರ್ಕಾರ ಮತ್ತು ಸಾಮಾಜಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ಸಾರ್ವಜನಿಕ ಮೌಲ್ಯವನ್ನು ಸೃಷ್ಟಿಸಲು ಅತ್ಯುತ್ತಮ ಪದ್ಧತಿಗಳ ಪ್ರಾಯೋಗಿಕ ಕೈಪಿಡಿ, ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ವಿಶ್ವವ್ಯಾಪಿ.',
+    sourceAndContributions: 'ಮೂಲ ಮತ್ತು ಕೊಡುಗೆಗಳು:',
+    builtWith: 'ಇದನ್ನು ಬಳಸಿ ನಿರ್ಮಿಸಲಾಗಿದೆ:',
+    ledBy: 'ನೇತೃತ್ವ:'
+  }
+};
+
 const STRINGS: Record<string, UiStrings> = {
   'en-gb-oxendict': enGbOxendict,
   'en-gb': enGb,
@@ -2064,7 +2508,21 @@ const STRINGS: Record<string, UiStrings> = {
   'eu-001': euUi,
   'eu-es': euUi,
   'da-dk': da001,
-  'en-ie': enGb
+  'en-ie': enGb,
+  'gu-001': guUi,
+  'ha-001': haUi,
+  'he-001': heUi,
+  'hr-001': hrUi,
+  'hr-hr': hrUi,
+  'hu-001': huUi,
+  'hu-hu': huUi,
+  'jv-001': jvUi,
+  'km-001': kmUi,
+  'km-kh': kmUi,
+  'kn-001': knUi,
+  'fr-be': fr001,
+  'fr-lu': fr001,
+  'nl-be': nl001
 };
 
 /** UI chrome strings for `locale`, falling back to English if the locale is unknown. */
